@@ -1,0 +1,28 @@
+{
+  "name": "shr-fhir-export",
+  "version": "4.0.0",
+  "description": "Exports SHR data elements from SHR models to FHIR profiles",
+  "author": "",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:standardhealth/shr-md-export.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec --recursive",
+    "test:watch": "npm test -- --watch",
+    "test:debug": "./node_modules/.bin/mocha --inspect --debug-brk --reporter spec --recursive",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix"
+  },
+  "dependencies": {
+    "shr-models": "~4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.6.1",
+    "mocha": "^3.2.0",
+    "shr-test-helpers": "~4.0.0"
+  }
+}
