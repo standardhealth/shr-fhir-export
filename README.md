@@ -1,5 +1,7 @@
 # SHR HL7 FHIR Profile Export
 
+_NOTE: This is a Work-in-Progress.  It is NOT complete._
+
 The Standard Health Record (SHR) initiative is working to create a single, high-quality health record for every individual in the United States.  For more information, see [standardhealthrecord.org](http://standardhealthrecord.org/).
 
 This GitHub repository contains an ES6 library for exporting SHR data elements represented using SHR models as [HL7 FHIR STU3](http://hl7.org/fhir/2017Jan/index.html) profiles.
