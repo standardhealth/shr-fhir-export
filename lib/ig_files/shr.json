@@ -1,0 +1,31 @@
+{
+   "source": "implementationguide/ImplementationGuide_1.xml",
+   "fixed-business-version" : "0.0.1",
+   "paths" : {
+     "resources" : ["resources"],
+     "pages" : "pages",
+     "temp" : "temp",
+     "output" : "igout",
+     "txCache" : "txCache",
+     "qa" : "qa",
+     "specification" : "http://hl7.org/fhir/2017Jan"
+   },
+   "sct-edition" : "http://snomed.info/sct/731000124108",
+   "gen-examples" : "false",
+   "do-transforms" : "false",
+   "canonicalBase": "http://standardhealthrecord.org/fhir",
+   "default": {
+     "Any": {
+			"xml": true,
+			"json": true,
+			"ttl": true,
+			"xml-html": true,
+			"json-html": true,
+			"ttl-html": true,
+	  	"template-format" : "instance-template-format.html",
+      "template-base" : "instance-template-base.html"
+		}
+   },
+   "resources": {},
+   "tool" : "jekyll"
+ }

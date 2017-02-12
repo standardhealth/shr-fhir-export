@@ -17,6 +17,7 @@
     "lint:fix": "./node_modules/.bin/eslint . --fix"
   },
   "dependencies": {
+    "fs-extra": "^2.0.0",
     "shr-models": "~4.1.0"
   },
   "devDependencies": {

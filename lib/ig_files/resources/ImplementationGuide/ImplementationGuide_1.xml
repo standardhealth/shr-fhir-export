@@ -1,0 +1,15 @@
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+    <id value="1" />
+    <url value="http://standardhealthrecord.org/fhir/ImplementationGuide/1" />
+    <name value="Standard Health Record FHIR Profiles" />
+    <status value="draft" />
+    <package>
+        <name value="Profiles in this Implementation Guide" />
+        <resources-go-here/>
+    </package>
+    <page>
+        <source value="http://test.com/IG/View/1" />
+        <title value="Standard Health Record" />
+        <kind value="page" />
+    </page>
+</ImplementationGuide>
