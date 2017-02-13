@@ -5,7 +5,7 @@
      "resources" : ["resources"],
      "pages" : "pages",
      "temp" : "temp",
-     "output" : "igout",
+     "output" : "output",
      "txCache" : "txCache",
      "qa" : "qa",
      "specification" : "http://hl7.org/fhir/2017Jan"

@@ -34,13 +34,13 @@ tcode: {{[type]}}
 
 <ul class="nav nav-tabs">
   <li class="active"><a href="#">Content</a></li>
-  <!-- Commenting out as we don't have this and it just ends up as a broken link -->
-<!--  <li><a href="{{page.id}}-definitions.html">Detailed Descriptions</a></li>-->
-  <!-- Commenting out as we don't have this and it just ends up as a broken link -->
-<!--  <li><a href="{{page.id}}-mappings.html">Mappings</a></li>-->
+  <!-- Commenting out as we don't have this and it just ends up as a broken link
+  <li><a href="{{page.id}}-definitions.html">Detailed Descriptions</a></li>
+  <li><a href="{{page.id}}-mappings.html">Mappings</a></li>
   <li><a href="StructureDefinition-{{page.id}}.xml.html">XML</a></li>
-  <li><a href="StructureDefinition-{{page.id}}.json.html">JSON</a></li></ul>
-
+  <li><a href="StructureDefinition-{{page.id}}.json.html">JSON</a></li>
+  -->
+</ul>
 <h3>
   <span class="sectioncount">D.4.1<a name="D.4.1"> </a>
   </span> StructureDefinition: {{page.id}} <a title="link to here" class="self-link" href="StructureDefinition-{{page.id}}.html#D.4.1">
@@ -60,7 +60,6 @@ Formal Views of Profile Content
  <a title="link to here" class="self-link" href="StructureDefinition-{{page.id}}.html#profile"><img src="target.png"/></a>
 </h4>
 <!-- uri -->
-{%include StructureDefinition-{{page.id}}-header.xhtml%}
 {%include {{[type]}}-{{[name]}}.xhtml %}
 <!-- uri -->
 <p>
