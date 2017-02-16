@@ -8,7 +8,7 @@
      "output" : "output",
      "txCache" : "txCache",
      "qa" : "qa",
-     "specification" : "http://hl7.org/fhir/2017Jan"
+     "specification" : "http://hl7.org/fhir/2017Jan/"
    },
    "sct-edition" : "http://snomed.info/sct/731000124108",
    "gen-examples" : "false",
