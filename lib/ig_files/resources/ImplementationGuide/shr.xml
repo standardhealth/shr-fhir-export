@@ -8,7 +8,7 @@
         <resources-go-here/>
     </package>
     <page>
-        <source value="http://test.com/IG/View/1" />
+        <source value="index.html" />
         <title value="Standard Health Record" />
         <kind value="page" />
     </page>

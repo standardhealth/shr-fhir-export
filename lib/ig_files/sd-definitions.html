@@ -1,0 +1,59 @@
+---
+# jekyll header
+---
+{% include header.html %}
+
+<div id="segment-breadcrumb" class="segmnt">
+  <!-- segment-breadcrumb -->
+  <div class="container">
+    <!-- container -->
+    <ul class="breadcrumb">
+      <li title="home"><a href="index.html"><b>Home</b></a></li>
+      <li><b>{{[title]}} Details</b></li>
+    </ul>
+  </div>
+  <!-- /container -->
+</div>
+<!-- /segment-breadcrumb -->
+
+
+<div id="segment-content" class="segment">
+  <!-- segment-content -->
+  <div class="container">
+    <!-- container -->
+    <div class="row">
+      <div class="inner-wrapper">
+        <!-- CONTENT CONTENT -->
+
+        <div class="col-9">
+
+          <ul class="nav nav-tabs">
+            <li><a href="{{[type]}}-{{[id]}}.html">Content</a></li>
+            <li class="active"><a href="#">Detailed Descriptions</a></li>
+            <li><a href="{{[type]}}-{{[id]}}.xml.html">XML</a></li>
+            <li><a href="{{[type]}}-{{[id]}}.json.html">JSON</a></li>
+            <li><a href="{{[type]}}-{{[id]}}.ttl.html">Turtle</a></li>
+          </ul>
+
+          <h3>
+            <a name="dd"></a>{{[title]}} - Detailed Descriptions</h3>
+
+          <p>Definitions for {{[id]}}.</p>
+
+          {%include {{[type]}}-{{[id]}}-dict.xhtml%}
+
+        </div>
+
+      </div>
+      <!-- /inner-wrapper -->
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
+
+</div>
+<!-- /segment-content -->
+{% include footer.html %}
+</body>
+
+</html>

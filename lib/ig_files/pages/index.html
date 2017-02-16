@@ -1,71 +1,66 @@
 ---
-# jekyll prompt
-title:  Index page
+# jekyll header
 ---
-
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
 {% include header.html %}
-  </head>
-  <body>
-{% include navbar.html %}
-    <div id="segment-breadcrumb" class="segment">
-      <!-- segment-breadcrumb -->
-      <div class="container">
-        <!-- container -->
-        <ul class="breadcrumb">
-          <li title="{{ site.data.fhir.igName }}"><b>{{ site.data.fhir.igName }}</b></li>
-        </ul>
-      </div>
-      <!-- /container -->
+
+<!-- ============BreadCrumb=============== -->
+
+<div id="segment-breadcrumb" class="segmnt">
+  <!-- segment-breadcrumb -->
+  <div class="container">
+    <!-- container -->
+    <ul class="breadcrumb">
+      <li title="Home"><a href="index.html"><b>Home</b></a></li>
+
+    </ul>
+  </div>
+  <!-- /container -->
+</div>
+<!-- /segment-breadcrumb -->
+
+{% include container-start.html %}
+
+<!-- ============CONTENT CONTENT=============== -->
+
+<div class="row">
+  <div class="inner-wrapper">
+    <div class="col-9">
+      <p style="background-color: #ffdddd; border:1px solid maroon; padding: 5px;">
+        This is an unreleased version of the Standard Health Record FHIR profiles, extensions, value sets, and
+        code systems.<br/>
+        For more information see the <a href="http://standardhealthrecord.org">Standard Health Record
+        Collaborative <img style="text-align: baseline" src="external.png" /></a>.
+      </p>
+      <h2>Standard Health Record Implementation Guide (IG)</h2>
+      <p>
+        The Standard Health Record (SHR) provides a high quality, computable source of patient information by
+        establishing a single target for health data standardization. The SHR is foundational, dealing first with the
+        reliable and repeatable collection and aggregation of a wide range of patient-focused data. Through the SHR, we
+        realize greater transparency, empowerment, and clinical interoperability that supports patients, caregivers,
+        clinicians, researchers, scientists, and public health organizations.
+      </p>
+      <p>
+        Enabled through open source technology, the SHR is designed by, and for, its users to support communication
+        across homes and healthcare systems. The SHR enables organizations, and the American public, to realize the
+        benefits of improved care communication and coordination, reductions in medical error, less waste, fraud, and
+        abuse, enhanced information sharing, and the decreased costs that accompany a large-scale focus on prevention.
+      </p>
+      <p>
+        This Implementation Guide defines FHIR profiles, extensions, value sets, and code systems necessary to exchange
+        SHR elements using FHIR 1.8 (STU3 January Ballot). Many elements and fields in SHR do not have direct
+        equivalents in FHIR. Where possible, SHR element fields have been mapped to existing FHIR properties. When it is
+        not possible to map a field to a property, an extension is defined. In the spirit of re-usability, extensions
+        are defined globally and referenced wherever they are needed.
+      </p>
+      <p>
+        See the <a href="http://standardhealthrecord.org/shr/">SHR Specification
+        <img style="text-align: baseline" src="external.png" /></a> for the original definitions of all SHR elements.
+      </p>
     </div>
-    <!-- /segment-breadcrumb -->
-    <div id="segment-content" class="segment">
-      <!-- segment-content -->
-      <div class="container">
-        <!-- container -->
-        <div class="row">
-          <div class="inner-wrapper">
-            <div class="col-9">
-              <a name="{{ site.data.fhir.igId }}"></a>
-              
-              <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active"><a href="#overview" aria-controls="home" role="tab" data-toggle="tab">Overview</a></li>
-                <li role="presentation"><a href="#resource-defs" aria-controls="profile" role="tab" data-toggle="tab">Resources</a></li>
-                <li role="presentation"><a href="#valuesets" aria-controls="profile" role="tab" data-toggle="tab">Value Sets</a></li>
-                <li role="presentation"><a href="#codesystems" aria-controls="profile" role="tab" data-toggle="tab">Code Systems</a></li>
-                <li role="presentation"><a href="#extensions" aria-controls="profile" role="tab" data-toggle="tab">Extensions</a></li>
-              </ul>
-              
-              <!-- Tab panes -->
-              <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="overview">
-                  {% include description.html %}
-                  
-                  {% include overview.html %}
-                  
-                  {% include authors.html %}
-                  
-                </div>
-                <div role="tabpanel" class="tab-pane" id="resource-defs">
-                  {% include resources.html %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="valuesets">
-                  {% include valuesets.html %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="codesystems">
-                  {% include codesystems.html %}
-                </div>
-                <div role="tabpanel" class="tab-pane" id="extensions">
-                  {% include extensions.html %}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    {% include footer.html %}
-  </body>
-</html>
+  </div>
+</div>
+
+<!-- ==============END CONTENT END CONTENT=================== -->
+
+{% include container-end.html %}
+{% include footer.html %}
