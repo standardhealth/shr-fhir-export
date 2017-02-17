@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "fs-extra": "^2.0.0",
-    "shr-models": "~4.1.0"
+    "shr-models": "standardhealth/shr-models#grammar_4_map"
   },
   "devDependencies": {
     "chai": "^3.5.0",
