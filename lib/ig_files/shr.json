@@ -20,7 +20,11 @@
     "StructureDefinition": {
       "template-base": "sd.html",
       "template-mappings": "sd-mappings.html",
-      "template-defns": "sd-definitions.html"
+      "template-defns": "sd-definitions.html",
+      "template-format": "sd-format.html"
+    },
+    "CodeSystem": {
+      "template-base": "cs.html"
     },
     "ValueSet": {
       "template-base": "vs.html"

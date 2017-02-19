@@ -21,7 +21,8 @@
 <!-- ============CONTENT CONTENT=============== -->
 
 <ul class="nav nav-tabs">
-  <li class="active"><a href="#">Content</a></li>
+  <li><a href="{{[type]}}-{{[id]}}.html">Content</a></li>
+  <li><a href="{{[type]}}-{{[id]}}-definitions.html">Detailed Descriptions</a></li>
   <li><a href="{{[type]}}-{{[id]}}.xml.html">XML</a></li>
   <li><a href="{{[type]}}-{{[id]}}.json.html">JSON</a></li>
   <li><a href="{{[type]}}-{{[id]}}.ttl.html">Turtle</a></li>
@@ -30,16 +31,6 @@
 <h2>{{[title]}}</h2>
 
 {% include {{[type]}}-{{[name]}}.xhtml %}
-{% include {{[type]}}-{{[id]}}-summary.xhtml %}
-{% include {{[type]}}-{{[id]}}-xref.xhtml%}
-
-Downloads: <a href="{{[type]}}-{{[id]}}.xml" download>XML</a>, <a href="{{[type]}}-{{[id]}}.json" download>JSON</a>, <a href="{{[type]}}-{{[id]}}.ttl" download>Turtle</a>
-
-<p></p>
-
-<h3>Expansion</h3>
-
-{% include {{[type]}}-{{[id]}}-expansion.xhtml %}
 
 <!-- ==============END CONTENT END CONTENT=================== -->
 
