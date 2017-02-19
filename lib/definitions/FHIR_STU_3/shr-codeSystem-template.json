@@ -1,0 +1,19 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "",
+  "meta" : { "profile" : ["http://hl7.org/fhir/StructureDefinition/codesystem-shareable-definition"] },
+  "text": { "status": "generated", "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>" },
+  "url": "",
+  "identifier": { "system": "http://standardhealthrecord.org", "value": "" },
+  "name": "",
+  "title": "",
+  "status": "draft",
+  "publisher": "The MITRE Corporation: Standard Health Record Collaborative",
+  "contact": [{ "telecom": [{ "system": "url", "value": "http://www.standardhealthrecord.org" }] }],
+  "date": "",
+  "description": "",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 0,
+  "concept": []
+}

@@ -1,6 +1,7 @@
 {
-  "resourceType": "StructureDefinition",
+  "resourceType": "ValueSet",
   "id": "",
+  "meta" : { "profile" : ["http://hl7.org/fhir/StructureDefinition/valueset-shareable-definition"] },
   "text": { "status": "generated", "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>" },
   "url": "",
   "identifier": [{ "system": "http://standardhealthrecord.org", "value": "" }],
@@ -11,14 +12,5 @@
   "contact": [{ "telecom": [{ "system": "url", "value": "http://www.standardhealthrecord.org" }] }],
   "date": "",
   "description": "",
-  "fhirVersion": "1.8.0",
-  "kind": "complex-type",
-  "abstract": false,
-  "contextType": "resource",
-  "context": ["*"],
-  "type": "Extension",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
-  "derivation": "constraint",
-  "snapshot": { "element": [] },
-  "differential": { "element": [] }
+  "compose": { "include": [], "exclude": [] }
 }
