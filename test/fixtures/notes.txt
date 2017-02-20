@@ -1,0 +1,51 @@
+SIMPLE
+------
+Extension:timeofdayofbirth
+Extension:timeofdayofbirth.id
+Extension:timeofdayofbirth.extension:extension
+Extension:timeofdayofbirth.url
+Extension:timeofdayofbirth.valueDateTime
+
+SIMPLE
+------
+Extension (0..*)
+Extension.id
+Extension.extension (0..0)
+Extension.url
+Extension.value[x] (1..1)
+
+COMPLEX
+-------
+Extension:nationality
+Extension:nationality.id
+Extension:nationality.extension (0..*)
+Extension:nationality.extension:code
+Extension:nationality.extension:code.id
+Extension:nationality.extension:code.extension:extension
+Extension:nationality.extension:code.url
+Extension:nationality.extension:code.valueCodeableConcept
+Extension:nationality.extension:period
+Extension:nationality.extension:period.id
+Extension:nationality.extension:period.extension:extension
+Extension:nationality.extension:period.url
+Extension:nationality.extension:period.valuePeriod
+Extension:nationality.url
+Extension:nationality.value[x] (0..0)
+
+COMPLEX
+-------
+Extension (0..*)
+Extension.id
+Extension.extension (0..*)
+for x
+  Extension.extension (x..y)
+  Extension.extension.id
+  Extension.extension.extension (0..0)
+  Extension.extension.url
+  Extension.extension.value[x] (1..1)
+Extension.url
+Extension.value[x] (0..0)
+
+
+Extension.url
+Extension.valueDateTime
