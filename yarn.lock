@@ -820,17 +820,13 @@ shelljs@^0.7.5:
 
 shr-models@standardhealth/shr-models#grammar_4_map:
   version "4.1.0"
-  resolved "https://codeload.github.com/standardhealth/shr-models/tar.gz/dd9900fc62acaa83f311c64c3938fd777c9220f0"
+  resolved "https://codeload.github.com/standardhealth/shr-models/tar.gz/d0eec67af145a7b071f860c5ec41e1e675207f90"
 
-shr-models@~4.0.0:
+shr-test-helpers@standardhealth/shr-test-helpers#grammar_4_map:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-4.0.0.tgz#2e506a1e9731d536ab1268b634d3a4767ca4cbf1"
-
-shr-test-helpers@~4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-4.0.0.tgz#6c7986d8e5f6bacc752ac60a63b4994bdb3d5766"
+  resolved "https://codeload.github.com/standardhealth/shr-test-helpers/tar.gz/95490ea25582641cbb92c8a3e0d8572af9428395"
   dependencies:
-    shr-models "~4.0.0"
+    shr-models standardhealth/shr-models#grammar_4_map
 
 slice-ansi@0.0.4:
   version "0.0.4"
