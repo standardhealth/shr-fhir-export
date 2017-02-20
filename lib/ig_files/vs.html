@@ -31,7 +31,6 @@
 
 {% include {{[type]}}-{{[name]}}.xhtml %}
 {% include {{[type]}}-{{[id]}}-summary.xhtml %}
-{% include {{[type]}}-{{[id]}}-xref.xhtml%}
 
 Downloads: <a href="{{[type]}}-{{[id]}}.xml" download>XML</a>, <a href="{{[type]}}-{{[id]}}.json" download>JSON</a>, <a href="{{[type]}}-{{[id]}}.ttl" download>Turtle</a>
 
@@ -40,6 +39,11 @@ Downloads: <a href="{{[type]}}-{{[id]}}.xml" download>XML</a>, <a href="{{[type]
 <h3>Expansion</h3>
 
 {% include {{[type]}}-{{[id]}}-expansion.xhtml %}
+
+<h3>References</h3>
+
+This value set is used by the following profiles and extensions:
+{% include {{[type]}}-{{[id]}}-xref.xhtml%}
 
 <!-- ==============END CONTENT END CONTENT=================== -->
 
