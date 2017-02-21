@@ -2,8 +2,6 @@
 [Q2]   F2F mappings onto backbone elements?
 [Q3,6] If F2F mapping refers to option in choice, do we constrain out other choices?
        YES
-[Q4]   Confirm: If mapping doesn't work on direct path, try the value
-
 [Q5]   What do we do with all non-value fields when mapping a value?
 [Q7]   Do we add extension for all unmapped branches of the tree?  If so, how/where?
        Try to be smart... look at what is mapped and its parent...
@@ -11,16 +9,10 @@
        - sub extension named value
 [Q9]   Should we allow choices of codes w/ different value sets or require new VS be made?
        - need to make grouping value set
-[Q10]  Language
-       - if value is code, can't map to Practitioner.communication (CodeableConcept)
-       - if value is CodeableConcept, can't map to DomainResource.language (code)
-       - map CodeableConcept to code
 
 [T1]   F2F: Navigate through FHIR references
-[T2]   Adjust to support allowable "conversions"
 [T3]   Add fixed value constraints
 [T4]   Apply constraints to extensions
 [T5]   Add support for choice fields when creating extensions
-[T6]   Move logic that adds root extension element to more logical place
 [T7]   Should we drill into choices when trying to get a specific snapshot element (see context)
 [T8]   Do our quantity constraints work?
