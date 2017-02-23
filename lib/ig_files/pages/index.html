@@ -26,7 +26,7 @@
   <div class="inner-wrapper">
     <div class="col-9">
       <p style="background-color: #ffdddd; border:1px solid maroon; padding: 5px;">
-        This is an unreleased version of the Standard Health Record (SHR) Health Level 7 (HL7) Fast Healthcare
+        This is a preliminary version of the Standard Health Record (SHR) Health Level 7 (HL7) Fast Healthcare
         Interoperability Resources (FHIR) profiles, extensions, value sets, and code systems.<br/>
         For more information see the <a href="http://standardhealthrecord.org">Standard Health Record
         Collaborative <img style="text-align: baseline" src="external.png" /></a>.
@@ -53,8 +53,8 @@
         are defined globally and referenced wherever they are needed.
       </p>
       <p>
-        See the <a href="http://standardhealthrecord.org/shr/">SHR Specification
-        <img style="text-align: baseline" src="external.png" /></a> for the original definitions of all SHR elements.
+        See the <a href="guide/index.html">SHR Specification</a> for the original definitions of all SHR elements
+        referenced in this guide.
       </p>
       <h3>Known Issues and Limitations</h3>
       <p>
@@ -66,6 +66,11 @@
       <p>
         The following are known issues and limitations as these specifications continue to evolve:
         <ul>
+          <li>These profiles are not yet fully compatibile with US-Core.  Future versions will improve compatibility,
+            with the goal that data conforming to SHR profiles will also conform to corresponding US-Core profiles.</li>
+          <li>These profiles are generated from formal SHR data element definitions and mappings.  While it is a goal
+            to explicitly map every SHR-defined entry element to FHIR, a small number have not yet been mapped and are
+            temporarily profiled on FHIR's Basic resource.
           <li>The terminology server used to expand value sets does not support all value sets and code systems used by
             SHR.  Value set documentation will indicate when this occurs.</li>
           <li>The Implementation Guide publisher incorrectly renders some characters and links, occasionally causing
@@ -73,11 +78,6 @@
           <li>In some cases, deeply nested SHR data elements are not fully represented in detail in FHIR profiles.
             While the core data is always represented, there are ongoing discussions to determine how best to represent
             the more detailed qualifying elements of deeply nested structures.</li>
-          <li>These profiles are generated from formal SHR data element definitions and mappings.  While it is a goal
-            to explicitly map every SHR-defined entry element to FHIR, a small number have not yet been mapped and are
-            temporarily profiled on FHIR's Basic resource.
-          <li>These profiles are not yet fully compatibile with US-Core.  Future versions will improve compatibility,
-            with the goal that data conforming to SHR profiles will also conform to corresponding US-Core profiles.</li>
         </ul>
       </p>
     </div>
