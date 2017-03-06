@@ -18,12 +18,12 @@
   },
   "dependencies": {
     "fs-extra": "^2.0.0",
-    "shr-models": "standardhealth/shr-models#grammar_4_map"
+    "shr-models": "~4.1.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.6.1",
     "mocha": "^3.2.0",
-    "shr-test-helpers": "standardhealth/shr-test-helpers#grammar_4_map"
+    "shr-test-helpers": "~4.1.0"
   }
 }
