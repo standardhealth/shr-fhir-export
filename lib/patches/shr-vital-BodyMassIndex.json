@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "date": "2017-02-23T16:20:02.529Z",
+  "date": "2017-03-09T15:21:53.415Z",
   "description": "A general indicator of the body fat an individual is carrying based upon the ratio of weight to height.",
   "purpose": "Observations are a key aspect of healthcare.  This resource is used to capture those that do not require more sophisticated mechanisms.",
   "fhirVersion": "1.8.0",
@@ -315,7 +315,7 @@
           }
         ],
         "slicing": {
-          "id": "218",
+          "id": "307",
           "discriminator": [
             "url"
           ],
@@ -513,7 +513,7 @@
           }
         ],
         "slicing": {
-          "id": "219",
+          "id": "308",
           "discriminator": [
             "url"
           ],
@@ -655,7 +655,36 @@
             "identity": "w5",
             "map": "class"
           }
-        ]
+        ],
+        "slicing": {
+          "id": "305",
+          "discriminator": [
+            "coding"
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation:shr-vital-BodyMassIndex.category:vital-sign",
+        "path": "Observation.category",
+        "sliceName": "vital-sign",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept",
+            "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-core-CodeableConcept"
+          }
+        ],
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
       },
       {
         "id": "Observation:shr-vital-BodyMassIndex.code",
@@ -1805,7 +1834,7 @@
           }
         ],
         "slicing": {
-          "id": "217",
+          "id": "306",
           "discriminator": [
             "@type"
           ],
@@ -2342,7 +2371,7 @@
           }
         ],
         "slicing": {
-          "id": "217",
+          "id": "1306",
           "discriminator": [
             "@type"
           ],
@@ -2798,7 +2827,36 @@
             "code": "CodeableConcept",
             "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-core-CodeableConcept"
           }
-        ]
+        ],
+        "slicing": {
+          "id": "305",
+          "discriminator": [
+            "coding"
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Observation:shr-vital-BodyMassIndex.category:vital-sign",
+        "path": "Observation.category",
+        "sliceName": "vital-sign",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept",
+            "profile": "http://standardhealthrecord.org/fhir/StructureDefinition/shr-core-CodeableConcept"
+          }
+        ],
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-sign"
+            }
+          ]
+        }
       },
       {
         "id": "Observation:shr-vital-BodyMassIndex.code",
@@ -3014,7 +3072,7 @@
           }
         ],
         "slicing": {
-          "id": "217",
+          "id": "306",
           "discriminator": [
             "@type"
           ],
@@ -3033,7 +3091,7 @@
         ],
         "patternQuantity": {
           "system": "http://unitsofmeasure.org",
-          "code": "C28252"
+          "code": "kg"
         }
       },
       {
@@ -3093,7 +3151,7 @@
           }
         ],
         "slicing": {
-          "id": "217",
+          "id": "1306",
           "discriminator": [
             "@type"
           ],
@@ -3112,7 +3170,7 @@
         ],
         "patternQuantity": {
           "system": "http://unitsofmeasure.org",
-          "code": "C28252"
+          "code": "cm"
         }
       },
       {
