@@ -7,7 +7,7 @@
     ],
     "pages": "pages",
     "temp": "temp",
-    "output": "output",
+    "output": "output/guide/",
     "txCache": "txCache",
     "qa": "qa",
     "specification": "http://hl7.org/fhir/2017Jan/"
