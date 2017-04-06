@@ -1,5 +1,6 @@
 {
   "source": "implementationguide/shr.xml",
+  "version": "1.8.0",
   "fixed-business-version": "0.0.1",
   "paths": {
     "resources": [
@@ -7,7 +8,7 @@
     ],
     "pages": "pages",
     "temp": "temp",
-    "output": "output",
+    "output": "output/guide/",
     "txCache": "txCache",
     "qa": "qa",
     "specification": "http://hl7.org/fhir/2017Jan/"
@@ -35,5 +36,6 @@
     }
   },
   "resources": {},
+  "special-urls": [],
   "tool": "jekyll"
 }
