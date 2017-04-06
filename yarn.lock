@@ -894,16 +894,16 @@ shelljs@^0.7.5:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shr-models@standardhealth/shr-models.git#grammar_4.2:
+shr-models@4.2.0:
   version "4.2.0"
-  resolved "https://codeload.github.com/standardhealth/shr-models/tar.gz/4add8db10edba06ecee496d2f5635b069019ea96"
+  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-4.2.0.tgz#411117b9c539fc0f8e9da0410484fe18ec97876c"
 
-shr-test-helpers@standardhealth/shr-test-helpers.git#grammar_4.2:
+shr-test-helpers@4.2.0:
   version "4.2.0"
-  resolved "https://codeload.github.com/standardhealth/shr-test-helpers/tar.gz/e294fe67c92b6d76d06e005af26e3f918d6a5f34"
+  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-4.2.0.tgz#765f9ed55191caa43b50871b9ad70de86c02b5d2"
   dependencies:
     bunyan "^1.8.9"
-    shr-models standardhealth/shr-models.git#grammar_4.2
+    shr-models "4.2.0"
 
 slice-ansi@0.0.4:
   version "0.0.4"
