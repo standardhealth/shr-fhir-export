@@ -1,6 +1,6 @@
 {
   "source": "implementationguide/shr.xml",
-  "version": "1.8.0",
+  "version": "3.0.0",
   "fixed-business-version": "0.0.1",
   "paths": {
     "resources": [
