@@ -1,6 +1,6 @@
 {
   "name": "shr-fhir-export",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "Exports SHR data elements from SHR models to FHIR profiles",
   "author": "",
   "license": "Apache-2.0",
@@ -19,12 +19,12 @@
   "dependencies": {
     "bunyan": "^1.8.9",
     "fs-extra": "^2.0.0",
-    "shr-models": "4.2.0"
+    "shr-models": "^4.2.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.6.1",
     "mocha": "^3.2.0",
-    "shr-test-helpers": "4.2.0"
+    "shr-test-helpers": "^4.2.1"
   }
 }
