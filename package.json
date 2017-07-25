@@ -1,6 +1,6 @@
 {
   "name": "shr-fhir-export",
-  "version": "5.0.0-beta.2",
+  "version": "5.0.0-beta.3",
   "description": "Exports SHR data elements from SHR models to FHIR profiles",
   "author": "",
   "license": "Apache-2.0",
@@ -19,7 +19,7 @@
   "dependencies": {
     "bunyan": "^1.8.9",
     "fs-extra": "^2.0.0",
-    "shr-models": ">=5.0.0-beta <5.1.0"
+    "shr-models": "beta"
   },
   "devDependencies": {
     "chai": "^3.5.0",
