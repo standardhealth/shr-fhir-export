@@ -16,7 +16,7 @@
   "sct-edition": "http://snomed.info/sct/731000124108",
   "gen-examples": "false",
   "do-transforms": "false",
-  "canonicalBase": "http://standardhealthrecord.org/fhir",
+  "canonicalBase": "<ig-url-go-here>",
   "defaults": {
     "StructureDefinition": {
       "template-base": "sd.html",
