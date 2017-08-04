@@ -3,7 +3,7 @@
     <url value="http://standardhealthrecord.org/fhir/ImplementationGuide/1" />
     <name value="Standard Health Record FHIR Profiles" />
     <status value="draft" />
-    <fhirVersion value="3.0.0"/>
+    <fhirVersion value="3.0.1"/>
     <package>
         <name value="Profiles in this Implementation Guide" />
         <resources-go-here/>

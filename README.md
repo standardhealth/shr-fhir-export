@@ -4,7 +4,7 @@ _NOTE: This is a Work-in-Progress.  It is NOT complete._
 
 The Standard Health Record (SHR) Collaborative is working to create a single, high-quality health record for every individual in the United States.  For more information, see [standardhealthrecord.org](http://standardhealthrecord.org/).
 
-This GitHub repository contains an ES6 library for exporting SHR data elements represented using SHR models as [HL7 FHIR STU3](http://hl7.org/fhir/2017Jan/index.html) profiles.
+This GitHub repository contains an ES6 library for exporting SHR data elements represented using SHR models as [HL7 FHIR STU3](http://hl7.org/fhir/STU3/index.html) profiles.
 
 The SHR text definitions and grammar files can be found in the [shr_spec](https://github.com/standardhealth/shr_spec) repo.  As the SHR text format (and content files) are still evolving, so is this library.
 

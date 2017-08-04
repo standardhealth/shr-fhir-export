@@ -11,7 +11,7 @@
   "contact": [{ "telecom": [{ "system": "url", "value": "http://www.standardhealthrecord.org" }] }],
   "date": "",
   "description": "",
-  "fhirVersion": "3.0.0",
+  "fhirVersion": "3.0.1",
   "kind": "complex-type",
   "abstract": false,
   "contextType": "resource",
