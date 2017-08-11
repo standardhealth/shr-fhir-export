@@ -895,12 +895,12 @@ shelljs@^0.7.5:
     rechoir "^0.6.2"
 
 shr-models@beta:
-  version "5.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-5.0.0-beta.3.tgz#cd57f7fe74cb397a43e77588e1c9f69a9785791d"
+  version "5.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-5.0.0-beta.4.tgz#89b0c8e610a2ec52ea4f9024df76bf63051ff46f"
 
 shr-test-helpers@beta:
-  version "5.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-5.0.0-beta.2.tgz#21031bf9f3a5e3f57f699216e5c5fd9db2d623d2"
+  version "5.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-5.0.0-beta.3.tgz#e88741c7f9a9b9c2374b4e9c44d0e61b8f4127a2"
   dependencies:
     bunyan "^1.8.9"
     shr-models beta
