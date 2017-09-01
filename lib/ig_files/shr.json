@@ -1,6 +1,6 @@
 {
   "source": "ImplementationGuide/shr.xml",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "fixed-business-version": "0.0.1",
   "paths": {
     "resources": [
@@ -11,7 +11,7 @@
     "output": "output/guide/",
     "txCache": "txCache",
     "qa": "qa",
-    "specification": "http://hl7.org/fhir/2017Jan/"
+    "specification": "http://hl7.org/fhir/STU3/"
   },
   "sct-edition": "http://snomed.info/sct/731000124108",
   "gen-examples": "false",
