@@ -17,6 +17,12 @@
   "gen-examples": "false",
   "do-transforms": "false",
   "canonicalBase": "<ig-url-go-here>",
+  "dependencyList": [
+    {
+       "name" : "USCore",
+       "location" : "http://hl7.org/fhir/us/core/STU1/"
+    }
+  ],
   "defaults": {
     "StructureDefinition": {
       "template-base": "sd.html",
