@@ -894,16 +894,16 @@ shelljs@^0.7.5:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shr-models@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-5.0.0.tgz#ddeefb62d99b630b828401d87e594803d06b9e3b"
+shr-models@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-5.1.0.tgz#3f9ef0e7ba929ea440fd07f2f31f905866ac4e03"
 
-shr-test-helpers@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-5.0.0.tgz#7af44277aa04a988bd3dd75dde55185e2ce34f3b"
+shr-test-helpers@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-5.0.1.tgz#72abffcf26606fd5d88f731e3c3d4833210f9d1e"
   dependencies:
     bunyan "^1.8.9"
-    shr-models "^5.0.0"
+    shr-models "^5.1.0"
 
 slice-ansi@0.0.4:
   version "0.0.4"
