@@ -20,7 +20,7 @@
   "dependencyList": [
     {
        "name" : "USCore",
-       "location" : "http://hl7.org/fhir/us/core/STU1/"
+       "location" : "http://hl7.org/fhir/us/core/1.0.1/"
     }
   ],
   "defaults": {
