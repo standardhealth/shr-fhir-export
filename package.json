@@ -1,12 +1,12 @@
 {
   "name": "shr-fhir-export",
-  "version": "5.2.1",
+  "version": "5.2.2",
   "description": "Exports SHR data elements from SHR models to FHIR profiles",
   "author": "",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:standardhealth/shr-md-export.git"
+    "url": "git@github.com:standardhealth/shr-fhir-export.git"
   },
   "main": "index.js",
   "scripts": {
