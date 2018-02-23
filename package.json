@@ -24,10 +24,10 @@
     "chai": "^3.5.0",
     "eslint": "^3.6.1",
     "mocha": "^3.2.0",
-    "shr-models": "standardhealth/shr-models#underscore_kw"
+    "shr-models": "^5.4.0"
   },
   "peerDependencies": {
     "bunyan": "^1.8.9",
-    "shr-models": "^5.2.2"
+    "shr-models": "^5.4.0"
   }
 }

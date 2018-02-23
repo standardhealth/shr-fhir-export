@@ -894,9 +894,9 @@ shelljs@^0.7.5:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shr-models@standardhealth/shr-models#underscore_kw:
-  version "5.3.0"
-  resolved "https://codeload.github.com/standardhealth/shr-models/tar.gz/bc825be96868efef1c30daa3cb7f8df163185be4"
+shr-models@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-5.4.0.tgz#6fc2542dbdb900a7e0a7d172962ce540deda190a"
 
 slice-ansi@0.0.4:
   version "0.0.4"
