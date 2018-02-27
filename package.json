@@ -17,14 +17,16 @@
     "lint:fix": "./node_modules/.bin/eslint . --fix"
   },
   "dependencies": {
-    "fs-extra": "^2.0.0"
+    "fs-extra": "^2.0.0",
+    "lodash": "^4.17.5"
   },
   "devDependencies": {
     "bunyan": "^1.8.9",
     "chai": "^3.5.0",
     "eslint": "^3.6.1",
     "mocha": "^3.2.0",
-    "shr-models": "^5.4.0"
+    "shr-models": "^5.4.0",
+    "shr-test-helpers": "^5.1.3"
   },
   "peerDependencies": {
     "bunyan": "^1.8.9",

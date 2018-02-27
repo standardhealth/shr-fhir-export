@@ -1,0 +1,634 @@
+{
+  "models": [
+    {
+      "resourceType": "StructureDefinition",
+      "id": "shr-test-Group",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Group Logical Model</b></p>\n  <p>It is a group of elements</p>\n</div>"
+      },
+      "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Group",
+      "identifier": [
+        {
+          "system": "http://foobar.com",
+          "value": "shr.test.Group"
+        }
+      ],
+      "name": "FOOBAR Group Logical Model",
+      "status": "draft",
+      "date": "2018-02-26",
+      "publisher": "The Foo Bar Corporation",
+      "contact": [
+        {
+          "telecom": [
+            {
+              "system": "url",
+              "value": "http://foobar.com"
+            }
+          ]
+        }
+      ],
+      "description": "It is a group of elements",
+      "keyword": [
+        {
+          "system": "http://foo.org",
+          "code": "bar",
+          "display": "Foobar"
+        },
+        {
+          "system": "http://boo.org",
+          "code": "far",
+          "display": "Boofar"
+        }
+      ],
+      "kind": "logical",
+      "abstract": false,
+      "type": "shr-test-Group",
+      "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+      "derivation": "specialization",
+      "snapshot": {
+        "element": [
+          {
+            "id": "shr-test-Group",
+            "path": "shr-test-Group",
+            "definition": "It is a group of elements",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Group.simple",
+            "path": "shr-test-Group.simple",
+            "code": [
+              {
+                "system": "http://foo.org",
+                "code": "bar",
+                "display": "Foobar"
+              }
+            ],
+            "definition": "It is a simple element",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Group.coded",
+            "path": "shr-test-Group.coded",
+            "definition": "It is a coded element",
+            "min": 0,
+            "max": "1",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Group.elementvalue",
+            "path": "shr-test-Group.elementvalue",
+            "definition": "It is an element with an element value",
+            "min": 0,
+            "max": "*",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      },
+      "differential": {
+        "element": [
+          {
+            "id": "shr-test-Group",
+            "path": "shr-test-Group",
+            "definition": "It is a group of elements",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Group.simple",
+            "path": "shr-test-Group.simple",
+            "code": [
+              {
+                "system": "http://foo.org",
+                "code": "bar",
+                "display": "Foobar"
+              }
+            ],
+            "definition": "It is a simple element",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Group.coded",
+            "path": "shr-test-Group.coded",
+            "definition": "It is a coded element",
+            "min": 0,
+            "max": "1",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Group.elementvalue",
+            "path": "shr-test-Group.elementvalue",
+            "definition": "It is an element with an element value",
+            "min": 0,
+            "max": "*",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "StructureDefinition",
+      "id": "shr-test-Simple",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      },
+      "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple",
+      "identifier": [
+        {
+          "system": "http://foobar.com",
+          "value": "shr.test.Simple"
+        }
+      ],
+      "name": "FOOBAR Simple Logical Model",
+      "status": "draft",
+      "date": "2018-02-26",
+      "publisher": "The Foo Bar Corporation",
+      "contact": [
+        {
+          "telecom": [
+            {
+              "system": "url",
+              "value": "http://foobar.com"
+            }
+          ]
+        }
+      ],
+      "description": "It is a simple element",
+      "keyword": [
+        {
+          "system": "http://foo.org",
+          "code": "bar",
+          "display": "Foobar"
+        }
+      ],
+      "kind": "logical",
+      "abstract": false,
+      "type": "shr-test-Simple",
+      "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+      "derivation": "specialization",
+      "snapshot": {
+        "element": [
+          {
+            "id": "shr-test-Simple",
+            "path": "shr-test-Simple",
+            "definition": "It is a simple element",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Simple.value",
+            "path": "shr-test-Simple.value",
+            "definition": "String representing it is a simple element",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "string"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      },
+      "differential": {
+        "element": [
+          {
+            "id": "shr-test-Simple",
+            "path": "shr-test-Simple",
+            "definition": "It is a simple element",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Simple.value",
+            "path": "shr-test-Simple.value",
+            "definition": "String representing it is a simple element",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "string"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "StructureDefinition",
+      "id": "shr-test-Coded",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
+      },
+      "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded",
+      "identifier": [
+        {
+          "system": "http://foobar.com",
+          "value": "shr.test.Coded"
+        }
+      ],
+      "name": "FOOBAR Coded Logical Model",
+      "status": "draft",
+      "date": "2018-02-26",
+      "publisher": "The Foo Bar Corporation",
+      "contact": [
+        {
+          "telecom": [
+            {
+              "system": "url",
+              "value": "http://foobar.com"
+            }
+          ]
+        }
+      ],
+      "description": "It is a coded element",
+      "kind": "logical",
+      "abstract": false,
+      "type": "shr-test-Coded",
+      "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+      "derivation": "specialization",
+      "snapshot": {
+        "element": [
+          {
+            "id": "shr-test-Coded",
+            "path": "shr-test-Coded",
+            "definition": "It is a coded element",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Coded.value",
+            "path": "shr-test-Coded.value",
+            "definition": "Code representing it is a coded element",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "code"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      },
+      "differential": {
+        "element": [
+          {
+            "id": "shr-test-Coded",
+            "path": "shr-test-Coded",
+            "definition": "It is a coded element",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-Coded.value",
+            "path": "shr-test-Coded.value",
+            "definition": "Code representing it is a coded element",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "code"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "StructureDefinition",
+      "id": "shr-test-ForeignElementValue",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ForeignElementValue Logical Model</b></p>\n  <p>It is an element with a foreign element value</p>\n</div>"
+      },
+      "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ForeignElementValue",
+      "identifier": [
+        {
+          "system": "http://foobar.com",
+          "value": "shr.test.ForeignElementValue"
+        }
+      ],
+      "name": "FOOBAR ForeignElementValue Logical Model",
+      "status": "draft",
+      "date": "2018-02-26",
+      "publisher": "The Foo Bar Corporation",
+      "contact": [
+        {
+          "telecom": [
+            {
+              "system": "url",
+              "value": "http://foobar.com"
+            }
+          ]
+        }
+      ],
+      "description": "It is an element with a foreign element value",
+      "kind": "logical",
+      "abstract": false,
+      "type": "shr-test-ForeignElementValue",
+      "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+      "derivation": "specialization",
+      "snapshot": {
+        "element": [
+          {
+            "id": "shr-test-ForeignElementValue",
+            "path": "shr-test-ForeignElementValue",
+            "definition": "It is an element with a foreign element value",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-ForeignElementValue.value",
+            "path": "shr-test-ForeignElementValue.value",
+            "code": [
+              {
+                "system": "http://foo.org",
+                "code": "bar",
+                "display": "Foobar"
+              }
+            ],
+            "definition": "Simple representing it is an element with a foreign element value",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      },
+      "differential": {
+        "element": [
+          {
+            "id": "shr-test-ForeignElementValue",
+            "path": "shr-test-ForeignElementValue",
+            "definition": "It is an element with a foreign element value",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-ForeignElementValue.value",
+            "path": "shr-test-ForeignElementValue.value",
+            "code": [
+              {
+                "system": "http://foo.org",
+                "code": "bar",
+                "display": "Foobar"
+              }
+            ],
+            "definition": "Simple representing it is an element with a foreign element value",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "StructureDefinition",
+      "id": "shr-test-ElementValue",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
+      },
+      "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue",
+      "identifier": [
+        {
+          "system": "http://foobar.com",
+          "value": "shr.test.ElementValue"
+        }
+      ],
+      "name": "FOOBAR ElementValue Logical Model",
+      "status": "draft",
+      "date": "2018-02-26",
+      "publisher": "The Foo Bar Corporation",
+      "contact": [
+        {
+          "telecom": [
+            {
+              "system": "url",
+              "value": "http://foobar.com"
+            }
+          ]
+        }
+      ],
+      "description": "It is an element with an element value",
+      "kind": "logical",
+      "abstract": false,
+      "type": "shr-test-ElementValue",
+      "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+      "derivation": "specialization",
+      "snapshot": {
+        "element": [
+          {
+            "id": "shr-test-ElementValue",
+            "path": "shr-test-ElementValue",
+            "definition": "It is an element with an element value",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-ElementValue.value",
+            "path": "shr-test-ElementValue.value",
+            "code": [
+              {
+                "system": "http://foo.org",
+                "code": "bar",
+                "display": "Foobar"
+              }
+            ],
+            "definition": "Simple representing it is an element with an element value",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      },
+      "differential": {
+        "element": [
+          {
+            "id": "shr-test-ElementValue",
+            "path": "shr-test-ElementValue",
+            "definition": "It is an element with an element value",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-test-ElementValue.value",
+            "path": "shr-test-ElementValue.value",
+            "code": [
+              {
+                "system": "http://foo.org",
+                "code": "bar",
+                "display": "Foobar"
+              }
+            ],
+            "definition": "Simple representing it is an element with an element value",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "StructureDefinition",
+      "id": "shr-other-test-Simple",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      },
+      "url": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple",
+      "identifier": [
+        {
+          "system": "http://foobar.com",
+          "value": "shr.other.test.Simple"
+        }
+      ],
+      "name": "FOOBAR Simple Logical Model",
+      "status": "draft",
+      "date": "2018-02-26",
+      "publisher": "The Foo Bar Corporation",
+      "contact": [
+        {
+          "telecom": [
+            {
+              "system": "url",
+              "value": "http://foobar.com"
+            }
+          ]
+        }
+      ],
+      "description": "It is a simple element",
+      "keyword": [
+        {
+          "system": "http://foo.org",
+          "code": "bar",
+          "display": "Foobar"
+        }
+      ],
+      "kind": "logical",
+      "abstract": false,
+      "type": "shr-other-test-Simple",
+      "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+      "derivation": "specialization",
+      "snapshot": {
+        "element": [
+          {
+            "id": "shr-other-test-Simple",
+            "path": "shr-other-test-Simple",
+            "definition": "It is a simple element",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-other-test-Simple.value",
+            "path": "shr-other-test-Simple.value",
+            "definition": "String representing it is a simple element",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "string"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      },
+      "differential": {
+        "element": [
+          {
+            "id": "shr-other-test-Simple",
+            "path": "shr-other-test-Simple",
+            "definition": "It is a simple element",
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          },
+          {
+            "id": "shr-other-test-Simple.value",
+            "path": "shr-other-test-Simple.value",
+            "definition": "String representing it is a simple element",
+            "min": 1,
+            "max": "1",
+            "type": {
+              "code": "string"
+            },
+            "mustSupport": false,
+            "isModifier": false,
+            "isSummary": false
+          }
+        ]
+      }
+    }
+  ]
+}
