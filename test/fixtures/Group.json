@@ -309,7 +309,13 @@
           },
           "mustSupport": false,
           "isModifier": false,
-          "isSummary": false
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
+            }
+          }
         }
       ]
     },
@@ -334,7 +340,13 @@
           },
           "mustSupport": false,
           "isModifier": false,
-          "isSummary": false
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
+            }
+          }
         }
       ]
     }
