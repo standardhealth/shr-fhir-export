@@ -4,7 +4,8 @@ const err = require('shr-test-helpers/errors');
 const {sanityCheckModules} = require('shr-models');
 const export_tests = require('shr-test-helpers/export');
 const {commonExportTests} = export_tests;
-const {exportToFHIRLogicalModels, setLogger} = require('../lib/logical/export');
+const load = require('../lib/load');
+const {ModelsExporter, setLogger} = require('../lib/logical/export');
 
 sanityCheckModules({ 'shr-test-helpers': export_tests });
 
@@ -19,8 +20,8 @@ function defaultConfiguration()
 }
 
 function exportSpecifications(specifications) {
-  const results = exportToFHIRLogicalModels(specifications, defaultConfiguration());
-  return results;
+  const exporter = new ModelsExporter(specifications, load('FHIR_STU_3'), defaultConfiguration());
+  return exporter.export();
 }
 
 function importFixture(name, ext='.json') {
