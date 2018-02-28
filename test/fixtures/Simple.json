@@ -6,7 +6,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple",
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
     "identifier": [
       {
         "system": "http://foobar.com",

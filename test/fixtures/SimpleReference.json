@@ -6,7 +6,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR SimpleReference Logical Model</b></p>\n  <p>It is a reference to a simple element</p>\n</div>"
     },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleReference",
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleReference-model",
     "identifier": [
       {
         "system": "http://foobar.com",
@@ -51,7 +51,7 @@
           "max": "1",
           "type": {
             "code": "Reference",
-            "targetProfile": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            "targetProfile": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -77,7 +77,7 @@
           "max": "1",
           "type": {
             "code": "Reference",
-            "targetProfile": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            "targetProfile": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
           },
           "mustSupport": false,
           "isModifier": false,

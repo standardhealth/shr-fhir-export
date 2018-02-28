@@ -6,7 +6,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Group Logical Model</b></p>\n  <p>It is a group of elements</p>\n</div>"
     },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Group",
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Group-model",
     "identifier": [
       {
         "system": "http://foobar.com",
@@ -69,7 +69,7 @@
           "min": 1,
           "max": "1",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -82,7 +82,7 @@
           "min": 0,
           "max": "1",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -95,7 +95,7 @@
           "min": 0,
           "max": "*",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -127,7 +127,7 @@
           "min": 1,
           "max": "1",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -140,7 +140,7 @@
           "min": 0,
           "max": "1",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -153,7 +153,7 @@
           "min": 0,
           "max": "*",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -169,7 +169,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple",
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
     "identifier": [
       {
         "system": "http://foobar.com",
@@ -261,7 +261,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded",
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
     "identifier": [
       {
         "system": "http://foobar.com",
@@ -358,7 +358,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ForeignElementValue Logical Model</b></p>\n  <p>It is an element with a foreign element value</p>\n</div>"
     },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ForeignElementValue",
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ForeignElementValue-model",
     "identifier": [
       {
         "system": "http://foobar.com",
@@ -409,7 +409,7 @@
           "min": 1,
           "max": "1",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -441,7 +441,7 @@
           "min": 1,
           "max": "1",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -457,7 +457,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
     },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue",
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model",
     "identifier": [
       {
         "system": "http://foobar.com",
@@ -508,7 +508,7 @@
           "min": 1,
           "max": "1",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -540,7 +540,7 @@
           "min": 1,
           "max": "1",
           "type": {
-            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple"
+            "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
           },
           "mustSupport": false,
           "isModifier": false,
@@ -556,7 +556,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple",
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model",
     "identifier": [
       {
         "system": "http://foobar.com",

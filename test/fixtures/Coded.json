@@ -6,7 +6,7 @@
       "status": "generated",
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded",
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
     "identifier": [
       {
         "system": "http://foobar.com",
