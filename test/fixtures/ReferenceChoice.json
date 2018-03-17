@@ -13,7 +13,8 @@
         "value": "shr.test.ReferenceChoice"
       }
     ],
-    "name": "FOOBAR ReferenceChoice Logical Model",
+    "name": "ReferenceChoice",
+    "title": "FOOBAR ReferenceChoice Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

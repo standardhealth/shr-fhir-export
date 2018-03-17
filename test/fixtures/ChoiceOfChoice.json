@@ -13,7 +13,8 @@
         "value": "shr.test.ChoiceOfChoice"
       }
     ],
-    "name": "FOOBAR ChoiceOfChoice Logical Model",
+    "name": "ChoiceOfChoice",
+    "title": "FOOBAR ChoiceOfChoice Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

@@ -13,7 +13,8 @@
         "value": "shr.test.SimpleChild2"
       }
     ],
-    "name": "FOOBAR SimpleChild2 Logical Model",
+    "name": "SimpleChild2",
+    "title": "FOOBAR SimpleChild2 Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -108,7 +109,8 @@
         "value": "shr.test.IncludesTypesList"
       }
     ],
-    "name": "FOOBAR IncludesTypesList Logical Model",
+    "name": "IncludesTypesList",
+    "title": "FOOBAR IncludesTypesList Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -267,7 +269,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -369,7 +372,8 @@
         "value": "shr.test.SimpleChild"
       }
     ],
-    "name": "FOOBAR SimpleChild Logical Model",
+    "name": "SimpleChild",
+    "title": "FOOBAR SimpleChild Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

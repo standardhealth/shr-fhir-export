@@ -13,7 +13,8 @@
         "value": "shr.test.TypeConstrainedReference"
       }
     ],
-    "name": "FOOBAR TypeConstrainedReference Logical Model",
+    "name": "TypeConstrainedReference",
+    "title": "FOOBAR TypeConstrainedReference Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -110,7 +111,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -212,7 +214,8 @@
         "value": "shr.test.SimpleChild"
       }
     ],
-    "name": "FOOBAR SimpleChild Logical Model",
+    "name": "SimpleChild",
+    "title": "FOOBAR SimpleChild Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -307,7 +310,8 @@
         "value": "shr.test.SimpleReference"
       }
     ],
-    "name": "FOOBAR SimpleReference Logical Model",
+    "name": "SimpleReference",
+    "title": "FOOBAR SimpleReference Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

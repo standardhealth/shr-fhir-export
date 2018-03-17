@@ -13,7 +13,8 @@
         "value": "shr.test.Choice"
       }
     ],
-    "name": "FOOBAR Choice Logical Model",
+    "name": "Choice",
+    "title": "FOOBAR Choice Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -196,7 +197,8 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "FOOBAR Coded Logical Model",
+    "name": "Coded",
+    "title": "FOOBAR Coded Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

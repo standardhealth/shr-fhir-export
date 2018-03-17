@@ -13,7 +13,8 @@
         "value": "shr.test.ElementFieldList"
       }
     ],
-    "name": "FOOBAR ElementFieldList Logical Model",
+    "name": "ElementFieldList",
+    "title": "FOOBAR ElementFieldList Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -116,7 +117,8 @@
         "value": "shr.test.ElementFieldListContainer"
       }
     ],
-    "name": "FOOBAR ElementFieldListContainer Logical Model",
+    "name": "ElementFieldListContainer",
+    "title": "FOOBAR ElementFieldListContainer Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -205,7 +207,8 @@
         "value": "shr.test.SimpleChild2"
       }
     ],
-    "name": "FOOBAR SimpleChild2 Logical Model",
+    "name": "SimpleChild2",
+    "title": "FOOBAR SimpleChild2 Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -300,7 +303,8 @@
         "value": "shr.test.NestedIncludesTypeConstraints"
       }
     ],
-    "name": "FOOBAR NestedIncludesTypeConstraints Logical Model",
+    "name": "NestedIncludesTypeConstraints",
+    "title": "FOOBAR NestedIncludesTypeConstraints Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -505,7 +509,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -607,7 +612,8 @@
         "value": "shr.test.SimpleChild"
       }
     ],
-    "name": "FOOBAR SimpleChild Logical Model",
+    "name": "SimpleChild",
+    "title": "FOOBAR SimpleChild Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

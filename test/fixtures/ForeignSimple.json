@@ -13,7 +13,8 @@
         "value": "shr.other.test.Simple"
       }
     ],
-    "name": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

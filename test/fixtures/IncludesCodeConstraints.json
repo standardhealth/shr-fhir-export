@@ -13,7 +13,8 @@
         "value": "shr.test.IncludesCodesList"
       }
     ],
-    "name": "FOOBAR IncludesCodesList Logical Model",
+    "name": "IncludesCodesList",
+    "title": "FOOBAR IncludesCodesList Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -1752,7 +1753,8 @@
         "value": "shr.core.CodeSystem"
       }
     ],
-    "name": "FOOBAR CodeSystem Logical Model",
+    "name": "CodeSystem",
+    "title": "FOOBAR CodeSystem Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -1844,7 +1846,8 @@
         "value": "shr.core.CodeSystemVersion"
       }
     ],
-    "name": "FOOBAR CodeSystemVersion Logical Model",
+    "name": "CodeSystemVersion",
+    "title": "FOOBAR CodeSystemVersion Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -1936,7 +1939,8 @@
         "value": "shr.core.DisplayText"
       }
     ],
-    "name": "FOOBAR DisplayText Logical Model",
+    "name": "DisplayText",
+    "title": "FOOBAR DisplayText Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

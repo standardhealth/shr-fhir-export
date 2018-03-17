@@ -13,7 +13,8 @@
         "value": "shr.test.ElementValue"
       }
     ],
-    "name": "FOOBAR ElementValue Logical Model",
+    "name": "ElementValue",
+    "title": "FOOBAR ElementValue Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -122,7 +123,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

@@ -13,7 +13,8 @@
         "value": "shr.test.Group"
       }
     ],
-    "name": "FOOBAR Group Logical Model",
+    "name": "Group",
+    "title": "FOOBAR Group Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -188,7 +189,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -290,7 +292,8 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "FOOBAR Coded Logical Model",
+    "name": "Coded",
+    "title": "FOOBAR Coded Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -397,7 +400,8 @@
         "value": "shr.test.ForeignElementValue"
       }
     ],
-    "name": "FOOBAR ForeignElementValue Logical Model",
+    "name": "ForeignElementValue",
+    "title": "FOOBAR ForeignElementValue Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -506,7 +510,8 @@
         "value": "shr.test.ElementValue"
       }
     ],
-    "name": "FOOBAR ElementValue Logical Model",
+    "name": "ElementValue",
+    "title": "FOOBAR ElementValue Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -615,7 +620,8 @@
         "value": "shr.other.test.Simple"
       }
     ],
-    "name": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

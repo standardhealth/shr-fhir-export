@@ -13,7 +13,8 @@
         "value": "shr.test.AbstractAndPlainGroup"
       }
     ],
-    "name": "FOOBAR AbstractAndPlainGroup Logical Model",
+    "name": "AbstractAndPlainGroup",
+    "title": "FOOBAR AbstractAndPlainGroup Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -167,7 +168,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -269,7 +271,8 @@
         "value": "shr.test.Plain"
       }
     ],
-    "name": "FOOBAR Plain Logical Model",
+    "name": "Plain",
+    "title": "FOOBAR Plain Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

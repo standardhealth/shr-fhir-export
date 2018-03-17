@@ -13,7 +13,8 @@
         "value": "shr.test.OptionalValue"
       }
     ],
-    "name": "FOOBAR OptionalValue Logical Model",
+    "name": "OptionalValue",
+    "title": "FOOBAR OptionalValue Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -108,7 +109,8 @@
         "value": "shr.test.OptionalField"
       }
     ],
-    "name": "FOOBAR OptionalField Logical Model",
+    "name": "OptionalField",
+    "title": "FOOBAR OptionalField Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -197,7 +199,8 @@
         "value": "shr.test.NestedCardConstraint"
       }
     ],
-    "name": "FOOBAR NestedCardConstraint Logical Model",
+    "name": "NestedCardConstraint",
+    "title": "FOOBAR NestedCardConstraint Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

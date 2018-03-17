@@ -13,7 +13,8 @@
         "value": "shr.test.NotDone"
       }
     ],
-    "name": "FOOBAR NotDone Logical Model",
+    "name": "NotDone",
+    "title": "FOOBAR NotDone Logical Model",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
