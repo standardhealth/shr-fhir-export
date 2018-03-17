@@ -1,5 +1,5 @@
 {
-  "source": "ImplementationGuide/ig.xml",
+  "source": "ig.xml",
   "version": "3.0.1",
   "fixed-business-version": "0.0.1",
   "paths": {
