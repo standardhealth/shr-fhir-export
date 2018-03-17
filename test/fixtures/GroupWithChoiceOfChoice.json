@@ -50,8 +50,8 @@
           "definition": "Choice of types representing it is a group of elements with a choice containing a choice",
           "alias": [
             "simple",
-            "foreignelementvalue",
-            "elementvalue"
+            "foreignElementValue",
+            "elementValue"
           ],
           "min": 0,
           "max": "2",
@@ -125,8 +125,8 @@
           "definition": "Choice of types representing it is a group of elements with a choice containing a choice",
           "alias": [
             "simple",
-            "foreignelementvalue",
-            "elementvalue"
+            "foreignElementValue",
+            "elementValue"
           ],
           "min": 0,
           "max": "2",

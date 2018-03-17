@@ -59,7 +59,7 @@
           },
           "definition": "Code representing an entry with a includes codes constraint.",
           "alias": [
-            "codeableconcept"
+            "codeableConcept"
           ],
           "min": 0,
           "max": "*",
@@ -911,7 +911,7 @@
           },
           "definition": "Code representing an entry with a includes codes constraint.",
           "alias": [
-            "codeableconcept"
+            "codeableConcept"
           ],
           "min": 0,
           "max": "*",
