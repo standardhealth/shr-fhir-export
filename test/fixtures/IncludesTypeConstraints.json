@@ -47,6 +47,7 @@
         {
           "id": "shr-test-SimpleChild2-model.value",
           "path": "shr-test-SimpleChild2-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -77,6 +78,7 @@
         {
           "id": "shr-test-SimpleChild2-model.value",
           "path": "shr-test-SimpleChild2-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -150,6 +152,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing an entry with a includes types constraints.",
           "definition": "Simple representing an entry with a includes types constraints.",
           "alias": [
             "simple"
@@ -163,6 +166,7 @@
         {
           "id": "shr-test-IncludesTypesList-model.value.simpleChild",
           "path": "shr-test-IncludesTypesList-model.value.simpleChild",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
@@ -178,6 +182,7 @@
         {
           "id": "shr-test-IncludesTypesList-model.value.simpleChild2",
           "path": "shr-test-IncludesTypesList-model.value.simpleChild2",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
@@ -212,6 +217,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing an entry with a includes types constraints.",
           "definition": "Simple representing an entry with a includes types constraints.",
           "alias": [
             "simple"
@@ -225,6 +231,7 @@
         {
           "id": "shr-test-IncludesTypesList-model.value.simpleChild",
           "path": "shr-test-IncludesTypesList-model.value.simpleChild",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
@@ -240,6 +247,7 @@
         {
           "id": "shr-test-IncludesTypesList-model.value.simpleChild2",
           "path": "shr-test-IncludesTypesList-model.value.simpleChild2",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
@@ -310,6 +318,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -340,6 +349,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -406,6 +416,7 @@
         {
           "id": "shr-test-SimpleChild-model.value",
           "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -436,6 +447,7 @@
         {
           "id": "shr-test-SimpleChild-model.value",
           "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"

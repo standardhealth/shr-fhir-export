@@ -47,6 +47,7 @@
         {
           "id": "shr-test-GroupWithChoiceOfChoice-model.value[x]",
           "path": "shr-test-GroupWithChoiceOfChoice-model.value[x]",
+          "short": "Choice of types representing it is a group of elements with a choice containing a choice",
           "definition": "Choice of types representing it is a group of elements with a choice containing a choice",
           "alias": [
             "simple",
@@ -80,6 +81,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is a simple element",
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
@@ -95,6 +97,7 @@
         {
           "id": "shr-test-GroupWithChoiceOfChoice-model.coded",
           "path": "shr-test-GroupWithChoiceOfChoice-model.coded",
+          "short": "It is a coded element",
           "definition": "It is a coded element",
           "min": 0,
           "max": "1",
@@ -122,6 +125,7 @@
         {
           "id": "shr-test-GroupWithChoiceOfChoice-model.value[x]",
           "path": "shr-test-GroupWithChoiceOfChoice-model.value[x]",
+          "short": "Choice of types representing it is a group of elements with a choice containing a choice",
           "definition": "Choice of types representing it is a group of elements with a choice containing a choice",
           "alias": [
             "simple",
@@ -155,6 +159,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is a simple element",
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
@@ -170,6 +175,7 @@
         {
           "id": "shr-test-GroupWithChoiceOfChoice-model.coded",
           "path": "shr-test-GroupWithChoiceOfChoice-model.coded",
+          "short": "It is a coded element",
           "definition": "It is a coded element",
           "min": 0,
           "max": "1",
@@ -240,6 +246,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -270,6 +277,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -336,6 +344,7 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
+          "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
           "alias": [
             "code"
@@ -372,6 +381,7 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
+          "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
           "alias": [
             "code"
@@ -451,6 +461,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with a foreign element value",
           "definition": "Simple representing it is an element with a foreign element value",
           "alias": [
             "simple"
@@ -488,6 +499,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with a foreign element value",
           "definition": "Simple representing it is an element with a foreign element value",
           "alias": [
             "simple"
@@ -561,6 +573,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with an element value",
           "definition": "Simple representing it is an element with an element value",
           "alias": [
             "simple"
@@ -598,6 +611,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with an element value",
           "definition": "Simple representing it is an element with an element value",
           "alias": [
             "simple"
@@ -671,6 +685,7 @@
         {
           "id": "shr-other-test-Simple-model.value",
           "path": "shr-other-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -701,6 +716,7 @@
         {
           "id": "shr-other-test-Simple-model.value",
           "path": "shr-other-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"

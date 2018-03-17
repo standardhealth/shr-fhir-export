@@ -57,6 +57,7 @@
             "ordered": false,
             "rules": "open"
           },
+          "short": "Choice of types representing it is an element with a choice",
           "definition": "Choice of types representing it is an element with a choice",
           "alias": [
             "string",
@@ -131,6 +132,7 @@
             "ordered": false,
             "rules": "open"
           },
+          "short": "Choice of types representing it is an element with a choice",
           "definition": "Choice of types representing it is an element with a choice",
           "alias": [
             "string",
@@ -231,6 +233,7 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
+          "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
           "alias": [
             "code"
@@ -267,6 +270,7 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
+          "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
           "alias": [
             "code"

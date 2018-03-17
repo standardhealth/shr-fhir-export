@@ -61,6 +61,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is a simple element",
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
@@ -83,6 +84,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is not an entry element",
           "definition": "It is not an entry element",
           "min": 1,
           "max": "1",
@@ -117,6 +119,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is a simple element",
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
@@ -139,6 +142,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is not an entry element",
           "definition": "It is not an entry element",
           "min": 1,
           "max": "1",
@@ -209,6 +213,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -239,6 +244,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -312,6 +318,7 @@
         {
           "id": "shr-test-Plain-model.value",
           "path": "shr-test-Plain-model.value",
+          "short": "String representing it is not an entry element",
           "definition": "String representing it is not an entry element",
           "alias": [
             "string"
@@ -342,6 +349,7 @@
         {
           "id": "shr-test-Plain-model.value",
           "path": "shr-test-Plain-model.value",
+          "short": "String representing it is not an entry element",
           "definition": "String representing it is not an entry element",
           "alias": [
             "string"

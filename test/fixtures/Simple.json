@@ -54,6 +54,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -84,6 +85,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"

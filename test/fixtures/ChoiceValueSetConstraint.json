@@ -47,6 +47,7 @@
         {
           "id": "shr-test-CodedChoice-model.value[x]",
           "path": "shr-test-CodedChoice-model.value[x]",
+          "short": "Coded or code representing an element with a choice of code fields.",
           "definition": "Coded or code representing an element with a choice of code fields.",
           "alias": [
             "coded",
@@ -81,6 +82,7 @@
         {
           "id": "shr-test-CodedChoice-model.value[x]",
           "path": "shr-test-CodedChoice-model.value[x]",
+          "short": "Coded or code representing an element with a choice of code fields.",
           "definition": "Coded or code representing an element with a choice of code fields.",
           "alias": [
             "coded",
@@ -151,6 +153,7 @@
         {
           "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
           "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
+          "short": "An element with a choice of code fields.",
           "definition": "An element with a choice of code fields.",
           "min": 0,
           "max": "1",
@@ -176,6 +179,7 @@
             "ordered": false,
             "rules": "open"
           },
+          "short": "Coded or code representing an element with a choice of code fields.",
           "definition": "Coded or code representing an element with a choice of code fields.",
           "alias": [
             "coded",
@@ -236,6 +240,7 @@
         {
           "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
           "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
+          "short": "An element with a choice of code fields.",
           "definition": "An element with a choice of code fields.",
           "min": 0,
           "max": "1",
@@ -261,6 +266,7 @@
             "ordered": false,
             "rules": "open"
           },
+          "short": "Coded or code representing an element with a choice of code fields.",
           "definition": "Coded or code representing an element with a choice of code fields.",
           "alias": [
             "coded",
@@ -357,6 +363,7 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
+          "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
           "alias": [
             "code"
@@ -393,6 +400,7 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
+          "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
           "alias": [
             "code"

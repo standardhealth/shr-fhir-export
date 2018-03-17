@@ -54,6 +54,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with a value that is a list of elements",
           "definition": "Simple representing it is an element with a value that is a list of elements",
           "alias": [
             "simple"
@@ -91,6 +92,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with a value that is a list of elements",
           "definition": "Simple representing it is an element with a value that is a list of elements",
           "alias": [
             "simple"
@@ -157,6 +159,7 @@
         {
           "id": "shr-test-SimpleChild2-model.value",
           "path": "shr-test-SimpleChild2-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -187,6 +190,7 @@
         {
           "id": "shr-test-SimpleChild2-model.value",
           "path": "shr-test-SimpleChild2-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -253,6 +257,7 @@
         {
           "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
           "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+          "short": "It is an element with a value that is a list of elements",
           "definition": "It is an element with a value that is a list of elements",
           "min": 0,
           "max": "1",
@@ -273,6 +278,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with a value that is a list of elements",
           "definition": "Simple representing it is an element with a value that is a list of elements",
           "alias": [
             "simple"
@@ -286,6 +292,7 @@
         {
           "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
           "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
@@ -301,6 +308,7 @@
         {
           "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
           "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
@@ -328,6 +336,7 @@
         {
           "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
           "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+          "short": "It is an element with a value that is a list of elements",
           "definition": "It is an element with a value that is a list of elements",
           "min": 0,
           "max": "1",
@@ -348,6 +357,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with a value that is a list of elements",
           "definition": "Simple representing it is an element with a value that is a list of elements",
           "alias": [
             "simple"
@@ -361,6 +371,7 @@
         {
           "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
           "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
@@ -376,6 +387,7 @@
         {
           "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
           "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
@@ -446,6 +458,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -476,6 +489,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -542,6 +556,7 @@
         {
           "id": "shr-test-SimpleChild-model.value",
           "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -572,6 +587,7 @@
         {
           "id": "shr-test-SimpleChild-model.value",
           "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"

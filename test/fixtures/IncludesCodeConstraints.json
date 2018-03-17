@@ -57,6 +57,7 @@
             "ordered": false,
             "rules": "open"
           },
+          "short": "Code representing an entry with a includes codes constraint.",
           "definition": "Code representing an entry with a includes codes constraint.",
           "alias": [
             "codeableConcept"
@@ -909,6 +910,7 @@
             "ordered": false,
             "rules": "open"
           },
+          "short": "Code representing an entry with a includes codes constraint.",
           "definition": "Code representing an entry with a includes codes constraint.",
           "alias": [
             "codeableConcept"
@@ -1785,7 +1787,8 @@
         {
           "id": "shr-core-CodeSystem-model.value",
           "path": "shr-core-CodeSystem-model.value",
-          "definition": "Uri representing undefined",
+          "short": "Uri representing the logical model instance",
+          "definition": "Uri representing the logical model instance",
           "alias": [
             "uri"
           ],
@@ -1814,7 +1817,8 @@
         {
           "id": "shr-core-CodeSystem-model.value",
           "path": "shr-core-CodeSystem-model.value",
-          "definition": "Uri representing undefined",
+          "short": "Uri representing the logical model instance",
+          "definition": "Uri representing the logical model instance",
           "alias": [
             "uri"
           ],
@@ -1878,7 +1882,8 @@
         {
           "id": "shr-core-CodeSystemVersion-model.value",
           "path": "shr-core-CodeSystemVersion-model.value",
-          "definition": "String representing undefined",
+          "short": "String representing the logical model instance",
+          "definition": "String representing the logical model instance",
           "alias": [
             "string"
           ],
@@ -1907,7 +1912,8 @@
         {
           "id": "shr-core-CodeSystemVersion-model.value",
           "path": "shr-core-CodeSystemVersion-model.value",
-          "definition": "String representing undefined",
+          "short": "String representing the logical model instance",
+          "definition": "String representing the logical model instance",
           "alias": [
             "string"
           ],
@@ -1971,7 +1977,8 @@
         {
           "id": "shr-core-DisplayText-model.value",
           "path": "shr-core-DisplayText-model.value",
-          "definition": "String representing undefined",
+          "short": "String representing the logical model instance",
+          "definition": "String representing the logical model instance",
           "alias": [
             "string"
           ],
@@ -2000,7 +2007,8 @@
         {
           "id": "shr-core-DisplayText-model.value",
           "path": "shr-core-DisplayText-model.value",
-          "definition": "String representing undefined",
+          "short": "String representing the logical model instance",
+          "definition": "String representing the logical model instance",
           "alias": [
             "string"
           ],

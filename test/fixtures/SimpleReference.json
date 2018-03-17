@@ -47,6 +47,7 @@
         {
           "id": "shr-test-SimpleReference-model.value",
           "path": "shr-test-SimpleReference-model.value",
+          "short": "Simple representing it is a reference to a simple element",
           "definition": "Simple representing it is a reference to a simple element",
           "alias": [
             "simple"
@@ -78,6 +79,7 @@
         {
           "id": "shr-test-SimpleReference-model.value",
           "path": "shr-test-SimpleReference-model.value",
+          "short": "Simple representing it is a reference to a simple element",
           "definition": "Simple representing it is a reference to a simple element",
           "alias": [
             "simple"

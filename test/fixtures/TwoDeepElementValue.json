@@ -47,6 +47,7 @@
         {
           "id": "shr-test-TwoDeepElementValue-model.value",
           "path": "shr-test-TwoDeepElementValue-model.value",
+          "short": "ElementValue representing it is an element with a two-deep element value",
           "definition": "ElementValue representing it is an element with a two-deep element value",
           "alias": [
             "elementValue"
@@ -77,6 +78,7 @@
         {
           "id": "shr-test-TwoDeepElementValue-model.value",
           "path": "shr-test-TwoDeepElementValue-model.value",
+          "short": "ElementValue representing it is an element with a two-deep element value",
           "definition": "ElementValue representing it is an element with a two-deep element value",
           "alias": [
             "elementValue"
@@ -150,6 +152,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with an element value",
           "definition": "Simple representing it is an element with an element value",
           "alias": [
             "simple"
@@ -187,6 +190,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is an element with an element value",
           "definition": "Simple representing it is an element with an element value",
           "alias": [
             "simple"
@@ -260,6 +264,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -290,6 +295,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"

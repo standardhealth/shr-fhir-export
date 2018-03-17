@@ -54,6 +54,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is a simple element",
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
@@ -88,6 +89,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is a simple element",
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
@@ -151,6 +153,7 @@
         {
           "id": "shr-test-ElementFieldListContainer-model.elementFieldList",
           "path": "shr-test-ElementFieldListContainer-model.elementFieldList",
+          "short": "It is an element with a field that is a list of elements",
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
@@ -178,6 +181,7 @@
         {
           "id": "shr-test-ElementFieldListContainer-model.elementFieldList",
           "path": "shr-test-ElementFieldListContainer-model.elementFieldList",
+          "short": "It is an element with a field that is a list of elements",
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
@@ -241,6 +245,7 @@
         {
           "id": "shr-test-SimpleChild2-model.value",
           "path": "shr-test-SimpleChild2-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -271,6 +276,7 @@
         {
           "id": "shr-test-SimpleChild2-model.value",
           "path": "shr-test-SimpleChild2-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -337,6 +343,7 @@
         {
           "id": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer",
           "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer",
+          "short": "It is an element with a field that contains an element with a field that is a list of elements",
           "definition": "It is an element with a field that contains an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
@@ -350,6 +357,7 @@
         {
           "id": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList",
           "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList",
+          "short": "It is an element with a field that is a list of elements",
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
@@ -370,6 +378,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is a simple element",
           "definition": "It is a simple element",
           "min": 0,
           "max": "1",
@@ -380,6 +389,7 @@
         {
           "id": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild",
           "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
@@ -395,6 +405,7 @@
         {
           "id": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild2",
           "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild2",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
@@ -422,6 +433,7 @@
         {
           "id": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer",
           "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer",
+          "short": "It is an element with a field that contains an element with a field that is a list of elements",
           "definition": "It is an element with a field that contains an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
@@ -435,6 +447,7 @@
         {
           "id": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList",
           "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList",
+          "short": "It is an element with a field that is a list of elements",
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
@@ -455,6 +468,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "It is a simple element",
           "definition": "It is a simple element",
           "min": 0,
           "max": "1",
@@ -465,6 +479,7 @@
         {
           "id": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild",
           "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
@@ -480,6 +495,7 @@
         {
           "id": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild2",
           "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild2",
+          "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
@@ -550,6 +566,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -580,6 +597,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -646,6 +664,7 @@
         {
           "id": "shr-test-SimpleChild-model.value",
           "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -676,6 +695,7 @@
         {
           "id": "shr-test-SimpleChild-model.value",
           "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"

@@ -47,6 +47,7 @@
         {
           "id": "shr-test-TypeConstrainedReference-model.value",
           "path": "shr-test-TypeConstrainedReference-model.value",
+          "short": "Simple representing it is an element a constraint on a reference.",
           "definition": "Simple representing it is an element a constraint on a reference.",
           "alias": [
             "simple",
@@ -79,6 +80,7 @@
         {
           "id": "shr-test-TypeConstrainedReference-model.value",
           "path": "shr-test-TypeConstrainedReference-model.value",
+          "short": "Simple representing it is an element a constraint on a reference.",
           "definition": "Simple representing it is an element a constraint on a reference.",
           "alias": [
             "simple",
@@ -154,6 +156,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -184,6 +187,7 @@
         {
           "id": "shr-test-Simple-model.value",
           "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
           "alias": [
             "string"
@@ -250,6 +254,7 @@
         {
           "id": "shr-test-SimpleChild-model.value",
           "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -280,6 +285,7 @@
         {
           "id": "shr-test-SimpleChild-model.value",
           "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
           "alias": [
             "string"
@@ -353,6 +359,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is a reference to a simple element",
           "definition": "Simple representing it is a reference to a simple element",
           "alias": [
             "simple"
@@ -391,6 +398,7 @@
               "display": "Foobar"
             }
           ],
+          "short": "Simple representing it is a reference to a simple element",
           "definition": "Simple representing it is a reference to a simple element",
           "alias": [
             "simple"

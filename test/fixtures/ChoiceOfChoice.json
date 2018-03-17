@@ -57,6 +57,7 @@
             "ordered": false,
             "rules": "open"
           },
+          "short": "Choice of types representing it is an element with a choice containing a choice",
           "definition": "Choice of types representing it is an element with a choice containing a choice",
           "alias": [
             "string",
@@ -135,6 +136,7 @@
             "ordered": false,
             "rules": "open"
           },
+          "short": "Choice of types representing it is an element with a choice containing a choice",
           "definition": "Choice of types representing it is an element with a choice containing a choice",
           "alias": [
             "string",

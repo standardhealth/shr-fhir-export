@@ -47,6 +47,7 @@
         {
           "id": "shr-test-OptionalList-model.value",
           "path": "shr-test-OptionalList-model.value",
+          "short": "String representing an element with an optional list.",
           "definition": "String representing an element with an optional list.",
           "alias": [
             "string"
@@ -77,6 +78,7 @@
         {
           "id": "shr-test-OptionalList-model.value",
           "path": "shr-test-OptionalList-model.value",
+          "short": "String representing an element with an optional list.",
           "definition": "String representing an element with an optional list.",
           "alias": [
             "string"
@@ -143,6 +145,7 @@
         {
           "id": "shr-test-ListField-model.optionalList",
           "path": "shr-test-ListField-model.optionalList",
+          "short": "An element with an optional list.",
           "definition": "An element with an optional list.",
           "min": 1,
           "max": "1",
@@ -170,6 +173,7 @@
         {
           "id": "shr-test-ListField-model.optionalList",
           "path": "shr-test-ListField-model.optionalList",
+          "short": "An element with an optional list.",
           "definition": "An element with an optional list.",
           "min": 1,
           "max": "1",
@@ -233,6 +237,7 @@
         {
           "id": "shr-test-NestedListCardConstraints-model.listField",
           "path": "shr-test-NestedListCardConstraints-model.listField",
+          "short": "An element with a list field.",
           "definition": "An element with a list field.",
           "min": 1,
           "max": "1",
@@ -248,6 +253,7 @@
         {
           "id": "shr-test-NestedListCardConstraints-model.listField.optionalList",
           "path": "shr-test-NestedListCardConstraints-model.listField.optionalList",
+          "short": "An element with an optional list.",
           "definition": "An element with an optional list.",
           "min": 1,
           "max": "1",
@@ -263,6 +269,7 @@
         {
           "id": "shr-test-NestedListCardConstraints-model.listField.optionalList.value",
           "path": "shr-test-NestedListCardConstraints-model.listField.optionalList.value",
+          "short": "String representing an element with an optional list.",
           "definition": "String representing an element with an optional list.",
           "alias": [
             "string"
@@ -293,6 +300,7 @@
         {
           "id": "shr-test-NestedListCardConstraints-model.listField",
           "path": "shr-test-NestedListCardConstraints-model.listField",
+          "short": "An element with a list field.",
           "definition": "An element with a list field.",
           "min": 1,
           "max": "1",
@@ -308,6 +316,7 @@
         {
           "id": "shr-test-NestedListCardConstraints-model.listField.optionalList",
           "path": "shr-test-NestedListCardConstraints-model.listField.optionalList",
+          "short": "An element with an optional list.",
           "definition": "An element with an optional list.",
           "min": 1,
           "max": "1",
@@ -323,6 +332,7 @@
         {
           "id": "shr-test-NestedListCardConstraints-model.listField.optionalList.value",
           "path": "shr-test-NestedListCardConstraints-model.listField.optionalList.value",
+          "short": "String representing an element with an optional list.",
           "definition": "String representing an element with an optional list.",
           "alias": [
             "string"
