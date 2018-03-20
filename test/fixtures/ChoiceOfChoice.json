@@ -40,6 +40,8 @@
           "id": "shr-test-ChoiceOfChoice-model",
           "path": "shr-test-ChoiceOfChoice-model",
           "definition": "It is an element with a choice containing a choice",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -119,6 +121,8 @@
           "id": "shr-test-ChoiceOfChoice-model",
           "path": "shr-test-ChoiceOfChoice-model",
           "definition": "It is an element with a choice containing a choice",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

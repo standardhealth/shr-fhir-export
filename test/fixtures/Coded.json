@@ -40,6 +40,8 @@
           "id": "shr-test-Coded-model",
           "path": "shr-test-Coded-model",
           "definition": "It is a coded element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -77,6 +79,8 @@
           "id": "shr-test-Coded-model",
           "path": "shr-test-Coded-model",
           "definition": "It is a coded element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

@@ -40,6 +40,8 @@
           "id": "shr-test-ElementFieldList-model",
           "path": "shr-test-ElementFieldList-model",
           "definition": "It is an element with a field that is a list of elements",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -75,6 +77,8 @@
           "id": "shr-test-ElementFieldList-model",
           "path": "shr-test-ElementFieldList-model",
           "definition": "It is an element with a field that is a list of elements",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -146,6 +150,8 @@
           "id": "shr-test-ElementFieldListContainer-model",
           "path": "shr-test-ElementFieldListContainer-model",
           "definition": "It is an element with a field that contains an element with a field that is a list of elements",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -174,6 +180,8 @@
           "id": "shr-test-ElementFieldListContainer-model",
           "path": "shr-test-ElementFieldListContainer-model",
           "definition": "It is an element with a field that contains an element with a field that is a list of elements",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -238,6 +246,8 @@
           "id": "shr-test-SimpleChild2-model",
           "path": "shr-test-SimpleChild2-model",
           "definition": "A derivative of the simple type.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -269,6 +279,8 @@
           "id": "shr-test-SimpleChild2-model",
           "path": "shr-test-SimpleChild2-model",
           "definition": "A derivative of the simple type.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -336,6 +348,8 @@
           "id": "shr-test-NestedIncludesTypeConstraints-model",
           "path": "shr-test-NestedIncludesTypeConstraints-model",
           "definition": "An entry with includes types constraints that are on a nested field.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -348,7 +362,9 @@
           "min": 0,
           "max": "1",
           "type": [
-            "BackboneElement"
+            {
+              "code": "BackboneElement"
+            }
           ],
           "mustSupport": false,
           "isModifier": false,
@@ -362,7 +378,9 @@
           "min": 0,
           "max": "1",
           "type": [
-            "BackboneElement"
+            {
+              "code": "BackboneElement"
+            }
           ],
           "mustSupport": false,
           "isModifier": false,
@@ -426,6 +444,8 @@
           "id": "shr-test-NestedIncludesTypeConstraints-model",
           "path": "shr-test-NestedIncludesTypeConstraints-model",
           "definition": "An entry with includes types constraints that are on a nested field.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -438,7 +458,9 @@
           "min": 0,
           "max": "1",
           "type": [
-            "BackboneElement"
+            {
+              "code": "BackboneElement"
+            }
           ],
           "mustSupport": false,
           "isModifier": false,
@@ -452,7 +474,9 @@
           "min": 0,
           "max": "1",
           "type": [
-            "BackboneElement"
+            {
+              "code": "BackboneElement"
+            }
           ],
           "mustSupport": false,
           "isModifier": false,
@@ -559,6 +583,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -590,6 +616,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -657,6 +685,8 @@
           "id": "shr-test-SimpleChild-model",
           "path": "shr-test-SimpleChild-model",
           "definition": "A derivative of the simple type.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -688,6 +718,8 @@
           "id": "shr-test-SimpleChild-model",
           "path": "shr-test-SimpleChild-model",
           "definition": "A derivative of the simple type.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

@@ -40,6 +40,8 @@
           "id": "shr-test-Coded-model",
           "path": "shr-test-Coded-model",
           "definition": "It is a coded element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -77,6 +79,8 @@
           "id": "shr-test-Coded-model",
           "path": "shr-test-Coded-model",
           "definition": "It is a coded element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -150,6 +154,8 @@
           "id": "shr-test-FixedCodeExtravaganza-model",
           "path": "shr-test-FixedCodeExtravaganza-model",
           "definition": "An element with all sorts of fixed codes.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -452,6 +458,8 @@
         {
           "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
           "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
+          "short": "CodeableConcept",
+          "definition": "CodeableConcept",
           "min": 1,
           "max": "1",
           "type": [
@@ -893,6 +901,8 @@
           "id": "shr-test-FixedCodeExtravaganza-model",
           "path": "shr-test-FixedCodeExtravaganza-model",
           "definition": "An element with all sorts of fixed codes.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1195,6 +1205,8 @@
         {
           "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
           "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
+          "short": "CodeableConcept",
+          "definition": "CodeableConcept",
           "min": 1,
           "max": "1",
           "type": [
@@ -1670,6 +1682,8 @@
         {
           "id": "shr-core-CodeSystem-model",
           "path": "shr-core-CodeSystem-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1700,6 +1714,8 @@
         {
           "id": "shr-core-CodeSystem-model",
           "path": "shr-core-CodeSystem-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1765,6 +1781,8 @@
         {
           "id": "shr-core-CodeSystemVersion-model",
           "path": "shr-core-CodeSystemVersion-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1795,6 +1813,8 @@
         {
           "id": "shr-core-CodeSystemVersion-model",
           "path": "shr-core-CodeSystemVersion-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1860,6 +1880,8 @@
         {
           "id": "shr-core-DisplayText-model",
           "path": "shr-core-DisplayText-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1890,6 +1912,8 @@
         {
           "id": "shr-core-DisplayText-model",
           "path": "shr-core-DisplayText-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

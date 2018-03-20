@@ -47,6 +47,19 @@
           "id": "shr-test-NotDone-model",
           "path": "shr-test-NotDone-model",
           "definition": "It is an unfinished element",
+          "min": "0",
+          "max": "*",
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-NotDone-model.intentionallyBlank",
+          "path": "shr-test-NotDone-model.intentionallyBlank",
+          "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+          "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+          "min": 0,
+          "max": "0",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -59,6 +72,19 @@
           "id": "shr-test-NotDone-model",
           "path": "shr-test-NotDone-model",
           "definition": "It is an unfinished element",
+          "min": "0",
+          "max": "*",
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-NotDone-model.intentionallyBlank",
+          "path": "shr-test-NotDone-model.intentionallyBlank",
+          "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+          "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+          "min": 0,
+          "max": "0",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

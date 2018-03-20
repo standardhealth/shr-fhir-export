@@ -40,6 +40,8 @@
           "id": "shr-test-OptionalValue-model",
           "path": "shr-test-OptionalValue-model",
           "definition": "An element with an optional value.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -71,6 +73,8 @@
           "id": "shr-test-OptionalValue-model",
           "path": "shr-test-OptionalValue-model",
           "definition": "An element with an optional value.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -138,6 +142,8 @@
           "id": "shr-test-OptionalField-model",
           "path": "shr-test-OptionalField-model",
           "definition": "An element with an optional field.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -166,6 +172,8 @@
           "id": "shr-test-OptionalField-model",
           "path": "shr-test-OptionalField-model",
           "definition": "An element with an optional field.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -230,6 +238,8 @@
           "id": "shr-test-NestedCardConstraint-model",
           "path": "shr-test-NestedCardConstraint-model",
           "definition": "It has a field with a nested card constraint.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -274,6 +284,8 @@
           "id": "shr-test-NestedCardConstraint-model",
           "path": "shr-test-NestedCardConstraint-model",
           "definition": "It has a field with a nested card constraint.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

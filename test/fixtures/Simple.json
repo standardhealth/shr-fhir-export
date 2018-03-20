@@ -47,6 +47,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -78,6 +80,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

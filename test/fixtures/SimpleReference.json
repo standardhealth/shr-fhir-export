@@ -40,6 +40,8 @@
           "id": "shr-test-SimpleReference-model",
           "path": "shr-test-SimpleReference-model",
           "definition": "It is a reference to a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -72,6 +74,8 @@
           "id": "shr-test-SimpleReference-model",
           "path": "shr-test-SimpleReference-model",
           "definition": "It is a reference to a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

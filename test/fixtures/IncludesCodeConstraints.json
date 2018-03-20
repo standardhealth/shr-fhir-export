@@ -40,6 +40,8 @@
           "id": "shr-test-IncludesCodesList-model",
           "path": "shr-test-IncludesCodesList-model",
           "definition": "An entry with a includes codes constraint.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -893,6 +895,8 @@
           "id": "shr-test-IncludesCodesList-model",
           "path": "shr-test-IncludesCodesList-model",
           "definition": "An entry with a includes codes constraint.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1780,6 +1784,8 @@
         {
           "id": "shr-core-CodeSystem-model",
           "path": "shr-core-CodeSystem-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1810,6 +1816,8 @@
         {
           "id": "shr-core-CodeSystem-model",
           "path": "shr-core-CodeSystem-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1875,6 +1883,8 @@
         {
           "id": "shr-core-CodeSystemVersion-model",
           "path": "shr-core-CodeSystemVersion-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1905,6 +1915,8 @@
         {
           "id": "shr-core-CodeSystemVersion-model",
           "path": "shr-core-CodeSystemVersion-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1970,6 +1982,8 @@
         {
           "id": "shr-core-DisplayText-model",
           "path": "shr-core-DisplayText-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -2000,6 +2014,8 @@
         {
           "id": "shr-core-DisplayText-model",
           "path": "shr-core-DisplayText-model",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

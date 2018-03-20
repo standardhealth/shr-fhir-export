@@ -40,6 +40,8 @@
           "id": "shr-test-SimpleChild2-model",
           "path": "shr-test-SimpleChild2-model",
           "definition": "A derivative of the simple type.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -71,6 +73,8 @@
           "id": "shr-test-SimpleChild2-model",
           "path": "shr-test-SimpleChild2-model",
           "definition": "A derivative of the simple type.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -138,6 +142,8 @@
           "id": "shr-test-IncludesTypesList-model",
           "path": "shr-test-IncludesTypesList-model",
           "definition": "An entry with a includes types constraints.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -203,6 +209,8 @@
           "id": "shr-test-IncludesTypesList-model",
           "path": "shr-test-IncludesTypesList-model",
           "definition": "An entry with a includes types constraints.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -311,6 +319,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -342,6 +352,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -409,6 +421,8 @@
           "id": "shr-test-SimpleChild-model",
           "path": "shr-test-SimpleChild-model",
           "definition": "A derivative of the simple type.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -440,6 +454,8 @@
           "id": "shr-test-SimpleChild-model",
           "path": "shr-test-SimpleChild-model",
           "definition": "A derivative of the simple type.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

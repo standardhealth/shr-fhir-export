@@ -40,6 +40,8 @@
           "id": "shr-test-CodedChoice-model",
           "path": "shr-test-CodedChoice-model",
           "definition": "An element with a choice of code fields.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -75,6 +77,8 @@
           "id": "shr-test-CodedChoice-model",
           "path": "shr-test-CodedChoice-model",
           "definition": "An element with a choice of code fields.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -146,6 +150,8 @@
           "id": "shr-test-ChoiceValueSetConstraint-model",
           "path": "shr-test-ChoiceValueSetConstraint-model",
           "definition": "It has valueset constraints on a choice field.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -233,6 +239,8 @@
           "id": "shr-test-ChoiceValueSetConstraint-model",
           "path": "shr-test-ChoiceValueSetConstraint-model",
           "definition": "It has valueset constraints on a choice field.",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -356,6 +364,8 @@
           "id": "shr-test-Coded-model",
           "path": "shr-test-Coded-model",
           "definition": "It is a coded element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -393,6 +403,8 @@
           "id": "shr-test-Coded-model",
           "path": "shr-test-Coded-model",
           "definition": "It is a coded element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

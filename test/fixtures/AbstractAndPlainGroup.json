@@ -47,6 +47,8 @@
           "id": "shr-test-AbstractAndPlainGroup-model",
           "path": "shr-test-AbstractAndPlainGroup-model",
           "definition": "It is an abstract group of elements",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -105,6 +107,8 @@
           "id": "shr-test-AbstractAndPlainGroup-model",
           "path": "shr-test-AbstractAndPlainGroup-model",
           "definition": "It is an abstract group of elements",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -206,6 +210,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -237,6 +243,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -311,6 +319,8 @@
           "id": "shr-test-Plain-model",
           "path": "shr-test-Plain-model",
           "definition": "It is not an entry element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -342,6 +352,8 @@
           "id": "shr-test-Plain-model",
           "path": "shr-test-Plain-model",
           "definition": "It is not an entry element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

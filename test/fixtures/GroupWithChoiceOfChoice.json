@@ -40,6 +40,8 @@
           "id": "shr-test-GroupWithChoiceOfChoice-model",
           "path": "shr-test-GroupWithChoiceOfChoice-model",
           "definition": "It is a group of elements with a choice containing a choice",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -118,6 +120,8 @@
           "id": "shr-test-GroupWithChoiceOfChoice-model",
           "path": "shr-test-GroupWithChoiceOfChoice-model",
           "definition": "It is a group of elements with a choice containing a choice",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -239,6 +243,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -270,6 +276,8 @@
           "id": "shr-test-Simple-model",
           "path": "shr-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -337,6 +345,8 @@
           "id": "shr-test-Coded-model",
           "path": "shr-test-Coded-model",
           "definition": "It is a coded element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -374,6 +384,8 @@
           "id": "shr-test-Coded-model",
           "path": "shr-test-Coded-model",
           "definition": "It is a coded element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -447,6 +459,8 @@
           "id": "shr-test-ForeignElementValue-model",
           "path": "shr-test-ForeignElementValue-model",
           "definition": "It is an element with a foreign element value",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -485,6 +499,8 @@
           "id": "shr-test-ForeignElementValue-model",
           "path": "shr-test-ForeignElementValue-model",
           "definition": "It is an element with a foreign element value",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -559,6 +575,8 @@
           "id": "shr-test-ElementValue-model",
           "path": "shr-test-ElementValue-model",
           "definition": "It is an element with an element value",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -597,6 +615,8 @@
           "id": "shr-test-ElementValue-model",
           "path": "shr-test-ElementValue-model",
           "definition": "It is an element with an element value",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -678,6 +698,8 @@
           "id": "shr-other-test-Simple-model",
           "path": "shr-other-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -709,6 +731,8 @@
           "id": "shr-other-test-Simple-model",
           "path": "shr-other-test-Simple-model",
           "definition": "It is a simple element",
+          "min": "0",
+          "max": "*",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
