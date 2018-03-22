@@ -8,7 +8,7 @@
     ],
     "pages": "pages",
     "temp": "temp",
-    "output": "output/guide/",
+    "output": "output",
     "txCache": "txCache",
     "qa": "qa",
     "specification": "http://hl7.org/fhir/STU3/"
