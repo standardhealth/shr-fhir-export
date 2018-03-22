@@ -1,7 +1,8 @@
 {
   "source": "ig.xml",
   "version": "3.0.1",
-  "fixed-business-version": "0.0.1",
+  "fixed-business-version": "0.1.0",
+  "license" :  "cc0-1.0",
   "paths": {
     "resources": [
       "resources"
@@ -13,6 +14,7 @@
     "qa": "qa",
     "specification": "http://hl7.org/fhir/STU3/"
   },
+  "npm-name": "us-breastcancer",
   "sct-edition": "http://snomed.info/sct/731000124108",
   "gen-examples": "false",
   "do-transforms": "false",
