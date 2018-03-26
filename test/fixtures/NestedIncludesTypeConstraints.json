@@ -42,6 +42,11 @@
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementFieldList-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -60,6 +65,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementFieldList-model.simple",
+            "min": 0,
+            "max": "*"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -79,6 +89,11 @@
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementFieldList-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -97,6 +112,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementFieldList-model.simple",
+            "min": 0,
+            "max": "*"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -152,6 +172,11 @@
           "definition": "It is an element with a field that contains an element with a field that is a list of elements",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementFieldListContainer-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -163,6 +188,11 @@
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-ElementFieldListContainer-model.elementFieldList",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementFieldList-model"
@@ -182,6 +212,11 @@
           "definition": "It is an element with a field that contains an element with a field that is a list of elements",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementFieldListContainer-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -193,6 +228,11 @@
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-ElementFieldListContainer-model.elementFieldList",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementFieldList-model"
@@ -248,6 +288,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild2-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -262,6 +307,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild2-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -281,6 +331,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild2-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -295,6 +350,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild2-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -350,6 +410,11 @@
           "definition": "An entry with includes types constraints that are on a nested field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -361,6 +426,11 @@
           "definition": "It is an element with a field that contains an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -377,6 +447,11 @@
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -400,6 +475,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple",
+            "min": 0,
+            "max": "1"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -411,6 +491,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
@@ -427,6 +512,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild2",
+            "min": 0,
+            "max": "2"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild2-model"
@@ -446,6 +536,11 @@
           "definition": "An entry with includes types constraints that are on a nested field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -457,6 +552,11 @@
           "definition": "It is an element with a field that contains an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -473,6 +573,11 @@
           "definition": "It is an element with a field that is a list of elements",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -496,6 +601,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple",
+            "min": 0,
+            "max": "1"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -507,6 +617,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
@@ -523,6 +638,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
+          "base": {
+            "path": "shr-test-NestedIncludesTypeConstraints-model.elementFieldListContainer.elementFieldList.simple.simpleChild2",
+            "min": 0,
+            "max": "2"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild2-model"
@@ -585,6 +705,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -599,6 +724,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -618,6 +748,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -632,6 +767,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -687,6 +827,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -701,6 +846,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -720,6 +870,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -734,6 +889,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"

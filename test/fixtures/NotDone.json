@@ -49,6 +49,11 @@
           "definition": "It is an unfinished element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-NotDone-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -60,6 +65,11 @@
           "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
           "min": 0,
           "max": "0",
+          "base": {
+            "path": "shr-test-NotDone-model.intentionallyBlank",
+            "min": 0,
+            "max": "0"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -74,6 +84,11 @@
           "definition": "It is an unfinished element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-NotDone-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -85,6 +100,11 @@
           "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
           "min": 0,
           "max": "0",
+          "base": {
+            "path": "shr-test-NotDone-model.intentionallyBlank",
+            "min": 0,
+            "max": "0"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false

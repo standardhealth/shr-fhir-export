@@ -42,6 +42,11 @@
           "definition": "It is a reference to one of a few types",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ReferenceChoice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -57,6 +62,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ReferenceChoice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "Reference",
@@ -81,6 +91,11 @@
           "definition": "It is a reference to one of a few types",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ReferenceChoice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -96,6 +111,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ReferenceChoice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "Reference",

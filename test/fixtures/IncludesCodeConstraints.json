@@ -42,6 +42,11 @@
           "definition": "An entry with a includes codes constraint.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -70,6 +75,11 @@
           ],
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model.value",
+            "min": 0,
+            "max": "*"
+          },
           "type": [
             {
               "code": "Coding"
@@ -176,6 +186,11 @@
           "requirements": "Need to be unambiguous about the source of the definition of the symbol.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "Coding.system",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "uri"
@@ -206,6 +221,11 @@
           "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.version",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -235,6 +255,11 @@
           "requirements": "Need to refer to a particular code in the system.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "Coding.code",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"
@@ -271,6 +296,11 @@
           "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.display",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -301,6 +331,11 @@
           "requirements": "This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.userSelected",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "boolean"
@@ -419,6 +454,11 @@
           "requirements": "Need to be unambiguous about the source of the definition of the symbol.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "Coding.system",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "uri"
@@ -449,6 +489,11 @@
           "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.version",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -478,6 +523,11 @@
           "requirements": "Need to refer to a particular code in the system.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "Coding.code",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"
@@ -514,6 +564,11 @@
           "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.display",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -544,6 +599,11 @@
           "requirements": "This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.userSelected",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "boolean"
@@ -575,6 +635,11 @@
           "definition": "An entry with a includes codes constraint.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -603,6 +668,11 @@
           ],
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model.value",
+            "min": 0,
+            "max": "*"
+          },
           "type": [
             {
               "code": "Coding"
@@ -709,6 +779,11 @@
           "requirements": "Need to be unambiguous about the source of the definition of the symbol.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "Coding.system",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "uri"
@@ -739,6 +814,11 @@
           "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.version",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -768,6 +848,11 @@
           "requirements": "Need to refer to a particular code in the system.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "Coding.code",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"
@@ -804,6 +889,11 @@
           "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.display",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -834,6 +924,11 @@
           "requirements": "This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.userSelected",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "boolean"
@@ -952,6 +1047,11 @@
           "requirements": "Need to be unambiguous about the source of the definition of the symbol.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "Coding.system",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "uri"
@@ -982,6 +1082,11 @@
           "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.version",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -1011,6 +1116,11 @@
           "requirements": "Need to refer to a particular code in the system.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "Coding.code",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"
@@ -1047,6 +1157,11 @@
           "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.display",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -1077,6 +1192,11 @@
           "requirements": "This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "Coding.userSelected",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "boolean"
@@ -1142,6 +1262,11 @@
           "path": "shr-core-CodeSystem-model",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-core-CodeSystem-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1156,6 +1281,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-core-CodeSystem-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "uri"
@@ -1174,6 +1304,11 @@
           "path": "shr-core-CodeSystem-model",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-core-CodeSystem-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1188,6 +1323,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-core-CodeSystem-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "uri"
@@ -1241,6 +1381,11 @@
           "path": "shr-core-CodeSystemVersion-model",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-core-CodeSystemVersion-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1255,6 +1400,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-core-CodeSystemVersion-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -1273,6 +1423,11 @@
           "path": "shr-core-CodeSystemVersion-model",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-core-CodeSystemVersion-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1287,6 +1442,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-core-CodeSystemVersion-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -1340,6 +1500,11 @@
           "path": "shr-core-DisplayText-model",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-core-DisplayText-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1354,6 +1519,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-core-DisplayText-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -1372,6 +1542,11 @@
           "path": "shr-core-DisplayText-model",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-core-DisplayText-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -1386,6 +1561,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-core-DisplayText-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"

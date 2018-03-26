@@ -42,6 +42,11 @@
           "definition": "It is a reference to a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleReference-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -56,6 +61,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleReference-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "Reference",
@@ -76,6 +86,11 @@
           "definition": "It is a reference to a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleReference-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -90,6 +105,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleReference-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "Reference",

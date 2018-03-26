@@ -42,6 +42,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild2-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -56,6 +61,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild2-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -75,6 +85,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild2-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -89,6 +104,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild2-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -144,6 +164,11 @@
           "definition": "An entry with a includes types constraints.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-IncludesTypesList-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -165,6 +190,11 @@
           ],
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-IncludesTypesList-model.value",
+            "min": 0,
+            "max": "1"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -176,6 +206,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-IncludesTypesList-model.value.simpleChild",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
@@ -192,6 +227,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
+          "base": {
+            "path": "shr-test-IncludesTypesList-model.value.simpleChild2",
+            "min": 0,
+            "max": "2"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild2-model"
@@ -211,6 +251,11 @@
           "definition": "An entry with a includes types constraints.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-IncludesTypesList-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -232,6 +277,11 @@
           ],
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-IncludesTypesList-model.value",
+            "min": 0,
+            "max": "1"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -243,6 +293,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-IncludesTypesList-model.value.simpleChild",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
@@ -259,6 +314,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
+          "base": {
+            "path": "shr-test-IncludesTypesList-model.value.simpleChild2",
+            "min": 0,
+            "max": "2"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild2-model"
@@ -321,6 +381,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -335,6 +400,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -354,6 +424,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -368,6 +443,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -423,6 +503,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -437,6 +522,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -456,6 +546,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -470,6 +565,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"

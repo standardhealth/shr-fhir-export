@@ -42,6 +42,11 @@
           "definition": "It is an element with a choice",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Choice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -68,6 +73,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Choice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -121,6 +131,11 @@
           "definition": "It is an element with a choice",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Choice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -147,6 +162,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Choice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -236,6 +256,11 @@
           "definition": "It is an element with a choice with a constraint.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -247,6 +272,11 @@
           "definition": "It is an element with a choice",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model.choice",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -266,6 +296,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -285,6 +320,11 @@
           "definition": "It is an element with a choice with a constraint.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -296,6 +336,11 @@
           "definition": "It is an element with a choice",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model.choice",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -315,6 +360,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -370,6 +420,11 @@
           "definition": "It is an element with a choice value.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ChoiceValue-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -384,6 +439,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ChoiceValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Choice-model"
@@ -403,6 +463,11 @@
           "definition": "It is an element with a choice value.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ChoiceValue-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -417,6 +482,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ChoiceValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Choice-model"
@@ -472,6 +542,11 @@
           "definition": "It is an element with a a field with a choice.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -483,6 +558,11 @@
           "definition": "It is an element with a choice value.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model.choiceValue",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceValue-model"
@@ -502,6 +582,11 @@
           "definition": "It is an element with a a field with a choice.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -513,6 +598,11 @@
           "definition": "It is an element with a choice value.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model.choiceValue",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceValue-model"
@@ -568,6 +658,11 @@
           "definition": "It is an element with a choice on a field with a constraint.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -579,6 +674,11 @@
           "definition": "It is an element with a a field with a choice.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -595,6 +695,11 @@
           "definition": "It is an element with a choice value.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -614,6 +719,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -633,6 +743,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
@@ -652,6 +767,11 @@
           "definition": "It is an element with a choice on a field with a constraint.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -663,6 +783,11 @@
           "definition": "It is an element with a a field with a choice.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -679,6 +804,11 @@
           "definition": "It is an element with a choice value.",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -698,6 +828,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -717,6 +852,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
@@ -772,6 +912,11 @@
           "definition": "It is a coded element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -786,6 +931,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"
@@ -811,6 +961,11 @@
           "definition": "It is a coded element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -825,6 +980,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"

@@ -49,6 +49,11 @@
           "definition": "It is an abstract group of elements",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -67,6 +72,11 @@
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model.simple",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -90,6 +100,11 @@
           "definition": "It is not an entry element",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model.plain",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Plain-model"
@@ -109,6 +124,11 @@
           "definition": "It is an abstract group of elements",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -127,6 +147,11 @@
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model.simple",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -150,6 +175,11 @@
           "definition": "It is not an entry element",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model.plain",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Plain-model"
@@ -212,6 +242,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -226,6 +261,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -245,6 +285,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -259,6 +304,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -321,6 +371,11 @@
           "definition": "It is not an entry element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Plain-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -335,6 +390,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Plain-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -354,6 +414,11 @@
           "definition": "It is not an entry element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Plain-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -368,6 +433,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Plain-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"

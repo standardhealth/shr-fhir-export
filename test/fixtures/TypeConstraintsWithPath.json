@@ -42,6 +42,11 @@
           "definition": "It is an element with a field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -60,6 +65,11 @@
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ElementField-model.simple",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -79,6 +89,11 @@
           "definition": "It is an element with a field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -97,6 +112,11 @@
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ElementField-model.simple",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -152,6 +172,11 @@
           "definition": "It is an element with a two-deep element field",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-TwoDeepElementField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -163,6 +188,11 @@
           "definition": "It is an element with a field.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepElementField-model.elementField",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementField-model"
@@ -182,6 +212,11 @@
           "definition": "It is an element with a two-deep element field",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-TwoDeepElementField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -193,6 +228,11 @@
           "definition": "It is an element with a field.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepElementField-model.elementField",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementField-model"
@@ -248,6 +288,11 @@
           "definition": "It is an element with a nested field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-NestedField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -259,6 +304,11 @@
           "definition": "It is an element with a two-deep element field",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedField-model.twoDeepElementField",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepElementField-model"
@@ -278,6 +328,11 @@
           "definition": "It is an element with a nested field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-NestedField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -289,6 +344,11 @@
           "definition": "It is an element with a two-deep element field",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedField-model.twoDeepElementField",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepElementField-model"
@@ -344,6 +404,11 @@
           "definition": "It derives an element with a nested field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ConstrainedPath-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -355,6 +420,11 @@
           "definition": "It is an element with a two-deep element field",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPath-model.twoDeepElementField",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -371,6 +441,11 @@
           "definition": "It is an element with a field.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPath-model.twoDeepElementField.elementField",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -387,6 +462,11 @@
           "definition": "A derivative of the simple type.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPath-model.twoDeepElementField.elementField.simpleChild",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
@@ -406,6 +486,11 @@
           "definition": "It derives an element with a nested field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ConstrainedPath-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -417,6 +502,11 @@
           "definition": "It is an element with a two-deep element field",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPath-model.twoDeepElementField",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -433,6 +523,11 @@
           "definition": "It is an element with a field.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPath-model.twoDeepElementField.elementField",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -449,6 +544,11 @@
           "definition": "A derivative of the simple type.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPath-model.twoDeepElementField.elementField.simpleChild",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
@@ -504,6 +604,11 @@
           "definition": "It has a new field with a nested constraint.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ConstrainedPathNoInheritance-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -515,6 +620,11 @@
           "definition": "It is an element with a two-deep element field",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPathNoInheritance-model.twoDeepElementField",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -531,6 +641,11 @@
           "definition": "It is an element with a field.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPathNoInheritance-model.twoDeepElementField.elementField",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -547,6 +662,11 @@
           "definition": "A derivative of the simple type.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPathNoInheritance-model.twoDeepElementField.elementField.simpleChild",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
@@ -566,6 +686,11 @@
           "definition": "It has a new field with a nested constraint.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ConstrainedPathNoInheritance-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -577,6 +702,11 @@
           "definition": "It is an element with a two-deep element field",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPathNoInheritance-model.twoDeepElementField",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -593,6 +723,11 @@
           "definition": "It is an element with a field.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPathNoInheritance-model.twoDeepElementField.elementField",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "BackboneElement"
@@ -609,6 +744,11 @@
           "definition": "A derivative of the simple type.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ConstrainedPathNoInheritance-model.twoDeepElementField.elementField.simpleChild",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
@@ -671,6 +811,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -685,6 +830,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -704,6 +854,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -718,6 +873,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -773,6 +933,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -787,6 +952,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -806,6 +976,11 @@
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -820,6 +995,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"

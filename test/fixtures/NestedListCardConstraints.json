@@ -42,6 +42,11 @@
           "definition": "An element with an optional list.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-OptionalList-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -56,6 +61,11 @@
           ],
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-OptionalList-model.value",
+            "min": 0,
+            "max": "*"
+          },
           "type": [
             {
               "code": "string"
@@ -75,6 +85,11 @@
           "definition": "An element with an optional list.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-OptionalList-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -89,6 +104,11 @@
           ],
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-OptionalList-model.value",
+            "min": 0,
+            "max": "*"
+          },
           "type": [
             {
               "code": "string"
@@ -144,6 +164,11 @@
           "definition": "An element with a list field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ListField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -155,6 +180,11 @@
           "definition": "An element with an optional list.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ListField-model.optionalList",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalList-model"
@@ -174,6 +204,11 @@
           "definition": "An element with a list field.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ListField-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -185,6 +220,11 @@
           "definition": "An element with an optional list.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ListField-model.optionalList",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalList-model"
@@ -240,6 +280,11 @@
           "definition": "It has a field with a nested card constraint on a list.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-NestedListCardConstraints-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -251,6 +296,11 @@
           "definition": "An element with a list field.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedListCardConstraints-model.listField",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ListField-model"
@@ -267,6 +317,11 @@
           "definition": "An element with an optional list.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ListField-model.optionalList",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalList-model"
@@ -286,6 +341,11 @@
           ],
           "min": 2,
           "max": "10",
+          "base": {
+            "path": "shr-test-OptionalList-model.value",
+            "min": 0,
+            "max": "*"
+          },
           "type": [
             {
               "code": "string"
@@ -305,6 +365,11 @@
           "definition": "It has a field with a nested card constraint on a list.",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-NestedListCardConstraints-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -316,6 +381,11 @@
           "definition": "An element with a list field.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-NestedListCardConstraints-model.listField",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ListField-model"
@@ -332,6 +402,11 @@
           "definition": "An element with an optional list.",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ListField-model.optionalList",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalList-model"
@@ -351,6 +426,11 @@
           ],
           "min": 2,
           "max": "10",
+          "base": {
+            "path": "shr-test-OptionalList-model.value",
+            "min": 0,
+            "max": "*"
+          },
           "type": [
             {
               "code": "string"

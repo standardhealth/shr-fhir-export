@@ -42,6 +42,11 @@
           "definition": "It is a group of elements with a choice containing a choice",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-GroupWithChoiceOfChoice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -58,6 +63,11 @@
           ],
           "min": 0,
           "max": "2",
+          "base": {
+            "path": "shr-test-GroupWithChoiceOfChoice-model.value[x]",
+            "min": 0,
+            "max": "2"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
@@ -87,6 +97,11 @@
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-GroupWithChoiceOfChoice-model.simple",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -103,6 +118,11 @@
           "definition": "It is a coded element",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-GroupWithChoiceOfChoice-model.coded",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
@@ -122,6 +142,11 @@
           "definition": "It is a group of elements with a choice containing a choice",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-GroupWithChoiceOfChoice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -138,6 +163,11 @@
           ],
           "min": 0,
           "max": "2",
+          "base": {
+            "path": "shr-test-GroupWithChoiceOfChoice-model.value[x]",
+            "min": 0,
+            "max": "2"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
@@ -167,6 +197,11 @@
           "definition": "It is a simple element",
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-GroupWithChoiceOfChoice-model.simple",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -183,6 +218,11 @@
           "definition": "It is a coded element",
           "min": 0,
           "max": "1",
+          "base": {
+            "path": "shr-test-GroupWithChoiceOfChoice-model.coded",
+            "min": 0,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
@@ -245,6 +285,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -259,6 +304,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -278,6 +328,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -292,6 +347,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -347,6 +407,11 @@
           "definition": "It is a coded element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -361,6 +426,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"
@@ -386,6 +456,11 @@
           "definition": "It is a coded element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -400,6 +475,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"
@@ -461,6 +541,11 @@
           "definition": "It is an element with a foreign element value",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ForeignElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -482,6 +567,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ForeignElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
@@ -501,6 +591,11 @@
           "definition": "It is an element with a foreign element value",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ForeignElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -522,6 +617,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ForeignElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
@@ -577,6 +677,11 @@
           "definition": "It is an element with an element value",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -598,6 +703,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -617,6 +727,11 @@
           "definition": "It is an element with an element value",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-ElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -638,6 +753,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-ElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
@@ -700,6 +820,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-other-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -714,6 +839,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-other-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -733,6 +863,11 @@
           "definition": "It is a simple element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-other-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -747,6 +882,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-other-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"

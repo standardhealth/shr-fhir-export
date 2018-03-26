@@ -42,6 +42,11 @@
           "definition": "It is an element with a choice",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Choice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -68,6 +73,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Choice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -121,6 +131,11 @@
           "definition": "It is an element with a choice",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Choice-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -147,6 +162,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Choice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "string"
@@ -236,6 +256,11 @@
           "definition": "It is a coded element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -250,6 +275,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"
@@ -275,6 +305,11 @@
           "definition": "It is a coded element",
           "min": 0,
           "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
@@ -289,6 +324,11 @@
           ],
           "min": 1,
           "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
           "type": [
             {
               "code": "code"
