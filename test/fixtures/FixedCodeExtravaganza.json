@@ -1530,6 +1530,8 @@
         {
           "id": "shr-core-CodeSystem-model",
           "path": "shr-core-CodeSystem-model",
+          "short": "CodeSystem",
+          "definition": "CodeSystem",
           "min": 0,
           "max": "*",
           "base": {
@@ -1572,6 +1574,8 @@
         {
           "id": "shr-core-CodeSystem-model",
           "path": "shr-core-CodeSystem-model",
+          "short": "CodeSystem",
+          "definition": "CodeSystem",
           "min": 0,
           "max": "*",
           "base": {
@@ -1649,6 +1653,8 @@
         {
           "id": "shr-core-CodeSystemVersion-model",
           "path": "shr-core-CodeSystemVersion-model",
+          "short": "CodeSystemVersion",
+          "definition": "CodeSystemVersion",
           "min": 0,
           "max": "*",
           "base": {
@@ -1691,6 +1697,8 @@
         {
           "id": "shr-core-CodeSystemVersion-model",
           "path": "shr-core-CodeSystemVersion-model",
+          "short": "CodeSystemVersion",
+          "definition": "CodeSystemVersion",
           "min": 0,
           "max": "*",
           "base": {
@@ -1768,6 +1776,8 @@
         {
           "id": "shr-core-DisplayText-model",
           "path": "shr-core-DisplayText-model",
+          "short": "DisplayText",
+          "definition": "DisplayText",
           "min": 0,
           "max": "*",
           "base": {
@@ -1810,6 +1820,8 @@
         {
           "id": "shr-core-DisplayText-model",
           "path": "shr-core-DisplayText-model",
+          "short": "DisplayText",
+          "definition": "DisplayText",
           "min": 0,
           "max": "*",
           "base": {
