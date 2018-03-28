@@ -356,8 +356,8 @@
         {
           "id": "shr-test-BooleanAndCodeConstraints-model.coded.value",
           "path": "shr-test-BooleanAndCodeConstraints-model.coded.value",
-          "short": "Code representing it is a coded element",
-          "definition": "Code representing it is a coded element",
+          "short": "Foobar",
+          "definition": "Foobar",
           "alias": [
             "code"
           ],
@@ -468,8 +468,8 @@
         {
           "id": "shr-test-BooleanAndCodeConstraints-model.coded.value",
           "path": "shr-test-BooleanAndCodeConstraints-model.coded.value",
-          "short": "Code representing it is a coded element",
-          "definition": "Code representing it is a coded element",
+          "short": "Foobar",
+          "definition": "Foobar",
           "alias": [
             "code"
           ],

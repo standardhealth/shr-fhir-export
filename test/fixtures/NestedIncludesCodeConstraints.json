@@ -209,13 +209,13 @@
             {
               "key": "value-1",
               "severity": "error",
-              "human": "There must exist a value of 'bar' at value.",
+              "human": "There must exist a value of 'bar' (Foobar) at value.",
               "expression": "value.where($this = 'bar').exists()"
             },
             {
               "key": "value-2",
               "severity": "error",
-              "human": "There must exist a value of 'far' at value.",
+              "human": "There must exist a value of 'far' (Boofar) at value.",
               "expression": "value.where($this = 'far').exists()"
             }
           ],
@@ -296,13 +296,13 @@
             {
               "key": "value-1",
               "severity": "error",
-              "human": "There must exist a value of 'bar' at value.",
+              "human": "There must exist a value of 'bar' (Foobar) at value.",
               "expression": "value.where($this = 'bar').exists()"
             },
             {
               "key": "value-2",
               "severity": "error",
-              "human": "There must exist a value of 'far' at value.",
+              "human": "There must exist a value of 'far' (Boofar) at value.",
               "expression": "value.where($this = 'far').exists()"
             }
           ],

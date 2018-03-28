@@ -75,13 +75,13 @@
             {
               "key": "value-1",
               "severity": "error",
-              "human": "There must exist a pairing of system 'http://foo.org' and code 'bar'.",
+              "human": "There must exist a pairing of system 'http://foo.org' and code 'bar' (Foobar).",
               "expression": "where(system = 'http://foo.org' and code = 'bar').exists()"
             },
             {
               "key": "value-2",
               "severity": "error",
-              "human": "There must exist a pairing of system 'http://boo.org' and code 'far'.",
+              "human": "There must exist a pairing of system 'http://boo.org' and code 'far' (Boofar).",
               "expression": "where(system = 'http://boo.org' and code = 'far').exists()"
             }
           ],
@@ -132,13 +132,13 @@
             {
               "key": "value-1",
               "severity": "error",
-              "human": "There must exist a pairing of system 'http://foo.org' and code 'bar'.",
+              "human": "There must exist a pairing of system 'http://foo.org' and code 'bar' (Foobar).",
               "expression": "where(system = 'http://foo.org' and code = 'bar').exists()"
             },
             {
               "key": "value-2",
               "severity": "error",
-              "human": "There must exist a pairing of system 'http://boo.org' and code 'far'.",
+              "human": "There must exist a pairing of system 'http://boo.org' and code 'far' (Boofar).",
               "expression": "where(system = 'http://boo.org' and code = 'far').exists()"
             }
           ],
