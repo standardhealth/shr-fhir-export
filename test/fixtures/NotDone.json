@@ -13,7 +13,7 @@
         "value": "shr.test.NotDone"
       }
     ],
-    "name": "NotDone",
+    "name": "NotDoneModel",
     "title": "FOOBAR NotDone Logical Model",
     "status": "draft",
     "date": "2018-02-26",

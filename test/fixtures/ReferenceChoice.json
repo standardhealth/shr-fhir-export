@@ -13,7 +13,7 @@
         "value": "shr.test.ReferenceChoice"
       }
     ],
-    "name": "ReferenceChoice",
+    "name": "ReferenceChoiceModel",
     "title": "FOOBAR ReferenceChoice Logical Model",
     "status": "draft",
     "date": "2018-02-26",

@@ -13,7 +13,7 @@
         "value": "shr.test.AbstractAndPlainGroup"
       }
     ],
-    "name": "AbstractAndPlainGroup",
+    "name": "AbstractAndPlainGroupModel",
     "title": "FOOBAR AbstractAndPlainGroup Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -206,7 +206,7 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "Simple",
+    "name": "SimpleModel",
     "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -335,7 +335,7 @@
         "value": "shr.test.Plain"
       }
     ],
-    "name": "Plain",
+    "name": "PlainModel",
     "title": "FOOBAR Plain Logical Model",
     "status": "draft",
     "date": "2018-02-26",

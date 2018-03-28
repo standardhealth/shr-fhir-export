@@ -13,7 +13,7 @@
         "value": "shr.test.ChoiceOfChoice"
       }
     ],
-    "name": "ChoiceOfChoice",
+    "name": "ChoiceOfChoiceModel",
     "title": "FOOBAR ChoiceOfChoice Logical Model",
     "status": "draft",
     "date": "2018-02-26",

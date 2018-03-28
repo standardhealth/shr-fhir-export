@@ -13,7 +13,7 @@
         "value": "shr.test.Group"
       }
     ],
-    "name": "Group",
+    "name": "GroupModel",
     "title": "FOOBAR Group Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -239,7 +239,7 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "Simple",
+    "name": "SimpleModel",
     "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -368,7 +368,7 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "Coded",
+    "name": "CodedModel",
     "title": "FOOBAR Coded Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -502,7 +502,7 @@
         "value": "shr.test.ForeignElementValue"
       }
     ],
-    "name": "ForeignElementValue",
+    "name": "ForeignElementValueModel",
     "title": "FOOBAR ForeignElementValue Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -638,7 +638,7 @@
         "value": "shr.test.ElementValue"
       }
     ],
-    "name": "ElementValue",
+    "name": "ElementValueModel",
     "title": "FOOBAR ElementValue Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -774,7 +774,7 @@
         "value": "shr.other.test.Simple"
       }
     ],
-    "name": "Simple",
+    "name": "SimpleModel",
     "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",

@@ -13,7 +13,7 @@
         "value": "shr.test.ElementField"
       }
     ],
-    "name": "ElementField",
+    "name": "ElementFieldModel",
     "title": "FOOBAR ElementField Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -143,7 +143,7 @@
         "value": "shr.test.TwoDeepElementField"
       }
     ],
-    "name": "TwoDeepElementField",
+    "name": "TwoDeepElementFieldModel",
     "title": "FOOBAR TwoDeepElementField Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -259,7 +259,7 @@
         "value": "shr.test.NestedField"
       }
     ],
-    "name": "NestedField",
+    "name": "NestedFieldModel",
     "title": "FOOBAR NestedField Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -375,7 +375,7 @@
         "value": "shr.test.ConstrainedPath"
       }
     ],
-    "name": "ConstrainedPath",
+    "name": "ConstrainedPathModel",
     "title": "FOOBAR ConstrainedPath Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -575,7 +575,7 @@
         "value": "shr.test.ConstrainedPathNoInheritance"
       }
     ],
-    "name": "ConstrainedPathNoInheritance",
+    "name": "ConstrainedPathNoInheritanceModel",
     "title": "FOOBAR ConstrainedPathNoInheritance Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -775,7 +775,7 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "Simple",
+    "name": "SimpleModel",
     "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -904,7 +904,7 @@
         "value": "shr.test.SimpleChild"
       }
     ],
-    "name": "SimpleChild",
+    "name": "SimpleChildModel",
     "title": "FOOBAR SimpleChild Logical Model",
     "status": "draft",
     "date": "2018-02-26",

@@ -13,7 +13,7 @@
         "value": "shr.test.OptionalList"
       }
     ],
-    "name": "OptionalList",
+    "name": "OptionalListModel",
     "title": "FOOBAR OptionalList Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -135,7 +135,7 @@
         "value": "shr.test.ListField"
       }
     ],
-    "name": "ListField",
+    "name": "ListFieldModel",
     "title": "FOOBAR ListField Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -251,7 +251,7 @@
         "value": "shr.test.NestedListCardConstraints"
       }
     ],
-    "name": "NestedListCardConstraints",
+    "name": "NestedListCardConstraintsModel",
     "title": "FOOBAR NestedListCardConstraints Logical Model",
     "status": "draft",
     "date": "2018-02-26",

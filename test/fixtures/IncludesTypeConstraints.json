@@ -13,7 +13,7 @@
         "value": "shr.test.SimpleChild2"
       }
     ],
-    "name": "SimpleChild2",
+    "name": "SimpleChild2Model",
     "title": "FOOBAR SimpleChild2 Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -135,7 +135,7 @@
         "value": "shr.test.IncludesTypesList"
       }
     ],
-    "name": "IncludesTypesList",
+    "name": "IncludesTypesListModel",
     "title": "FOOBAR IncludesTypesList Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -345,7 +345,7 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "Simple",
+    "name": "SimpleModel",
     "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -474,7 +474,7 @@
         "value": "shr.test.SimpleChild"
       }
     ],
-    "name": "SimpleChild",
+    "name": "SimpleChildModel",
     "title": "FOOBAR SimpleChild Logical Model",
     "status": "draft",
     "date": "2018-02-26",

@@ -13,7 +13,7 @@
         "value": "shr.test.TwoDeepElementValue"
       }
     ],
-    "name": "TwoDeepElementValue",
+    "name": "TwoDeepElementValueModel",
     "title": "FOOBAR TwoDeepElementValue Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -135,7 +135,7 @@
         "value": "shr.test.ElementValue"
       }
     ],
-    "name": "ElementValue",
+    "name": "ElementValueModel",
     "title": "FOOBAR ElementValue Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -271,7 +271,7 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "Simple",
+    "name": "SimpleModel",
     "title": "FOOBAR Simple Logical Model",
     "status": "draft",
     "date": "2018-02-26",

@@ -13,7 +13,7 @@
         "value": "shr.test.SimpleReference"
       }
     ],
-    "name": "SimpleReference",
+    "name": "SimpleReferenceModel",
     "title": "FOOBAR SimpleReference Logical Model",
     "status": "draft",
     "date": "2018-02-26",

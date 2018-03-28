@@ -13,7 +13,7 @@
         "value": "shr.test.CodedChoice"
       }
     ],
-    "name": "CodedChoice",
+    "name": "CodedChoiceModel",
     "title": "FOOBAR CodedChoice Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -143,7 +143,7 @@
         "value": "shr.test.ChoiceValueSetConstraint"
       }
     ],
-    "name": "ChoiceValueSetConstraint",
+    "name": "ChoiceValueSetConstraintModel",
     "title": "FOOBAR ChoiceValueSetConstraint Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -391,7 +391,7 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "Coded",
+    "name": "CodedModel",
     "title": "FOOBAR Coded Logical Model",
     "status": "draft",
     "date": "2018-02-26",

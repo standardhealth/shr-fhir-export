@@ -13,7 +13,7 @@
         "value": "shr.test.IncludesCodesList"
       }
     ],
-    "name": "IncludesCodesList",
+    "name": "IncludesCodesListModel",
     "title": "FOOBAR IncludesCodesList Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -163,7 +163,7 @@
         "value": "shr.core.CodeSystem"
       }
     ],
-    "name": "CodeSystem",
+    "name": "CodeSystemModel",
     "title": "FOOBAR CodeSystem Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -286,7 +286,7 @@
         "value": "shr.core.CodeSystemVersion"
       }
     ],
-    "name": "CodeSystemVersion",
+    "name": "CodeSystemVersionModel",
     "title": "FOOBAR CodeSystemVersion Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -409,7 +409,7 @@
         "value": "shr.core.DisplayText"
       }
     ],
-    "name": "DisplayText",
+    "name": "DisplayTextModel",
     "title": "FOOBAR DisplayText Logical Model",
     "status": "draft",
     "date": "2018-02-26",

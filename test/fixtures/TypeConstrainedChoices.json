@@ -13,7 +13,7 @@
         "value": "shr.test.Choice"
       }
     ],
-    "name": "Choice",
+    "name": "ChoiceModel",
     "title": "FOOBAR Choice Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -227,7 +227,7 @@
         "value": "shr.test.TypeConstrainedChoice"
       }
     ],
-    "name": "TypeConstrainedChoice",
+    "name": "TypeConstrainedChoiceModel",
     "title": "FOOBAR TypeConstrainedChoice Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -391,7 +391,7 @@
         "value": "shr.test.ChoiceValue"
       }
     ],
-    "name": "ChoiceValue",
+    "name": "ChoiceValueModel",
     "title": "FOOBAR ChoiceValue Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -513,7 +513,7 @@
         "value": "shr.test.TwoDeepChoiceField"
       }
     ],
-    "name": "TwoDeepChoiceField",
+    "name": "TwoDeepChoiceFieldModel",
     "title": "FOOBAR TwoDeepChoiceField Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -629,7 +629,7 @@
         "value": "shr.test.TypeConstrainedChoiceWithPath"
       }
     ],
-    "name": "TypeConstrainedChoiceWithPath",
+    "name": "TypeConstrainedChoiceWithPathModel",
     "title": "FOOBAR TypeConstrainedChoiceWithPath Logical Model",
     "status": "draft",
     "date": "2018-02-26",
@@ -883,7 +883,7 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "Coded",
+    "name": "CodedModel",
     "title": "FOOBAR Coded Logical Model",
     "status": "draft",
     "date": "2018-02-26",
