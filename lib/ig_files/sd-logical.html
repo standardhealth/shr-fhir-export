@@ -61,7 +61,28 @@ This logical model was published on {{ site.data.structuredefinitions.{{[id]}}.d
 </p>
 
 <div id="structure">
-  {% include {{[type]}}-{{[id]}}-snapshot.xhtml %}
+  {% comment %}
+    This is a hack to fix the issue w/ the IG Publisher outputting unlinked canonical URLs as the types in the snapshot
+    table.  This makes the table hard to read and hard to navigate, so we fix it by replacing the canonical URLs with
+    shorter names and relative links.  This hack should be removed when the IG Publisher is fixed.
+    See: https://chat.fhir.org/#narrow/stream/implementers/topic/Specifying.20a.20Logic.20Model.20as.20type
+  {% endcomment %}
+  {% capture "snapshotTable" %}{% include {{[type]}}-{{[id]}}-snapshot.xhtml %}{% endcapture %}
+  {% for sd in site.data.structuredefinitions %}
+    {% capture "original" %}>{{sd[1].url}}</td>{% endcapture %}
+    {% capture "replacement" %}><a href="StructureDefinition-{{sd[0]}}.html">{{sd[1].name}}</a></td>{% endcapture %}
+    {% assign snapshotTable = snapshotTable | replace: original, replacement %}
+    {% capture "original" %}>{{sd[1].url}},{% endcapture %}
+    {% capture "replacement" %}><a href="StructureDefinition-{{sd[0]}}.html">{{sd[1].name}}</a>,{% endcapture %}
+    {% assign snapshotTable = snapshotTable | replace: original, replacement %}
+    {% capture "original" %}, {{sd[1].url}},{% endcapture %}
+    {% capture "replacement" %}, <a href="StructureDefinition-{{sd[0]}}.html">{{sd[1].name}}</a>,{% endcapture %}
+    {% assign snapshotTable = snapshotTable | replace: original, replacement %}
+    {% capture "original" %}, {{sd[1].url}}</td>{% endcapture %}
+    {% capture "replacement" %}, <a href="StructureDefinition-{{sd[0]}}.html">{{sd[1].name}}</a></td>{% endcapture %}
+    {% assign snapshotTable = snapshotTable | replace: original, replacement %}
+  {% endfor %}
+  {{snapshotTable}}
 </div>
 
 <a name="downloads"> </a>
