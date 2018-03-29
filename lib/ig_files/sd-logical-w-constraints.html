@@ -1,6 +1,11 @@
 ---
 # jekyll header
 ---
+{% comment %}
+There must be a better way, but I cannot find it.  I've tried using includes, etc, but Jekyll always errors out.
+So... this is a complete copy of sd-logical.html with the constraints/invariants thrown in at the end. (Sigh).
+This is necessary because when there are no constraints, the IG publisher produces an empty table that looks funny.
+{% endcomment %}
 {% include header.html %}
 
 <div id="segment-breadcrumb" class="segmnt">
@@ -87,6 +92,11 @@ This logical model was published on {{ site.data.structuredefinitions.{{[id]}}.d
 
 <a name="tx"> </a>
 {%include {{[type]}}-{{[id]}}-tx.xhtml%}
+
+<p>&nbsp;</p>
+
+<a name="inv"> </a>
+{%include {{[type]}}-{{[id]}}-inv.xhtml%}
 
 <p>&nbsp;</p>
 
