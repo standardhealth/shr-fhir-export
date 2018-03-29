@@ -20,12 +20,23 @@
 
 <!-- ============CONTENT CONTENT=============== -->
 
+{% capture "name" %}{{[name]}}{% endcapture %}
 <ul class="nav nav-tabs">
   <li><a href="{{[type]}}-{{[id]}}.html">Content</a></li>
   <li><a href="{{[type]}}-{{[id]}}-definitions.html">Detailed Descriptions</a></li>
+{% if name contains "xml" %}
+  <li class="active"><a href="#">XML</a></li>
+{% endif %}{% unless name contains "xml" %}
   <li><a href="{{[type]}}-{{[id]}}.xml.html">XML</a></li>
+{% endunless %}{% if name contains "json" %}
+  <li class="active"><a href="#">JSON</a></li>
+{% endif %}{% unless name contains "json" %}
   <li><a href="{{[type]}}-{{[id]}}.json.html">JSON</a></li>
+{% endunless %}{% if name contains "ttl" %}
+  <li class="active"><a href="#">Turtle</a></li>
+{% endif %}{% unless name contains "ttl" %}
   <li><a href="{{[type]}}-{{[id]}}.ttl.html">Turtle</a></li>
+{% endunless %}
 </ul>
 
 <h2>{{[title]}}</h2>
