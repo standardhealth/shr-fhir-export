@@ -4,17 +4,18 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>{{site.data.fhir.igName}}</title>
+  {% comment %}strip "FHIR Profiles" off end{% endcomment %}
+  <title>{{site.data.fhir.igName | append: "EOS" | remove: " FHIR ProfilesEOS"}}</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="<project-name-go-here> FHIR Implemenation Guide" />
-  <meta name="author" content="http://standardhealthrecord.org" />
+  <meta name="description" content="{{site.data.fhir.igName}}" />
 
   <link href="fhir.css" rel="stylesheet" />
 
   <!-- Bootstrap core CSS -->
   <link href="dist/css/bootstrap.css" rel="stylesheet" />
   <link href="assets/css/bootstrap-fhir.css" rel="stylesheet" />
+  <link href="assets/css/bootstrap-glyphicons.css" rel="stylesheet">
 
   <!-- Project extras -->
   <link href="assets/css/project.css" rel="stylesheet" />
