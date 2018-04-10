@@ -1,18 +1,20 @@
 {
-  "source": "ImplementationGuide/data.xml",
+  "source": "ig.xml",
   "version": "3.0.1",
-  "fixed-business-version": "0.0.1",
+  "fixed-business-version": "0.1.0",
+  "license" :  "cc0-1.0",
   "paths": {
     "resources": [
       "resources"
     ],
     "pages": "pages",
     "temp": "temp",
-    "output": "output/guide/",
+    "output": "output",
     "txCache": "txCache",
     "qa": "qa",
     "specification": "http://hl7.org/fhir/STU3/"
   },
+  "npm-name": "us-breastcancer",
   "sct-edition": "http://snomed.info/sct/731000124108",
   "gen-examples": "false",
   "do-transforms": "false",
@@ -20,7 +22,8 @@
   "dependencyList": [
     {
        "name" : "USCore",
-       "location" : "http://hl7.org/fhir/us/core/1.0.1/"
+       "location" : "http://hl7.org/fhir/us/core/1.0.1",
+       "source": "uscore"
     }
   ],
   "defaults": {

@@ -4,20 +4,29 @@
 {% include header.html %}
 
 <!-- ============BreadCrumb=============== -->
+<div id="segment-breadcrumb" class="segmnt">
+  <!-- segment-breadcrumb -->
+  <div class="container">
+    <!-- container -->
+    <ul class="breadcrumb">
+      <li title="home"><a href="index.html"><b>Home</b></a></li>
+      <li><b>Profiles</b></li>
+    </ul>
+  </div>
+  <!-- /container -->
+</div>
+<!-- /segment-breadcrumb -->
 
 {% include container-start.html %}
 
 <!-- ============CONTENT CONTENT=============== -->
 
 <h2>
-  Profiles defined as part of this Guide
+  Primary profiles defined as part of this Implementation Guide
 </h2>
 <table class="codes">
   <thead>
     <tr>
-      <td>
-        <b><project-shorthand-go-here/> Namespace</b>
-      </td>
       <td>
         <b>Name</b>
       </td>
@@ -30,7 +39,29 @@
     </tr>
   </thead>
   <tbody>
-    <resources-go-here/>
+    <primary-profiles-go-here/>
+  </tbody>
+</table>
+
+<h2>
+  Supporting profiles defined as part of this Implementation Guide
+</h2>
+<table class="codes">
+  <thead>
+    <tr>
+      <td>
+        <b>Name</b>
+      </td>
+      <td>
+        <b>Based On</b>
+      </td>
+      <td>
+        <b>Definition</b>
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <support-profiles-go-here/>
   </tbody>
 </table>
 

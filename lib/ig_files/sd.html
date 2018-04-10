@@ -9,6 +9,7 @@
     <!-- container -->
     <ul class="breadcrumb">
       <li title="home"><a href="index.html"><b>Home</b></a></li>
+      <li title="profiles"><a href="profiles.html"><b>Profiles</b></a></li>
       <li><b>{{[title]}}</b></li>
     </ul>
   </div>
@@ -34,7 +35,11 @@
 <p>&nbsp;</p>
 {% include {{[type]}}-{{[id]}}-header.xhtml %}
 <p>
-  <a href="{{site.data.fhir.path}}profiling.html#representation">Description of Profiles, Differentials, Snapshots, and how the XML and JSON presentations work</a>.
+  {% capture modelId %}{{[id]}}-model{% endcapture %}
+  {% if site.data.structuredefinitions[modelId] %}
+  <a href="{{ site.data.structuredefinitions.{{[id]}}.path | replace: ".html", "-model.html" }}">View the corresponding
+  {{ site.data.structuredefinitions[modelId].name }} logical model.</a>
+  {% endif %}
 </p>
 
 <div id="tabs">

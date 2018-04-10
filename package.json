@@ -1,6 +1,6 @@
 {
   "name": "shr-fhir-export",
-  "version": "5.4.0",
+  "version": "5.5.0",
   "description": "Exports SHR data elements from SHR models to FHIR profiles",
   "author": "",
   "license": "Apache-2.0",
@@ -12,22 +12,25 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec --recursive",
     "test:watch": "npm test -- --watch",
+    "test:fix": "FIX_TEST_ERRORS=true ./node_modules/.bin/mocha --reporter spec --recursive",
     "test:debug": "./node_modules/.bin/mocha --inspect --debug-brk --reporter spec --recursive",
     "lint": "./node_modules/.bin/eslint .",
     "lint:fix": "./node_modules/.bin/eslint . --fix"
   },
   "dependencies": {
-    "fs-extra": "^2.0.0"
+    "fs-extra": "^2.0.0",
+    "lodash": "^4.17.5"
   },
   "devDependencies": {
     "bunyan": "^1.8.9",
     "chai": "^3.5.0",
     "eslint": "^3.6.1",
     "mocha": "^3.2.0",
-    "shr-models": "^5.4.0"
+    "shr-models": "^5.5.0",
+    "shr-test-helpers": "^5.2.0"
   },
   "peerDependencies": {
     "bunyan": "^1.8.9",
-    "shr-models": "^5.4.0"
+    "shr-models": "^5.5.0"
   }
 }

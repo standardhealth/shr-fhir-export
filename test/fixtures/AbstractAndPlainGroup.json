@@ -1,0 +1,453 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-AbstractAndPlainGroup-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR AbstractAndPlainGroup Logical Model</b></p>\n  <p>It is an abstract group of elements</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-AbstractAndPlainGroup-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.test.AbstractAndPlainGroup"
+      }
+    ],
+    "name": "AbstractAndPlainGroupModel",
+    "title": "FOOBAR AbstractAndPlainGroup Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an abstract group of elements",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      }
+    ],
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-AbstractAndPlainGroup-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-AbstractAndPlainGroup-model",
+          "path": "shr-test-AbstractAndPlainGroup-model",
+          "definition": "It is an abstract group of elements",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-AbstractAndPlainGroup-model.simple",
+          "path": "shr-test-AbstractAndPlainGroup-model.simple",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is a simple element",
+          "definition": "It is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model.simple",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-AbstractAndPlainGroup-model.plain",
+          "path": "shr-test-AbstractAndPlainGroup-model.plain",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is not an entry element",
+          "definition": "It is not an entry element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model.plain",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Plain-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-AbstractAndPlainGroup-model",
+          "path": "shr-test-AbstractAndPlainGroup-model",
+          "definition": "It is an abstract group of elements",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-AbstractAndPlainGroup-model.simple",
+          "path": "shr-test-AbstractAndPlainGroup-model.simple",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is a simple element",
+          "definition": "It is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model.simple",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-AbstractAndPlainGroup-model.plain",
+          "path": "shr-test-AbstractAndPlainGroup-model.plain",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is not an entry element",
+          "definition": "It is not an entry element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-AbstractAndPlainGroup-model.plain",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Plain-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Simple-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.test.Simple"
+      }
+    ],
+    "name": "SimpleModel",
+    "title": "FOOBAR Simple Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a simple element",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      }
+    ],
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Simple-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Plain-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Plain Logical Model</b></p>\n  <p>It is not an entry element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Plain-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.test.Plain"
+      }
+    ],
+    "name": "PlainModel",
+    "title": "FOOBAR Plain Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is not an entry element",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      }
+    ],
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Plain-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Plain-model",
+          "path": "shr-test-Plain-model",
+          "definition": "It is not an entry element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Plain-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Plain-model.value",
+          "path": "shr-test-Plain-model.value",
+          "short": "String representing it is not an entry element",
+          "definition": "String representing it is not an entry element",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Plain-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Plain-model",
+          "path": "shr-test-Plain-model",
+          "definition": "It is not an entry element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Plain-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Plain-model.value",
+          "path": "shr-test-Plain-model.value",
+          "short": "String representing it is not an entry element",
+          "definition": "String representing it is not an entry element",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Plain-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  }
+]

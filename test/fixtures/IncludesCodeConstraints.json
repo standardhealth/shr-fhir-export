@@ -1,0 +1,521 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-IncludesCodesList-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR IncludesCodesList Logical Model</b></p>\n  <p>An entry with a includes codes constraint.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-IncludesCodesList-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.test.IncludesCodesList"
+      }
+    ],
+    "name": "IncludesCodesListModel",
+    "title": "FOOBAR IncludesCodesList Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "An entry with a includes codes constraint.",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-IncludesCodesList-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-IncludesCodesList-model",
+          "path": "shr-test-IncludesCodesList-model",
+          "definition": "An entry with a includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-IncludesCodesList-model.value",
+          "path": "shr-test-IncludesCodesList-model.value",
+          "short": "Code representing an entry with a includes codes constraint.",
+          "definition": "Code representing an entry with a includes codes constraint.",
+          "alias": [
+            "codeableConcept"
+          ],
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model.value",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "constraint": [
+            {
+              "key": "value-1",
+              "severity": "error",
+              "human": "There must exist a pairing of system 'http://foo.org' and code 'bar' (Foobar).",
+              "expression": "where(system = 'http://foo.org' and code = 'bar').exists()"
+            },
+            {
+              "key": "value-2",
+              "severity": "error",
+              "human": "There must exist a pairing of system 'http://boo.org' and code 'far' (Boofar).",
+              "expression": "where(system = 'http://boo.org' and code = 'far').exists()"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-IncludesCodesList-model",
+          "path": "shr-test-IncludesCodesList-model",
+          "definition": "An entry with a includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-IncludesCodesList-model.value",
+          "path": "shr-test-IncludesCodesList-model.value",
+          "short": "Code representing an entry with a includes codes constraint.",
+          "definition": "Code representing an entry with a includes codes constraint.",
+          "alias": [
+            "codeableConcept"
+          ],
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model.value",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "constraint": [
+            {
+              "key": "value-1",
+              "severity": "error",
+              "human": "There must exist a pairing of system 'http://foo.org' and code 'bar' (Foobar).",
+              "expression": "where(system = 'http://foo.org' and code = 'bar').exists()"
+            },
+            {
+              "key": "value-2",
+              "severity": "error",
+              "human": "There must exist a pairing of system 'http://boo.org' and code 'far' (Boofar).",
+              "expression": "where(system = 'http://boo.org' and code = 'far').exists()"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-core-CodeSystem-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR CodeSystem Logical Model</b></p>\n  <p></p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-core-CodeSystem-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.core.CodeSystem"
+      }
+    ],
+    "name": "CodeSystemModel",
+    "title": "FOOBAR CodeSystem Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-core-CodeSystem-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-core-CodeSystem-model",
+          "path": "shr-core-CodeSystem-model",
+          "short": "CodeSystem",
+          "definition": "CodeSystem",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-core-CodeSystem-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-core-CodeSystem-model.value",
+          "path": "shr-core-CodeSystem-model.value",
+          "short": "Uri representing the logical model instance",
+          "definition": "Uri representing the logical model instance",
+          "alias": [
+            "uri"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-core-CodeSystem-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "uri"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-core-CodeSystem-model",
+          "path": "shr-core-CodeSystem-model",
+          "short": "CodeSystem",
+          "definition": "CodeSystem",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-core-CodeSystem-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-core-CodeSystem-model.value",
+          "path": "shr-core-CodeSystem-model.value",
+          "short": "Uri representing the logical model instance",
+          "definition": "Uri representing the logical model instance",
+          "alias": [
+            "uri"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-core-CodeSystem-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "uri"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-core-CodeSystemVersion-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR CodeSystemVersion Logical Model</b></p>\n  <p></p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-core-CodeSystemVersion-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.core.CodeSystemVersion"
+      }
+    ],
+    "name": "CodeSystemVersionModel",
+    "title": "FOOBAR CodeSystemVersion Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-core-CodeSystemVersion-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-core-CodeSystemVersion-model",
+          "path": "shr-core-CodeSystemVersion-model",
+          "short": "CodeSystemVersion",
+          "definition": "CodeSystemVersion",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-core-CodeSystemVersion-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-core-CodeSystemVersion-model.value",
+          "path": "shr-core-CodeSystemVersion-model.value",
+          "short": "String representing the logical model instance",
+          "definition": "String representing the logical model instance",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-core-CodeSystemVersion-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-core-CodeSystemVersion-model",
+          "path": "shr-core-CodeSystemVersion-model",
+          "short": "CodeSystemVersion",
+          "definition": "CodeSystemVersion",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-core-CodeSystemVersion-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-core-CodeSystemVersion-model.value",
+          "path": "shr-core-CodeSystemVersion-model.value",
+          "short": "String representing the logical model instance",
+          "definition": "String representing the logical model instance",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-core-CodeSystemVersion-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-core-DisplayText-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR DisplayText Logical Model</b></p>\n  <p></p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-core-DisplayText-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.core.DisplayText"
+      }
+    ],
+    "name": "DisplayTextModel",
+    "title": "FOOBAR DisplayText Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-core-DisplayText-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-core-DisplayText-model",
+          "path": "shr-core-DisplayText-model",
+          "short": "DisplayText",
+          "definition": "DisplayText",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-core-DisplayText-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-core-DisplayText-model.value",
+          "path": "shr-core-DisplayText-model.value",
+          "short": "String representing the logical model instance",
+          "definition": "String representing the logical model instance",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-core-DisplayText-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-core-DisplayText-model",
+          "path": "shr-core-DisplayText-model",
+          "short": "DisplayText",
+          "definition": "DisplayText",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-core-DisplayText-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-core-DisplayText-model.value",
+          "path": "shr-core-DisplayText-model.value",
+          "short": "String representing the logical model instance",
+          "definition": "String representing the logical model instance",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-core-DisplayText-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,517 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-TypeConstrainedReference-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR TypeConstrainedReference Logical Model</b></p>\n  <p>It is an element a constraint on a reference.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TypeConstrainedReference-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.test.TypeConstrainedReference"
+      }
+    ],
+    "name": "TypeConstrainedReferenceModel",
+    "title": "FOOBAR TypeConstrainedReference Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element a constraint on a reference.",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-TypeConstrainedReference-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-TypeConstrainedReference-model",
+          "path": "shr-test-TypeConstrainedReference-model",
+          "definition": "It is an element a constraint on a reference.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedReference-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TypeConstrainedReference-model.value",
+          "path": "shr-test-TypeConstrainedReference-model.value",
+          "short": "Simple representing it is an element a constraint on a reference.",
+          "definition": "Simple representing it is an element a constraint on a reference.",
+          "alias": [
+            "simple",
+            "simpleChild"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedReference-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Reference",
+              "targetProfile": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-TypeConstrainedReference-model",
+          "path": "shr-test-TypeConstrainedReference-model",
+          "definition": "It is an element a constraint on a reference.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedReference-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TypeConstrainedReference-model.value",
+          "path": "shr-test-TypeConstrainedReference-model.value",
+          "short": "Simple representing it is an element a constraint on a reference.",
+          "definition": "Simple representing it is an element a constraint on a reference.",
+          "alias": [
+            "simple",
+            "simpleChild"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedReference-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Reference",
+              "targetProfile": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Simple-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.test.Simple"
+      }
+    ],
+    "name": "SimpleModel",
+    "title": "FOOBAR Simple Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a simple element",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      }
+    ],
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Simple-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-SimpleChild-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR SimpleChild Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.test.SimpleChild"
+      }
+    ],
+    "name": "SimpleChildModel",
+    "title": "FOOBAR SimpleChild Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "A derivative of the simple type.",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-SimpleChild-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-SimpleChild-model",
+          "path": "shr-test-SimpleChild-model",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-SimpleChild-model.value",
+          "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
+          "definition": "String representing a derivative of the simple type.",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-SimpleChild-model",
+          "path": "shr-test-SimpleChild-model",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-SimpleChild-model.value",
+          "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
+          "definition": "String representing a derivative of the simple type.",
+          "alias": [
+            "string"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-SimpleReference-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR SimpleReference Logical Model</b></p>\n  <p>It is a reference to a simple element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleReference-model",
+    "identifier": [
+      {
+        "system": "http://foobar.com",
+        "value": "shr.test.SimpleReference"
+      }
+    ],
+    "name": "SimpleReferenceModel",
+    "title": "FOOBAR SimpleReference Logical Model",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a reference to a simple element",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-SimpleReference-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-SimpleReference-model",
+          "path": "shr-test-SimpleReference-model",
+          "definition": "It is a reference to a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-SimpleReference-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-SimpleReference-model.value",
+          "path": "shr-test-SimpleReference-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is a reference to a simple element",
+          "definition": "Simple representing it is a reference to a simple element",
+          "alias": [
+            "simple"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-SimpleReference-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Reference",
+              "targetProfile": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-SimpleReference-model",
+          "path": "shr-test-SimpleReference-model",
+          "definition": "It is a reference to a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-SimpleReference-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-SimpleReference-model.value",
+          "path": "shr-test-SimpleReference-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is a reference to a simple element",
+          "definition": "Simple representing it is a reference to a simple element",
+          "alias": [
+            "simple"
+          ],
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-SimpleReference-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Reference",
+              "targetProfile": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  }
+]
