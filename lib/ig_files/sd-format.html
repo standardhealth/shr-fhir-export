@@ -9,6 +9,14 @@
     <!-- container -->
     <ul class="breadcrumb">
       <li title="home"><a href="index.html"><b>Home</b></a></li>
+{% assign sd = site.data.structuredefinitions.{{[id]}} %}
+{% if sd.kind == "resource" %}
+      <li title="profiles"><a href="profiles.html"><b>Profiles</b></a></li>
+{% endif %}{% if sd.kind == "complex-type" and sd.type == 'Extension' %}
+      <li title="extensions"><a href="extensions.html"><b>Extensions</b></a></li>
+{% endif %}{% if sd.kind == "logical" %}
+      <li title="logical models"><a href="logical.html"><b>Logical Models</b></a></li>
+{% endif %}
       <li><b>{{[title]}}</b></li>
     </ul>
   </div>
@@ -20,10 +28,14 @@
 
 <!-- ============CONTENT CONTENT=============== -->
 
+{% capture examples %}{% include {{[type]}}-example-list-{{[id]}}.xhtml %}{% endcapture %}
 {% capture "name" %}{{[name]}}{% endcapture %}
 <ul class="nav nav-tabs">
   <li><a href="{{[type]}}-{{[id]}}.html">Content</a></li>
   <li><a href="{{[type]}}-{{[id]}}-definitions.html">Detailed Descriptions</a></li>
+{% if examples != "" %}
+  <li><a href="{{[type]}}-{{[id]}}-examples.html">Examples</a></li>
+{% endif %}
 {% if name contains "xml" %}
   <li class="active"><a href="#">XML</a></li>
 {% endif %}{% unless name contains "xml" %}
