@@ -9,6 +9,12 @@
     <!-- container -->
     <ul class="breadcrumb">
       <li title="home"><a href="index.html"><b>Home</b></a></li>
+{% capture type %}{{[type]}}{% endcapture %}
+{% if type == 'ValueSet' %}
+      <li title="value sets"><a href="valuesets.html"><b>Value Sets</b></a></li>
+{% endif %}{% if type == 'CodeSystem' %}
+      <li title="code systems"><a href="codesystems.html"><b>Code Systems</b></a></li>
+{% endif %}
       <li><b>{{[title]}}</b></li>
     </ul>
   </div>
@@ -20,11 +26,25 @@
 
 <!-- ============CONTENT CONTENT=============== -->
 
+{% capture "name" %}{{[name]}}{% endcapture %}
 <ul class="nav nav-tabs">
+{% if name contains "xml" or name contains "json" or name contains "ttl" %}
   <li><a href="{{[type]}}-{{[id]}}.html">Content</a></li>
+{% endif %}{% unless name contains "xml" or name contains "json" or name contains "ttl" %}
+  <li class="active"><a href="#">Content</a></li>
+{% endunless %}{% if name contains "xml" %}
+  <li class="active"><a href="#">XML</a></li>
+{% endif %}{% unless name contains "xml" %}
   <li><a href="{{[type]}}-{{[id]}}.xml.html">XML</a></li>
+{% endunless %}{% if name contains "json" %}
+  <li class="active"><a href="#">JSON</a></li>
+{% endif %}{% unless name contains "json" %}
   <li><a href="{{[type]}}-{{[id]}}.json.html">JSON</a></li>
+{% endunless %}{% if name contains "ttl" %}
+  <li class="active"><a href="#">Turtle</a></li>
+{% endif %}{% unless name contains "ttl" %}
   <li><a href="{{[type]}}-{{[id]}}.ttl.html">Turtle</a></li>
+{% endunless %}
 </ul>
 
 <h2>{{[title]}}</h2>
