@@ -13,12 +13,12 @@ sanityCheckModules({ 'shr-test-helpers': export_tests });
 function fixFn (name, result, errors) {
   if (/^\s*(true|yes|1)\s*$/i.test(process.env.FIX_TEST_ERRORS)) {
     if (result != null) {
-      const fixture = path.join(`${__dirname}/fixtures/`, `${name}.json`);
+      const fixture = path.join(`${__dirname}/fixtures/models`, `${name}.json`);
       console.error(`Fixing ${name} expected fixture to actual result.  Check ${fixture}.`);
       fs.writeFileSync(fixture, JSON.stringify(result, null, 2));
     }
     if (errors.length) {
-      const fixture_err = path.join(`${__dirname}/fixtures/`, `${name}_errors.json`);
+      const fixture_err = path.join(`${__dirname}/fixtures/models`, `${name}_errors.json`);
       console.error(`Fixing ${name} expected errors fixture to actual errors.  Check ${fixture_err}.`);
       fs.writeFileSync(fixture_err, JSON.stringify(errors.map(e => ({ msg: e.msg })), null, 2));
     }
@@ -28,11 +28,11 @@ function fixFn (name, result, errors) {
 // Set the logger -- this is needed for detecting and checking errors
 setLogger(err.logger());
 
-describe('#exportToJSON()', commonExportTests(exportSpecifications, importFixture, importErrorsFixture, fixFn, path.join(__dirname, 'actuals')));
+describe('#exportToJSON()', commonExportTests(exportSpecifications, importFixture, importErrorsFixture, fixFn, path.join(__dirname, 'actuals', 'models')));
 
 function defaultConfiguration()
 {
-  return JSON.parse(fs.readFileSync(`${__dirname}/fixtures/config/defaultConfig.json`, 'utf8'));
+  return JSON.parse(fs.readFileSync(`${__dirname}/fixtures/models/config/defaultConfig.json`, 'utf8'));
 }
 
 function exportSpecifications(specifications) {
@@ -41,11 +41,11 @@ function exportSpecifications(specifications) {
 }
 
 function importFixture(name, ext='.json') {
-  return JSON.parse(fs.readFileSync(`${__dirname}/fixtures/${name}${ext}`, 'utf8'));
+  return JSON.parse(fs.readFileSync(`${__dirname}/fixtures/models/${name}${ext}`, 'utf8'));
 }
 
 function importErrorsFixture(name, ext='.json') {
-  const file = `${__dirname}/fixtures/${name}_errors${ext}`;
+  const file = `${__dirname}/fixtures/models/${name}_errors${ext}`;
   if (fs.existsSync(file)) {
     return JSON.parse(fs.readFileSync(file, 'utf8'));
   } else {
