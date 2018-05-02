@@ -37,6 +37,13 @@ The nature of these regression tests is that the baseline they test agains is _e
 
 Note that the current regression fixtures don't exercise all code paths / features.  They are, in fact, the specifications that were balloted as the HL7 FHIR US Breast Cancer IG in May 2018.
 
+## Fixing Tests
+
+The Model and Regression tests support a special "fix" mode that will update test fixtures with actual results.  This is particularly useful for regression tests when a new feature is added and the developer has determined that all regression failures are due to _intentional_ changes.  To run the auto fix:
+```bash
+$ yarn test:fix
+```
+
 # Linting the Code
 
 To encourage quality and consistency within the code base, all code should pass eslint without any warnings.  Many text editors can be configured to automatically flag eslint violations.  We also provide an npm script for running eslint on the project.  To run eslint, execute the following command:

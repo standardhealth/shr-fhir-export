@@ -9,8 +9,8 @@ const shrFE = require('../index');
 
 sanityCheckModules({shrTI, shrEx, shrFE});
 
-
 describe('Export to FHIR regression tests (SLOW - to skip use "yarn test:fast")', function () {
+  const FIX_ERRORS = /^\s*(true|yes|1)\s*$/i.test(process.env.FIX_TEST_ERRORS);
   const FIXTURES_SPEC_PATH = path.join(__dirname, 'fixtures', 'regression', 'spec');
   const FIXTURES_EXPECTED_PATH = path.join(__dirname, 'fixtures', 'regression', 'expected');
 
@@ -41,15 +41,54 @@ describe('Export to FHIR regression tests (SLOW - to skip use "yarn test:fast")'
         tested.set(expected.id, true);
         it(`should export ${name}: ${expected.id}`, function () {
           const actual = result[`${name}s`].find(r => r.id === expected.id);
-          expect(actual, `${name} not found: ${expected.id}`).to.not.be.null;
+          try {
+            expect(actual, `${name} not found: ${expected.id}`).to.exist;
+          } catch (e) {
+            if (FIX_ERRORS) {
+              fs.remove(filePath, err => {
+                if (err) {
+                  console.error(`UNSUCCESSFUL FIX: Could not delete ${name} ${expected.id}`, err);
+                } else {
+                  console.warn(`FIX: Deleted ${name} ${expected.id} since it is no longer exported`);
+                }
+              });
+            }
+            throw e;
+          }
           const normalizedActual = JSON.parse(JSON.stringify(actual));
-          expect(normalizedActual).to.eql(expected);
+          try {
+            expect(normalizedActual).to.eql(expected);
+          } catch (e) {
+            if (FIX_ERRORS) {
+              fs.writeFile(filePath, JSON.stringify(actual, null, 2), 'utf8', err => {
+                if (err) {
+                  console.error(`UNSUCCESSFUL FIX: Could not update ${name} ${expected.id}`, err);
+                } else {
+                  console.warn(`FIX: Updated ${name} ${expected.id} based on new actual value`);
+                }
+              });
+            }
+            throw e;
+          }
         });
       }
 
       it (`should not export unexpected ${name}s`, function() {
-        const unexpected = result[`${name}s`].map(r => r.id).filter(id => !tested.has(id));
-        expect(unexpected, `exported unexpected ${name}s: ${unexpected.join(', ')}`).to.be.empty;
+        const unexpected = result[`${name}s`].filter(r => !tested.has(r.id));
+        for (const actual of unexpected) {
+          if (FIX_ERRORS) {
+            const filePath = path.join(parentPath, `${actual.id}.json`);
+            fs.writeFile(filePath, JSON.stringify(actual, null, 2), 'utf8', err => {
+              if (err) {
+                console.error(`UNSUCCESSFUL FIX: Could not add ${name} ${actual.id}`, err);
+              } else {
+                console.warn(`FIX: Added ${name} ${actual.id} based on actual value`);
+              }
+            });
+          }
+        }
+        const unexpectedIds = unexpected.map(r => r.id).join(', ');
+        expect(unexpected, `exported unexpected ${name}s: ${unexpectedIds}`).to.be.empty;
       });
     });
   });
