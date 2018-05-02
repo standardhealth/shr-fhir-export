@@ -1,0 +1,25 @@
+{
+    "projectName": "HL7 FHIR® Implementation Guide: Breast Cancer Data, Release 1 - US Realm",
+    "projectShorthand": "BC",
+    "projectURL": "http://hl7.org/fhir/us/breastcancer/",
+    "fhirURL": "http://hl7.org/fhir/us/breastcancer/",
+    "entryTypeURL": "http://hl7.org/fhir/us/breastcancer/spec",
+	"igLogicalModels": true,
+	"igModelDoc": true,
+	"igPrimarySelectionStrategy": {
+        "strategy": "namespace",
+        "primary": ["oncology"]
+    },
+    "igIndexContent": "breastcancerIndexContent.html",
+    "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://standardhealthrecord.org"
+                }
+            ]
+        }
+    ]
+}

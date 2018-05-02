@@ -1,0 +1,321 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "oncology-BreastCancerPrimaryTumorClassification-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC BreastCancerPrimaryTumorClassification Logical Model</b></p>\n  <p>The size and extent of the primary tumor, based on criteria defined by the staging system being used.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/oncology-BreastCancerPrimaryTumorClassification-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.BreastCancerPrimaryTumorClassification"
+    }
+  ],
+  "name": "BreastCancerPrimaryTumorClassificationModel",
+  "title": "BC BreastCancerPrimaryTumorClassification Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The size and extent of the primary tumor, based on criteria defined by the staging system being used.",
+  "keyword": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "78873005",
+      "display": "T category"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "oncology-BreastCancerPrimaryTumorClassification-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model",
+        "definition": "The size and extent of the primary tumor, based on criteria defined by the staging system being used.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.value",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.value",
+        "short": "Code representing the size and extent of the primary tumor, based on criteria defined by the staging system being used.",
+        "definition": "Code representing the size and extent of the primary tumor, based on criteria defined by the staging system being used.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.exceptionValue",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.exceptionValue",
+        "short": "Reason that a value associated with a test or other finding is missing.",
+        "definition": "Reason that a value associated with a test or other finding is missing.\n\nCIMI Alignment: This attribute corresponds to EvaluationResultTopic.exceptionValue, but has been moved from topic to context because missing values are only relevant when they should be recorded, but are not. The value set binding extends the set of FHIR's required data absent values, with additional concepts from CIMI.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.exceptionValue",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ExceptionValue-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.interpretation",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.interpretation",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0420833"
+          }
+        ],
+        "short": "A clinical interpretation of a finding.",
+        "definition": "A clinical interpretation of a finding.\n\nCIMI Alignment: The value set binding has been chosen to align with FHIR. (Note: it is not clear if Interpretation belongs in FindingTopic, rather than a context class, but that is how CIMI has modeled it.)",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.interpretation",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Interpretation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.referenceRange",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.referenceRange",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0883335"
+          }
+        ],
+        "short": "The usual or acceptable range for a test result.",
+        "definition": "The usual or acceptable range for a test result.",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.referenceRange",
+          "min": 0,
+          "max": "0"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ReferenceRange-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.stageSuffix",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.stageSuffix",
+        "short": "A suffix used in conjuction with certain breast cancer stages, based on criteria defined by the staging system being used.",
+        "definition": "A suffix used in conjuction with certain breast cancer stages, based on criteria defined by the staging system being used.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.stageSuffix",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/oncology-StageSuffix-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model",
+        "definition": "The size and extent of the primary tumor, based on criteria defined by the staging system being used.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.value",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.value",
+        "short": "Code representing the size and extent of the primary tumor, based on criteria defined by the staging system being used.",
+        "definition": "Code representing the size and extent of the primary tumor, based on criteria defined by the staging system being used.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.exceptionValue",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.exceptionValue",
+        "short": "Reason that a value associated with a test or other finding is missing.",
+        "definition": "Reason that a value associated with a test or other finding is missing.\n\nCIMI Alignment: This attribute corresponds to EvaluationResultTopic.exceptionValue, but has been moved from topic to context because missing values are only relevant when they should be recorded, but are not. The value set binding extends the set of FHIR's required data absent values, with additional concepts from CIMI.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.exceptionValue",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ExceptionValue-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.interpretation",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.interpretation",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0420833"
+          }
+        ],
+        "short": "A clinical interpretation of a finding.",
+        "definition": "A clinical interpretation of a finding.\n\nCIMI Alignment: The value set binding has been chosen to align with FHIR. (Note: it is not clear if Interpretation belongs in FindingTopic, rather than a context class, but that is how CIMI has modeled it.)",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.interpretation",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Interpretation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.referenceRange",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.referenceRange",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0883335"
+          }
+        ],
+        "short": "The usual or acceptable range for a test result.",
+        "definition": "The usual or acceptable range for a test result.",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.referenceRange",
+          "min": 0,
+          "max": "0"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ReferenceRange-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-BreastCancerPrimaryTumorClassification-model.stageSuffix",
+        "path": "oncology-BreastCancerPrimaryTumorClassification-model.stageSuffix",
+        "short": "A suffix used in conjuction with certain breast cancer stages, based on criteria defined by the staging system being used.",
+        "definition": "A suffix used in conjuction with certain breast cancer stages, based on criteria defined by the staging system being used.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-BreastCancerPrimaryTumorClassification-model.stageSuffix",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/oncology-StageSuffix-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

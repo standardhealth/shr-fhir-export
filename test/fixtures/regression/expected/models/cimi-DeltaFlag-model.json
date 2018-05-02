@@ -1,0 +1,140 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-DeltaFlag-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC DeltaFlag Logical Model</b></p>\n  <p>Indicator of significant change (delta) from the last or previous measurement.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-DeltaFlag-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.DeltaFlag"
+    }
+  ],
+  "name": "DeltaFlagModel",
+  "title": "BC DeltaFlag Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Indicator of significant change (delta) from the last or previous measurement.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C1705241"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-DeltaFlag-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-DeltaFlag-model",
+        "path": "cimi-DeltaFlag-model",
+        "definition": "Indicator of significant change (delta) from the last or previous measurement.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-DeltaFlag-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-DeltaFlag-model.value",
+        "path": "cimi-DeltaFlag-model.value",
+        "short": "Code representing indicator of significant change (delta) from the last or previous measurement.",
+        "definition": "Code representing indicator of significant change (delta) from the last or previous measurement.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-DeltaFlag-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/cimi-DeltaFlagVS"
+          }
+        }
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-DeltaFlag-model",
+        "path": "cimi-DeltaFlag-model",
+        "definition": "Indicator of significant change (delta) from the last or previous measurement.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-DeltaFlag-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-DeltaFlag-model.value",
+        "path": "cimi-DeltaFlag-model.value",
+        "short": "Code representing indicator of significant change (delta) from the last or previous measurement.",
+        "definition": "Code representing indicator of significant change (delta) from the last or previous measurement.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-DeltaFlag-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/cimi-DeltaFlagVS"
+          }
+        }
+      }
+    ]
+  }
+}

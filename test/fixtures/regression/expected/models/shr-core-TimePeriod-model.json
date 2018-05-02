@@ -1,0 +1,188 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-TimePeriod-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC TimePeriod Logical Model</b></p>\n  <p>A period of time defined by a start and end time, date, or year.\n\nIf the start element is missing, the start of the period is not known. If the end element is missing, it means that the period is ongoing, or the start may be in the past, and the end date in the future, which means that period is expected/planned to end at the specified time. The end value includes any matching date/time. For example, the period 2011-05-23 to 2011-05-27 includes all the times from the start of the 23rd May through to the end of the 27th of May.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriod-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.TimePeriod"
+    }
+  ],
+  "name": "TimePeriodModel",
+  "title": "BC TimePeriod Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "A period of time defined by a start and end time, date, or year.\n\nIf the start element is missing, the start of the period is not known. If the end element is missing, it means that the period is ongoing, or the start may be in the past, and the end date in the future, which means that period is expected/planned to end at the specified time. The end value includes any matching date/time. For example, the period 2011-05-23 to 2011-05-27 includes all the times from the start of the 23rd May through to the end of the 27th of May.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C1948053"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-TimePeriod-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-TimePeriod-model",
+        "path": "shr-core-TimePeriod-model",
+        "definition": "A period of time defined by a start and end time, date, or year.\n\nIf the start element is missing, the start of the period is not known. If the end element is missing, it means that the period is ongoing, or the start may be in the past, and the end date in the future, which means that period is expected/planned to end at the specified time. The end value includes any matching date/time. For example, the period 2011-05-23 to 2011-05-27 includes all the times from the start of the 23rd May through to the end of the 27th of May.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-TimePeriod-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-TimePeriod-model.timePeriodStart",
+        "path": "shr-core-TimePeriod-model.timePeriodStart",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C1301880"
+          }
+        ],
+        "short": "The time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "definition": "The time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-TimePeriod-model.timePeriodStart",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriodStart-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-TimePeriod-model.timePeriodEnd",
+        "path": "shr-core-TimePeriod-model.timePeriodEnd",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C1522314"
+          }
+        ],
+        "short": "The time at which something is to end or did end. Boundary is considered inclusive.",
+        "definition": "The time at which something is to end or did end. Boundary is considered inclusive.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-TimePeriod-model.timePeriodEnd",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriodEnd-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-TimePeriod-model",
+        "path": "shr-core-TimePeriod-model",
+        "definition": "A period of time defined by a start and end time, date, or year.\n\nIf the start element is missing, the start of the period is not known. If the end element is missing, it means that the period is ongoing, or the start may be in the past, and the end date in the future, which means that period is expected/planned to end at the specified time. The end value includes any matching date/time. For example, the period 2011-05-23 to 2011-05-27 includes all the times from the start of the 23rd May through to the end of the 27th of May.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-TimePeriod-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-TimePeriod-model.timePeriodStart",
+        "path": "shr-core-TimePeriod-model.timePeriodStart",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C1301880"
+          }
+        ],
+        "short": "The time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "definition": "The time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-TimePeriod-model.timePeriodStart",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriodStart-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-TimePeriod-model.timePeriodEnd",
+        "path": "shr-core-TimePeriod-model.timePeriodEnd",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C1522314"
+          }
+        ],
+        "short": "The time at which something is to end or did end. Boundary is considered inclusive.",
+        "definition": "The time at which something is to end or did end. Boundary is considered inclusive.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-TimePeriod-model.timePeriodEnd",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriodEnd-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

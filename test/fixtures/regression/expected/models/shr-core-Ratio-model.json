@@ -1,0 +1,188 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-Ratio-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Ratio Logical Model</b></p>\n  <p>A unit of measurement for the quotient of the amount of one entity to another.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Ratio-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.Ratio"
+    }
+  ],
+  "name": "RatioModel",
+  "title": "BC Ratio Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "A unit of measurement for the quotient of the amount of one entity to another.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C0456603"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-Ratio-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-Ratio-model",
+        "path": "shr-core-Ratio-model",
+        "definition": "A unit of measurement for the quotient of the amount of one entity to another.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Ratio-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Ratio-model.numerator",
+        "path": "shr-core-Ratio-model.numerator",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C2825219"
+          }
+        ],
+        "short": "The dividend of a fraction.",
+        "definition": "The dividend of a fraction.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Ratio-model.numerator",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Numerator-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Ratio-model.denominator",
+        "path": "shr-core-Ratio-model.denominator",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C2825218"
+          }
+        ],
+        "short": "The divisor of a fraction.",
+        "definition": "The divisor of a fraction.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Ratio-model.denominator",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Denominator-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-Ratio-model",
+        "path": "shr-core-Ratio-model",
+        "definition": "A unit of measurement for the quotient of the amount of one entity to another.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Ratio-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Ratio-model.numerator",
+        "path": "shr-core-Ratio-model.numerator",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C2825219"
+          }
+        ],
+        "short": "The dividend of a fraction.",
+        "definition": "The dividend of a fraction.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Ratio-model.numerator",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Numerator-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Ratio-model.denominator",
+        "path": "shr-core-Ratio-model.denominator",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C2825218"
+          }
+        ],
+        "short": "The divisor of a fraction.",
+        "definition": "The divisor of a fraction.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Ratio-model.denominator",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Denominator-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-TimePeriodEnd-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC TimePeriodEnd Logical Model</b></p>\n  <p>The time at which something is to end or did end. Boundary is considered inclusive.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriodEnd-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.TimePeriodEnd"
+    }
+  ],
+  "name": "TimePeriodEndModel",
+  "title": "BC TimePeriodEnd Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The time at which something is to end or did end. Boundary is considered inclusive.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C1522314"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-TimePeriodEnd-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-TimePeriodEnd-model",
+        "path": "shr-core-TimePeriodEnd-model",
+        "definition": "The time at which something is to end or did end. Boundary is considered inclusive.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-TimePeriodEnd-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-TimePeriodEnd-model.value",
+        "path": "shr-core-TimePeriodEnd-model.value",
+        "short": "DateTime representing the time at which something is to end or did end. Boundary is considered inclusive.",
+        "definition": "DateTime representing the time at which something is to end or did end. Boundary is considered inclusive.",
+        "alias": [
+          "dateTime"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-TimePeriodEnd-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-TimePeriodEnd-model",
+        "path": "shr-core-TimePeriodEnd-model",
+        "definition": "The time at which something is to end or did end. Boundary is considered inclusive.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-TimePeriodEnd-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-TimePeriodEnd-model.value",
+        "path": "shr-core-TimePeriodEnd-model.value",
+        "short": "DateTime representing the time at which something is to end or did end. Boundary is considered inclusive.",
+        "definition": "DateTime representing the time at which something is to end or did end. Boundary is considered inclusive.",
+        "alias": [
+          "dateTime"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-TimePeriodEnd-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

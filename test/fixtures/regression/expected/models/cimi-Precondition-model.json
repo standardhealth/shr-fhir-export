@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-Precondition-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Precondition Logical Model</b></p>\n  <p>A description of the conditions or context of an observation; for example, under sedation, fasting or post-exercise.\n\nBody position and body site are also qualifiers, but handled separately. A qualifier cannot modify the measurement type; for example, a fasting blood sugar is still a blood sugar.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Precondition-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.Precondition"
+    }
+  ],
+  "name": "PreconditionModel",
+  "title": "BC Precondition Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "A description of the conditions or context of an observation; for example, under sedation, fasting or post-exercise.\n\nBody position and body site are also qualifiers, but handled separately. A qualifier cannot modify the measurement type; for example, a fasting blood sugar is still a blood sugar.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-Precondition-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-Precondition-model",
+        "path": "cimi-Precondition-model",
+        "definition": "A description of the conditions or context of an observation; for example, under sedation, fasting or post-exercise.\n\nBody position and body site are also qualifiers, but handled separately. A qualifier cannot modify the measurement type; for example, a fasting blood sugar is still a blood sugar.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Precondition-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Precondition-model.value",
+        "path": "cimi-Precondition-model.value",
+        "short": "Code representing a description of the conditions or context of an observation; for example, under sedation, fasting or post-exercise.",
+        "definition": "Code representing a description of the conditions or context of an observation; for example, under sedation, fasting or post-exercise.\n\nBody position and body site are also qualifiers, but handled separately. A qualifier cannot modify the measurement type; for example, a fasting blood sugar is still a blood sugar.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Precondition-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-Precondition-model",
+        "path": "cimi-Precondition-model",
+        "definition": "A description of the conditions or context of an observation; for example, under sedation, fasting or post-exercise.\n\nBody position and body site are also qualifiers, but handled separately. A qualifier cannot modify the measurement type; for example, a fasting blood sugar is still a blood sugar.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Precondition-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Precondition-model.value",
+        "path": "cimi-Precondition-model.value",
+        "short": "Code representing a description of the conditions or context of an observation; for example, under sedation, fasting or post-exercise.",
+        "definition": "Code representing a description of the conditions or context of an observation; for example, under sedation, fasting or post-exercise.\n\nBody position and body site are also qualifiers, but handled separately. A qualifier cannot modify the measurement type; for example, a fasting blood sugar is still a blood sugar.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Precondition-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

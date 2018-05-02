@@ -1,0 +1,64 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cimi-ExceptionValueCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC ExceptionValueCS CodeSystem</b></p>\n<p>Reasons that a value associated with a test or other finding is missing. Extended set based on http://hl7.org/fhir/ValueSet/observation-valueabsentreason</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/CodeSystem/cimi-ExceptionValueCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/breastcancer",
+    "value": "cimi.ExceptionValueCS"
+  },
+  "name": "ExceptionValueCS",
+  "title": "BC ExceptionValueCS CodeSystem",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Reasons that a value associated with a test or other finding is missing. Extended set based on http://hl7.org/fhir/ValueSet/observation-valueabsentreason",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "missing_refused",
+      "definition": "Human source was asked but declined to respond to the question, or an applicable question was left unanswered.",
+      "display": "Human source was asked but declined to respond to the question, or an applicable question was left unanswered."
+    },
+    {
+      "code": "missing_noexplanation",
+      "definition": "The reason the information is not present is not known.",
+      "display": "The reason the information is not present is not known."
+    },
+    {
+      "code": "missing_nonesuch",
+      "definition": "The answer is missing because nothing of a type of thing is known to exists, e.g., the siblings of an only child. Also use this code to represent a 'none of the above' answer",
+      "display": "The answer is missing because nothing of a type of thing is known to exists, e.g., the siblings of an only child. Also use this code to represent a 'none of the above' answer"
+    },
+    {
+      "code": "missing_collection",
+      "definition": "Missing due to a problem collecting, identifying, or locating the specimen, including patient refusal or unable to provide specimen",
+      "display": "Missing due to a problem collecting, identifying, or locating the specimen, including patient refusal or unable to provide specimen"
+    },
+    {
+      "code": "missing_specimen",
+      "definition": "Missing due to a problem with the specimen, e.g. inadequate specimen, contamination, clotting, improper tube type, improper storage, too small, etc.",
+      "display": "Missing due to a problem with the specimen, e.g. inadequate specimen, contamination, clotting, improper tube type, improper storage, too small, etc."
+    },
+    {
+      "code": "missing_malfunction",
+      "definition": "Missing due to instrument malfunction.",
+      "display": "Missing due to instrument malfunction."
+    }
+  ]
+}

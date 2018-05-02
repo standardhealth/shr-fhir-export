@@ -39,6 +39,10 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
+antlr4@~4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/antlr4/-/antlr4-4.6.0.tgz#0d7e8b4b4692ebf1d9470ae59cf627428bcc6dec"
+
 argparse@^1.0.7:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.9.tgz#73d83bc263f86e97f8cc4f6bae1b0e90a7d22c86"
@@ -912,6 +916,10 @@ shelljs@^0.7.5:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
+shr-expand@^5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/shr-expand/-/shr-expand-5.5.1.tgz#e8d3c0cebe9bf05d663f2e90d7ff439b39f1a82c"
+
 shr-models@^5.5.2:
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-5.5.2.tgz#8871fa8626278a53dc729fc04512aaf2acf91b94"
@@ -921,6 +929,12 @@ shr-test-helpers@^5.2.0:
   resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-5.2.0.tgz#8bb0982c53b1ce7d4e792bdf1cf73d94bde650f8"
   dependencies:
     fs-extra "^5.0.0"
+
+shr-text-import@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/shr-text-import/-/shr-text-import-5.3.1.tgz#e17ed61830cbeb675692b1ae1c79501f1117f0ff"
+  dependencies:
+    antlr4 "~4.6.0"
 
 slice-ansi@0.0.4:
   version "0.0.4"

@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-BreastCancerStageVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC BreastCancerStageVS ValueSet</b></p>\n<p>Codes representing the overall stage of the cancer, based on criteria defined by the staging system being used. The preferred staging system is American Joint Committee on Cancer, 8th Edition, Breast Cancer Chapter. Codes and descriptions have been redacted due to copyright restrictions.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-BreastCancerStageVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.BreastCancerStageVS"
+    }
+  ],
+  "name": "BreastCancerStageVS",
+  "title": "BC BreastCancerStageVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Codes representing the overall stage of the cancer, based on criteria defined by the staging system being used. The preferred staging system is American Joint Committee on Cancer, 8th Edition, Breast Cancer Chapter. Codes and descriptions have been redacted due to copyright restrictions.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-BreastCancerStageCS",
+        "concept": [
+          {
+            "code": "redacted",
+            "display": "A dummy code."
+          }
+        ]
+      }
+    ]
+  }
+}

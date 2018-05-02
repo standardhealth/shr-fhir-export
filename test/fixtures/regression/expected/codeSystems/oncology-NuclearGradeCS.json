@@ -1,0 +1,49 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-NuclearGradeCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC NuclearGradeCS CodeSystem</b></p>\n<p>The nuclear grade describes how closely the nuclei of cancer cells look like the nuclei of normal breast cells. In general, the higher the nuclear grade, the more abnormal the nuclei are and the more aggressive the tumor cells tend to be. The nuclear grade is a part of overall tumor grade.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-NuclearGradeCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/breastcancer",
+    "value": "oncology.NuclearGradeCS"
+  },
+  "name": "NuclearGradeCS",
+  "title": "BC NuclearGradeCS CodeSystem",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "The nuclear grade describes how closely the nuclei of cancer cells look like the nuclei of normal breast cells. In general, the higher the nuclear grade, the more abnormal the nuclei are and the more aggressive the tumor cells tend to be. The nuclear grade is a part of overall tumor grade.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "G1",
+      "definition": "Grade I - low grade or well differentiated",
+      "display": "Grade I - low grade or well differentiated"
+    },
+    {
+      "code": "G2",
+      "definition": "Grade II - Intermediate/moderate grade or moderately differentiated",
+      "display": "Grade II - Intermediate/moderate grade or moderately differentiated"
+    },
+    {
+      "code": "G3",
+      "definition": "Grade III - High grade or pooly differentiated",
+      "display": "Grade III - High grade or pooly differentiated"
+    }
+  ]
+}

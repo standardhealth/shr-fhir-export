@@ -1,0 +1,146 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-Units-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Units Logical Model</b></p>\n  <p>Code for the unit of measure of the quantity.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Units-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.Units"
+    }
+  ],
+  "name": "UnitsModel",
+  "title": "BC Units Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Code for the unit of measure of the quantity.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-Units-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-Units-model",
+        "path": "shr-core-Units-model",
+        "definition": "Code for the unit of measure of the quantity.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Units-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Units-model.value",
+        "path": "shr-core-Units-model.value",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0805701"
+          }
+        ],
+        "short": "Code representing code for the unit of measure of the quantity.",
+        "definition": "Code representing code for the unit of measure of the quantity.",
+        "alias": [
+          "coding"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Units-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/ucum-units"
+          }
+        }
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-Units-model",
+        "path": "shr-core-Units-model",
+        "definition": "Code for the unit of measure of the quantity.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Units-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Units-model.value",
+        "path": "shr-core-Units-model.value",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0805701"
+          }
+        ],
+        "short": "Code representing code for the unit of measure of the quantity.",
+        "definition": "Code representing code for the unit of measure of the quantity.",
+        "alias": [
+          "coding"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Units-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/ucum-units"
+          }
+        }
+      }
+    ]
+  }
+}

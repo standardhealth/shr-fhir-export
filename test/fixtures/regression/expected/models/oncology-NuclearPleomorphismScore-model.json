@@ -1,0 +1,290 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "oncology-NuclearPleomorphismScore-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC NuclearPleomorphismScore Logical Model</b></p>\n  <p>How large and varied the nuclei of the tumor cells are. Scored 1 to 3, with 3 being the most pleomorphism.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/oncology-NuclearPleomorphismScore-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.NuclearPleomorphismScore"
+    }
+  ],
+  "name": "NuclearPleomorphismScoreModel",
+  "title": "BC NuclearPleomorphismScore Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "How large and varied the nuclei of the tumor cells are. Scored 1 to 3, with 3 being the most pleomorphism.",
+  "keyword": [
+    {
+      "system": "http://snomed.info/sct",
+      "code": "371471007"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "oncology-NuclearPleomorphismScore-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "oncology-NuclearPleomorphismScore-model",
+        "path": "oncology-NuclearPleomorphismScore-model",
+        "definition": "How large and varied the nuclei of the tumor cells are. Scored 1 to 3, with 3 being the most pleomorphism.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-NuclearPleomorphismScore-model.value",
+        "path": "oncology-NuclearPleomorphismScore-model.value",
+        "short": "Code representing how large and varied the nuclei of the tumor cells are. Scored 1 to 3, with 3 being the most pleomorphism.",
+        "definition": "Code representing how large and varied the nuclei of the tumor cells are. Scored 1 to 3, with 3 being the most pleomorphism.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-NuclearPleomorphismScoreVS"
+          }
+        }
+      },
+      {
+        "id": "oncology-NuclearPleomorphismScore-model.exceptionValue",
+        "path": "oncology-NuclearPleomorphismScore-model.exceptionValue",
+        "short": "Reason that a value associated with a test or other finding is missing.",
+        "definition": "Reason that a value associated with a test or other finding is missing.\n\nCIMI Alignment: This attribute corresponds to EvaluationResultTopic.exceptionValue, but has been moved from topic to context because missing values are only relevant when they should be recorded, but are not. The value set binding extends the set of FHIR's required data absent values, with additional concepts from CIMI.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model.exceptionValue",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ExceptionValue-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-NuclearPleomorphismScore-model.interpretation",
+        "path": "oncology-NuclearPleomorphismScore-model.interpretation",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0420833"
+          }
+        ],
+        "short": "A clinical interpretation of a finding.",
+        "definition": "A clinical interpretation of a finding.\n\nCIMI Alignment: The value set binding has been chosen to align with FHIR. (Note: it is not clear if Interpretation belongs in FindingTopic, rather than a context class, but that is how CIMI has modeled it.)",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model.interpretation",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Interpretation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-NuclearPleomorphismScore-model.referenceRange",
+        "path": "oncology-NuclearPleomorphismScore-model.referenceRange",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0883335"
+          }
+        ],
+        "short": "The usual or acceptable range for a test result.",
+        "definition": "The usual or acceptable range for a test result.",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model.referenceRange",
+          "min": 0,
+          "max": "0"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ReferenceRange-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "oncology-NuclearPleomorphismScore-model",
+        "path": "oncology-NuclearPleomorphismScore-model",
+        "definition": "How large and varied the nuclei of the tumor cells are. Scored 1 to 3, with 3 being the most pleomorphism.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-NuclearPleomorphismScore-model.value",
+        "path": "oncology-NuclearPleomorphismScore-model.value",
+        "short": "Code representing how large and varied the nuclei of the tumor cells are. Scored 1 to 3, with 3 being the most pleomorphism.",
+        "definition": "Code representing how large and varied the nuclei of the tumor cells are. Scored 1 to 3, with 3 being the most pleomorphism.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-NuclearPleomorphismScoreVS"
+          }
+        }
+      },
+      {
+        "id": "oncology-NuclearPleomorphismScore-model.exceptionValue",
+        "path": "oncology-NuclearPleomorphismScore-model.exceptionValue",
+        "short": "Reason that a value associated with a test or other finding is missing.",
+        "definition": "Reason that a value associated with a test or other finding is missing.\n\nCIMI Alignment: This attribute corresponds to EvaluationResultTopic.exceptionValue, but has been moved from topic to context because missing values are only relevant when they should be recorded, but are not. The value set binding extends the set of FHIR's required data absent values, with additional concepts from CIMI.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model.exceptionValue",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ExceptionValue-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-NuclearPleomorphismScore-model.interpretation",
+        "path": "oncology-NuclearPleomorphismScore-model.interpretation",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0420833"
+          }
+        ],
+        "short": "A clinical interpretation of a finding.",
+        "definition": "A clinical interpretation of a finding.\n\nCIMI Alignment: The value set binding has been chosen to align with FHIR. (Note: it is not clear if Interpretation belongs in FindingTopic, rather than a context class, but that is how CIMI has modeled it.)",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model.interpretation",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Interpretation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-NuclearPleomorphismScore-model.referenceRange",
+        "path": "oncology-NuclearPleomorphismScore-model.referenceRange",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0883335"
+          }
+        ],
+        "short": "The usual or acceptable range for a test result.",
+        "definition": "The usual or acceptable range for a test result.",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "oncology-NuclearPleomorphismScore-model.referenceRange",
+          "min": 0,
+          "max": "0"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ReferenceRange-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

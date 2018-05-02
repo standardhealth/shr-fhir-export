@@ -1,0 +1,200 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-IndivisibleClinicalStatement-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC IndivisibleClinicalStatement Logical Model</b></p>\n  <p>Represents clinical statements that cannot be further decomposed into multiple independent clinical statements, i.e., all clinical statements that are not CompoundClinicalStatements.\n\nAn indivisible clinical statement must be able to stand alone, such as a systolic blood pressure measurement, which can be interpreted both inside a blood pressure panel or on its own. If the statement cannot stand alone, e.g., the size of a wound, which cannot exist outside the context of the wound itself, then the Component class should be used instead.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-IndivisibleClinicalStatement-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.IndivisibleClinicalStatement"
+    }
+  ],
+  "name": "IndivisibleClinicalStatementModel",
+  "title": "BC IndivisibleClinicalStatement Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Represents clinical statements that cannot be further decomposed into multiple independent clinical statements, i.e., all clinical statements that are not CompoundClinicalStatements.\n\nAn indivisible clinical statement must be able to stand alone, such as a systolic blood pressure measurement, which can be interpreted both inside a blood pressure panel or on its own. If the statement cannot stand alone, e.g., the size of a wound, which cannot exist outside the context of the wound itself, then the Component class should be used instead.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-IndivisibleClinicalStatement-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-IndivisibleClinicalStatement-model",
+        "path": "cimi-IndivisibleClinicalStatement-model",
+        "definition": "Represents clinical statements that cannot be further decomposed into multiple independent clinical statements, i.e., all clinical statements that are not CompoundClinicalStatements.\n\nAn indivisible clinical statement must be able to stand alone, such as a systolic blood pressure measurement, which can be interpreted both inside a blood pressure panel or on its own. If the statement cannot stand alone, e.g., the size of a wound, which cannot exist outside the context of the wound itself, then the Component class should be used instead.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-IndivisibleClinicalStatement-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-IndivisibleClinicalStatement-model.statementTopic",
+        "path": "cimi-IndivisibleClinicalStatement-model.statementTopic",
+        "short": "Compositional and reusable grouping of clinical statement attributes that make up the clinical focus of a statement.",
+        "definition": "Compositional and reusable grouping of clinical statement attributes that make up the clinical focus of a statement.\n\nStatementTopic class attributes are aligned with SNOMED CT Concept Model attributes when such an overlap exists. Note that this class does not include contextual attributes such as the nature of the action (ordered, proposed, planned, etc...), the nature of the patient state being described (e.g., present, suspected present, absent), and the attribution of this information (the who, when, where, how, why of the information recorded).\n\nCIMI Alignment: StatementTopic had an attribute called 'key' in CIMI V0.0.4, but CIMI is renaming it 'TopicCode', as represented here.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-IndivisibleClinicalStatement-model.statementTopic",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-StatementTopic-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-IndivisibleClinicalStatement-model.statementContext",
+        "path": "cimi-IndivisibleClinicalStatement-model.statementContext",
+        "short": "Compositional and reusable grouping of clinical statement attributes that provides the context for the topic of a clinical statement.",
+        "definition": "Compositional and reusable grouping of clinical statement attributes that provides the context for the topic of a clinical statement.\n\nThe StatementContext class aligns with the SNOMED CT Situations with Explicit Context (SWEC) Concept Model. The StatementContext provides the expressivity required to specify that an act was performed or not performed or that a finding was asserted to be present or absent for the given subject of information. It also often holds provenance information relevant to the context of the clinical statement. It is important to note that by default the context applies to the conjunction of the attribute specified in the statement. For instance, if a clinical statement has a topic describing a rash on left arm and a context of 'absent', then the statement states that the subject of interest did not have a rash on the left arm but might have had one on the right arm.\n\nCIMI Alignment: ContextCode is the new CIMI name for the attribute formerly called 'type' in CIMI V0.0.4. The attribute 'temporalContext' that appeared in CIMI V0.0.4 is no longer part of CIMI.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-IndivisibleClinicalStatement-model.statementContext",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-StatementContext-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-IndivisibleClinicalStatement-model.encounter",
+        "path": "cimi-IndivisibleClinicalStatement-model.encounter",
+        "short": "An abstract class that represents an encounter class. This class has been stubbed out to limit the scope of this implementation guide to classes relevant to this ballot concerning breast cancer.",
+        "definition": "An abstract class that represents an encounter class. This class has been stubbed out to limit the scope of this implementation guide to classes relevant to this ballot concerning breast cancer.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-IndivisibleClinicalStatement-model.encounter",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Encounter-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-IndivisibleClinicalStatement-model",
+        "path": "cimi-IndivisibleClinicalStatement-model",
+        "definition": "Represents clinical statements that cannot be further decomposed into multiple independent clinical statements, i.e., all clinical statements that are not CompoundClinicalStatements.\n\nAn indivisible clinical statement must be able to stand alone, such as a systolic blood pressure measurement, which can be interpreted both inside a blood pressure panel or on its own. If the statement cannot stand alone, e.g., the size of a wound, which cannot exist outside the context of the wound itself, then the Component class should be used instead.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-IndivisibleClinicalStatement-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-IndivisibleClinicalStatement-model.statementTopic",
+        "path": "cimi-IndivisibleClinicalStatement-model.statementTopic",
+        "short": "Compositional and reusable grouping of clinical statement attributes that make up the clinical focus of a statement.",
+        "definition": "Compositional and reusable grouping of clinical statement attributes that make up the clinical focus of a statement.\n\nStatementTopic class attributes are aligned with SNOMED CT Concept Model attributes when such an overlap exists. Note that this class does not include contextual attributes such as the nature of the action (ordered, proposed, planned, etc...), the nature of the patient state being described (e.g., present, suspected present, absent), and the attribution of this information (the who, when, where, how, why of the information recorded).\n\nCIMI Alignment: StatementTopic had an attribute called 'key' in CIMI V0.0.4, but CIMI is renaming it 'TopicCode', as represented here.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-IndivisibleClinicalStatement-model.statementTopic",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-StatementTopic-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-IndivisibleClinicalStatement-model.statementContext",
+        "path": "cimi-IndivisibleClinicalStatement-model.statementContext",
+        "short": "Compositional and reusable grouping of clinical statement attributes that provides the context for the topic of a clinical statement.",
+        "definition": "Compositional and reusable grouping of clinical statement attributes that provides the context for the topic of a clinical statement.\n\nThe StatementContext class aligns with the SNOMED CT Situations with Explicit Context (SWEC) Concept Model. The StatementContext provides the expressivity required to specify that an act was performed or not performed or that a finding was asserted to be present or absent for the given subject of information. It also often holds provenance information relevant to the context of the clinical statement. It is important to note that by default the context applies to the conjunction of the attribute specified in the statement. For instance, if a clinical statement has a topic describing a rash on left arm and a context of 'absent', then the statement states that the subject of interest did not have a rash on the left arm but might have had one on the right arm.\n\nCIMI Alignment: ContextCode is the new CIMI name for the attribute formerly called 'type' in CIMI V0.0.4. The attribute 'temporalContext' that appeared in CIMI V0.0.4 is no longer part of CIMI.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-IndivisibleClinicalStatement-model.statementContext",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-StatementContext-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-IndivisibleClinicalStatement-model.encounter",
+        "path": "cimi-IndivisibleClinicalStatement-model.encounter",
+        "short": "An abstract class that represents an encounter class. This class has been stubbed out to limit the scope of this implementation guide to classes relevant to this ballot concerning breast cancer.",
+        "definition": "An abstract class that represents an encounter class. This class has been stubbed out to limit the scope of this implementation guide to classes relevant to this ballot concerning breast cancer.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-IndivisibleClinicalStatement-model.encounter",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Encounter-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

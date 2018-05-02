@@ -1,0 +1,49 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-PositiveNegativeEquivocalCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC PositiveNegativeEquivocalCS CodeSystem</b></p>\n<p>Interpretation of a test result as positive, negative or equivocal.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-PositiveNegativeEquivocalCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/breastcancer",
+    "value": "oncology.PositiveNegativeEquivocalCS"
+  },
+  "name": "PositiveNegativeEquivocalCS",
+  "title": "BC PositiveNegativeEquivocalCS CodeSystem",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Interpretation of a test result as positive, negative or equivocal.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "negative",
+      "definition": "Negative",
+      "display": "Negative"
+    },
+    {
+      "code": "equivocal",
+      "definition": "Equivocal",
+      "display": "Equivocal"
+    },
+    {
+      "code": "positive",
+      "definition": "Positive",
+      "display": "Positive"
+    }
+  ]
+}

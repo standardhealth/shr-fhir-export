@@ -1,0 +1,79 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-BreastSiteCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC BreastSiteCS CodeSystem</b></p>\n<p>Topography of the breast. Codes are drawn from ICD-O-3. Codes are presented as local codes due to the lack of a ICD-O-3 terminology server available to the FHIR IG publisher.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-BreastSiteCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/breastcancer",
+    "value": "oncology.BreastSiteCS"
+  },
+  "name": "BreastSiteCS",
+  "title": "BC BreastSiteCS CodeSystem",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Topography of the breast. Codes are drawn from ICD-O-3. Codes are presented as local codes due to the lack of a ICD-O-3 terminology server available to the FHIR IG publisher.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 9,
+  "concept": [
+    {
+      "code": "C50.0",
+      "definition": "Nipple",
+      "display": "Nipple"
+    },
+    {
+      "code": "C50.1",
+      "definition": "Central portion of the breast.",
+      "display": "Central portion of the breast."
+    },
+    {
+      "code": "C50.2",
+      "definition": "Upper inner quadrant",
+      "display": "Upper inner quadrant"
+    },
+    {
+      "code": "C50.3",
+      "definition": "Lower inner quadrant",
+      "display": "Lower inner quadrant"
+    },
+    {
+      "code": "C50.4",
+      "definition": "Upper outer quadrant",
+      "display": "Upper outer quadrant"
+    },
+    {
+      "code": "C50.5",
+      "definition": "Lower outer quadrant",
+      "display": "Lower outer quadrant"
+    },
+    {
+      "code": "C50.6",
+      "definition": "Axillary tail of breast",
+      "display": "Axillary tail of breast"
+    },
+    {
+      "code": "C50.8",
+      "definition": "Overlapping lesion of breast",
+      "display": "Overlapping lesion of breast"
+    },
+    {
+      "code": "C50.9",
+      "definition": "Breast, not otherwise specified (NOS)",
+      "display": "Breast, not otherwise specified (NOS)"
+    }
+  ]
+}

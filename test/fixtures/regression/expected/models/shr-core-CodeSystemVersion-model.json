@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-CodeSystemVersion-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC CodeSystemVersion Logical Model</b></p>\n  <p>The version of the vocabulary being used, if applicable.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-CodeSystemVersion-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.CodeSystemVersion"
+    }
+  ],
+  "name": "CodeSystemVersionModel",
+  "title": "BC CodeSystemVersion Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The version of the vocabulary being used, if applicable.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-CodeSystemVersion-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-CodeSystemVersion-model",
+        "path": "shr-core-CodeSystemVersion-model",
+        "definition": "The version of the vocabulary being used, if applicable.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-CodeSystemVersion-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-CodeSystemVersion-model.value",
+        "path": "shr-core-CodeSystemVersion-model.value",
+        "short": "String representing the version of the vocabulary being used, if applicable.",
+        "definition": "String representing the version of the vocabulary being used, if applicable.",
+        "alias": [
+          "string"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-CodeSystemVersion-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-CodeSystemVersion-model",
+        "path": "shr-core-CodeSystemVersion-model",
+        "definition": "The version of the vocabulary being used, if applicable.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-CodeSystemVersion-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-CodeSystemVersion-model.value",
+        "path": "shr-core-CodeSystemVersion-model.value",
+        "short": "String representing the version of the vocabulary being used, if applicable.",
+        "definition": "String representing the version of the vocabulary being used, if applicable.",
+        "alias": [
+          "string"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-CodeSystemVersion-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

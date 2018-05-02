@@ -1,0 +1,140 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-AnatomicalDirection-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC AnatomicalDirection Logical Model</b></p>\n  <p>Anatomical location or specimen further detailing directionality.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-AnatomicalDirection-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.AnatomicalDirection"
+    }
+  ],
+  "name": "AnatomicalDirectionModel",
+  "title": "BC AnatomicalDirection Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Anatomical location or specimen further detailing directionality.",
+  "keyword": [
+    {
+      "system": "https://evs.nci.nih.gov/ftp1/CDISC/SDTM/",
+      "code": "C99074"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-AnatomicalDirection-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-AnatomicalDirection-model",
+        "path": "cimi-AnatomicalDirection-model",
+        "definition": "Anatomical location or specimen further detailing directionality.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-AnatomicalDirection-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-AnatomicalDirection-model.value",
+        "path": "cimi-AnatomicalDirection-model.value",
+        "short": "Code representing anatomical location or specimen further detailing directionality.",
+        "definition": "Code representing anatomical location or specimen further detailing directionality.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-AnatomicalDirection-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/cimi-AnatomicalDirectionVS"
+          }
+        }
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-AnatomicalDirection-model",
+        "path": "cimi-AnatomicalDirection-model",
+        "definition": "Anatomical location or specimen further detailing directionality.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-AnatomicalDirection-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-AnatomicalDirection-model.value",
+        "path": "cimi-AnatomicalDirection-model.value",
+        "short": "Code representing anatomical location or specimen further detailing directionality.",
+        "definition": "Code representing anatomical location or specimen further detailing directionality.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-AnatomicalDirection-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/cimi-AnatomicalDirectionVS"
+          }
+        }
+      }
+    ]
+  }
+}

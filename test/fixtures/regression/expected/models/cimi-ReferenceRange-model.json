@@ -1,0 +1,340 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-ReferenceRange-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC ReferenceRange Logical Model</b></p>\n  <p>The usual or acceptable range for a test result.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ReferenceRange-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.ReferenceRange"
+    }
+  ],
+  "name": "ReferenceRangeModel",
+  "title": "BC ReferenceRange Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The usual or acceptable range for a test result.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C0883335"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-ReferenceRange-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-ReferenceRange-model",
+        "path": "cimi-ReferenceRange-model",
+        "definition": "The usual or acceptable range for a test result.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ReferenceRange-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ReferenceRange-model.value",
+        "path": "cimi-ReferenceRange-model.value",
+        "short": "Range representing the usual or acceptable range for a test result.",
+        "definition": "Range representing the usual or acceptable range for a test result.",
+        "alias": [
+          "range"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ReferenceRange-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Range-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ReferenceRange-model.type",
+        "path": "cimi-ReferenceRange-model.type",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0332307"
+          }
+        ],
+        "short": "The most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "definition": "The most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ReferenceRange-model.type",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Type-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ReferenceRange-model.type.value",
+        "path": "cimi-ReferenceRange-model.type.value",
+        "short": "Code representing the most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "definition": "Code representing the most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Type-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "extensible",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/referencerange-meaning"
+          }
+        }
+      },
+      {
+        "id": "cimi-ReferenceRange-model.applicableSubpopulation",
+        "path": "cimi-ReferenceRange-model.applicableSubpopulation",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0039309",
+            "display": "Target Population"
+          }
+        ],
+        "short": "Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "definition": "Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ReferenceRange-model.applicableSubpopulation",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ApplicableSubpopulation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ReferenceRange-model.applicableAgeRange",
+        "path": "cimi-ReferenceRange-model.applicableAgeRange",
+        "short": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "definition": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ReferenceRange-model.applicableAgeRange",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ApplicableAgeRange-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-ReferenceRange-model",
+        "path": "cimi-ReferenceRange-model",
+        "definition": "The usual or acceptable range for a test result.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ReferenceRange-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ReferenceRange-model.value",
+        "path": "cimi-ReferenceRange-model.value",
+        "short": "Range representing the usual or acceptable range for a test result.",
+        "definition": "Range representing the usual or acceptable range for a test result.",
+        "alias": [
+          "range"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ReferenceRange-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Range-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ReferenceRange-model.type",
+        "path": "cimi-ReferenceRange-model.type",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0332307"
+          }
+        ],
+        "short": "The most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "definition": "The most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ReferenceRange-model.type",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Type-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ReferenceRange-model.type.value",
+        "path": "cimi-ReferenceRange-model.type.value",
+        "short": "Code representing the most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "definition": "Code representing the most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Type-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "extensible",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/referencerange-meaning"
+          }
+        }
+      },
+      {
+        "id": "cimi-ReferenceRange-model.applicableSubpopulation",
+        "path": "cimi-ReferenceRange-model.applicableSubpopulation",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0039309",
+            "display": "Target Population"
+          }
+        ],
+        "short": "Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "definition": "Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ReferenceRange-model.applicableSubpopulation",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ApplicableSubpopulation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ReferenceRange-model.applicableAgeRange",
+        "path": "cimi-ReferenceRange-model.applicableAgeRange",
+        "short": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "definition": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ReferenceRange-model.applicableAgeRange",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ApplicableAgeRange-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

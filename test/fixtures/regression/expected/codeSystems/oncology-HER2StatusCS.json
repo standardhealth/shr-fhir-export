@@ -1,0 +1,54 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-HER2StatusCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC HER2StatusCS CodeSystem</b></p>\n<p>HER2 status overall result</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-HER2StatusCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/breastcancer",
+    "value": "oncology.HER2StatusCS"
+  },
+  "name": "HER2StatusCS",
+  "title": "BC HER2StatusCS CodeSystem",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "HER2 status overall result",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "not_amplified",
+      "definition": "Negative/Not Amplified (IHC Score 0)",
+      "display": "Negative/Not Amplified (IHC Score 0)"
+    },
+    {
+      "code": "negative",
+      "definition": "Negative (IHC Score 1+)",
+      "display": "Negative (IHC Score 1+)"
+    },
+    {
+      "code": "equivocal",
+      "definition": "Equivocal (IHC Score 2+)",
+      "display": "Equivocal (IHC Score 2+)"
+    },
+    {
+      "code": "positive",
+      "definition": "Positive/Amplified (IHC Score 3+)",
+      "display": "Positive/Amplified (IHC Score 3+)"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-Entity-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Entity Logical Model</b></p>\n  <p>Root class for entities such as people, organizations, and devices that have a separately identifiable existence.\n\nCIMI Alignment: In CIMI V0.0.4, Entity was a subclass of Party. Party is part of CIMI&#039;s participation model, which is undergoing review and revision. Rather than introducing the complexity of the CIMI participation model, which has little relevance to breast cancer profiles and is undergoing revision anyway, the Party class has been omitted.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Entity-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.Entity"
+    }
+  ],
+  "name": "EntityModel",
+  "title": "BC Entity Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Root class for entities such as people, organizations, and devices that have a separately identifiable existence.\n\nCIMI Alignment: In CIMI V0.0.4, Entity was a subclass of Party. Party is part of CIMI's participation model, which is undergoing review and revision. Rather than introducing the complexity of the CIMI participation model, which has little relevance to breast cancer profiles and is undergoing revision anyway, the Party class has been omitted.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-Entity-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-Entity-model",
+        "path": "cimi-Entity-model",
+        "definition": "Root class for entities such as people, organizations, and devices that have a separately identifiable existence.\n\nCIMI Alignment: In CIMI V0.0.4, Entity was a subclass of Party. Party is part of CIMI's participation model, which is undergoing review and revision. Rather than introducing the complexity of the CIMI participation model, which has little relevance to breast cancer profiles and is undergoing revision anyway, the Party class has been omitted.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Entity-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Entity-model.intentionallyBlank",
+        "path": "cimi-Entity-model.intentionallyBlank",
+        "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "cimi-Entity-model.intentionallyBlank",
+          "min": 0,
+          "max": "0"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-Entity-model",
+        "path": "cimi-Entity-model",
+        "definition": "Root class for entities such as people, organizations, and devices that have a separately identifiable existence.\n\nCIMI Alignment: In CIMI V0.0.4, Entity was a subclass of Party. Party is part of CIMI's participation model, which is undergoing review and revision. Rather than introducing the complexity of the CIMI participation model, which has little relevance to breast cancer profiles and is undergoing revision anyway, the Party class has been omitted.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Entity-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Entity-model.intentionallyBlank",
+        "path": "cimi-Entity-model.intentionallyBlank",
+        "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "cimi-Entity-model.intentionallyBlank",
+          "min": 0,
+          "max": "0"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

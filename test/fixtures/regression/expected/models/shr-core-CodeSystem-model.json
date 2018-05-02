@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-CodeSystem-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC CodeSystem Logical Model</b></p>\n  <p>A formal terminology system.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-CodeSystem-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.CodeSystem"
+    }
+  ],
+  "name": "CodeSystemModel",
+  "title": "BC CodeSystem Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "A formal terminology system.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-CodeSystem-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-CodeSystem-model",
+        "path": "shr-core-CodeSystem-model",
+        "definition": "A formal terminology system.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-CodeSystem-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-CodeSystem-model.value",
+        "path": "shr-core-CodeSystem-model.value",
+        "short": "Uri representing a formal terminology system.",
+        "definition": "Uri representing a formal terminology system.",
+        "alias": [
+          "uri"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-CodeSystem-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-CodeSystem-model",
+        "path": "shr-core-CodeSystem-model",
+        "definition": "A formal terminology system.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-CodeSystem-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-CodeSystem-model.value",
+        "path": "shr-core-CodeSystem-model.value",
+        "short": "Uri representing a formal terminology system.",
+        "definition": "Uri representing a formal terminology system.",
+        "alias": [
+          "uri"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-CodeSystem-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

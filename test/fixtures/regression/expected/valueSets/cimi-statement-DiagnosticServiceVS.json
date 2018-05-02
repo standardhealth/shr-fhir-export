@@ -1,0 +1,88 @@
+{
+  "resourceType": "ValueSet",
+  "id": "cimi-statement-DiagnosticServiceVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC DiagnosticServiceVS ValueSet</b></p>\n<p>The type of laboratory service used in producing a laboratory result</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/cimi-statement-DiagnosticServiceVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.statement.DiagnosticServiceVS"
+    }
+  ],
+  "name": "DiagnosticServiceVS",
+  "title": "BC DiagnosticServiceVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "The type of laboratory service used in producing a laboratory result",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/cimi-statement-DiagnosticServiceCS",
+        "concept": [
+          {
+            "code": "microbiology",
+            "display": "Laboratory concerned with cultures, to look for suspected pathogens."
+          },
+          {
+            "code": "parasitology",
+            "display": "Laboratory responsible for examining samples and specimens for evidence of intestinal parasites such as tapeworms, hookworms, and others."
+          },
+          {
+            "code": "virology",
+            "display": "Laboratory concerned with identification of viruses in specimens such as blood, urine, and cerebrospinal fluid."
+          },
+          {
+            "code": "hematology",
+            "display": "Laboratory that works with whole blood to do full blood counts, and blood films as well as many other specialised tests."
+          },
+          {
+            "code": "biochemistry",
+            "display": "Laboratory that usually receives serum or plasma and tests the serum for chemicals present in blood."
+          },
+          {
+            "code": "toxicology",
+            "display": "Laboratory that tests for toxins, pharmaceutical and recreational drugs in the blood. Urine and blood samples are submitted to this lab."
+          },
+          {
+            "code": "immunology",
+            "display": "Immunology/Serology laboratory uses the concept of antigen-antibody interaction as a diagnostic tool. Compatibility of transplanted organs is also determined."
+          },
+          {
+            "code": "immunohematology",
+            "display": "Laboratory or blood bank that determines blood groups, and performs compatibility testing on donor blood and recipients. It also prepares blood components, derivatives, and products for transfusion."
+          },
+          {
+            "code": "urinalysis",
+            "display": "Laboratory tests urine for many analytes. Some health care providers have a urinalysis laboratory, while others don't."
+          },
+          {
+            "code": "pathology",
+            "display": "Surgical, cytopathology, or histopathology laboratory. Surgical pathology examines organs, limbs, tumors, fetuses, and other tissues biopsied in surgery such as breast mastectomies."
+          },
+          {
+            "code": "genetics",
+            "display": "Laboratory that mainly performs DNA analysis."
+          },
+          {
+            "code": "cytogenetics",
+            "display": "Laboratory that uses blood and other cells to get a karyotype. This can be helpful in prenatal diagnosis (e.g. Down's syndrome) as well as in cancer (some cancers have abnormal chromosomes)."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -14,6 +14,7 @@
     "test:watch": "npm test -- --watch",
     "test:fix": "FIX_TEST_ERRORS=true ./node_modules/.bin/mocha --reporter spec --recursive",
     "test:debug": "./node_modules/.bin/mocha --inspect --debug-brk --reporter spec --recursive",
+    "test:fast": "./node_modules/.bin/mocha --reporter spec --recursive --grep regression --invert",
     "lint": "./node_modules/.bin/eslint .",
     "lint:fix": "./node_modules/.bin/eslint . --fix"
   },
@@ -26,8 +27,10 @@
     "chai": "^3.5.0",
     "eslint": "^3.6.1",
     "mocha": "^3.2.0",
+    "shr-expand": "^5.5.1",
     "shr-models": "^5.5.2",
-    "shr-test-helpers": "^5.2.0"
+    "shr-test-helpers": "^5.2.0",
+    "shr-text-import": "^5.3.1"
   },
   "peerDependencies": {
     "bunyan": "^1.8.9",

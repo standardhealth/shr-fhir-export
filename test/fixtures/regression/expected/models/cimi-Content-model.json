@@ -1,0 +1,106 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-Content-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Content Logical Model</b></p>\n  <p>Abstract ancestor of all concrete content types. A unit of content that makes up a composition - e.g., a clinical statement in a patient record, a simple or composite action is a knowledge document, a catalog entry in a catalog.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Content-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.Content"
+    }
+  ],
+  "name": "ContentModel",
+  "title": "BC Content Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Abstract ancestor of all concrete content types. A unit of content that makes up a composition - e.g., a clinical statement in a patient record, a simple or composite action is a knowledge document, a catalog entry in a catalog.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-Content-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-Content-model",
+        "path": "cimi-Content-model",
+        "definition": "Abstract ancestor of all concrete content types. A unit of content that makes up a composition - e.g., a clinical statement in a patient record, a simple or composite action is a knowledge document, a catalog entry in a catalog.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Content-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Content-model.intentionallyBlank",
+        "path": "cimi-Content-model.intentionallyBlank",
+        "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "cimi-Content-model.intentionallyBlank",
+          "min": 0,
+          "max": "0"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-Content-model",
+        "path": "cimi-Content-model",
+        "definition": "Abstract ancestor of all concrete content types. A unit of content that makes up a composition - e.g., a clinical statement in a patient record, a simple or composite action is a knowledge document, a catalog entry in a catalog.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Content-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Content-model.intentionallyBlank",
+        "path": "cimi-Content-model.intentionallyBlank",
+        "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "cimi-Content-model.intentionallyBlank",
+          "min": 0,
+          "max": "0"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

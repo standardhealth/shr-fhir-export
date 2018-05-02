@@ -1,0 +1,44 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-MammaprintRiskScoreInterpretationCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC MammaprintRiskScoreInterpretationCS CodeSystem</b></p>\n<p>Intepretation of Mammaprint Recurrence Score</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-MammaprintRiskScoreInterpretationCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/breastcancer",
+    "value": "oncology.MammaprintRiskScoreInterpretationCS"
+  },
+  "name": "MammaprintRiskScoreInterpretationCS",
+  "title": "BC MammaprintRiskScoreInterpretationCS CodeSystem",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Intepretation of Mammaprint Recurrence Score",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "low_risk",
+      "definition": "Score between 0.0 and +1.0, meaning a patient has on average a 10% chance that her cancer will recur within 10 years without any additional adjuvant treatment, either hormonal therapy or chemotherapy.",
+      "display": "Score between 0.0 and +1.0, meaning a patient has on average a 10% chance that her cancer will recur within 10 years without any additional adjuvant treatment, either hormonal therapy or chemotherapy."
+    },
+    {
+      "code": "high_risk",
+      "definition": "Score between -1.0 and 0.0, meaning a patient has a 29% chance that her cancer will recur within 10 years without any additional adjuvant treatment, either hormonal therapy or chemotherapy.",
+      "display": "Score between -1.0 and 0.0, meaning a patient has a 29% chance that her cancer will recur within 10 years without any additional adjuvant treatment, either hormonal therapy or chemotherapy."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cimi-AnatomicalDirectionCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC AnatomicalDirectionCS CodeSystem</b></p>\n<p>Anatomical location or specimen further detailing directionality. Codes are from NCI</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/CodeSystem/cimi-AnatomicalDirectionCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/breastcancer",
+    "value": "cimi.AnatomicalDirectionCS"
+  },
+  "name": "AnatomicalDirectionCS",
+  "title": "BC AnatomicalDirectionCS CodeSystem",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Anatomical location or specimen further detailing directionality. Codes are from NCI",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 31,
+  "concept": [
+    {
+      "code": "C25231",
+      "definition": "ANTERIOR Denoting the front portion of the body or a structure.",
+      "display": "ANTERIOR Denoting the front portion of the body or a structure."
+    },
+    {
+      "code": "C25423",
+      "definition": "APICAL Relating to or located at the apex.",
+      "display": "APICAL Relating to or located at the apex."
+    },
+    {
+      "code": "C90067",
+      "definition": "BASAL Relating to or located at the lowest portion of a structure.",
+      "display": "BASAL Relating to or located at the lowest portion of a structure."
+    },
+    {
+      "code": "C73851",
+      "definition": "CAUDAL Toward the tail in a body.",
+      "display": "CAUDAL Toward the tail in a body."
+    },
+    {
+      "code": "C25445",
+      "definition": "CENTRAL A point or area that is approximately central within some larger region or structure.",
+      "display": "CENTRAL A point or area that is approximately central within some larger region or structure."
+    },
+    {
+      "code": "C37936",
+      "definition": "CRANIAL Toward the head in a body.",
+      "display": "CRANIAL Toward the head in a body."
+    },
+    {
+      "code": "C25240",
+      "definition": "DEEP Extending relatively far inward.",
+      "display": "DEEP Extending relatively far inward."
+    },
+    {
+      "code": "C25237",
+      "definition": "DISTAL Situated farthest from a point of reference.",
+      "display": "DISTAL Situated farthest from a point of reference."
+    },
+    {
+      "code": "C45874",
+      "definition": "DORSAL Pertaining to the back or upper surface of the body.",
+      "display": "DORSAL Pertaining to the back or upper surface of the body."
+    },
+    {
+      "code": "C90376",
+      "definition": "DORSOLATERAL Toward the back and side of a body.",
+      "display": "DORSOLATERAL Toward the back and side of a body."
+    },
+    {
+      "code": "C90386",
+      "definition": "FORE Of or involving the front of a main body.",
+      "display": "FORE Of or involving the front of a main body."
+    },
+    {
+      "code": "C90393",
+      "definition": "HIND Of or involving the back of a main body.",
+      "display": "HIND Of or involving the back of a main body."
+    },
+    {
+      "code": "C25353",
+      "definition": "INFERIOR Pertaining to a point below a given reference point.",
+      "display": "INFERIOR Pertaining to a point below a given reference point."
+    },
+    {
+      "code": "C37980",
+      "definition": "INNER Inside or closer to the inside of the body or object.",
+      "display": "INNER Inside or closer to the inside of the body or object."
+    },
+    {
+      "code": "C73705",
+      "definition": "INTERMEDIATE Located between two points or extremes.",
+      "display": "INTERMEDIATE Located between two points or extremes."
+    },
+    {
+      "code": "C25309",
+      "definition": "LOWER The bottom one of two.",
+      "display": "LOWER The bottom one of two."
+    },
+    {
+      "code": "C25232",
+      "definition": "MEDIAL Toward the middle or in a limb toward the median plane.",
+      "display": "MEDIAL Toward the middle or in a limb toward the median plane."
+    },
+    {
+      "code": "C81170",
+      "definition": "MIDLINE A medial line, especially the medial line or medial plane of the body (or some part of the body).",
+      "display": "MIDLINE A medial line, especially the medial line or medial plane of the body (or some part of the body)."
+    },
+    {
+      "code": "C27958",
+      "definition": "NASAL Of, or related to, or in the direction of the nose.",
+      "display": "NASAL Of, or related to, or in the direction of the nose."
+    },
+    {
+      "code": "C38166",
+      "definition": "OUTER Being on or toward the outside of the body or object.",
+      "display": "OUTER Being on or toward the outside of the body or object."
+    },
+    {
+      "code": "C25233",
+      "definition": "PERIPHERAL On or near an edge or constituting an outer boundary;the outer area.",
+      "display": "PERIPHERAL On or near an edge or constituting an outer boundary;the outer area."
+    },
+    {
+      "code": "C25622",
+      "definition": "POSTERIOR Denoting the back portion of the body or a structure.",
+      "display": "POSTERIOR Denoting the back portion of the body or a structure."
+    },
+    {
+      "code": "C94393",
+      "definition": "ROSTRAL Toward the muzzle in the head.",
+      "display": "ROSTRAL Toward the muzzle in the head."
+    },
+    {
+      "code": "C25239",
+      "definition": "SUPERFICIAL Of or pertaining to the exterior surface.",
+      "display": "SUPERFICIAL Of or pertaining to the exterior surface."
+    },
+    {
+      "code": "C25235",
+      "definition": "SUPERIOR Pertaining to a point above a given reference point.",
+      "display": "SUPERIOR Pertaining to a point above a given reference point."
+    },
+    {
+      "code": "C25245",
+      "definition": "SURFACE The extended two-dimensional outer layer or area of a three-dimensional object.",
+      "display": "SURFACE The extended two-dimensional outer layer or area of a three-dimensional object."
+    },
+    {
+      "code": "C117754",
+      "definition": "TEMPORAL Of, or related to, anatomic sites that are located in the cranium, brain, and eye.",
+      "display": "TEMPORAL Of, or related to, anatomic sites that are located in the cranium, brain, and eye."
+    },
+    {
+      "code": "C90069",
+      "definition": "TIP The pointed end of a structure.",
+      "display": "TIP The pointed end of a structure."
+    },
+    {
+      "code": "C25355",
+      "definition": "UPPER The top one of two.",
+      "display": "UPPER The top one of two."
+    },
+    {
+      "code": "C45875",
+      "definition": "VENTRAL Pertaining to the front or lower surface of the body.",
+      "display": "VENTRAL Pertaining to the front or lower surface of the body."
+    },
+    {
+      "code": "C98798",
+      "definition": "VENTROLATERAL Of or pertaining to the front and side of a main body.",
+      "display": "VENTROLATERAL Of or pertaining to the front and side of a main body."
+    }
+  ]
+}

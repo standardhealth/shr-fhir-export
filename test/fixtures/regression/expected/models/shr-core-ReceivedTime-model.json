@@ -1,0 +1,128 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-ReceivedTime-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC ReceivedTime Logical Model</b></p>\n  <p>Time received by accepting facility or unit.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-ReceivedTime-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.ReceivedTime"
+    }
+  ],
+  "name": "ReceivedTimeModel",
+  "title": "BC ReceivedTime Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Time received by accepting facility or unit.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C2735124"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-ReceivedTime-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-ReceivedTime-model",
+        "path": "shr-core-ReceivedTime-model",
+        "definition": "Time received by accepting facility or unit.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-ReceivedTime-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-ReceivedTime-model.value",
+        "path": "shr-core-ReceivedTime-model.value",
+        "short": "DateTime representing time received by accepting facility or unit.",
+        "definition": "DateTime representing time received by accepting facility or unit.",
+        "alias": [
+          "dateTime"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-ReceivedTime-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-ReceivedTime-model",
+        "path": "shr-core-ReceivedTime-model",
+        "definition": "Time received by accepting facility or unit.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-ReceivedTime-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-ReceivedTime-model.value",
+        "path": "shr-core-ReceivedTime-model.value",
+        "short": "DateTime representing time received by accepting facility or unit.",
+        "definition": "DateTime representing time received by accepting facility or unit.",
+        "alias": [
+          "dateTime"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-ReceivedTime-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

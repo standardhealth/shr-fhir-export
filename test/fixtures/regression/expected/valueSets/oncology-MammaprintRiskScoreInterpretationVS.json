@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-MammaprintRiskScoreInterpretationVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC MammaprintRiskScoreInterpretationVS ValueSet</b></p>\n<p>Intepretation of Mammaprint Recurrence Score</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-MammaprintRiskScoreInterpretationVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.MammaprintRiskScoreInterpretationVS"
+    }
+  ],
+  "name": "MammaprintRiskScoreInterpretationVS",
+  "title": "BC MammaprintRiskScoreInterpretationVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Intepretation of Mammaprint Recurrence Score",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-MammaprintRiskScoreInterpretationCS",
+        "concept": [
+          {
+            "code": "low_risk",
+            "display": "Score between 0.0 and +1.0, meaning a patient has on average a 10% chance that her cancer will recur within 10 years without any additional adjuvant treatment, either hormonal therapy or chemotherapy."
+          },
+          {
+            "code": "high_risk",
+            "display": "Score between -1.0 and 0.0, meaning a patient has a 29% chance that her cancer will recur within 10 years without any additional adjuvant treatment, either hormonal therapy or chemotherapy."
+          }
+        ]
+      }
+    ]
+  }
+}

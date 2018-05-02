@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-UpperBound-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC UpperBound Logical Model</b></p>\n  <p>The upper limit on a quantitative value.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-UpperBound-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.UpperBound"
+    }
+  ],
+  "name": "UpperBoundModel",
+  "title": "BC UpperBound Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The upper limit on a quantitative value.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-UpperBound-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-UpperBound-model",
+        "path": "shr-core-UpperBound-model",
+        "definition": "The upper limit on a quantitative value.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-UpperBound-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-UpperBound-model.value",
+        "path": "shr-core-UpperBound-model.value",
+        "short": "Quantity representing the upper limit on a quantitative value.",
+        "definition": "Quantity representing the upper limit on a quantitative value.",
+        "alias": [
+          "quantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-UpperBound-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Quantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-UpperBound-model",
+        "path": "shr-core-UpperBound-model",
+        "definition": "The upper limit on a quantitative value.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-UpperBound-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-UpperBound-model.value",
+        "path": "shr-core-UpperBound-model.value",
+        "short": "Quantity representing the upper limit on a quantitative value.",
+        "definition": "Quantity representing the upper limit on a quantitative value.",
+        "alias": [
+          "quantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-UpperBound-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Quantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

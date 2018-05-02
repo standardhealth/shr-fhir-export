@@ -1,0 +1,106 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-Locatable-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Locatable Logical Model</b></p>\n  <p>Abstract top level class in the hierarchy. Locatable defines the idea of &#039;locatability in an archetyped structure&#039;.\n\nCIMI Alignment: The Locatable class reflects CIMI&#039;s current implementation using Archetype Description Language (ADL). Its attributes (archetype_node_id, name, and archetype_details) are necessary to serialize CIMI definitions in ADL. By all rights, these attributes should be invisible in clinical models. To avoid complicating the breast cancer profiles with extensions irrelevant to the clinical content, the attributes of Locatable have been omitted.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Locatable-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.Locatable"
+    }
+  ],
+  "name": "LocatableModel",
+  "title": "BC Locatable Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Abstract top level class in the hierarchy. Locatable defines the idea of 'locatability in an archetyped structure'.\n\nCIMI Alignment: The Locatable class reflects CIMI's current implementation using Archetype Description Language (ADL). Its attributes (archetype_node_id, name, and archetype_details) are necessary to serialize CIMI definitions in ADL. By all rights, these attributes should be invisible in clinical models. To avoid complicating the breast cancer profiles with extensions irrelevant to the clinical content, the attributes of Locatable have been omitted.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-Locatable-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-Locatable-model",
+        "path": "cimi-Locatable-model",
+        "definition": "Abstract top level class in the hierarchy. Locatable defines the idea of 'locatability in an archetyped structure'.\n\nCIMI Alignment: The Locatable class reflects CIMI's current implementation using Archetype Description Language (ADL). Its attributes (archetype_node_id, name, and archetype_details) are necessary to serialize CIMI definitions in ADL. By all rights, these attributes should be invisible in clinical models. To avoid complicating the breast cancer profiles with extensions irrelevant to the clinical content, the attributes of Locatable have been omitted.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Locatable-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Locatable-model.intentionallyBlank",
+        "path": "cimi-Locatable-model.intentionallyBlank",
+        "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "cimi-Locatable-model.intentionallyBlank",
+          "min": 0,
+          "max": "0"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-Locatable-model",
+        "path": "cimi-Locatable-model",
+        "definition": "Abstract top level class in the hierarchy. Locatable defines the idea of 'locatability in an archetyped structure'.\n\nCIMI Alignment: The Locatable class reflects CIMI's current implementation using Archetype Description Language (ADL). Its attributes (archetype_node_id, name, and archetype_details) are necessary to serialize CIMI definitions in ADL. By all rights, these attributes should be invisible in clinical models. To avoid complicating the breast cancer profiles with extensions irrelevant to the clinical content, the attributes of Locatable have been omitted.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Locatable-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Locatable-model.intentionallyBlank",
+        "path": "cimi-Locatable-model.intentionallyBlank",
+        "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "cimi-Locatable-model.intentionallyBlank",
+          "min": 0,
+          "max": "0"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-Range-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Range Logical Model</b></p>\n  <p>An interval defined by a quantitative upper and/or lower bound. One of the two bounds must be specified, and the lower bound must be less than the upper bound. When Quantities are specified, the units of measure must be the same.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Range-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.Range"
+    }
+  ],
+  "name": "RangeModel",
+  "title": "BC Range Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "An interval defined by a quantitative upper and/or lower bound. One of the two bounds must be specified, and the lower bound must be less than the upper bound. When Quantities are specified, the units of measure must be the same.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-Range-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-Range-model",
+        "path": "shr-core-Range-model",
+        "definition": "An interval defined by a quantitative upper and/or lower bound. One of the two bounds must be specified, and the lower bound must be less than the upper bound. When Quantities are specified, the units of measure must be the same.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Range-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Range-model.lowerBound",
+        "path": "shr-core-Range-model.lowerBound",
+        "short": "The lower limit on a range",
+        "definition": "The lower limit on a range",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Range-model.lowerBound",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Range-model.lowerBound.value",
+        "path": "shr-core-Range-model.lowerBound.value",
+        "short": "A quantity where the comparator is not used, as defined in FHIR.",
+        "definition": "A quantity where the comparator is not used, as defined in FHIR.\n\nThis class is not defined in CIMI V0.0.4 reference model. It could potentially be an archetype of Quantity. Complex data types that appear frequently in FHIR have not been profiled, even if CIMI defines them differently. This choice means that the breast cancer profiles use the native FHIR datatype, rather than having to substitute a CIMI profile everywhere the native type is used.",
+        "alias": [
+          "quantity",
+          "simpleQuantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Range-model.lowerBound.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-SimpleQuantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Range-model.upperBound",
+        "path": "shr-core-Range-model.upperBound",
+        "short": "The upper limit on a quantitative value.",
+        "definition": "The upper limit on a quantitative value.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Range-model.upperBound",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Range-model.upperBound.value",
+        "path": "shr-core-Range-model.upperBound.value",
+        "short": "A quantity where the comparator is not used, as defined in FHIR.",
+        "definition": "A quantity where the comparator is not used, as defined in FHIR.\n\nThis class is not defined in CIMI V0.0.4 reference model. It could potentially be an archetype of Quantity. Complex data types that appear frequently in FHIR have not been profiled, even if CIMI defines them differently. This choice means that the breast cancer profiles use the native FHIR datatype, rather than having to substitute a CIMI profile everywhere the native type is used.",
+        "alias": [
+          "quantity",
+          "simpleQuantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Range-model.upperBound.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-SimpleQuantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-Range-model",
+        "path": "shr-core-Range-model",
+        "definition": "An interval defined by a quantitative upper and/or lower bound. One of the two bounds must be specified, and the lower bound must be less than the upper bound. When Quantities are specified, the units of measure must be the same.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Range-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Range-model.lowerBound",
+        "path": "shr-core-Range-model.lowerBound",
+        "short": "The lower limit on a range",
+        "definition": "The lower limit on a range",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Range-model.lowerBound",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Range-model.lowerBound.value",
+        "path": "shr-core-Range-model.lowerBound.value",
+        "short": "A quantity where the comparator is not used, as defined in FHIR.",
+        "definition": "A quantity where the comparator is not used, as defined in FHIR.\n\nThis class is not defined in CIMI V0.0.4 reference model. It could potentially be an archetype of Quantity. Complex data types that appear frequently in FHIR have not been profiled, even if CIMI defines them differently. This choice means that the breast cancer profiles use the native FHIR datatype, rather than having to substitute a CIMI profile everywhere the native type is used.",
+        "alias": [
+          "quantity",
+          "simpleQuantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Range-model.lowerBound.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-SimpleQuantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Range-model.upperBound",
+        "path": "shr-core-Range-model.upperBound",
+        "short": "The upper limit on a quantitative value.",
+        "definition": "The upper limit on a quantitative value.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Range-model.upperBound",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Range-model.upperBound.value",
+        "path": "shr-core-Range-model.upperBound.value",
+        "short": "A quantity where the comparator is not used, as defined in FHIR.",
+        "definition": "A quantity where the comparator is not used, as defined in FHIR.\n\nThis class is not defined in CIMI V0.0.4 reference model. It could potentially be an archetype of Quantity. Complex data types that appear frequently in FHIR have not been profiled, even if CIMI defines them differently. This choice means that the breast cancer profiles use the native FHIR datatype, rather than having to substitute a CIMI profile everywhere the native type is used.",
+        "alias": [
+          "quantity",
+          "simpleQuantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Range-model.upperBound.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-SimpleQuantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

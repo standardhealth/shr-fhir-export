@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "cimi-PresenceContextVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC PresenceContextVS ValueSet</b></p>\n<p>A code describing whether the finding in question is present, possible, suspected, etc.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/cimi-PresenceContextVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.PresenceContextVS"
+    }
+  ],
+  "name": "PresenceContextVS",
+  "title": "BC PresenceContextVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "A code describing whether the finding in question is present, possible, suspected, etc.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "410515003",
+            "display": "Known present"
+          },
+          {
+            "code": "410592001",
+            "display": "Probably present"
+          },
+          {
+            "code": "415684004",
+            "display": "Suspected"
+          },
+          {
+            "code": "410593006",
+            "display": "Probably not present"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-BreastCancerTypeCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC BreastCancerTypeCS CodeSystem</b></p>\n<p>Histologic types of breast cancer. Codes are drawn from ICD-O-3. Codes are presented as local codes due to the lack of a ICD-O-3 terminology server available to the FHIR IG publisher.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-BreastCancerTypeCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/breastcancer",
+    "value": "oncology.BreastCancerTypeCS"
+  },
+  "name": "BreastCancerTypeCS",
+  "title": "BC BreastCancerTypeCS CodeSystem",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Histologic types of breast cancer. Codes are drawn from ICD-O-3. Codes are presented as local codes due to the lack of a ICD-O-3 terminology server available to the FHIR IG publisher.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 45,
+  "concept": [
+    {
+      "code": "8000",
+      "definition": "Neoplasm, malignant",
+      "display": "Neoplasm, malignant"
+    },
+    {
+      "code": "8010",
+      "definition": "Carcinoma, NOS",
+      "display": "Carcinoma, NOS"
+    },
+    {
+      "code": "8032",
+      "definition": "Spindle cell carcinoma",
+      "display": "Spindle cell carcinoma"
+    },
+    {
+      "code": "8035",
+      "definition": "Carcinoma with osteoclast-like stromal giant cells",
+      "display": "Carcinoma with osteoclast-like stromal giant cells"
+    },
+    {
+      "code": "8041",
+      "definition": "Neuroendocrine carcinoma, poorly differentiated (small cell carcinoma",
+      "display": "Neuroendocrine carcinoma, poorly differentiated (small cell carcinoma"
+    },
+    {
+      "code": "8070",
+      "definition": "Squamous cell carcinoma",
+      "display": "Squamous cell carcinoma"
+    },
+    {
+      "code": "8140",
+      "definition": "Adenocarcinoma, NOS",
+      "display": "Adenocarcinoma, NOS"
+    },
+    {
+      "code": "8200",
+      "definition": "Adenoid cystic carcinoma",
+      "display": "Adenoid cystic carcinoma"
+    },
+    {
+      "code": "8201",
+      "definition": "Cribriform carcinoma",
+      "display": "Cribriform carcinoma"
+    },
+    {
+      "code": "8211",
+      "definition": "Tubular carcinoma",
+      "display": "Tubular carcinoma"
+    },
+    {
+      "code": "8246",
+      "definition": "Neuroendocrine tumor, well-differentiated",
+      "display": "Neuroendocrine tumor, well-differentiated"
+    },
+    {
+      "code": "8255",
+      "definition": "Adenocarcinoma with mixed subtypes",
+      "display": "Adenocarcinoma with mixed subtypes"
+    },
+    {
+      "code": "8290",
+      "definition": "Oncocytic carcinoma",
+      "display": "Oncocytic carcinoma"
+    },
+    {
+      "code": "8314",
+      "definition": "Lipid-rich carcinoma",
+      "display": "Lipid-rich carcinoma"
+    },
+    {
+      "code": "8315",
+      "definition": "Glycogen-rich clear cell carcinoma",
+      "display": "Glycogen-rich clear cell carcinoma"
+    },
+    {
+      "code": "8401",
+      "definition": "Apocrine adenocarcinoma",
+      "display": "Apocrine adenocarcinoma"
+    },
+    {
+      "code": "8410",
+      "definition": "Sebaceous carcinoma",
+      "display": "Sebaceous carcinoma"
+    },
+    {
+      "code": "8430",
+      "definition": "Mucoepidermoid carcinoma",
+      "display": "Mucoepidermoid carcinoma"
+    },
+    {
+      "code": "8480",
+      "definition": "Mucinous carcinoma",
+      "display": "Mucinous carcinoma"
+    },
+    {
+      "code": "8500",
+      "definition": "Ductal carcinoma",
+      "display": "Ductal carcinoma"
+    },
+    {
+      "code": "8501",
+      "definition": "Comedocarcinoma, NOS",
+      "display": "Comedocarcinoma, NOS"
+    },
+    {
+      "code": "8502",
+      "definition": "Secretory carcinoma",
+      "display": "Secretory carcinoma"
+    },
+    {
+      "code": "8503",
+      "definition": "Intraductal papillary carcinoma",
+      "display": "Intraductal papillary carcinoma"
+    },
+    {
+      "code": "8504",
+      "definition": "Encapsulated papillary carcinoma",
+      "display": "Encapsulated papillary carcinoma"
+    },
+    {
+      "code": "8507",
+      "definition": "Invasive micropapillary carcinoma",
+      "display": "Invasive micropapillary carcinoma"
+    },
+    {
+      "code": "8509",
+      "definition": "Solid papillary carcinoma",
+      "display": "Solid papillary carcinoma"
+    },
+    {
+      "code": "8510",
+      "definition": "Medullary carcinoma",
+      "display": "Medullary carcinoma"
+    },
+    {
+      "code": "8513",
+      "definition": "Atypical medullary carcinoma",
+      "display": "Atypical medullary carcinoma"
+    },
+    {
+      "code": "8520",
+      "definition": "Invasive lobular carcinoma",
+      "display": "Invasive lobular carcinoma"
+    },
+    {
+      "code": "8521",
+      "definition": "Infiltrating ductular carcinoma",
+      "display": "Infiltrating ductular carcinoma"
+    },
+    {
+      "code": "8522",
+      "definition": "Infiltrating duct and lobular carcinoma",
+      "display": "Infiltrating duct and lobular carcinoma"
+    },
+    {
+      "code": "8523",
+      "definition": "Infiltrating duct mixed with other types of carcinoma",
+      "display": "Infiltrating duct mixed with other types of carcinoma"
+    },
+    {
+      "code": "8524",
+      "definition": "Infiltrating lobular mixed with other types of carcinoma",
+      "display": "Infiltrating lobular mixed with other types of carcinoma"
+    },
+    {
+      "code": "8525",
+      "definition": "Polymorphous carcinoma",
+      "display": "Polymorphous carcinoma"
+    },
+    {
+      "code": "8530",
+      "definition": "Inflammatory carcinoma",
+      "display": "Inflammatory carcinoma"
+    },
+    {
+      "code": "8540",
+      "definition": "Paget disease of the nipple",
+      "display": "Paget disease of the nipple"
+    },
+    {
+      "code": "8541",
+      "definition": "Paget disease and infiltrating duct carcinoma of breast",
+      "display": "Paget disease and infiltrating duct carcinoma of breast"
+    },
+    {
+      "code": "8543",
+      "definition": "Paget disease and intraductal carcinoma",
+      "display": "Paget disease and intraductal carcinoma"
+    },
+    {
+      "code": "8570",
+      "definition": "Low-grade adenosquamous carcinoma",
+      "display": "Low-grade adenosquamous carcinoma"
+    },
+    {
+      "code": "8571",
+      "definition": "Metaplastic carcinoma with mesenchymal differentiation",
+      "display": "Metaplastic carcinoma with mesenchymal differentiation"
+    },
+    {
+      "code": "8572",
+      "definition": "Fibromatosis-like metaplastic carcinoma",
+      "display": "Fibromatosis-like metaplastic carcinoma"
+    },
+    {
+      "code": "8574",
+      "definition": "Carcinoma with neuroendocrine differentiation",
+      "display": "Carcinoma with neuroendocrine differentiation"
+    },
+    {
+      "code": "8575",
+      "definition": "Metaplastic carcinoma",
+      "display": "Metaplastic carcinoma"
+    },
+    {
+      "code": "8982",
+      "definition": "Myoepithelial carcinoma",
+      "display": "Myoepithelial carcinoma"
+    },
+    {
+      "code": "8983",
+      "definition": "Adenomyoepithelioma with carcinoma",
+      "display": "Adenomyoepithelioma with carcinoma"
+    }
+  ]
+}

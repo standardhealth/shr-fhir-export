@@ -1,0 +1,168 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-Abatement-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Abatement Logical Model</b></p>\n  <p>The end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Abatement-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.Abatement"
+    }
+  ],
+  "name": "AbatementModel",
+  "title": "BC Abatement Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C1880019"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-Abatement-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-Abatement-model",
+        "path": "cimi-Abatement-model",
+        "definition": "The end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Abatement-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Abatement-model.value[x]",
+        "path": "cimi-Abatement-model.value[x]",
+        "short": "Choice of types representing the end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "definition": "Choice of types representing the end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "alias": [
+          "dateTime",
+          "age",
+          "boolean",
+          "timePeriod",
+          "range",
+          "string"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Abatement-model.value[x]",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Age-model"
+          },
+          {
+            "code": "boolean"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriod-model"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Range-model"
+          },
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-Abatement-model",
+        "path": "cimi-Abatement-model",
+        "definition": "The end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Abatement-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Abatement-model.value[x]",
+        "path": "cimi-Abatement-model.value[x]",
+        "short": "Choice of types representing the end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "definition": "Choice of types representing the end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "alias": [
+          "dateTime",
+          "age",
+          "boolean",
+          "timePeriod",
+          "range",
+          "string"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Abatement-model.value[x]",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Age-model"
+          },
+          {
+            "code": "boolean"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriod-model"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Range-model"
+          },
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

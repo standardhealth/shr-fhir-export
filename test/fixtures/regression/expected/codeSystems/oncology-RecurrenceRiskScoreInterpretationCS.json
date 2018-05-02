@@ -1,0 +1,49 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "oncology-RecurrenceRiskScoreInterpretationCS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC RecurrenceRiskScoreInterpretationCS CodeSystem</b></p>\n<p>Interpretations of risk as high, intermediate, or low. Answer set taken from LOINC LL3198-0</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-RecurrenceRiskScoreInterpretationCS",
+  "identifier": {
+    "system": "http://hl7.org/fhir/us/breastcancer",
+    "value": "oncology.RecurrenceRiskScoreInterpretationCS"
+  },
+  "name": "RecurrenceRiskScoreInterpretationCS",
+  "title": "BC RecurrenceRiskScoreInterpretationCS CodeSystem",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Interpretations of risk as high, intermediate, or low. Answer set taken from LOINC LL3198-0",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "LA19541-4",
+      "definition": "High risk of recurrence.",
+      "display": "High risk of recurrence."
+    },
+    {
+      "code": "LA22380-2",
+      "definition": "Intermediate risk of recurrence.",
+      "display": "Intermediate risk of recurrence."
+    },
+    {
+      "code": "LA19542-2",
+      "definition": "Low risk of recurrence.",
+      "display": "Low risk of recurrence."
+    }
+  ]
+}

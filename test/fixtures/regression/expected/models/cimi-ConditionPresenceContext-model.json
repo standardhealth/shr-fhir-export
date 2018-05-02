@@ -1,0 +1,802 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-ConditionPresenceContext-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC ConditionPresenceContext Logical Model</b></p>\n  <p>The context for a condition that is known, suspected, or possibly present.\n\nCIMI Alignment: In CIMI V0.0.4, this class was called AssertionKnownOrSuspectedPresent. The corresponding CIMI class is ungoing a name change to include the word &#039;StatementContext&#039; and remove the word &#039;Assertion&#039;. The presence of terminology bindings (necessary to align with FHIR clinicalStatus, severity, and criticality) means that this class cannot be defined entirely within the CIMI reference model. The constraints could only exist in an archetype derived from the reference model class. The logical model here represents both the class structure and the terminology bindings.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ConditionPresenceContext-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.ConditionPresenceContext"
+    }
+  ],
+  "name": "ConditionPresenceContextModel",
+  "title": "BC ConditionPresenceContext Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The context for a condition that is known, suspected, or possibly present.\n\nCIMI Alignment: In CIMI V0.0.4, this class was called AssertionKnownOrSuspectedPresent. The corresponding CIMI class is ungoing a name change to include the word 'StatementContext' and remove the word 'Assertion'. The presence of terminology bindings (necessary to align with FHIR clinicalStatus, severity, and criticality) means that this class cannot be defined entirely within the CIMI reference model. The constraints could only exist in an archetype derived from the reference model class. The logical model here represents both the class structure and the terminology bindings.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-ConditionPresenceContext-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-ConditionPresenceContext-model",
+        "path": "cimi-ConditionPresenceContext-model",
+        "definition": "The context for a condition that is known, suspected, or possibly present.\n\nCIMI Alignment: In CIMI V0.0.4, this class was called AssertionKnownOrSuspectedPresent. The corresponding CIMI class is ungoing a name change to include the word 'StatementContext' and remove the word 'Assertion'. The presence of terminology bindings (necessary to align with FHIR clinicalStatus, severity, and criticality) means that this class cannot be defined entirely within the CIMI reference model. The constraints could only exist in an archetype derived from the reference model class. The logical model here represents both the class structure and the terminology bindings.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.contextCode",
+        "path": "cimi-ConditionPresenceContext-model.contextCode",
+        "short": "A code representing the ontological status of the statement, e.g., whether it exists, does not exist, is planned, etc.",
+        "definition": "A code representing the ontological status of the statement, e.g., whether it exists, does not exist, is planned, etc.\n\nAttribute aligns with the SNOMED CT Situation with Explicit Context (SWEC) Concept Model context attributes: 'Finding context (attribute)' (SCTID: 408729009) and 'Procedure context (attribute)' (SCTID: 408730004). The range allowed for this attribute shall be consistent with the SNOMED CT concept model specification for SWEC.\n\nCIMI Alignment: ContextCode is the new CIMI name for the attribute formerly called 'type' in CIMI V0.0.4.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.contextCode",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ContextCode-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.contextCode.value",
+        "path": "cimi-ConditionPresenceContext-model.contextCode.value",
+        "short": "Code representing a code representing the ontological status of the statement, e.g., whether it exists, does not exist, is planned, etc.",
+        "definition": "Code representing a code representing the ontological status of the statement, e.g., whether it exists, does not exist, is planned, etc.\n\nAttribute aligns with the SNOMED CT Situation with Explicit Context (SWEC) Concept Model context attributes: 'Finding context (attribute)' (SCTID: 408729009) and 'Procedure context (attribute)' (SCTID: 408730004). The range allowed for this attribute shall be consistent with the SNOMED CT concept model specification for SWEC.\n\nCIMI Alignment: ContextCode is the new CIMI name for the attribute formerly called 'type' in CIMI V0.0.4.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ContextCode-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/cimi-PresenceContextVS"
+          }
+        }
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.verificationStatus",
+        "path": "cimi-ConditionPresenceContext-model.verificationStatus",
+        "short": "Whether an assessment has been confirmed by testing or observation.",
+        "definition": "Whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.verificationStatus",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-VerificationStatus-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.verificationStatus.value",
+        "path": "cimi-ConditionPresenceContext-model.verificationStatus.value",
+        "short": "Code representing whether an assessment has been confirmed by testing or observation.",
+        "definition": "Code representing whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-VerificationStatus-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/condition-ver-status"
+          }
+        }
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.onset",
+        "path": "cimi-ConditionPresenceContext-model.onset",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0277793"
+          }
+        ],
+        "short": "The beginning or first appearance of a mental or physical disorder.",
+        "definition": "The beginning or first appearance of a mental or physical disorder.\n\nCIMI Alignment: This attribute aligns with FHIR Condition.onset and with dateOfOnset and ageAtOnset in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.onset",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Onset-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.abatement",
+        "path": "cimi-ConditionPresenceContext-model.abatement",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C1880019"
+          }
+        ],
+        "short": "The end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "definition": "The end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.abatement",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Abatement-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.certainty",
+        "path": "cimi-ConditionPresenceContext-model.certainty",
+        "short": "The degree of confidence in a conclusion or assertion.",
+        "definition": "The degree of confidence in a conclusion or assertion.\n\nCIMI Alignment: This attribute aligns with KnownOrSuspectedPresent.certainty in CIMI V0.0.4, but with the recent realignment of CIMI classes, this attribute is attached to the correct class, PresenceContext.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.certainty",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Certainty-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.clinicalStatus",
+        "path": "cimi-ConditionPresenceContext-model.clinicalStatus",
+        "short": "A flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).",
+        "definition": "A flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.clinicalStatus",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ClinicalStatus-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.clinicalStatus.value",
+        "path": "cimi-ConditionPresenceContext-model.clinicalStatus.value",
+        "short": "Code representing a flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).",
+        "definition": "Code representing a flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.",
+        "alias": [
+          "code"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ClinicalStatus-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/condition-clinical"
+          }
+        }
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.presentOnAdmission",
+        "path": "cimi-ConditionPresenceContext-model.presentOnAdmission",
+        "short": "If the problem or condition existed before the current episode of care.",
+        "definition": "If the problem or condition existed before the current episode of care.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.presentOnAdmission",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-PresentOnAdmission-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.severity",
+        "path": "cimi-ConditionPresenceContext-model.severity",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0392364"
+          }
+        ],
+        "short": "Degree of harshness or extent of a symptom, disorder, or condition.",
+        "definition": "Degree of harshness or extent of a symptom, disorder, or condition.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.severity",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Severity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.severity.value",
+        "path": "cimi-ConditionPresenceContext-model.severity.value",
+        "short": "Code representing degree of harshness or extent of a symptom, disorder, or condition.",
+        "definition": "Code representing degree of harshness or extent of a symptom, disorder, or condition.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Severity-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/condition-severity"
+          }
+        }
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.criticality",
+        "path": "cimi-ConditionPresenceContext-model.criticality",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C3858539",
+            "display": "Criticality"
+          }
+        ],
+        "short": "The potential clinical harm associated with a condition. When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.",
+        "definition": "The potential clinical harm associated with a condition. When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.criticality",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Criticality-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.criticality.value",
+        "path": "cimi-ConditionPresenceContext-model.criticality.value",
+        "short": "Code representing the potential clinical harm associated with a condition. When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.",
+        "definition": "Code representing the potential clinical harm associated with a condition. When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.",
+        "alias": [
+          "code"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Criticality-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality"
+          }
+        }
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-ConditionPresenceContext-model",
+        "path": "cimi-ConditionPresenceContext-model",
+        "definition": "The context for a condition that is known, suspected, or possibly present.\n\nCIMI Alignment: In CIMI V0.0.4, this class was called AssertionKnownOrSuspectedPresent. The corresponding CIMI class is ungoing a name change to include the word 'StatementContext' and remove the word 'Assertion'. The presence of terminology bindings (necessary to align with FHIR clinicalStatus, severity, and criticality) means that this class cannot be defined entirely within the CIMI reference model. The constraints could only exist in an archetype derived from the reference model class. The logical model here represents both the class structure and the terminology bindings.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.contextCode",
+        "path": "cimi-ConditionPresenceContext-model.contextCode",
+        "short": "A code representing the ontological status of the statement, e.g., whether it exists, does not exist, is planned, etc.",
+        "definition": "A code representing the ontological status of the statement, e.g., whether it exists, does not exist, is planned, etc.\n\nAttribute aligns with the SNOMED CT Situation with Explicit Context (SWEC) Concept Model context attributes: 'Finding context (attribute)' (SCTID: 408729009) and 'Procedure context (attribute)' (SCTID: 408730004). The range allowed for this attribute shall be consistent with the SNOMED CT concept model specification for SWEC.\n\nCIMI Alignment: ContextCode is the new CIMI name for the attribute formerly called 'type' in CIMI V0.0.4.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.contextCode",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ContextCode-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.contextCode.value",
+        "path": "cimi-ConditionPresenceContext-model.contextCode.value",
+        "short": "Code representing a code representing the ontological status of the statement, e.g., whether it exists, does not exist, is planned, etc.",
+        "definition": "Code representing a code representing the ontological status of the statement, e.g., whether it exists, does not exist, is planned, etc.\n\nAttribute aligns with the SNOMED CT Situation with Explicit Context (SWEC) Concept Model context attributes: 'Finding context (attribute)' (SCTID: 408729009) and 'Procedure context (attribute)' (SCTID: 408730004). The range allowed for this attribute shall be consistent with the SNOMED CT concept model specification for SWEC.\n\nCIMI Alignment: ContextCode is the new CIMI name for the attribute formerly called 'type' in CIMI V0.0.4.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ContextCode-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/cimi-PresenceContextVS"
+          }
+        }
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.verificationStatus",
+        "path": "cimi-ConditionPresenceContext-model.verificationStatus",
+        "short": "Whether an assessment has been confirmed by testing or observation.",
+        "definition": "Whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.verificationStatus",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-VerificationStatus-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.verificationStatus.value",
+        "path": "cimi-ConditionPresenceContext-model.verificationStatus.value",
+        "short": "Code representing whether an assessment has been confirmed by testing or observation.",
+        "definition": "Code representing whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-VerificationStatus-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/condition-ver-status"
+          }
+        }
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.onset",
+        "path": "cimi-ConditionPresenceContext-model.onset",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0277793"
+          }
+        ],
+        "short": "The beginning or first appearance of a mental or physical disorder.",
+        "definition": "The beginning or first appearance of a mental or physical disorder.\n\nCIMI Alignment: This attribute aligns with FHIR Condition.onset and with dateOfOnset and ageAtOnset in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.onset",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Onset-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.abatement",
+        "path": "cimi-ConditionPresenceContext-model.abatement",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C1880019"
+          }
+        ],
+        "short": "The end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "definition": "The end of the condition, either remission or resolution. This attribute corresponds to dateAbated and hasAbated in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.abatement",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Abatement-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.certainty",
+        "path": "cimi-ConditionPresenceContext-model.certainty",
+        "short": "The degree of confidence in a conclusion or assertion.",
+        "definition": "The degree of confidence in a conclusion or assertion.\n\nCIMI Alignment: This attribute aligns with KnownOrSuspectedPresent.certainty in CIMI V0.0.4, but with the recent realignment of CIMI classes, this attribute is attached to the correct class, PresenceContext.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.certainty",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Certainty-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.clinicalStatus",
+        "path": "cimi-ConditionPresenceContext-model.clinicalStatus",
+        "short": "A flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).",
+        "definition": "A flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.clinicalStatus",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ClinicalStatus-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.clinicalStatus.value",
+        "path": "cimi-ConditionPresenceContext-model.clinicalStatus.value",
+        "short": "Code representing a flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).",
+        "definition": "Code representing a flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.",
+        "alias": [
+          "code"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ClinicalStatus-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/condition-clinical"
+          }
+        }
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.presentOnAdmission",
+        "path": "cimi-ConditionPresenceContext-model.presentOnAdmission",
+        "short": "If the problem or condition existed before the current episode of care.",
+        "definition": "If the problem or condition existed before the current episode of care.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.presentOnAdmission",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-PresentOnAdmission-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.severity",
+        "path": "cimi-ConditionPresenceContext-model.severity",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0392364"
+          }
+        ],
+        "short": "Degree of harshness or extent of a symptom, disorder, or condition.",
+        "definition": "Degree of harshness or extent of a symptom, disorder, or condition.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.severity",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Severity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.severity.value",
+        "path": "cimi-ConditionPresenceContext-model.severity.value",
+        "short": "Code representing degree of harshness or extent of a symptom, disorder, or condition.",
+        "definition": "Code representing degree of harshness or extent of a symptom, disorder, or condition.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Severity-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/condition-severity"
+          }
+        }
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.criticality",
+        "path": "cimi-ConditionPresenceContext-model.criticality",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C3858539",
+            "display": "Criticality"
+          }
+        ],
+        "short": "The potential clinical harm associated with a condition. When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.",
+        "definition": "The potential clinical harm associated with a condition. When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-ConditionPresenceContext-model.criticality",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Criticality-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ConditionPresenceContext-model.criticality.value",
+        "path": "cimi-ConditionPresenceContext-model.criticality.value",
+        "short": "Code representing the potential clinical harm associated with a condition. When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.",
+        "definition": "Code representing the potential clinical harm associated with a condition. When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.",
+        "alias": [
+          "code"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Criticality-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality"
+          }
+        }
+      }
+    ]
+  }
+}

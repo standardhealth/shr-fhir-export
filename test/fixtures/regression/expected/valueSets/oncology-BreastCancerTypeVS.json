@@ -1,0 +1,220 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-BreastCancerTypeVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC BreastCancerTypeVS ValueSet</b></p>\n<p>Histologic types of breast cancer. Codes are drawn from ICD-O-3. Codes are presented as local codes due to the lack of a ICD-O-3 terminology server available to the FHIR IG publisher.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-BreastCancerTypeVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.BreastCancerTypeVS"
+    }
+  ],
+  "name": "BreastCancerTypeVS",
+  "title": "BC BreastCancerTypeVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Histologic types of breast cancer. Codes are drawn from ICD-O-3. Codes are presented as local codes due to the lack of a ICD-O-3 terminology server available to the FHIR IG publisher.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-BreastCancerTypeCS",
+        "concept": [
+          {
+            "code": "8000",
+            "display": "Neoplasm, malignant"
+          },
+          {
+            "code": "8010",
+            "display": "Carcinoma, NOS"
+          },
+          {
+            "code": "8032",
+            "display": "Spindle cell carcinoma"
+          },
+          {
+            "code": "8035",
+            "display": "Carcinoma with osteoclast-like stromal giant cells"
+          },
+          {
+            "code": "8041",
+            "display": "Neuroendocrine carcinoma, poorly differentiated (small cell carcinoma"
+          },
+          {
+            "code": "8070",
+            "display": "Squamous cell carcinoma"
+          },
+          {
+            "code": "8140",
+            "display": "Adenocarcinoma, NOS"
+          },
+          {
+            "code": "8200",
+            "display": "Adenoid cystic carcinoma"
+          },
+          {
+            "code": "8201",
+            "display": "Cribriform carcinoma"
+          },
+          {
+            "code": "8211",
+            "display": "Tubular carcinoma"
+          },
+          {
+            "code": "8246",
+            "display": "Neuroendocrine tumor, well-differentiated"
+          },
+          {
+            "code": "8255",
+            "display": "Adenocarcinoma with mixed subtypes"
+          },
+          {
+            "code": "8290",
+            "display": "Oncocytic carcinoma"
+          },
+          {
+            "code": "8314",
+            "display": "Lipid-rich carcinoma"
+          },
+          {
+            "code": "8315",
+            "display": "Glycogen-rich clear cell carcinoma"
+          },
+          {
+            "code": "8401",
+            "display": "Apocrine adenocarcinoma"
+          },
+          {
+            "code": "8410",
+            "display": "Sebaceous carcinoma"
+          },
+          {
+            "code": "8430",
+            "display": "Mucoepidermoid carcinoma"
+          },
+          {
+            "code": "8480",
+            "display": "Mucinous carcinoma"
+          },
+          {
+            "code": "8500",
+            "display": "Ductal carcinoma"
+          },
+          {
+            "code": "8501",
+            "display": "Comedocarcinoma, NOS"
+          },
+          {
+            "code": "8502",
+            "display": "Secretory carcinoma"
+          },
+          {
+            "code": "8503",
+            "display": "Intraductal papillary carcinoma"
+          },
+          {
+            "code": "8504",
+            "display": "Encapsulated papillary carcinoma"
+          },
+          {
+            "code": "8507",
+            "display": "Invasive micropapillary carcinoma"
+          },
+          {
+            "code": "8509",
+            "display": "Solid papillary carcinoma"
+          },
+          {
+            "code": "8510",
+            "display": "Medullary carcinoma"
+          },
+          {
+            "code": "8513",
+            "display": "Atypical medullary carcinoma"
+          },
+          {
+            "code": "8520",
+            "display": "Invasive lobular carcinoma"
+          },
+          {
+            "code": "8521",
+            "display": "Infiltrating ductular carcinoma"
+          },
+          {
+            "code": "8522",
+            "display": "Infiltrating duct and lobular carcinoma"
+          },
+          {
+            "code": "8523",
+            "display": "Infiltrating duct mixed with other types of carcinoma"
+          },
+          {
+            "code": "8524",
+            "display": "Infiltrating lobular mixed with other types of carcinoma"
+          },
+          {
+            "code": "8525",
+            "display": "Polymorphous carcinoma"
+          },
+          {
+            "code": "8530",
+            "display": "Inflammatory carcinoma"
+          },
+          {
+            "code": "8540",
+            "display": "Paget disease of the nipple"
+          },
+          {
+            "code": "8541",
+            "display": "Paget disease and infiltrating duct carcinoma of breast"
+          },
+          {
+            "code": "8543",
+            "display": "Paget disease and intraductal carcinoma"
+          },
+          {
+            "code": "8570",
+            "display": "Low-grade adenosquamous carcinoma"
+          },
+          {
+            "code": "8571",
+            "display": "Metaplastic carcinoma with mesenchymal differentiation"
+          },
+          {
+            "code": "8572",
+            "display": "Fibromatosis-like metaplastic carcinoma"
+          },
+          {
+            "code": "8574",
+            "display": "Carcinoma with neuroendocrine differentiation"
+          },
+          {
+            "code": "8575",
+            "display": "Metaplastic carcinoma"
+          },
+          {
+            "code": "8982",
+            "display": "Myoepithelial carcinoma"
+          },
+          {
+            "code": "8983",
+            "display": "Adenomyoepithelioma with carcinoma"
+          }
+        ]
+      }
+    ]
+  }
+}

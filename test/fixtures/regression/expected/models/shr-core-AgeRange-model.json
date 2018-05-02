@@ -1,0 +1,282 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-AgeRange-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC AgeRange Logical Model</b></p>\n  <p>A quantitative range of ages. One of the two ages must be specified.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-AgeRange-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.AgeRange"
+    }
+  ],
+  "name": "AgeRangeModel",
+  "title": "BC AgeRange Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "A quantitative range of ages. One of the two ages must be specified.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-AgeRange-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-AgeRange-model",
+        "path": "shr-core-AgeRange-model",
+        "definition": "A quantitative range of ages. One of the two ages must be specified.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-AgeRange-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-AgeRange-model.upperBound",
+        "path": "shr-core-AgeRange-model.upperBound",
+        "short": "The upper limit on a quantitative value.",
+        "definition": "The upper limit on a quantitative value.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-AgeRange-model.upperBound",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-AgeRange-model.upperBound.value",
+        "path": "shr-core-AgeRange-model.upperBound.value",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0001779"
+          }
+        ],
+        "short": "How long something has existed in time.",
+        "definition": "How long something has existed in time.",
+        "alias": [
+          "quantity",
+          "age"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-AgeRange-model.upperBound.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Age-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-AgeRange-model.lowerBound",
+        "path": "shr-core-AgeRange-model.lowerBound",
+        "short": "The lower limit on a range",
+        "definition": "The lower limit on a range",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-AgeRange-model.lowerBound",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-AgeRange-model.lowerBound.value",
+        "path": "shr-core-AgeRange-model.lowerBound.value",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0001779"
+          }
+        ],
+        "short": "How long something has existed in time.",
+        "definition": "How long something has existed in time.",
+        "alias": [
+          "quantity",
+          "age"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-AgeRange-model.lowerBound.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Age-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-AgeRange-model",
+        "path": "shr-core-AgeRange-model",
+        "definition": "A quantitative range of ages. One of the two ages must be specified.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-AgeRange-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-AgeRange-model.upperBound",
+        "path": "shr-core-AgeRange-model.upperBound",
+        "short": "The upper limit on a quantitative value.",
+        "definition": "The upper limit on a quantitative value.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-AgeRange-model.upperBound",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-AgeRange-model.upperBound.value",
+        "path": "shr-core-AgeRange-model.upperBound.value",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0001779"
+          }
+        ],
+        "short": "How long something has existed in time.",
+        "definition": "How long something has existed in time.",
+        "alias": [
+          "quantity",
+          "age"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-AgeRange-model.upperBound.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Age-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-AgeRange-model.lowerBound",
+        "path": "shr-core-AgeRange-model.lowerBound",
+        "short": "The lower limit on a range",
+        "definition": "The lower limit on a range",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "shr-core-AgeRange-model.lowerBound",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-AgeRange-model.lowerBound.value",
+        "path": "shr-core-AgeRange-model.lowerBound.value",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0001779"
+          }
+        ],
+        "short": "How long something has existed in time.",
+        "definition": "How long something has existed in time.",
+        "alias": [
+          "quantity",
+          "age"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-AgeRange-model.lowerBound.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Age-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

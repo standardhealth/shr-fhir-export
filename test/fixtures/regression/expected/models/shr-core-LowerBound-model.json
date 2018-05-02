@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-LowerBound-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC LowerBound Logical Model</b></p>\n  <p>The lower limit on a range</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-LowerBound-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.LowerBound"
+    }
+  ],
+  "name": "LowerBoundModel",
+  "title": "BC LowerBound Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The lower limit on a range",
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-LowerBound-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-LowerBound-model",
+        "path": "shr-core-LowerBound-model",
+        "definition": "The lower limit on a range",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-LowerBound-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-LowerBound-model.value",
+        "path": "shr-core-LowerBound-model.value",
+        "short": "Quantity representing the lower limit on a range",
+        "definition": "Quantity representing the lower limit on a range",
+        "alias": [
+          "quantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-LowerBound-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Quantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-LowerBound-model",
+        "path": "shr-core-LowerBound-model",
+        "definition": "The lower limit on a range",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-LowerBound-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-LowerBound-model.value",
+        "path": "shr-core-LowerBound-model.value",
+        "short": "Quantity representing the lower limit on a range",
+        "definition": "Quantity representing the lower limit on a range",
+        "alias": [
+          "quantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-LowerBound-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Quantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

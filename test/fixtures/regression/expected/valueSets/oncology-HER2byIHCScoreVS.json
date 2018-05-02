@@ -1,0 +1,60 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-HER2byIHCScoreVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC HER2byIHCScoreVS ValueSet</b></p>\n<p>Value set containing possible scores resulting from determining HER2 status by immunohistochemistry. Based on LNC#LL4396-9 answer list.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-HER2byIHCScoreVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.HER2byIHCScoreVS"
+    }
+  ],
+  "name": "HER2byIHCScoreVS",
+  "title": "BC HER2byIHCScoreVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Value set containing possible scores resulting from determining HER2 status by immunohistochemistry. Based on LNC#LL4396-9 answer list.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA6111-4",
+            "display": "0"
+          },
+          {
+            "code": "LA11841-6",
+            "display": "1+"
+          },
+          {
+            "code": "LA11842-4",
+            "display": "2+"
+          },
+          {
+            "code": "LA11843-2",
+            "display": "3+"
+          },
+          {
+            "code": "LA11884-6",
+            "display": "Indeterminate"
+          }
+        ]
+      }
+    ]
+  }
+}

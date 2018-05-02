@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-OncotypeDxDCISRiskScoreInterpretationVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC OncotypeDxDCISRiskScoreInterpretationVS ValueSet</b></p>\n<p>Intepretation of OncotypeDX DCIS (Ductal Carcinoma In Situ) Recurrence Score</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-OncotypeDxDCISRiskScoreInterpretationVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.OncotypeDxDCISRiskScoreInterpretationVS"
+    }
+  ],
+  "name": "OncotypeDxDCISRiskScoreInterpretationVS",
+  "title": "BC OncotypeDxDCISRiskScoreInterpretationVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Intepretation of OncotypeDX DCIS (Ductal Carcinoma In Situ) Recurrence Score",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-OncotypeDxDCISRiskScoreInterpretationCS",
+        "concept": [
+          {
+            "code": "low_risk",
+            "display": "Recurrence Score lower than 38: The cancer has a low risk of recurrence. The benefit of chemotherapy is likely to be small and will not outweigh the risks of side effects."
+          },
+          {
+            "code": "intermediate_risk",
+            "display": "Recurrence Score of 39 up to and including 54: The cancer has an intermediate risk of recurrence. It’s unclear whether the benefits of chemotherapy outweigh the risks of side effects."
+          },
+          {
+            "code": "high_risk",
+            "display": "Recurrence Score greater than or equal to 55: The cancer has a high risk of recurrence, and the benefits of chemotherapy are likely to be greater than the risks of side effects."
+          }
+        ]
+      }
+    ]
+  }
+}

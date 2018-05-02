@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-MorphologyBehaviorVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC MorphologyBehaviorVS ValueSet</b></p>\n<p>The morphologic behavior of the cancer. These are the suffix to the ICD-O-3 histologic type codes. Codes are presented as local codes due to the lack of a ICD-O-3 terminology server available to the FHIR IG publisher.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-MorphologyBehaviorVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.MorphologyBehaviorVS"
+    }
+  ],
+  "name": "MorphologyBehaviorVS",
+  "title": "BC MorphologyBehaviorVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "The morphologic behavior of the cancer. These are the suffix to the ICD-O-3 histologic type codes. Codes are presented as local codes due to the lack of a ICD-O-3 terminology server available to the FHIR IG publisher.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-MorphologyBehaviorCS",
+        "concept": [
+          {
+            "code": "0",
+            "display": "Benign"
+          },
+          {
+            "code": "1",
+            "display": "Uncertain whether benign or malignant"
+          },
+          {
+            "code": "2",
+            "display": "In situ"
+          },
+          {
+            "code": "3",
+            "display": "Malignant, primary site"
+          },
+          {
+            "code": "6",
+            "display": "Malignant, metastatic site"
+          },
+          {
+            "code": "9",
+            "display": "Malignant, uncertain whether primary or metastatic site"
+          }
+        ]
+      }
+    ]
+  }
+}

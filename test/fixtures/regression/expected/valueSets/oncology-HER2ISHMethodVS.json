@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-HER2ISHMethodVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC HER2ISHMethodVS ValueSet</b></p>\n<p>Value set containing In Situ Hybridization methods of determining HER2 status</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-HER2ISHMethodVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.HER2ISHMethodVS"
+    }
+  ],
+  "name": "HER2ISHMethodVS",
+  "title": "BC HER2ISHMethodVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Value set containing In Situ Hybridization methods of determining HER2 status",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-HER2ISHMethodCS",
+        "concept": [
+          {
+            "code": "single",
+            "display": "HER2 by Single Probe Assay In Situ Hybridization test"
+          },
+          {
+            "code": "dual",
+            "display": "HER2 by Dual Probe Assay In Situ Hybridization test"
+          }
+        ]
+      }
+    ]
+  }
+}

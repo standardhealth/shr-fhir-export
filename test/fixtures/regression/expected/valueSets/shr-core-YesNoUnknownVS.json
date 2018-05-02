@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "shr-core-YesNoUnknownVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC YesNoUnknownVS ValueSet</b></p>\n<p>A simple value set containing the values Yes (or true), No (or false), and Unknown</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/shr-core-YesNoUnknownVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.YesNoUnknownVS"
+    }
+  ],
+  "name": "YesNoUnknownVS",
+  "title": "BC YesNoUnknownVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "A simple value set containing the values Yes (or true), No (or false), and Unknown",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/shr-core-YesNoUnknownCS",
+        "concept": [
+          {
+            "code": "yes",
+            "display": "Yes, or true"
+          },
+          {
+            "code": "no",
+            "display": "No, or false"
+          },
+          {
+            "code": "unknown",
+            "display": "Unknown"
+          }
+        ]
+      }
+    ]
+  }
+}

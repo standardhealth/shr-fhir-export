@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-PositiveNegativeVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC PositiveNegativeVS ValueSet</b></p>\n<p>Value set containing the values positive and negative. Values are from National Library of Medicine Metathesaurus.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-PositiveNegativeVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.PositiveNegativeVS"
+    }
+  ],
+  "name": "PositiveNegativeVS",
+  "title": "BC PositiveNegativeVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Value set containing the values positive and negative. Values are from National Library of Medicine Metathesaurus.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-PositiveNegativeCS",
+        "concept": [
+          {
+            "code": "C1446409",
+            "display": "Positive"
+          },
+          {
+            "code": "C0205160",
+            "display": "Negative"
+          }
+        ]
+      }
+    ]
+  }
+}

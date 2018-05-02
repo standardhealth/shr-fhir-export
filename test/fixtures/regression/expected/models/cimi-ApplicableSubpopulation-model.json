@@ -1,0 +1,141 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-ApplicableSubpopulation-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC ApplicableSubpopulation Logical Model</b></p>\n  <p>Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ApplicableSubpopulation-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.ApplicableSubpopulation"
+    }
+  ],
+  "name": "ApplicableSubpopulationModel",
+  "title": "BC ApplicableSubpopulation Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C0039309",
+      "display": "Target Population"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-ApplicableSubpopulation-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-ApplicableSubpopulation-model",
+        "path": "cimi-ApplicableSubpopulation-model",
+        "definition": "Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ApplicableSubpopulation-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ApplicableSubpopulation-model.value",
+        "path": "cimi-ApplicableSubpopulation-model.value",
+        "short": "Code representing codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "definition": "Code representing codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ApplicableSubpopulation-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "extensible",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/referencerange-appliesto"
+          }
+        }
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-ApplicableSubpopulation-model",
+        "path": "cimi-ApplicableSubpopulation-model",
+        "definition": "Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ApplicableSubpopulation-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ApplicableSubpopulation-model.value",
+        "path": "cimi-ApplicableSubpopulation-model.value",
+        "short": "Code representing codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "definition": "Code representing codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ApplicableSubpopulation-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "extensible",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/ValueSet/referencerange-appliesto"
+          }
+        }
+      }
+    ]
+  }
+}

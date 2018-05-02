@@ -1,0 +1,130 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-CollectionTime-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC CollectionTime Logical Model</b></p>\n  <p>When the sample was obtained, as a specific time or time period.\n\nCIMI Alignment: Specimen collection time seems to be missing in CIMI V0.0.4. The time may be in the CollectionProcedure, but if the specimen collection time is recorded in Performance.Attribution (a list of actions), it would be nearly impossible to create a mapping.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-CollectionTime-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.CollectionTime"
+    }
+  ],
+  "name": "CollectionTimeModel",
+  "title": "BC CollectionTime Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "When the sample was obtained, as a specific time or time period.\n\nCIMI Alignment: Specimen collection time seems to be missing in CIMI V0.0.4. The time may be in the CollectionProcedure, but if the specimen collection time is recorded in Performance.Attribution (a list of actions), it would be nearly impossible to create a mapping.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-CollectionTime-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-CollectionTime-model",
+        "path": "cimi-CollectionTime-model",
+        "definition": "When the sample was obtained, as a specific time or time period.\n\nCIMI Alignment: Specimen collection time seems to be missing in CIMI V0.0.4. The time may be in the CollectionProcedure, but if the specimen collection time is recorded in Performance.Attribution (a list of actions), it would be nearly impossible to create a mapping.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-CollectionTime-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-CollectionTime-model.value[x]",
+        "path": "cimi-CollectionTime-model.value[x]",
+        "short": "DateTime or TimePeriod representing when the sample was obtained, as a specific time or time period.",
+        "definition": "DateTime or TimePeriod representing when the sample was obtained, as a specific time or time period.\n\nCIMI Alignment: Specimen collection time seems to be missing in CIMI V0.0.4. The time may be in the CollectionProcedure, but if the specimen collection time is recorded in Performance.Attribution (a list of actions), it would be nearly impossible to create a mapping.",
+        "alias": [
+          "dateTime",
+          "timePeriod"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-CollectionTime-model.value[x]",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriod-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-CollectionTime-model",
+        "path": "cimi-CollectionTime-model",
+        "definition": "When the sample was obtained, as a specific time or time period.\n\nCIMI Alignment: Specimen collection time seems to be missing in CIMI V0.0.4. The time may be in the CollectionProcedure, but if the specimen collection time is recorded in Performance.Attribution (a list of actions), it would be nearly impossible to create a mapping.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-CollectionTime-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-CollectionTime-model.value[x]",
+        "path": "cimi-CollectionTime-model.value[x]",
+        "short": "DateTime or TimePeriod representing when the sample was obtained, as a specific time or time period.",
+        "definition": "DateTime or TimePeriod representing when the sample was obtained, as a specific time or time period.\n\nCIMI Alignment: Specimen collection time seems to be missing in CIMI V0.0.4. The time may be in the CollectionProcedure, but if the specimen collection time is recorded in Performance.Attribution (a list of actions), it would be nearly impossible to create a mapping.",
+        "alias": [
+          "dateTime",
+          "timePeriod"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-CollectionTime-model.value[x]",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriod-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-ApplicableAgeRange-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC ApplicableAgeRange Logical Model</b></p>\n  <p>The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ApplicableAgeRange-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.ApplicableAgeRange"
+    }
+  ],
+  "name": "ApplicableAgeRangeModel",
+  "title": "BC ApplicableAgeRange Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-ApplicableAgeRange-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-ApplicableAgeRange-model",
+        "path": "cimi-ApplicableAgeRange-model",
+        "definition": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ApplicableAgeRange-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ApplicableAgeRange-model.value",
+        "path": "cimi-ApplicableAgeRange-model.value",
+        "short": "Range representing the age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "definition": "Range representing the age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "alias": [
+          "range"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ApplicableAgeRange-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Range-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-ApplicableAgeRange-model",
+        "path": "cimi-ApplicableAgeRange-model",
+        "definition": "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ApplicableAgeRange-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ApplicableAgeRange-model.value",
+        "path": "cimi-ApplicableAgeRange-model.value",
+        "short": "Range representing the age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "definition": "Range representing the age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
+        "alias": [
+          "range"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ApplicableAgeRange-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Range-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

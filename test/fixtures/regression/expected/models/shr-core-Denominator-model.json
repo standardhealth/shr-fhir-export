@@ -1,0 +1,128 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-Denominator-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Denominator Logical Model</b></p>\n  <p>The divisor of a fraction.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Denominator-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.Denominator"
+    }
+  ],
+  "name": "DenominatorModel",
+  "title": "BC Denominator Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The divisor of a fraction.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C2825218"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-Denominator-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-Denominator-model",
+        "path": "shr-core-Denominator-model",
+        "definition": "The divisor of a fraction.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Denominator-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Denominator-model.value",
+        "path": "shr-core-Denominator-model.value",
+        "short": "Quantity representing the divisor of a fraction.",
+        "definition": "Quantity representing the divisor of a fraction.",
+        "alias": [
+          "quantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Denominator-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Quantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-Denominator-model",
+        "path": "shr-core-Denominator-model",
+        "definition": "The divisor of a fraction.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Denominator-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Denominator-model.value",
+        "path": "shr-core-Denominator-model.value",
+        "short": "Quantity representing the divisor of a fraction.",
+        "definition": "Quantity representing the divisor of a fraction.",
+        "alias": [
+          "quantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Denominator-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Quantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

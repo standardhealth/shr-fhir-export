@@ -1,0 +1,160 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-Onset-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Onset Logical Model</b></p>\n  <p>The beginning or first appearance of a mental or physical disorder.\n\nCIMI Alignment: This attribute aligns with FHIR Condition.onset and with dateOfOnset and ageAtOnset in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Onset-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.Onset"
+    }
+  ],
+  "name": "OnsetModel",
+  "title": "BC Onset Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The beginning or first appearance of a mental or physical disorder.\n\nCIMI Alignment: This attribute aligns with FHIR Condition.onset and with dateOfOnset and ageAtOnset in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C0277793"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-Onset-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-Onset-model",
+        "path": "cimi-Onset-model",
+        "definition": "The beginning or first appearance of a mental or physical disorder.\n\nCIMI Alignment: This attribute aligns with FHIR Condition.onset and with dateOfOnset and ageAtOnset in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Onset-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Onset-model.value[x]",
+        "path": "cimi-Onset-model.value[x]",
+        "short": "Choice of types representing the beginning or first appearance of a mental or physical disorder.",
+        "definition": "Choice of types representing the beginning or first appearance of a mental or physical disorder.\n\nCIMI Alignment: This attribute aligns with FHIR Condition.onset and with dateOfOnset and ageAtOnset in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "alias": [
+          "dateTime",
+          "age",
+          "timePeriod",
+          "range",
+          "string"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Onset-model.value[x]",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Age-model"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriod-model"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Range-model"
+          },
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-Onset-model",
+        "path": "cimi-Onset-model",
+        "definition": "The beginning or first appearance of a mental or physical disorder.\n\nCIMI Alignment: This attribute aligns with FHIR Condition.onset and with dateOfOnset and ageAtOnset in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Onset-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Onset-model.value[x]",
+        "path": "cimi-Onset-model.value[x]",
+        "short": "Choice of types representing the beginning or first appearance of a mental or physical disorder.",
+        "definition": "Choice of types representing the beginning or first appearance of a mental or physical disorder.\n\nCIMI Alignment: This attribute aligns with FHIR Condition.onset and with dateOfOnset and ageAtOnset in CIMI V0.0.4, but includes additional datatypes corresponding to FHIR",
+        "alias": [
+          "dateTime",
+          "age",
+          "timePeriod",
+          "range",
+          "string"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Onset-model.value[x]",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Age-model"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriod-model"
+          },
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Range-model"
+          },
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

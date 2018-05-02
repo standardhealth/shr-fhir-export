@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-Category-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Category Logical Model</b></p>\n  <p>A class or division of people or things having particular shared characteristics</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Category-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.Category"
+    }
+  ],
+  "name": "CategoryModel",
+  "title": "BC Category Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "A class or division of people or things having particular shared characteristics",
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-Category-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-Category-model",
+        "path": "shr-core-Category-model",
+        "definition": "A class or division of people or things having particular shared characteristics",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Category-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Category-model.value",
+        "path": "shr-core-Category-model.value",
+        "short": "Code representing a class or division of people or things having particular shared characteristics",
+        "definition": "Code representing a class or division of people or things having particular shared characteristics",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Category-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-Category-model",
+        "path": "shr-core-Category-model",
+        "definition": "A class or division of people or things having particular shared characteristics",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-Category-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-Category-model.value",
+        "path": "shr-core-Category-model.value",
+        "short": "Code representing a class or division of people or things having particular shared characteristics",
+        "definition": "Code representing a class or division of people or things having particular shared characteristics",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-Category-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

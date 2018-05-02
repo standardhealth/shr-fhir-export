@@ -1,0 +1,124 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-SourceSpecimen-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC SourceSpecimen Logical Model</b></p>\n  <p>Identifier for the source specimen from which this specimen was derived.\n\nCIMI Alignment: In CIMI V0.0.4, this attribute is called parentSpecimenIdentifier (datatype Identifier). The corresponding element in FHIR (Specimen.parent) is type ref(Specimen). It is impossible to map Idenfier to Specimen, so the datatype of this element has been changed to make the mapping feasible.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-SourceSpecimen-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.SourceSpecimen"
+    }
+  ],
+  "name": "SourceSpecimenModel",
+  "title": "BC SourceSpecimen Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Identifier for the source specimen from which this specimen was derived.\n\nCIMI Alignment: In CIMI V0.0.4, this attribute is called parentSpecimenIdentifier (datatype Identifier). The corresponding element in FHIR (Specimen.parent) is type ref(Specimen). It is impossible to map Idenfier to Specimen, so the datatype of this element has been changed to make the mapping feasible.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-SourceSpecimen-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-SourceSpecimen-model",
+        "path": "cimi-SourceSpecimen-model",
+        "definition": "Identifier for the source specimen from which this specimen was derived.\n\nCIMI Alignment: In CIMI V0.0.4, this attribute is called parentSpecimenIdentifier (datatype Identifier). The corresponding element in FHIR (Specimen.parent) is type ref(Specimen). It is impossible to map Idenfier to Specimen, so the datatype of this element has been changed to make the mapping feasible.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-SourceSpecimen-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-SourceSpecimen-model.value",
+        "path": "cimi-SourceSpecimen-model.value",
+        "short": "Specimen representing identifier for the source specimen from which this specimen was derived.",
+        "definition": "Specimen representing identifier for the source specimen from which this specimen was derived.\n\nCIMI Alignment: In CIMI V0.0.4, this attribute is called parentSpecimenIdentifier (datatype Identifier). The corresponding element in FHIR (Specimen.parent) is type ref(Specimen). It is impossible to map Idenfier to Specimen, so the datatype of this element has been changed to make the mapping feasible.",
+        "alias": [
+          "specimen"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-SourceSpecimen-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Specimen-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-SourceSpecimen-model",
+        "path": "cimi-SourceSpecimen-model",
+        "definition": "Identifier for the source specimen from which this specimen was derived.\n\nCIMI Alignment: In CIMI V0.0.4, this attribute is called parentSpecimenIdentifier (datatype Identifier). The corresponding element in FHIR (Specimen.parent) is type ref(Specimen). It is impossible to map Idenfier to Specimen, so the datatype of this element has been changed to make the mapping feasible.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-SourceSpecimen-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-SourceSpecimen-model.value",
+        "path": "cimi-SourceSpecimen-model.value",
+        "short": "Specimen representing identifier for the source specimen from which this specimen was derived.",
+        "definition": "Specimen representing identifier for the source specimen from which this specimen was derived.\n\nCIMI Alignment: In CIMI V0.0.4, this attribute is called parentSpecimenIdentifier (datatype Identifier). The corresponding element in FHIR (Specimen.parent) is type ref(Specimen). It is impossible to map Idenfier to Specimen, so the datatype of this element has been changed to make the mapping feasible.",
+        "alias": [
+          "specimen"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-SourceSpecimen-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Specimen-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

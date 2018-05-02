@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-ClinicalStatus-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC ClinicalStatus Logical Model</b></p>\n  <p>A flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ClinicalStatus-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.ClinicalStatus"
+    }
+  ],
+  "name": "ClinicalStatusModel",
+  "title": "BC ClinicalStatus Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "A flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-ClinicalStatus-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-ClinicalStatus-model",
+        "path": "cimi-ClinicalStatus-model",
+        "definition": "A flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ClinicalStatus-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ClinicalStatus-model.value",
+        "path": "cimi-ClinicalStatus-model.value",
+        "short": "Code representing a flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).",
+        "definition": "Code representing a flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.",
+        "alias": [
+          "code"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ClinicalStatus-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-ClinicalStatus-model",
+        "path": "cimi-ClinicalStatus-model",
+        "definition": "A flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-ClinicalStatus-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-ClinicalStatus-model.value",
+        "path": "cimi-ClinicalStatus-model.value",
+        "short": "Code representing a flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).",
+        "definition": "Code representing a flag indicating whether the condition is active or inactive, recurring, in remission, or resolved (as of the last update of the Condition).\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been changed to better align with FHIR.",
+        "alias": [
+          "code"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-ClinicalStatus-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

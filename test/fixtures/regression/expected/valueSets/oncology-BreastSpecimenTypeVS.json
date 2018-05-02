@@ -1,0 +1,64 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-BreastSpecimenTypeVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC BreastSpecimenTypeVS ValueSet</b></p>\n<p>The type of specimen obtained from the breast.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-BreastSpecimenTypeVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.BreastSpecimenTypeVS"
+    }
+  ],
+  "name": "BreastSpecimenTypeVS",
+  "title": "BC BreastSpecimenTypeVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "The type of specimen obtained from the breast.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-BreastSpecimenTypeCS",
+        "concept": [
+          {
+            "code": "aspirate",
+            "display": "Aspirate"
+          },
+          {
+            "code": "core",
+            "display": "Core biopsy specimen"
+          },
+          {
+            "code": "excision",
+            "display": "Excision specimen without wire loc"
+          },
+          {
+            "code": "wire",
+            "display": "Excision specimen with wire loc"
+          },
+          {
+            "code": "duct",
+            "display": "Nipple duct excision"
+          },
+          {
+            "code": "mastectomy",
+            "display": "Total mastectomy"
+          }
+        ]
+      }
+    ]
+  }
+}

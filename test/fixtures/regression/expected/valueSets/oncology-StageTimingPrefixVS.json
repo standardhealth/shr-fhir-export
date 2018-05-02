@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-StageTimingPrefixVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC StageTimingPrefixVS ValueSet</b></p>\n<p>When staging was done, relative to treatment events.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-StageTimingPrefixVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.StageTimingPrefixVS"
+    }
+  ],
+  "name": "StageTimingPrefixVS",
+  "title": "BC StageTimingPrefixVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "When staging was done, relative to treatment events.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-StageTimingPrefixCS",
+        "concept": [
+          {
+            "code": "cli",
+            "display": "Staging performed prior to surgery, based on evidence such as physical examination, imaging, and/or biopsy."
+          },
+          {
+            "code": "path",
+            "display": "Staging performed based on examination of tissue samples removed during surgery, in addition to physical examination and imaging."
+          },
+          {
+            "code": "postther_cli",
+            "display": "Post-therapeutic (post-neoadjuvant) clinical staging based on clinical examination after the first treatment with systemic drugs or radiation, when no surgery has been performed."
+          },
+          {
+            "code": "postther_path",
+            "display": "Post-therapeutic (post-neoadjuvant) pathologic staging, based  on tissue samples removed during surgery after the first treatment with systemic drugs or radiation."
+          }
+        ]
+      }
+    ]
+  }
+}

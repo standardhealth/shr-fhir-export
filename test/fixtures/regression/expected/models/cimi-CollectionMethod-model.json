@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-CollectionMethod-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC CollectionMethod Logical Model</b></p>\n  <p>How the specimen was obtained.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-CollectionMethod-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.CollectionMethod"
+    }
+  ],
+  "name": "CollectionMethodModel",
+  "title": "BC CollectionMethod Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "How the specimen was obtained.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-CollectionMethod-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-CollectionMethod-model",
+        "path": "cimi-CollectionMethod-model",
+        "definition": "How the specimen was obtained.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-CollectionMethod-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-CollectionMethod-model.value",
+        "path": "cimi-CollectionMethod-model.value",
+        "short": "Code representing how the specimen was obtained.",
+        "definition": "Code representing how the specimen was obtained.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-CollectionMethod-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-CollectionMethod-model",
+        "path": "cimi-CollectionMethod-model",
+        "definition": "How the specimen was obtained.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-CollectionMethod-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-CollectionMethod-model.value",
+        "path": "cimi-CollectionMethod-model.value",
+        "short": "Code representing how the specimen was obtained.",
+        "definition": "Code representing how the specimen was obtained.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-CollectionMethod-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

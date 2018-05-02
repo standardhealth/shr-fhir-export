@@ -1,0 +1,350 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-Specimen-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Specimen Logical Model</b></p>\n  <p>A specimen is a substance, physical object, or collection of objects, that the laboratory considers a single discrete, uniquely identified unit that is the subject of one or more steps in the laboratory workflow. A specimen may include multiple physical pieces as long as they are considered a single unit within the laboratory workflow. A specimen results from one to many specimen collection procedures, and may be contained in multiple specimen containers. Specimen may have one or more processing activities.\n\nCIMI Alignment: This class has been cut down to parts relevant to the current oncology ballot. The attribute parentSpecimenIdentifier has been changed from an Identifier to a reference to a Specimen, to make it possible to map to FHIR.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Specimen-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.Specimen"
+    }
+  ],
+  "name": "SpecimenModel",
+  "title": "BC Specimen Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "A specimen is a substance, physical object, or collection of objects, that the laboratory considers a single discrete, uniquely identified unit that is the subject of one or more steps in the laboratory workflow. A specimen may include multiple physical pieces as long as they are considered a single unit within the laboratory workflow. A specimen results from one to many specimen collection procedures, and may be contained in multiple specimen containers. Specimen may have one or more processing activities.\n\nCIMI Alignment: This class has been cut down to parts relevant to the current oncology ballot. The attribute parentSpecimenIdentifier has been changed from an Identifier to a reference to a Specimen, to make it possible to map to FHIR.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-Specimen-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-Specimen-model",
+        "path": "cimi-Specimen-model",
+        "definition": "A specimen is a substance, physical object, or collection of objects, that the laboratory considers a single discrete, uniquely identified unit that is the subject of one or more steps in the laboratory workflow. A specimen may include multiple physical pieces as long as they are considered a single unit within the laboratory workflow. A specimen results from one to many specimen collection procedures, and may be contained in multiple specimen containers. Specimen may have one or more processing activities.\n\nCIMI Alignment: This class has been cut down to parts relevant to the current oncology ballot. The attribute parentSpecimenIdentifier has been changed from an Identifier to a reference to a Specimen, to make it possible to map to FHIR.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Specimen-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.type",
+        "path": "cimi-Specimen-model.type",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0332307"
+          }
+        ],
+        "short": "The most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "definition": "The most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.type",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Type-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.sourceSpecimen",
+        "path": "cimi-Specimen-model.sourceSpecimen",
+        "short": "Identifier for the source specimen from which this specimen was derived.",
+        "definition": "Identifier for the source specimen from which this specimen was derived.\n\nCIMI Alignment: In CIMI V0.0.4, this attribute is called parentSpecimenIdentifier (datatype Identifier). The corresponding element in FHIR (Specimen.parent) is type ref(Specimen). It is impossible to map Idenfier to Specimen, so the datatype of this element has been changed to make the mapping feasible.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.sourceSpecimen",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-SourceSpecimen-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.receivedTime",
+        "path": "cimi-Specimen-model.receivedTime",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C2735124"
+          }
+        ],
+        "short": "Time received by accepting facility or unit.",
+        "definition": "Time received by accepting facility or unit.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.receivedTime",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-ReceivedTime-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.collectionTime",
+        "path": "cimi-Specimen-model.collectionTime",
+        "short": "When the sample was obtained, as a specific time or time period.",
+        "definition": "When the sample was obtained, as a specific time or time period.\n\nCIMI Alignment: Specimen collection time seems to be missing in CIMI V0.0.4. The time may be in the CollectionProcedure, but if the specimen collection time is recorded in Performance.Attribution (a list of actions), it would be nearly impossible to create a mapping.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.collectionTime",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-CollectionTime-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.collectionMethod",
+        "path": "cimi-Specimen-model.collectionMethod",
+        "short": "How the specimen was obtained.",
+        "definition": "How the specimen was obtained.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.collectionMethod",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-CollectionMethod-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.collectionSite",
+        "path": "cimi-Specimen-model.collectionSite",
+        "short": "The body site where specimen was collected",
+        "definition": "The body site where specimen was collected",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.collectionSite",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-CollectionSite-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-Specimen-model",
+        "path": "cimi-Specimen-model",
+        "definition": "A specimen is a substance, physical object, or collection of objects, that the laboratory considers a single discrete, uniquely identified unit that is the subject of one or more steps in the laboratory workflow. A specimen may include multiple physical pieces as long as they are considered a single unit within the laboratory workflow. A specimen results from one to many specimen collection procedures, and may be contained in multiple specimen containers. Specimen may have one or more processing activities.\n\nCIMI Alignment: This class has been cut down to parts relevant to the current oncology ballot. The attribute parentSpecimenIdentifier has been changed from an Identifier to a reference to a Specimen, to make it possible to map to FHIR.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Specimen-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.type",
+        "path": "cimi-Specimen-model.type",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0332307"
+          }
+        ],
+        "short": "The most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "definition": "The most specific code (lowest level term) describing the kind or sort of thing being represented.",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.type",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Type-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.sourceSpecimen",
+        "path": "cimi-Specimen-model.sourceSpecimen",
+        "short": "Identifier for the source specimen from which this specimen was derived.",
+        "definition": "Identifier for the source specimen from which this specimen was derived.\n\nCIMI Alignment: In CIMI V0.0.4, this attribute is called parentSpecimenIdentifier (datatype Identifier). The corresponding element in FHIR (Specimen.parent) is type ref(Specimen). It is impossible to map Idenfier to Specimen, so the datatype of this element has been changed to make the mapping feasible.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.sourceSpecimen",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-SourceSpecimen-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.receivedTime",
+        "path": "cimi-Specimen-model.receivedTime",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C2735124"
+          }
+        ],
+        "short": "Time received by accepting facility or unit.",
+        "definition": "Time received by accepting facility or unit.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.receivedTime",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-ReceivedTime-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.collectionTime",
+        "path": "cimi-Specimen-model.collectionTime",
+        "short": "When the sample was obtained, as a specific time or time period.",
+        "definition": "When the sample was obtained, as a specific time or time period.\n\nCIMI Alignment: Specimen collection time seems to be missing in CIMI V0.0.4. The time may be in the CollectionProcedure, but if the specimen collection time is recorded in Performance.Attribution (a list of actions), it would be nearly impossible to create a mapping.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.collectionTime",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-CollectionTime-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.collectionMethod",
+        "path": "cimi-Specimen-model.collectionMethod",
+        "short": "How the specimen was obtained.",
+        "definition": "How the specimen was obtained.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.collectionMethod",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-CollectionMethod-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Specimen-model.collectionSite",
+        "path": "cimi-Specimen-model.collectionSite",
+        "short": "The body site where specimen was collected",
+        "definition": "The body site where specimen was collected",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "cimi-Specimen-model.collectionSite",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-CollectionSite-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

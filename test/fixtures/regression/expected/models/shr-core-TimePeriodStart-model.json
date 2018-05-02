@@ -1,0 +1,128 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-TimePeriodStart-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC TimePeriodStart Logical Model</b></p>\n  <p>The time at which something is to take effect, start, or did start. Boundary is considered inclusive.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-TimePeriodStart-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.TimePeriodStart"
+    }
+  ],
+  "name": "TimePeriodStartModel",
+  "title": "BC TimePeriodStart Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C1301880"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-TimePeriodStart-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-TimePeriodStart-model",
+        "path": "shr-core-TimePeriodStart-model",
+        "definition": "The time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-TimePeriodStart-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-TimePeriodStart-model.value",
+        "path": "shr-core-TimePeriodStart-model.value",
+        "short": "DateTime representing the time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "definition": "DateTime representing the time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "alias": [
+          "dateTime"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-TimePeriodStart-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-TimePeriodStart-model",
+        "path": "shr-core-TimePeriodStart-model",
+        "definition": "The time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-TimePeriodStart-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-TimePeriodStart-model.value",
+        "path": "shr-core-TimePeriodStart-model.value",
+        "short": "DateTime representing the time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "definition": "DateTime representing the time at which something is to take effect, start, or did start. Boundary is considered inclusive.",
+        "alias": [
+          "dateTime"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-TimePeriodStart-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

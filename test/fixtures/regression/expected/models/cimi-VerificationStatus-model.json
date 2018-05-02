@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-VerificationStatus-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC VerificationStatus Logical Model</b></p>\n  <p>Whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-VerificationStatus-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.VerificationStatus"
+    }
+  ],
+  "name": "VerificationStatusModel",
+  "title": "BC VerificationStatus Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-VerificationStatus-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-VerificationStatus-model",
+        "path": "cimi-VerificationStatus-model",
+        "definition": "Whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-VerificationStatus-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-VerificationStatus-model.value",
+        "path": "cimi-VerificationStatus-model.value",
+        "short": "Code representing whether an assessment has been confirmed by testing or observation.",
+        "definition": "Code representing whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-VerificationStatus-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-VerificationStatus-model",
+        "path": "cimi-VerificationStatus-model",
+        "definition": "Whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-VerificationStatus-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-VerificationStatus-model.value",
+        "path": "cimi-VerificationStatus-model.value",
+        "short": "Code representing whether an assessment has been confirmed by testing or observation.",
+        "definition": "Code representing whether an assessment has been confirmed by testing or observation.\n\nCIMI Alignment: This attribute corresponds to FindingContext.status, but has been defined to align with FHIR.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-VerificationStatus-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

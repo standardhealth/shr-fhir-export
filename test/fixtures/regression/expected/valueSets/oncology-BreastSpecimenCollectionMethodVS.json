@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-BreastSpecimenCollectionMethodVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC BreastSpecimenCollectionMethodVS ValueSet</b></p>\n<p>The surgical method used to obtain the tissue sample.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-BreastSpecimenCollectionMethodVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.BreastSpecimenCollectionMethodVS"
+    }
+  ],
+  "name": "BreastSpecimenCollectionMethodVS",
+  "title": "BC BreastSpecimenCollectionMethodVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "The surgical method used to obtain the tissue sample.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-BreastSpecimenCollectionMethodCS",
+        "concept": [
+          {
+            "code": "core",
+            "display": "Core needle biopsy"
+          },
+          {
+            "code": "fna",
+            "display": "Fine needle aspiration"
+          },
+          {
+            "code": "mastectomy",
+            "display": "Total mastectomy"
+          },
+          {
+            "code": "excision",
+            "display": "Excision less than total mastectomy"
+          }
+        ]
+      }
+    ]
+  }
+}

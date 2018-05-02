@@ -1,0 +1,128 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-core-DisplayText-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC DisplayText Logical Model</b></p>\n  <p>A string meant for reading by a person, for example, accompanying a code.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-DisplayText-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.core.DisplayText"
+    }
+  ],
+  "name": "DisplayTextModel",
+  "title": "BC DisplayText Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "A string meant for reading by a person, for example, accompanying a code.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C1548311"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-core-DisplayText-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-core-DisplayText-model",
+        "path": "shr-core-DisplayText-model",
+        "definition": "A string meant for reading by a person, for example, accompanying a code.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-DisplayText-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-DisplayText-model.value",
+        "path": "shr-core-DisplayText-model.value",
+        "short": "String representing a string meant for reading by a person, for example, accompanying a code.",
+        "definition": "String representing a string meant for reading by a person, for example, accompanying a code.",
+        "alias": [
+          "string"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-DisplayText-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-core-DisplayText-model",
+        "path": "shr-core-DisplayText-model",
+        "definition": "A string meant for reading by a person, for example, accompanying a code.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-core-DisplayText-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-core-DisplayText-model.value",
+        "path": "shr-core-DisplayText-model.value",
+        "short": "String representing a string meant for reading by a person, for example, accompanying a code.",
+        "definition": "String representing a string meant for reading by a person, for example, accompanying a code.",
+        "alias": [
+          "string"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "shr-core-DisplayText-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

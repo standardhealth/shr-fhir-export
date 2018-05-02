@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-NottinghamCombinedGradeVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC NottinghamCombinedGradeVS ValueSet</b></p>\n<p>Combined score from the Nottingham grading system.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-NottinghamCombinedGradeVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.NottinghamCombinedGradeVS"
+    }
+  ],
+  "name": "NottinghamCombinedGradeVS",
+  "title": "BC NottinghamCombinedGradeVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Combined score from the Nottingham grading system.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "369790002",
+            "display": "Nottingham Combined Grade I: 3-5 points (finding)"
+          },
+          {
+            "code": "369791003",
+            "display": "Nottingham Combined Grade II: 6-7 points (finding)"
+          },
+          {
+            "code": "369792005",
+            "display": "Nottingham Combined Grade III: 8-9 points (finding)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-PresentOnAdmission-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC PresentOnAdmission Logical Model</b></p>\n  <p>If the problem or condition existed before the current episode of care.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-PresentOnAdmission-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.PresentOnAdmission"
+    }
+  ],
+  "name": "PresentOnAdmissionModel",
+  "title": "BC PresentOnAdmission Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "If the problem or condition existed before the current episode of care.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-PresentOnAdmission-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-PresentOnAdmission-model",
+        "path": "cimi-PresentOnAdmission-model",
+        "definition": "If the problem or condition existed before the current episode of care.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-PresentOnAdmission-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-PresentOnAdmission-model.value",
+        "path": "cimi-PresentOnAdmission-model.value",
+        "short": "Code representing if the problem or condition existed before the current episode of care.",
+        "definition": "Code representing if the problem or condition existed before the current episode of care.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-PresentOnAdmission-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/shr-core-YesNoUnknownVS"
+          }
+        }
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-PresentOnAdmission-model",
+        "path": "cimi-PresentOnAdmission-model",
+        "definition": "If the problem or condition existed before the current episode of care.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-PresentOnAdmission-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-PresentOnAdmission-model.value",
+        "path": "cimi-PresentOnAdmission-model.value",
+        "short": "Code representing if the problem or condition existed before the current episode of care.",
+        "definition": "Code representing if the problem or condition existed before the current episode of care.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-PresentOnAdmission-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "required",
+          "valueSetReference": {
+            "reference": "http://hl7.org/fhir/us/breastcancer/ValueSet/shr-core-YesNoUnknownVS"
+          }
+        }
+      }
+    ]
+  }
+}

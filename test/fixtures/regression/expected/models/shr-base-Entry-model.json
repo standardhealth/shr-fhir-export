@@ -1,0 +1,106 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "shr-base-Entry-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Entry Logical Model</b></p>\n  <p>Entry contains attributes that apply to all such items. An Entry may represent an item in a single person&#039;s health record, or could represent an entity that surfaces in multiple patient records, such as organizations or practitioners. For the purposes of the breast cancer ballot, this class has been stubbed out, to delving into the differences between the standard attributes of CIMI entries versus FHIR resources.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-base-Entry-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "shr.base.Entry"
+    }
+  ],
+  "name": "EntryModel",
+  "title": "BC Entry Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Entry contains attributes that apply to all such items. An Entry may represent an item in a single person's health record, or could represent an entity that surfaces in multiple patient records, such as organizations or practitioners. For the purposes of the breast cancer ballot, this class has been stubbed out, to delving into the differences between the standard attributes of CIMI entries versus FHIR resources.",
+  "kind": "logical",
+  "abstract": false,
+  "type": "shr-base-Entry-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "shr-base-Entry-model",
+        "path": "shr-base-Entry-model",
+        "definition": "Entry contains attributes that apply to all such items. An Entry may represent an item in a single person's health record, or could represent an entity that surfaces in multiple patient records, such as organizations or practitioners. For the purposes of the breast cancer ballot, this class has been stubbed out, to delving into the differences between the standard attributes of CIMI entries versus FHIR resources.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-base-Entry-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-base-Entry-model.intentionallyBlank",
+        "path": "shr-base-Entry-model.intentionallyBlank",
+        "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "shr-base-Entry-model.intentionallyBlank",
+          "min": 0,
+          "max": "0"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "shr-base-Entry-model",
+        "path": "shr-base-Entry-model",
+        "definition": "Entry contains attributes that apply to all such items. An Entry may represent an item in a single person's health record, or could represent an entity that surfaces in multiple patient records, such as organizations or practitioners. For the purposes of the breast cancer ballot, this class has been stubbed out, to delving into the differences between the standard attributes of CIMI entries versus FHIR resources.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "shr-base-Entry-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "shr-base-Entry-model.intentionallyBlank",
+        "path": "shr-base-Entry-model.intentionallyBlank",
+        "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "shr-base-Entry-model.intentionallyBlank",
+          "min": 0,
+          "max": "0"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

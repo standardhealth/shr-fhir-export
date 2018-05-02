@@ -1,0 +1,128 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-Severity-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC Severity Logical Model</b></p>\n  <p>Degree of harshness or extent of a symptom, disorder, or condition.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Severity-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.Severity"
+    }
+  ],
+  "name": "SeverityModel",
+  "title": "BC Severity Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "Degree of harshness or extent of a symptom, disorder, or condition.",
+  "keyword": [
+    {
+      "system": "http://ncimeta.nci.nih.gov",
+      "code": "C0392364"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-Severity-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-Severity-model",
+        "path": "cimi-Severity-model",
+        "definition": "Degree of harshness or extent of a symptom, disorder, or condition.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Severity-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Severity-model.value",
+        "path": "cimi-Severity-model.value",
+        "short": "Code representing degree of harshness or extent of a symptom, disorder, or condition.",
+        "definition": "Code representing degree of harshness or extent of a symptom, disorder, or condition.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Severity-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-Severity-model",
+        "path": "cimi-Severity-model",
+        "definition": "Degree of harshness or extent of a symptom, disorder, or condition.",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-Severity-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-Severity-model.value",
+        "path": "cimi-Severity-model.value",
+        "short": "Code representing degree of harshness or extent of a symptom, disorder, or condition.",
+        "definition": "Code representing degree of harshness or extent of a symptom, disorder, or condition.",
+        "alias": [
+          "codeableConcept"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-Severity-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Coding"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

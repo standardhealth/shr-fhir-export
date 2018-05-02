@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-PositiveNegativeEquivocalVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC PositiveNegativeEquivocalVS ValueSet</b></p>\n<p>Interpretation of a test result as positive, negative or equivocal.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-PositiveNegativeEquivocalVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.PositiveNegativeEquivocalVS"
+    }
+  ],
+  "name": "PositiveNegativeEquivocalVS",
+  "title": "BC PositiveNegativeEquivocalVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Interpretation of a test result as positive, negative or equivocal.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-PositiveNegativeEquivocalCS",
+        "concept": [
+          {
+            "code": "negative",
+            "display": "Negative"
+          },
+          {
+            "code": "equivocal",
+            "display": "Equivocal"
+          },
+          {
+            "code": "positive",
+            "display": "Positive"
+          }
+        ]
+      }
+    ]
+  }
+}

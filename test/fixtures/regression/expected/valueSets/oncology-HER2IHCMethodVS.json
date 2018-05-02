@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-HER2IHCMethodVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC HER2IHCMethodVS ValueSet</b></p>\n<p>Value set containing methods of determining HER2 status by immunohistochemistry</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-HER2IHCMethodVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.HER2IHCMethodVS"
+    }
+  ],
+  "name": "HER2IHCMethodVS",
+  "title": "BC HER2IHCMethodVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Value set containing methods of determining HER2 status by immunohistochemistry",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-HER2IHCMethodCS",
+        "concept": [
+          {
+            "code": "ihc",
+            "display": "HER2 by ImmunoHistochemistry"
+          }
+        ]
+      }
+    ]
+  }
+}

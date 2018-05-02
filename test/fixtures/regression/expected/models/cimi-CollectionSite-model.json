@@ -1,0 +1,134 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cimi-CollectionSite-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC CollectionSite Logical Model</b></p>\n  <p>The body site where specimen was collected</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-CollectionSite-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "cimi.CollectionSite"
+    }
+  ],
+  "name": "CollectionSiteModel",
+  "title": "BC CollectionSite Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "The body site where specimen was collected",
+  "kind": "logical",
+  "abstract": false,
+  "type": "cimi-CollectionSite-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "cimi-CollectionSite-model",
+        "path": "cimi-CollectionSite-model",
+        "definition": "The body site where specimen was collected",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-CollectionSite-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-CollectionSite-model.value",
+        "path": "cimi-CollectionSite-model.value",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C1545955"
+          }
+        ],
+        "short": "AnatomicalLocation representing the body site where specimen was collected",
+        "definition": "AnatomicalLocation representing the body site where specimen was collected",
+        "alias": [
+          "anatomicalLocation"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-CollectionSite-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-AnatomicalLocation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "cimi-CollectionSite-model",
+        "path": "cimi-CollectionSite-model",
+        "definition": "The body site where specimen was collected",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "cimi-CollectionSite-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "cimi-CollectionSite-model.value",
+        "path": "cimi-CollectionSite-model.value",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C1545955"
+          }
+        ],
+        "short": "AnatomicalLocation representing the body site where specimen was collected",
+        "definition": "AnatomicalLocation representing the body site where specimen was collected",
+        "alias": [
+          "anatomicalLocation"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "cimi-CollectionSite-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-AnatomicalLocation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

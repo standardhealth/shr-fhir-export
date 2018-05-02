@@ -1,0 +1,278 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "oncology-HER2toCEP17Ratio-model",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BC HER2toCEP17Ratio Logical Model</b></p>\n  <p>HER2 to CEP17 Ratio (dual probe only)</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/oncology-HER2toCEP17Ratio-model",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.HER2toCEP17Ratio"
+    }
+  ],
+  "name": "HER2toCEP17RatioModel",
+  "title": "BC HER2toCEP17Ratio Logical Model",
+  "status": "draft",
+  "date": "2018-05-02",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "description": "HER2 to CEP17 Ratio (dual probe only)",
+  "keyword": [
+    {
+      "system": "http://loinc.org",
+      "code": "49683-6"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "oncology-HER2toCEP17Ratio-model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "oncology-HER2toCEP17Ratio-model",
+        "path": "oncology-HER2toCEP17Ratio-model",
+        "definition": "HER2 to CEP17 Ratio (dual probe only)",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-HER2toCEP17Ratio-model.value",
+        "path": "oncology-HER2toCEP17Ratio-model.value",
+        "short": "Quantity representing hER2 to CEP17 Ratio (dual probe only)",
+        "definition": "Quantity representing hER2 to CEP17 Ratio (dual probe only)",
+        "alias": [
+          "quantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Quantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-HER2toCEP17Ratio-model.exceptionValue",
+        "path": "oncology-HER2toCEP17Ratio-model.exceptionValue",
+        "short": "Reason that a value associated with a test or other finding is missing.",
+        "definition": "Reason that a value associated with a test or other finding is missing.\n\nCIMI Alignment: This attribute corresponds to EvaluationResultTopic.exceptionValue, but has been moved from topic to context because missing values are only relevant when they should be recorded, but are not. The value set binding extends the set of FHIR's required data absent values, with additional concepts from CIMI.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model.exceptionValue",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ExceptionValue-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-HER2toCEP17Ratio-model.interpretation",
+        "path": "oncology-HER2toCEP17Ratio-model.interpretation",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0420833"
+          }
+        ],
+        "short": "A clinical interpretation of a finding.",
+        "definition": "A clinical interpretation of a finding.\n\nCIMI Alignment: The value set binding has been chosen to align with FHIR. (Note: it is not clear if Interpretation belongs in FindingTopic, rather than a context class, but that is how CIMI has modeled it.)",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model.interpretation",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Interpretation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-HER2toCEP17Ratio-model.referenceRange",
+        "path": "oncology-HER2toCEP17Ratio-model.referenceRange",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0883335"
+          }
+        ],
+        "short": "The usual or acceptable range for a test result.",
+        "definition": "The usual or acceptable range for a test result.",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model.referenceRange",
+          "min": 0,
+          "max": "0"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ReferenceRange-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "oncology-HER2toCEP17Ratio-model",
+        "path": "oncology-HER2toCEP17Ratio-model",
+        "definition": "HER2 to CEP17 Ratio (dual probe only)",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model",
+          "min": 0,
+          "max": "*"
+        },
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-HER2toCEP17Ratio-model.value",
+        "path": "oncology-HER2toCEP17Ratio-model.value",
+        "short": "Quantity representing hER2 to CEP17 Ratio (dual probe only)",
+        "definition": "Quantity representing hER2 to CEP17 Ratio (dual probe only)",
+        "alias": [
+          "quantity"
+        ],
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model.value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/shr-core-Quantity-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-HER2toCEP17Ratio-model.exceptionValue",
+        "path": "oncology-HER2toCEP17Ratio-model.exceptionValue",
+        "short": "Reason that a value associated with a test or other finding is missing.",
+        "definition": "Reason that a value associated with a test or other finding is missing.\n\nCIMI Alignment: This attribute corresponds to EvaluationResultTopic.exceptionValue, but has been moved from topic to context because missing values are only relevant when they should be recorded, but are not. The value set binding extends the set of FHIR's required data absent values, with additional concepts from CIMI.",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model.exceptionValue",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ExceptionValue-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-HER2toCEP17Ratio-model.interpretation",
+        "path": "oncology-HER2toCEP17Ratio-model.interpretation",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0420833"
+          }
+        ],
+        "short": "A clinical interpretation of a finding.",
+        "definition": "A clinical interpretation of a finding.\n\nCIMI Alignment: The value set binding has been chosen to align with FHIR. (Note: it is not clear if Interpretation belongs in FindingTopic, rather than a context class, but that is how CIMI has modeled it.)",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model.interpretation",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-Interpretation-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      },
+      {
+        "id": "oncology-HER2toCEP17Ratio-model.referenceRange",
+        "path": "oncology-HER2toCEP17Ratio-model.referenceRange",
+        "code": [
+          {
+            "system": "http://ncimeta.nci.nih.gov",
+            "code": "C0883335"
+          }
+        ],
+        "short": "The usual or acceptable range for a test result.",
+        "definition": "The usual or acceptable range for a test result.",
+        "min": 0,
+        "max": "0",
+        "base": {
+          "path": "oncology-HER2toCEP17Ratio-model.referenceRange",
+          "min": 0,
+          "max": "0"
+        },
+        "type": [
+          {
+            "code": "http://hl7.org/fhir/us/breastcancer/StructureDefinition/cimi-ReferenceRange-model"
+          }
+        ],
+        "mustSupport": false,
+        "isModifier": false,
+        "isSummary": false
+      }
+    ]
+  }
+}

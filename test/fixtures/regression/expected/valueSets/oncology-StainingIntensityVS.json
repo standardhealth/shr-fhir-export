@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-StainingIntensityVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC StainingIntensityVS ValueSet</b></p>\n<p>Part of the Allred scoring, based on the intensity of that staining, on a scale of 0 (Negative) to 3 (Strong).</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-StainingIntensityVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.StainingIntensityVS"
+    }
+  ],
+  "name": "StainingIntensityVS",
+  "title": "BC StainingIntensityVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Part of the Allred scoring, based on the intensity of that staining, on a scale of 0 (Negative) to 3 (Strong).",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/breastcancer/CodeSystem/oncology-StainingIntensityCS",
+        "concept": [
+          {
+            "code": "none",
+            "display": "None/Negative"
+          },
+          {
+            "code": "weak",
+            "display": "Weak"
+          },
+          {
+            "code": "moderate",
+            "display": "Moderate"
+          },
+          {
+            "code": "strong",
+            "display": "Strong"
+          }
+        ]
+      }
+    ]
+  }
+}

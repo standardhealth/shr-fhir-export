@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "oncology-NuclearPleomorphismScoreVS",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n<p><b>BC NuclearPleomorphismScoreVS ValueSet</b></p>\n<p>Value set containing the scores for nuclear pleomorphism.</p>\n</div>"
+  },
+  "url": "http://hl7.org/fhir/us/breastcancer/ValueSet/oncology-NuclearPleomorphismScoreVS",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/us/breastcancer",
+      "value": "oncology.NuclearPleomorphismScoreVS"
+    }
+  ],
+  "name": "NuclearPleomorphismScoreVS",
+  "title": "BC NuclearPleomorphismScoreVS ValueSet",
+  "status": "draft",
+  "publisher": "The HL7 Cancer Interoperability Group sponsored by Clinical Interoperability Council Work Group (CIC)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://standardhealthrecord.org"
+        }
+      ]
+    }
+  ],
+  "date": "2018-05-02",
+  "description": "Value set containing the scores for nuclear pleomorphism.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "384735004",
+            "display": "Nuclear pleomorphism: small regular nuclei (score=1)"
+          },
+          {
+            "code": "384737007",
+            "display": "Nuclear pleomorphism: moderate increase in size, etc (score = 2)"
+          },
+          {
+            "code": "384738002",
+            "display": "Nuclear pleomorphism: marked variation in size, nucleoli, chromatin clumping, etc (score = 3)"
+          }
+        ]
+      }
+    ]
+  }
+}
