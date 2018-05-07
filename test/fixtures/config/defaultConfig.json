@@ -5,6 +5,11 @@
     "fhirURL":"http://foobar.com/fhir",
     "publisher":"The Foo Bar Corporation",
     "publishDate": "2018-02-26",
+    "igPrimarySelectionStrategy": {
+      "filter": false,
+      "strategy": "element",
+      "primary": []
+    },
     "contact":[{
         "telecom": [{
           "system": "url",
