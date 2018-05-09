@@ -4,6 +4,7 @@
     "projectURL": "http://hl7.org/fhir/us/breastcancer/",
     "fhirURL": "http://hl7.org/fhir/us/breastcancer/",
     "entryTypeURL": "http://hl7.org/fhir/us/breastcancer/spec",
+    "publishDate": "2018-05-02",
 	"igLogicalModels": true,
 	"igModelDoc": true,
 	"igPrimarySelectionStrategy": {
