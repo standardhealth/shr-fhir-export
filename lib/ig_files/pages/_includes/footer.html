@@ -10,8 +10,8 @@
    <div class="inner-wrapper">
     <p>
       {% comment %}strip "FHIR Profiles" off end{% endcomment %}
-      {{site.data.fhir.igName | append: "EOS" | remove: " FHIR ProfilesEOS"}}, Version: {{ site.data.fhir.ig.version }} &copy;
-      ; <a style="color: #81BEF7" href="{{ site.data.fhir.path }}">FHIR Version: {{ site.data.fhir.version }}</a> (IG Publisher v{{site.data.fhir.versionFull}})
+      {{site.data.fhir.igName | append: "EOS" | remove: " FHIR ProfilesEOS"}}, Version: {{ site.data.fhir.ig.version }}
+      ; <a style="color: #81BEF7" href="{{ site.data.fhir.path }}">FHIR &copy; Version: {{ site.data.fhir.version }}</a>
       ; Generated on {{site.data.fhir.genDate}}.
     </p>
    </div>  <!-- /inner-wrapper -->
