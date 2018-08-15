@@ -56,9 +56,6 @@
           "path": "shr-test-IncludesCodesList-model.value",
           "short": "Code representing an entry with a includes codes constraint.",
           "definition": "Code representing an entry with a includes codes constraint.",
-          "alias": [
-            "codeableConcept"
-          ],
           "min": 0,
           "max": "*",
           "base": {
@@ -113,9 +110,6 @@
           "path": "shr-test-IncludesCodesList-model.value",
           "short": "Code representing an entry with a includes codes constraint.",
           "definition": "Code representing an entry with a includes codes constraint.",
-          "alias": [
-            "codeableConcept"
-          ],
           "min": 0,
           "max": "*",
           "base": {
@@ -206,9 +200,6 @@
           "path": "shr-core-CodeSystem-model.value",
           "short": "Uri representing the logical model instance",
           "definition": "Uri representing the logical model instance",
-          "alias": [
-            "uri"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -250,9 +241,6 @@
           "path": "shr-core-CodeSystem-model.value",
           "short": "Uri representing the logical model instance",
           "definition": "Uri representing the logical model instance",
-          "alias": [
-            "uri"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -329,9 +317,6 @@
           "path": "shr-core-CodeSystemVersion-model.value",
           "short": "String representing the logical model instance",
           "definition": "String representing the logical model instance",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -373,9 +358,6 @@
           "path": "shr-core-CodeSystemVersion-model.value",
           "short": "String representing the logical model instance",
           "definition": "String representing the logical model instance",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -452,9 +434,6 @@
           "path": "shr-core-DisplayText-model.value",
           "short": "String representing the logical model instance",
           "definition": "String representing the logical model instance",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -496,9 +475,6 @@
           "path": "shr-core-DisplayText-model.value",
           "short": "String representing the logical model instance",
           "definition": "String representing the logical model instance",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {

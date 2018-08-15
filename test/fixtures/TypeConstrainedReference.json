@@ -56,10 +56,6 @@
           "path": "shr-test-TypeConstrainedReference-model.value",
           "short": "Simple representing it is an element a constraint on a reference.",
           "definition": "Simple representing it is an element a constraint on a reference.",
-          "alias": [
-            "simple",
-            "simpleChild"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -101,10 +97,6 @@
           "path": "shr-test-TypeConstrainedReference-model.value",
           "short": "Simple representing it is an element a constraint on a reference.",
           "definition": "Simple representing it is an element a constraint on a reference.",
-          "alias": [
-            "simple",
-            "simpleChild"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -189,9 +181,6 @@
           "path": "shr-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -232,9 +221,6 @@
           "path": "shr-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -311,9 +297,6 @@
           "path": "shr-test-SimpleChild-model.value",
           "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -354,9 +337,6 @@
           "path": "shr-test-SimpleChild-model.value",
           "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -440,9 +420,6 @@
           ],
           "short": "Simple representing it is a reference to a simple element",
           "definition": "Simple representing it is a reference to a simple element",
-          "alias": [
-            "simple"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -491,9 +468,6 @@
           ],
           "short": "Simple representing it is a reference to a simple element",
           "definition": "Simple representing it is a reference to a simple element",
-          "alias": [
-            "simple"
-          ],
           "min": 1,
           "max": "1",
           "base": {

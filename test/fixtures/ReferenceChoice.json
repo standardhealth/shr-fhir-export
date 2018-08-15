@@ -56,10 +56,6 @@
           "path": "shr-test-ReferenceChoice-model.value[x]",
           "short": "Simple or Coded representing it is a reference to one of a few types",
           "definition": "Simple or Coded representing it is a reference to one of a few types",
-          "alias": [
-            "simple",
-            "coded"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -105,10 +101,6 @@
           "path": "shr-test-ReferenceChoice-model.value[x]",
           "short": "Simple or Coded representing it is a reference to one of a few types",
           "definition": "Simple or Coded representing it is a reference to one of a few types",
-          "alias": [
-            "simple",
-            "coded"
-          ],
           "min": 1,
           "max": "1",
           "base": {

@@ -66,11 +66,6 @@
           },
           "short": "Choice of types representing it is an element with a choice",
           "definition": "Choice of types representing it is an element with a choice",
-          "alias": [
-            "string",
-            "code",
-            "coded"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -155,11 +150,6 @@
           },
           "short": "Choice of types representing it is an element with a choice",
           "definition": "Choice of types representing it is an element with a choice",
-          "alias": [
-            "string",
-            "code",
-            "coded"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -270,9 +260,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -319,9 +306,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {

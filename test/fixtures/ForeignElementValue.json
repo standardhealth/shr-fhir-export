@@ -63,9 +63,6 @@
           ],
           "short": "Simple representing it is an element with a foreign element value",
           "definition": "Simple representing it is an element with a foreign element value",
-          "alias": [
-            "simple"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -75,7 +72,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -113,9 +110,6 @@
           ],
           "short": "Simple representing it is an element with a foreign element value",
           "definition": "Simple representing it is an element with a foreign element value",
-          "alias": [
-            "simple"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -125,7 +119,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -199,9 +193,6 @@
           "path": "shr-other-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -242,9 +233,6 @@
           "path": "shr-other-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {

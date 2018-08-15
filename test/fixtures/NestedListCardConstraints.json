@@ -56,9 +56,6 @@
           "path": "shr-test-OptionalList-model.value",
           "short": "String representing an element with an optional list.",
           "definition": "String representing an element with an optional list.",
-          "alias": [
-            "string"
-          ],
           "min": 0,
           "max": "*",
           "base": {
@@ -99,9 +96,6 @@
           "path": "shr-test-OptionalList-model.value",
           "short": "String representing an element with an optional list.",
           "definition": "String representing an element with an optional list.",
-          "alias": [
-            "string"
-          ],
           "min": 0,
           "max": "*",
           "base": {
@@ -178,16 +172,16 @@
           "path": "shr-test-ListField-model.optionalList",
           "short": "An element with an optional list.",
           "definition": "An element with an optional list.",
-          "min": 1,
-          "max": "1",
+          "min": 0,
+          "max": "*",
           "base": {
             "path": "shr-test-ListField-model.optionalList",
-            "min": 1,
-            "max": "1"
+            "min": 0,
+            "max": "*"
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalList-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -218,16 +212,16 @@
           "path": "shr-test-ListField-model.optionalList",
           "short": "An element with an optional list.",
           "definition": "An element with an optional list.",
-          "min": 1,
-          "max": "1",
+          "min": 0,
+          "max": "*",
           "base": {
             "path": "shr-test-ListField-model.optionalList",
-            "min": 1,
-            "max": "1"
+            "min": 0,
+            "max": "*"
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalList-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -315,36 +309,12 @@
           "path": "shr-test-NestedListCardConstraints-model.listField.optionalList",
           "short": "An element with an optional list.",
           "definition": "An element with an optional list.",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-ListField-model.optionalList",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalList-model"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-NestedListCardConstraints-model.listField.optionalList.value",
-          "path": "shr-test-NestedListCardConstraints-model.listField.optionalList.value",
-          "short": "String representing an element with an optional list.",
-          "definition": "String representing an element with an optional list.",
-          "alias": [
-            "string"
-          ],
           "min": 2,
           "max": "10",
           "base": {
-            "path": "shr-test-OptionalList-model.value",
-            "min": 0,
-            "max": "*"
+            "path": "shr-test-NestedListCardConstraints-model.listField.optionalList",
+            "min": 2,
+            "max": "10"
           },
           "type": [
             {
@@ -400,36 +370,12 @@
           "path": "shr-test-NestedListCardConstraints-model.listField.optionalList",
           "short": "An element with an optional list.",
           "definition": "An element with an optional list.",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-ListField-model.optionalList",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalList-model"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-NestedListCardConstraints-model.listField.optionalList.value",
-          "path": "shr-test-NestedListCardConstraints-model.listField.optionalList.value",
-          "short": "String representing an element with an optional list.",
-          "definition": "String representing an element with an optional list.",
-          "alias": [
-            "string"
-          ],
           "min": 2,
           "max": "10",
           "base": {
-            "path": "shr-test-OptionalList-model.value",
-            "min": 0,
-            "max": "*"
+            "path": "shr-test-NestedListCardConstraints-model.listField.optionalList",
+            "min": 2,
+            "max": "10"
           },
           "type": [
             {

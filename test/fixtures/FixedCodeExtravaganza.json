@@ -56,9 +56,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -105,9 +102,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -200,10 +194,6 @@
           },
           "short": "Code or code representing an element with all sorts of fixed codes.",
           "definition": "Code or code representing an element with all sorts of fixed codes.",
-          "alias": [
-            "code",
-            "coding"
-          ],
           "min": 0,
           "max": "1",
           "base": {
@@ -288,10 +278,6 @@
           "short": "Additional Content defined by implementations",
           "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
           "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-          "alias": [
-            "extensions",
-            "user content"
-          ],
           "min": 0,
           "max": "*",
           "base": {
@@ -578,10 +564,6 @@
           "short": "Additional Content defined by implementations",
           "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
           "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-          "alias": [
-            "extensions",
-            "user content"
-          ],
           "min": 0,
           "max": "*",
           "base": {
@@ -790,30 +772,6 @@
           "max": "1",
           "base": {
             "path": "shr-test-FixedCodeExtravaganza-model.coded",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-FixedCodeExtravaganza-model.coded.value",
-          "path": "shr-test-FixedCodeExtravaganza-model.coded.value",
-          "short": "Foobar4",
-          "definition": "Foobar4",
-          "alias": [
-            "code"
-          ],
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-Coded-model.value",
             "min": 1,
             "max": "1"
           },
@@ -861,10 +819,6 @@
           },
           "short": "Code or code representing an element with all sorts of fixed codes.",
           "definition": "Code or code representing an element with all sorts of fixed codes.",
-          "alias": [
-            "code",
-            "coding"
-          ],
           "min": 0,
           "max": "1",
           "base": {
@@ -949,10 +903,6 @@
           "short": "Additional Content defined by implementations",
           "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
           "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-          "alias": [
-            "extensions",
-            "user content"
-          ],
           "min": 0,
           "max": "*",
           "base": {
@@ -1239,10 +1189,6 @@
           "short": "Additional Content defined by implementations",
           "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
           "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-          "alias": [
-            "extensions",
-            "user content"
-          ],
           "min": 0,
           "max": "*",
           "base": {
@@ -1451,30 +1397,6 @@
           "max": "1",
           "base": {
             "path": "shr-test-FixedCodeExtravaganza-model.coded",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-FixedCodeExtravaganza-model.coded.value",
-          "path": "shr-test-FixedCodeExtravaganza-model.coded.value",
-          "short": "Foobar4",
-          "definition": "Foobar4",
-          "alias": [
-            "code"
-          ],
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-Coded-model.value",
             "min": 1,
             "max": "1"
           },
@@ -1548,9 +1470,6 @@
           "path": "shr-core-CodeSystem-model.value",
           "short": "Uri representing the logical model instance",
           "definition": "Uri representing the logical model instance",
-          "alias": [
-            "uri"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -1592,9 +1511,6 @@
           "path": "shr-core-CodeSystem-model.value",
           "short": "Uri representing the logical model instance",
           "definition": "Uri representing the logical model instance",
-          "alias": [
-            "uri"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -1671,9 +1587,6 @@
           "path": "shr-core-CodeSystemVersion-model.value",
           "short": "String representing the logical model instance",
           "definition": "String representing the logical model instance",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -1715,9 +1628,6 @@
           "path": "shr-core-CodeSystemVersion-model.value",
           "short": "String representing the logical model instance",
           "definition": "String representing the logical model instance",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -1794,9 +1704,6 @@
           "path": "shr-core-DisplayText-model.value",
           "short": "String representing the logical model instance",
           "definition": "String representing the logical model instance",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -1838,9 +1745,6 @@
           "path": "shr-core-DisplayText-model.value",
           "short": "String representing the logical model instance",
           "definition": "String representing the logical model instance",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
