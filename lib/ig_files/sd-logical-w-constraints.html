@@ -26,15 +26,19 @@ This is necessary because when there are no constraints, the IG publisher produc
 
 <!-- ============CONTENT CONTENT=============== -->
 
+{% capture examples %}{% include {{[type]}}-example-list-{{[id]}}.xhtml %}{% endcapture %}
 <ul class="nav nav-tabs">
   <li class="active"><a href="#">Content</a></li>
   <li><a href="{{[type]}}-{{[id]}}-definitions.html">Detailed Descriptions</a></li>
+{% if examples != "" %}
+  <li><a href="{{[type]}}-{{[id]}}-examples.html">Examples</a></li>
+{% endif %}
   <li><a href="{{[type]}}-{{[id]}}.xml.html">XML</a></li>
   <li><a href="{{[type]}}-{{[id]}}.json.html">JSON</a></li>
   <li><a href="{{[type]}}-{{[id]}}.ttl.html">Turtle</a></li>
 </ul>
 
-<h3><a name="top"></a>{{ site.data.structuredefinitions.{{[id]}}.name }}</h3>
+<h2><a name="top"></a>{{ site.data.structuredefinitions.{{[id]}}.name }}</h2>
 
 <a name="profile"> </a>
 <p>&nbsp;</p>

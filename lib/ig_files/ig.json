@@ -30,6 +30,7 @@
     "StructureDefinition": {
       "template-base": "sd.html",
       "template-mappings": "sd-mappings.html",
+      "template-examples":"sd-examples.html",
       "template-defns": "sd-definitions.html",
       "template-format": "sd-format.html"
     },
@@ -44,6 +45,9 @@
       "template-base": "base.html"
     }
   },
+  "extraTemplates":[
+      "examples"
+   ],
   "resources": {},
   "special-urls": [],
   "tool": "jekyll"
