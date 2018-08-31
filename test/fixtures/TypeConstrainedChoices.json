@@ -269,27 +269,6 @@
           },
           "type": [
             {
-              "code": "BackboneElement"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-          "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-          "short": "string",
-          "definition": "string",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
               "code": "string"
             }
           ],
@@ -325,27 +304,6 @@
           "max": "1",
           "base": {
             "path": "shr-test-TypeConstrainedChoice-model.choice",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "BackboneElement"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-          "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-          "short": "string",
-          "definition": "string",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
             "min": 1,
             "max": "1"
           },
@@ -768,48 +726,6 @@
           },
           "type": [
             {
-              "code": "BackboneElement"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-          "short": "Choice representing it is an element with a choice value.",
-          "definition": "Choice representing it is an element with a choice value.",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "BackboneElement"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-          "short": "It is a coded element",
-          "definition": "It is a coded element",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
               "code": "code"
             }
           ],
@@ -873,48 +789,6 @@
           "base": {
             "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue",
             "min": 0,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "BackboneElement"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-          "short": "Choice representing it is an element with a choice value.",
-          "definition": "Choice representing it is an element with a choice value.",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "BackboneElement"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-          "short": "It is a coded element",
-          "definition": "It is a coded element",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-            "min": 1,
             "max": "1"
           },
           "type": [

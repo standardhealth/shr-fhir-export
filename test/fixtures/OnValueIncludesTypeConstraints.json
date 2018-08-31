@@ -300,6 +300,13 @@
         {
           "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
           "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
           "short": "It is an element with a value that is a list of elements",
           "definition": "It is an element with a value that is a list of elements",
           "min": 0,
@@ -309,47 +316,19 @@
             "min": 0,
             "max": "1"
           },
-          "type": [
-            {
-              "code": "BackboneElement"
-            }
-          ],
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
         },
         {
-          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value",
-          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value",
-          "code": [
-            {
-              "system": "http://foo.org",
-              "code": "bar",
-              "display": "Foobar"
-            }
-          ],
-          "short": "Simple representing it is an element with a value that is a list of elements",
-          "definition": "Simple representing it is an element with a value that is a list of elements",
-          "min": 0,
-          "max": "1",
-          "base": {
-            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value",
-            "min": 0,
-            "max": "1"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
-          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
           "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
             "min": 0,
             "max": "1"
           },
@@ -363,14 +342,14 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
-          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
           "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
           "base": {
-            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
             "min": 0,
             "max": "2"
           },
@@ -405,6 +384,13 @@
         {
           "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
           "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
           "short": "It is an element with a value that is a list of elements",
           "definition": "It is an element with a value that is a list of elements",
           "min": 0,
@@ -414,47 +400,19 @@
             "min": 0,
             "max": "1"
           },
-          "type": [
-            {
-              "code": "BackboneElement"
-            }
-          ],
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
         },
         {
-          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value",
-          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value",
-          "code": [
-            {
-              "system": "http://foo.org",
-              "code": "bar",
-              "display": "Foobar"
-            }
-          ],
-          "short": "Simple representing it is an element with a value that is a list of elements",
-          "definition": "Simple representing it is an element with a value that is a list of elements",
-          "min": 0,
-          "max": "1",
-          "base": {
-            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value",
-            "min": 0,
-            "max": "1"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
-          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
           "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild",
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
             "min": 0,
             "max": "1"
           },
@@ -468,14 +426,14 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
-          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
           "short": "A derivative of the simple type.",
           "definition": "A derivative of the simple type.",
           "min": 0,
           "max": "2",
           "base": {
-            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.value.simpleChild2",
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
             "min": 0,
             "max": "2"
           },
