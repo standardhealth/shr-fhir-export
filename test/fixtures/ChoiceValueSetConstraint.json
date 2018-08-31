@@ -56,10 +56,6 @@
           "path": "shr-test-CodedChoice-model.value[x]",
           "short": "Coded or code representing an element with a choice of code fields.",
           "definition": "Coded or code representing an element with a choice of code fields.",
-          "alias": [
-            "coded",
-            "code"
-          ],
           "min": 0,
           "max": "1",
           "base": {
@@ -103,10 +99,6 @@
           "path": "shr-test-CodedChoice-model.value[x]",
           "short": "Coded or code representing an element with a choice of code fields.",
           "definition": "Coded or code representing an element with a choice of code fields.",
-          "alias": [
-            "coded",
-            "code"
-          ],
           "min": 0,
           "max": "1",
           "base": {
@@ -184,27 +176,6 @@
         {
           "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
           "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
-          "short": "An element with a choice of code fields.",
-          "definition": "An element with a choice of code fields.",
-          "min": 0,
-          "max": "1",
-          "base": {
-            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
-            "min": 0,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-CodedChoice-model"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice.value[x]",
-          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice.value[x]",
           "slicing": {
             "discriminator": [
               {
@@ -215,16 +186,12 @@
             "ordered": false,
             "rules": "open"
           },
-          "short": "Coded or code representing an element with a choice of code fields.",
-          "definition": "Coded or code representing an element with a choice of code fields.",
-          "alias": [
-            "coded",
-            "code"
-          ],
+          "short": "An element with a choice of code fields.",
+          "definition": "An element with a choice of code fields.",
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-CodedChoice-model.value[x]",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
             "min": 0,
             "max": "1"
           },
@@ -249,7 +216,7 @@
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-CodedChoice-model.value[x]",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice.valueCode",
             "min": 0,
             "max": "1"
           },
@@ -290,27 +257,6 @@
         {
           "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
           "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
-          "short": "An element with a choice of code fields.",
-          "definition": "An element with a choice of code fields.",
-          "min": 0,
-          "max": "1",
-          "base": {
-            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
-            "min": 0,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-CodedChoice-model"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice.value[x]",
-          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice.value[x]",
           "slicing": {
             "discriminator": [
               {
@@ -321,16 +267,12 @@
             "ordered": false,
             "rules": "open"
           },
-          "short": "Coded or code representing an element with a choice of code fields.",
-          "definition": "Coded or code representing an element with a choice of code fields.",
-          "alias": [
-            "coded",
-            "code"
-          ],
+          "short": "An element with a choice of code fields.",
+          "definition": "An element with a choice of code fields.",
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-CodedChoice-model.value[x]",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
             "min": 0,
             "max": "1"
           },
@@ -355,7 +297,7 @@
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-CodedChoice-model.value[x]",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice.valueCode",
             "min": 0,
             "max": "1"
           },
@@ -434,9 +376,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -483,9 +422,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {

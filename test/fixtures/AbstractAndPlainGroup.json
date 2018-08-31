@@ -79,7 +79,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -107,7 +107,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Plain-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -154,7 +154,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -182,7 +182,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Plain-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -256,9 +256,6 @@
           "path": "shr-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -299,9 +296,6 @@
           "path": "shr-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -385,9 +379,6 @@
           "path": "shr-test-Plain-model.value",
           "short": "String representing it is not an entry element",
           "definition": "String representing it is not an entry element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -428,9 +419,6 @@
           "path": "shr-test-Plain-model.value",
           "short": "String representing it is not an entry element",
           "definition": "String representing it is not an entry element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {

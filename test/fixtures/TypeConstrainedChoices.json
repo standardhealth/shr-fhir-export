@@ -66,11 +66,6 @@
           },
           "short": "Choice of types representing it is an element with a choice",
           "definition": "Choice of types representing it is an element with a choice",
-          "alias": [
-            "string",
-            "code",
-            "coded"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -155,11 +150,6 @@
           },
           "short": "Choice of types representing it is an element with a choice",
           "definition": "Choice of types representing it is an element with a choice",
-          "alias": [
-            "string",
-            "code",
-            "coded"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -279,30 +269,6 @@
           },
           "type": [
             {
-              "code": "BackboneElement"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-          "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-          "short": "string",
-          "definition": "string",
-          "alias": [
-            "string"
-          ],
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
               "code": "string"
             }
           ],
@@ -338,30 +304,6 @@
           "max": "1",
           "base": {
             "path": "shr-test-TypeConstrainedChoice-model.choice",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "BackboneElement"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-          "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
-          "short": "string",
-          "definition": "string",
-          "alias": [
-            "string"
-          ],
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoice-model.choice.valueString",
             "min": 1,
             "max": "1"
           },
@@ -434,9 +376,6 @@
           "path": "shr-test-ChoiceValue-model.value",
           "short": "Choice representing it is an element with a choice value.",
           "definition": "Choice representing it is an element with a choice value.",
-          "alias": [
-            "choice"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -477,9 +416,6 @@
           "path": "shr-test-ChoiceValue-model.value",
           "short": "Choice representing it is an element with a choice value.",
           "definition": "Choice representing it is an element with a choice value.",
-          "alias": [
-            "choice"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -554,6 +490,16 @@
         {
           "id": "shr-test-TwoDeepChoiceField-model.choiceValue",
           "path": "shr-test-TwoDeepChoiceField-model.choiceValue",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "type",
+                "path": "$this"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          },
           "short": "It is an element with a choice value.",
           "definition": "It is an element with a choice value.",
           "min": 0,
@@ -565,12 +511,46 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceValue-model"
+              "code": "string"
+            },
+            {
+              "code": "code"
+            },
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
             }
           ],
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
+        },
+        {
+          "id": "shr-test-TwoDeepChoiceField-model.choiceValue.valueCode:code",
+          "path": "shr-test-TwoDeepChoiceField-model.choiceValue.valueCode",
+          "sliceName": "code",
+          "short": "code",
+          "definition": "code",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model.choiceValue.valueCode",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "code"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/CodeChoice"
+            }
+          }
         }
       ]
     },
@@ -594,6 +574,16 @@
         {
           "id": "shr-test-TwoDeepChoiceField-model.choiceValue",
           "path": "shr-test-TwoDeepChoiceField-model.choiceValue",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "type",
+                "path": "$this"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          },
           "short": "It is an element with a choice value.",
           "definition": "It is an element with a choice value.",
           "min": 0,
@@ -605,12 +595,46 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceValue-model"
+              "code": "string"
+            },
+            {
+              "code": "code"
+            },
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
             }
           ],
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
+        },
+        {
+          "id": "shr-test-TwoDeepChoiceField-model.choiceValue.valueCode:code",
+          "path": "shr-test-TwoDeepChoiceField-model.choiceValue.valueCode",
+          "sliceName": "code",
+          "short": "code",
+          "definition": "code",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model.choiceValue.valueCode",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "code"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/CodeChoice"
+            }
+          }
         }
       ]
     }
@@ -702,60 +726,18 @@
           },
           "type": [
             {
-              "code": "BackboneElement"
+              "code": "code"
             }
           ],
           "mustSupport": false,
           "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-          "short": "Choice representing it is an element with a choice value.",
-          "definition": "Choice representing it is an element with a choice value.",
-          "alias": [
-            "choice"
-          ],
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "BackboneElement"
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
             }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-          "short": "It is a coded element",
-          "definition": "It is a coded element",
-          "alias": [
-            "coded"
-          ],
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
+          }
         }
       ]
     },
@@ -811,60 +793,18 @@
           },
           "type": [
             {
-              "code": "BackboneElement"
+              "code": "code"
             }
           ],
           "mustSupport": false,
           "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-          "short": "Choice representing it is an element with a choice value.",
-          "definition": "Choice representing it is an element with a choice value.",
-          "alias": [
-            "choice"
-          ],
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "BackboneElement"
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
             }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-          "short": "It is a coded element",
-          "definition": "It is a coded element",
-          "alias": [
-            "coded"
-          ],
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue.value.valueCoded",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
+          }
         }
       ]
     }
@@ -926,9 +866,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -975,9 +912,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {

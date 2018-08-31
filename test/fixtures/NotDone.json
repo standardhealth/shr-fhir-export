@@ -57,22 +57,6 @@
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
-        },
-        {
-          "id": "shr-test-NotDone-model.intentionallyBlank",
-          "path": "shr-test-NotDone-model.intentionallyBlank",
-          "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
-          "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
-          "min": 0,
-          "max": "0",
-          "base": {
-            "path": "shr-test-NotDone-model.intentionallyBlank",
-            "min": 0,
-            "max": "0"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
         }
       ]
     },
@@ -88,22 +72,6 @@
             "path": "shr-test-NotDone-model",
             "min": 0,
             "max": "*"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-test-NotDone-model.intentionallyBlank",
-          "path": "shr-test-NotDone-model.intentionallyBlank",
-          "short": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
-          "definition": "Workaround for limitation in IG publisher: StructureDefinitions must have at least one field",
-          "min": 0,
-          "max": "0",
-          "base": {
-            "path": "shr-test-NotDone-model.intentionallyBlank",
-            "min": 0,
-            "max": "0"
           },
           "mustSupport": false,
           "isModifier": false,

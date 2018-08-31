@@ -1,8 +1,8 @@
 {
   "source": "ig.xml",
   "version": "3.0.1",
-  "fixed-business-version": "0.1.0",
-  "license" :  "cc0-1.0",
+  "fixed-business-version": "TBD",
+  "license" :  "CC0-1.0",
   "paths": {
     "resources": [
       "resources"
@@ -14,16 +14,17 @@
     "qa": "qa",
     "specification": "http://hl7.org/fhir/STU3/"
   },
-  "npm-name": "us-breastcancer",
+  "npm-name": "TBD",
   "sct-edition": "http://snomed.info/sct/731000124108",
   "gen-examples": "false",
   "do-transforms": "false",
-  "canonicalBase": "<ig-url-go-here>",
+  "canonicalBase": "TBD",
   "dependencyList": [
     {
-       "name" : "USCore",
-       "location" : "http://hl7.org/fhir/us/core/1.0.1",
-       "source": "uscore"
+       "name" : "uscore",
+       "location" : "http://hl7.org/fhir/us/core",
+       "source": "uscore",
+       "version": "1.0.1"
     }
   ],
   "defaults": {

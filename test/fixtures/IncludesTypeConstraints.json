@@ -56,9 +56,6 @@
           "path": "shr-test-SimpleChild2-model.value",
           "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -99,9 +96,6 @@
           "path": "shr-test-SimpleChild2-model.value",
           "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -185,9 +179,6 @@
           ],
           "short": "Simple representing an entry with a includes types constraints.",
           "definition": "Simple representing an entry with a includes types constraints.",
-          "alias": [
-            "simple"
-          ],
           "min": 0,
           "max": "1",
           "base": {
@@ -213,7 +204,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -234,7 +225,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild2-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -272,9 +263,6 @@
           ],
           "short": "Simple representing an entry with a includes types constraints.",
           "definition": "Simple representing an entry with a includes types constraints.",
-          "alias": [
-            "simple"
-          ],
           "min": 0,
           "max": "1",
           "base": {
@@ -300,7 +288,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -321,7 +309,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild2-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -395,9 +383,6 @@
           "path": "shr-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -438,9 +423,6 @@
           "path": "shr-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -517,9 +499,6 @@
           "path": "shr-test-SimpleChild-model.value",
           "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -560,9 +539,6 @@
           "path": "shr-test-SimpleChild-model.value",
           "short": "String representing a derivative of the simple type.",
           "definition": "String representing a derivative of the simple type.",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {

@@ -84,7 +84,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -105,16 +105,29 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
+              "code": "code"
             }
           ],
           "mustSupport": false,
           "isModifier": false,
-          "isSummary": false
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
+            }
+          }
         },
         {
           "id": "shr-test-Group-model.elementValue",
           "path": "shr-test-Group-model.elementValue",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
           "short": "It is an element with an element value",
           "definition": "It is an element with an element value",
           "min": 0,
@@ -126,7 +139,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -173,7 +186,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -194,16 +207,29 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
+              "code": "code"
             }
           ],
           "mustSupport": false,
           "isModifier": false,
-          "isSummary": false
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
+            }
+          }
         },
         {
           "id": "shr-test-Group-model.elementValue",
           "path": "shr-test-Group-model.elementValue",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
           "short": "It is an element with an element value",
           "definition": "It is an element with an element value",
           "min": 0,
@@ -215,7 +241,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -289,9 +315,6 @@
           "path": "shr-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -332,9 +355,6 @@
           "path": "shr-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -411,9 +431,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -460,9 +477,6 @@
           "path": "shr-test-Coded-model.value",
           "short": "Code representing it is a coded element",
           "definition": "Code representing it is a coded element",
-          "alias": [
-            "code"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -552,9 +566,6 @@
           ],
           "short": "Simple representing it is an element with a foreign element value",
           "definition": "Simple representing it is an element with a foreign element value",
-          "alias": [
-            "simple"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -564,7 +575,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -602,9 +613,6 @@
           ],
           "short": "Simple representing it is an element with a foreign element value",
           "definition": "Simple representing it is an element with a foreign element value",
-          "alias": [
-            "simple"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -614,7 +622,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -688,9 +696,6 @@
           ],
           "short": "Simple representing it is an element with an element value",
           "definition": "Simple representing it is an element with an element value",
-          "alias": [
-            "simple"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -700,7 +705,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -738,9 +743,6 @@
           ],
           "short": "Simple representing it is an element with an element value",
           "definition": "Simple representing it is an element with an element value",
-          "alias": [
-            "simple"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -750,7 +752,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -824,9 +826,6 @@
           "path": "shr-other-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {
@@ -867,9 +866,6 @@
           "path": "shr-other-test-Simple-model.value",
           "short": "String representing it is a simple element",
           "definition": "String representing it is a simple element",
-          "alias": [
-            "string"
-          ],
           "min": 1,
           "max": "1",
           "base": {

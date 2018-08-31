@@ -56,9 +56,6 @@
           "path": "shr-test-OptionalValue-model.value",
           "short": "String representing an element with an optional value.",
           "definition": "String representing an element with an optional value.",
-          "alias": [
-            "string"
-          ],
           "min": 0,
           "max": "1",
           "base": {
@@ -99,9 +96,6 @@
           "path": "shr-test-OptionalValue-model.value",
           "short": "String representing an element with an optional value.",
           "definition": "String representing an element with an optional value.",
-          "alias": [
-            "string"
-          ],
           "min": 0,
           "max": "1",
           "base": {
@@ -187,7 +181,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalValue-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -227,7 +221,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalValue-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -315,16 +309,16 @@
           "path": "shr-test-NestedCardConstraint-model.optionalField.optionalValue",
           "short": "An element with an optional value.",
           "definition": "An element with an optional value.",
-          "min": 1,
+          "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-OptionalField-model.optionalValue",
+            "path": "shr-test-NestedCardConstraint-model.optionalField.optionalValue",
             "min": 0,
             "max": "1"
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalValue-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -376,16 +370,16 @@
           "path": "shr-test-NestedCardConstraint-model.optionalField.optionalValue",
           "short": "An element with an optional value.",
           "definition": "An element with an optional value.",
-          "min": 1,
+          "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-OptionalField-model.optionalValue",
+            "path": "shr-test-NestedCardConstraint-model.optionalField.optionalValue",
             "min": 0,
             "max": "1"
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalValue-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,

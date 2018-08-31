@@ -912,13 +912,13 @@ shelljs@^0.7.5:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shr-models@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-5.5.0.tgz#41c163bfb22aa39678c2bafebccccb50a8574a3a"
+shr-models@^5.5.3:
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-5.5.3.tgz#bc972ba2355bd7dd35d1169c7f17332967165c65"
 
-shr-test-helpers@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-5.2.0.tgz#8bb0982c53b1ce7d4e792bdf1cf73d94bde650f8"
+shr-test-helpers@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-5.2.2.tgz#31c18d3db71a0181cd18e74105b42881756f5834"
   dependencies:
     fs-extra "^5.0.0"
 
