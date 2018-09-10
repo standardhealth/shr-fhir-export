@@ -174,8 +174,8 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
-          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
+          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice[x]",
+          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice[x]",
           "slicing": {
             "discriminator": [
               {
@@ -191,7 +191,7 @@
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice[x]",
             "min": 0,
             "max": "1"
           },
@@ -208,15 +208,15 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice.valueCode:code",
-          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice.valueCode",
+          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode:code",
+          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode",
           "sliceName": "code",
           "short": "Coded or code representing an element with a choice of code fields.",
           "definition": "Coded or code representing an element with a choice of code fields.",
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice.valueCode",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode",
             "min": 0,
             "max": "1"
           },
@@ -255,8 +255,8 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
-          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
+          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice[x]",
+          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice[x]",
           "slicing": {
             "discriminator": [
               {
@@ -272,7 +272,7 @@
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice[x]",
             "min": 0,
             "max": "1"
           },
@@ -289,15 +289,15 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoice.valueCode:code",
-          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice.valueCode",
+          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode:code",
+          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode",
           "sliceName": "code",
           "short": "Coded or code representing an element with a choice of code fields.",
           "definition": "Coded or code representing an element with a choice of code fields.",
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoice.valueCode",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode",
             "min": 0,
             "max": "1"
           },

@@ -188,7 +188,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
@@ -235,7 +235,7 @@
           },
           "type": [
             {
-              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model"
+              "code": "string"
             }
           ],
           "mustSupport": false,
