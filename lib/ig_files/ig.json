@@ -23,7 +23,6 @@
     {
        "name" : "uscore",
        "location" : "http://hl7.org/fhir/us/core",
-       "source": "uscore",
        "version": "1.0.1"
     }
   ],
