@@ -12,7 +12,7 @@
     "output": "output",
     "txCache": "txCache",
     "qa": "qa",
-    "specification": "http://hl7.org/fhir/STU3/"
+    "specification": "http://hl7.org/fhir/STU3"
   },
   "npm-name": "TBD",
   "sct-edition": "http://snomed.info/sct/731000124108",
@@ -23,7 +23,6 @@
     {
        "name" : "uscore",
        "location" : "http://hl7.org/fhir/us/core",
-       "source": "uscore",
        "version": "1.0.1"
     }
   ],

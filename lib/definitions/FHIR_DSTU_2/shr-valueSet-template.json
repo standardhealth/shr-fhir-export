@@ -1,0 +1,15 @@
+{
+  "resourceType": "ValueSet",
+  "id": "",
+  "text": { "status": "generated", "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>" },
+  "url": "",
+  "identifier": { "system": "", "value": "" },
+  "name": "",
+  "status": "draft",
+  "publisher": "",
+  "contact": [{ "telecom": [{ "system": "other", "value": "" }] }],
+  "date": "",
+  "description": "",
+  "codeSystem": { "system": "", "caseSensitive": true, "concept": [] },
+  "compose": { "include": [], "exclude": [] }
+}

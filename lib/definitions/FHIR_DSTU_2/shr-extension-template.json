@@ -1,0 +1,23 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "",
+  "text": { "status": "generated", "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>" },
+  "url": "",
+  "identifier": [{ "system": "", "value": "" }],
+  "name": "",
+  "display": "",
+  "status": "draft",
+  "publisher": "",
+  "contact": [{ "telecom": [{ "system": "other", "value": "" }] }],
+  "date": "",
+  "description": "",
+  "fhirVersion": "1.0.2",
+  "kind": "datatype",
+  "constrainedType": "Extension",
+  "abstract": false,
+  "contextType": "resource",
+  "context": ["*"],
+  "base": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "snapshot": { "element": [] },
+  "differential": { "element": [] }
+}
