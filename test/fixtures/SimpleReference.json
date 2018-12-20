@@ -4,7 +4,7 @@
     "id": "shr-test-SimpleReference-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR SimpleReference Logical Model</b></p>\n  <p>It is a reference to a simple element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleReference Logical Model</b></p>\n  <p>It is a reference to a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleReference-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.SimpleReference"
       }
     ],
-    "name": "SimpleReferenceModel",
-    "title": "FOOBAR SimpleReference Logical Model",
+    "name": "SimpleReference",
+    "title": "shr-test-SimpleReference",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

@@ -4,7 +4,7 @@
     "id": "shr-test-TwoDeepElementValue-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR TwoDeepElementValue Logical Model</b></p>\n  <p>It is an element with a two-deep element value</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TwoDeepElementValue Logical Model</b></p>\n  <p>It is an element with a two-deep element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepElementValue-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.TwoDeepElementValue"
       }
     ],
-    "name": "TwoDeepElementValueModel",
-    "title": "FOOBAR TwoDeepElementValue Logical Model",
+    "name": "TwoDeepElementValue",
+    "title": "shr-test-TwoDeepElementValue",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -134,7 +134,7 @@
     "id": "shr-test-ElementValue-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model",
     "identifier": [
@@ -143,8 +143,8 @@
         "value": "shr.test.ElementValue"
       }
     ],
-    "name": "ElementValueModel",
-    "title": "FOOBAR ElementValue Logical Model",
+    "name": "ElementValue",
+    "title": "shr-test-ElementValue",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -264,7 +264,7 @@
     "id": "shr-test-Simple-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
     "identifier": [
@@ -273,8 +273,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "SimpleModel",
-    "title": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "shr-test-Simple",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

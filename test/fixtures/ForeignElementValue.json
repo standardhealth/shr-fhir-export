@@ -4,7 +4,7 @@
     "id": "shr-test-ForeignElementValue-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ForeignElementValue Logical Model</b></p>\n  <p>It is an element with a foreign element value</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ForeignElementValue Logical Model</b></p>\n  <p>It is an element with a foreign element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ForeignElementValue-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.ForeignElementValue"
       }
     ],
-    "name": "ForeignElementValueModel",
-    "title": "FOOBAR ForeignElementValue Logical Model",
+    "name": "ForeignElementValue",
+    "title": "shr-test-ForeignElementValue",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -134,7 +134,7 @@
     "id": "shr-other-test-Simple-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model",
     "identifier": [
@@ -143,8 +143,8 @@
         "value": "shr.other.test.Simple"
       }
     ],
-    "name": "SimpleModel",
-    "title": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "shr-other-test-Simple",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

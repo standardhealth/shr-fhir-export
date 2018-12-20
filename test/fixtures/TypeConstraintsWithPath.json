@@ -4,7 +4,7 @@
     "id": "shr-test-ElementField-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ElementField Logical Model</b></p>\n  <p>It is an element with a field.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ElementField Logical Model</b></p>\n  <p>It is an element with a field.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementField-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.ElementField"
       }
     ],
-    "name": "ElementFieldModel",
-    "title": "FOOBAR ElementField Logical Model",
+    "name": "ElementField",
+    "title": "shr-test-ElementField",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -134,7 +134,7 @@
     "id": "shr-test-TwoDeepElementField-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR TwoDeepElementField Logical Model</b></p>\n  <p>It is an element with a two-deep element field</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TwoDeepElementField Logical Model</b></p>\n  <p>It is an element with a two-deep element field</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepElementField-model",
     "identifier": [
@@ -143,8 +143,8 @@
         "value": "shr.test.TwoDeepElementField"
       }
     ],
-    "name": "TwoDeepElementFieldModel",
-    "title": "FOOBAR TwoDeepElementField Logical Model",
+    "name": "TwoDeepElementField",
+    "title": "shr-test-TwoDeepElementField",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -250,7 +250,7 @@
     "id": "shr-test-NestedField-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR NestedField Logical Model</b></p>\n  <p>It is an element with a nested field.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>NestedField Logical Model</b></p>\n  <p>It is an element with a nested field.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-NestedField-model",
     "identifier": [
@@ -259,8 +259,8 @@
         "value": "shr.test.NestedField"
       }
     ],
-    "name": "NestedFieldModel",
-    "title": "FOOBAR NestedField Logical Model",
+    "name": "NestedField",
+    "title": "shr-test-NestedField",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -366,7 +366,7 @@
     "id": "shr-test-ConstrainedPath-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ConstrainedPath Logical Model</b></p>\n  <p>It derives an element with a nested field.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ConstrainedPath Logical Model</b></p>\n  <p>It derives an element with a nested field.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ConstrainedPath-model",
     "identifier": [
@@ -375,8 +375,8 @@
         "value": "shr.test.ConstrainedPath"
       }
     ],
-    "name": "ConstrainedPathModel",
-    "title": "FOOBAR ConstrainedPath Logical Model",
+    "name": "ConstrainedPath",
+    "title": "shr-test-ConstrainedPath",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -566,7 +566,7 @@
     "id": "shr-test-ConstrainedPathNoInheritance-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ConstrainedPathNoInheritance Logical Model</b></p>\n  <p>It has a new field with a nested constraint.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ConstrainedPathNoInheritance Logical Model</b></p>\n  <p>It has a new field with a nested constraint.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ConstrainedPathNoInheritance-model",
     "identifier": [
@@ -575,8 +575,8 @@
         "value": "shr.test.ConstrainedPathNoInheritance"
       }
     ],
-    "name": "ConstrainedPathNoInheritanceModel",
-    "title": "FOOBAR ConstrainedPathNoInheritance Logical Model",
+    "name": "ConstrainedPathNoInheritance",
+    "title": "shr-test-ConstrainedPathNoInheritance",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -766,7 +766,7 @@
     "id": "shr-test-Simple-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
     "identifier": [
@@ -775,8 +775,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "SimpleModel",
-    "title": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "shr-test-Simple",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -889,7 +889,7 @@
     "id": "shr-test-SimpleChild-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR SimpleChild Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleChild Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model",
     "identifier": [
@@ -898,8 +898,8 @@
         "value": "shr.test.SimpleChild"
       }
     ],
-    "name": "SimpleChildModel",
-    "title": "FOOBAR SimpleChild Logical Model",
+    "name": "SimpleChild",
+    "title": "shr-test-SimpleChild",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

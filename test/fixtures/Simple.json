@@ -4,7 +4,7 @@
     "id": "shr-test-Simple-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "SimpleModel",
-    "title": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "shr-test-Simple",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

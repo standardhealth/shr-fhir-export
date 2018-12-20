@@ -4,7 +4,7 @@
     "id": "shr-test-IncludesCodesList-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR IncludesCodesList Logical Model</b></p>\n  <p>An entry with a includes codes constraint.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>IncludesCodesList Logical Model</b></p>\n  <p>An entry with a includes codes constraint.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-IncludesCodesList-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.IncludesCodesList"
       }
     ],
-    "name": "IncludesCodesListModel",
-    "title": "FOOBAR IncludesCodesList Logical Model",
+    "name": "IncludesCodesList",
+    "title": "shr-test-IncludesCodesList",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -148,7 +148,7 @@
     "id": "shr-core-CodeSystem-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR CodeSystem Logical Model</b></p>\n  <p></p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>CodeSystem Logical Model</b></p>\n  <p></p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-core-CodeSystem-model",
     "identifier": [
@@ -157,8 +157,8 @@
         "value": "shr.core.CodeSystem"
       }
     ],
-    "name": "CodeSystemModel",
-    "title": "FOOBAR CodeSystem Logical Model",
+    "name": "CodeSystem",
+    "title": "shr-core-CodeSystem",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -265,7 +265,7 @@
     "id": "shr-core-CodeSystemVersion-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR CodeSystemVersion Logical Model</b></p>\n  <p></p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>CodeSystemVersion Logical Model</b></p>\n  <p></p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-core-CodeSystemVersion-model",
     "identifier": [
@@ -274,8 +274,8 @@
         "value": "shr.core.CodeSystemVersion"
       }
     ],
-    "name": "CodeSystemVersionModel",
-    "title": "FOOBAR CodeSystemVersion Logical Model",
+    "name": "CodeSystemVersion",
+    "title": "shr-core-CodeSystemVersion",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -382,7 +382,7 @@
     "id": "shr-core-DisplayText-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR DisplayText Logical Model</b></p>\n  <p></p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>DisplayText Logical Model</b></p>\n  <p></p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-core-DisplayText-model",
     "identifier": [
@@ -391,8 +391,8 @@
         "value": "shr.core.DisplayText"
       }
     ],
-    "name": "DisplayTextModel",
-    "title": "FOOBAR DisplayText Logical Model",
+    "name": "DisplayText",
+    "title": "shr-core-DisplayText",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

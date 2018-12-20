@@ -4,7 +4,7 @@
     "id": "shr-test-Choice-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Choice Logical Model</b></p>\n  <p>It is an element with a choice</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Choice Logical Model</b></p>\n  <p>It is an element with a choice</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Choice-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.Choice"
       }
     ],
-    "name": "ChoiceModel",
-    "title": "FOOBAR Choice Logical Model",
+    "name": "Choice",
+    "title": "shr-test-Choice",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -208,7 +208,7 @@
     "id": "shr-test-TypeConstrainedChoice-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR TypeConstrainedChoice Logical Model</b></p>\n  <p>It is an element with a choice with a constraint.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TypeConstrainedChoice Logical Model</b></p>\n  <p>It is an element with a choice with a constraint.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TypeConstrainedChoice-model",
     "identifier": [
@@ -217,8 +217,8 @@
         "value": "shr.test.TypeConstrainedChoice"
       }
     ],
-    "name": "TypeConstrainedChoiceModel",
-    "title": "FOOBAR TypeConstrainedChoice Logical Model",
+    "name": "TypeConstrainedChoice",
+    "title": "shr-test-TypeConstrainedChoice",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -324,7 +324,7 @@
     "id": "shr-test-ChoiceValue-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ChoiceValue Logical Model</b></p>\n  <p>It is an element with a choice value.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ChoiceValue Logical Model</b></p>\n  <p>It is an element with a choice value.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceValue-model",
     "identifier": [
@@ -333,8 +333,8 @@
         "value": "shr.test.ChoiceValue"
       }
     ],
-    "name": "ChoiceValueModel",
-    "title": "FOOBAR ChoiceValue Logical Model",
+    "name": "ChoiceValue",
+    "title": "shr-test-ChoiceValue",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -528,7 +528,7 @@
     "id": "shr-test-TwoDeepChoiceField-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR TwoDeepChoiceField Logical Model</b></p>\n  <p>It is an element with a a field with a choice.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TwoDeepChoiceField Logical Model</b></p>\n  <p>It is an element with a a field with a choice.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepChoiceField-model",
     "identifier": [
@@ -537,8 +537,8 @@
         "value": "shr.test.TwoDeepChoiceField"
       }
     ],
-    "name": "TwoDeepChoiceFieldModel",
-    "title": "FOOBAR TwoDeepChoiceField Logical Model",
+    "name": "TwoDeepChoiceField",
+    "title": "shr-test-TwoDeepChoiceField",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -732,7 +732,7 @@
     "id": "shr-test-TypeConstrainedChoiceWithPath-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR TypeConstrainedChoiceWithPath Logical Model</b></p>\n  <p>It is an element with a choice on a field with a constraint.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TypeConstrainedChoiceWithPath Logical Model</b></p>\n  <p>It is an element with a choice on a field with a constraint.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TypeConstrainedChoiceWithPath-model",
     "identifier": [
@@ -741,8 +741,8 @@
         "value": "shr.test.TypeConstrainedChoiceWithPath"
       }
     ],
-    "name": "TypeConstrainedChoiceWithPathModel",
-    "title": "FOOBAR TypeConstrainedChoiceWithPath Logical Model",
+    "name": "TypeConstrainedChoiceWithPath",
+    "title": "shr-test-TypeConstrainedChoiceWithPath",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -902,7 +902,7 @@
     "id": "shr-test-Coded-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
     "identifier": [
@@ -911,8 +911,8 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "CodedModel",
-    "title": "FOOBAR Coded Logical Model",
+    "name": "Coded",
+    "title": "shr-test-Coded",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
