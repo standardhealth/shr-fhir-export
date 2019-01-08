@@ -4,7 +4,7 @@
     "id": "shr-test-Coded-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "CodedModel",
-    "title": "FOOBAR Coded Logical Model",
+    "name": "Coded",
+    "title": "shr-test-Coded",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

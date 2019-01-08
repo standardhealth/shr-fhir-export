@@ -4,7 +4,7 @@
     "id": "shr-test-SimpleChild2-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR SimpleChild2 Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleChild2 Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild2-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.SimpleChild2"
       }
     ],
-    "name": "SimpleChild2Model",
-    "title": "FOOBAR SimpleChild2 Logical Model",
+    "name": "SimpleChild2",
+    "title": "shr-test-SimpleChild2",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -120,7 +120,7 @@
     "id": "shr-test-IncludesTypesList-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR IncludesTypesList Logical Model</b></p>\n  <p>An entry with a includes types constraints.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>IncludesTypesList Logical Model</b></p>\n  <p>An entry with a includes types constraints.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-IncludesTypesList-model",
     "identifier": [
@@ -129,8 +129,8 @@
         "value": "shr.test.IncludesTypesList"
       }
     ],
-    "name": "IncludesTypesListModel",
-    "title": "FOOBAR IncludesTypesList Logical Model",
+    "name": "IncludesTypesList",
+    "title": "shr-test-IncludesTypesList",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -324,7 +324,7 @@
     "id": "shr-test-Simple-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
     "identifier": [
@@ -333,8 +333,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "SimpleModel",
-    "title": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "shr-test-Simple",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -447,7 +447,7 @@
     "id": "shr-test-SimpleChild-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR SimpleChild Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleChild Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model",
     "identifier": [
@@ -456,8 +456,8 @@
         "value": "shr.test.SimpleChild"
       }
     ],
-    "name": "SimpleChildModel",
-    "title": "FOOBAR SimpleChild Logical Model",
+    "name": "SimpleChild",
+    "title": "shr-test-SimpleChild",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

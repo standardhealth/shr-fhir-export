@@ -4,7 +4,7 @@
     "id": "shr-test-CodedChoice-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR CodedChoice Logical Model</b></p>\n  <p>An element with a choice of code fields.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>CodedChoice Logical Model</b></p>\n  <p>An element with a choice of code fields.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-CodedChoice-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.CodedChoice"
       }
     ],
-    "name": "CodedChoiceModel",
-    "title": "FOOBAR CodedChoice Logical Model",
+    "name": "CodedChoice",
+    "title": "shr-test-CodedChoice",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -126,7 +126,7 @@
     "id": "shr-test-ChoiceValueSetConstraint-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ChoiceValueSetConstraint Logical Model</b></p>\n  <p>It has valueset constraints on a choice field.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ChoiceValueSetConstraint Logical Model</b></p>\n  <p>It has valueset constraints on a choice field.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceValueSetConstraint-model",
     "identifier": [
@@ -135,8 +135,8 @@
         "value": "shr.test.ChoiceValueSetConstraint"
       }
     ],
-    "name": "ChoiceValueSetConstraintModel",
-    "title": "FOOBAR ChoiceValueSetConstraint Logical Model",
+    "name": "ChoiceValueSetConstraint",
+    "title": "shr-test-ChoiceValueSetConstraint",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -324,7 +324,7 @@
     "id": "shr-test-Coded-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
     "identifier": [
@@ -333,8 +333,8 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "CodedModel",
-    "title": "FOOBAR Coded Logical Model",
+    "name": "Coded",
+    "title": "shr-test-Coded",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

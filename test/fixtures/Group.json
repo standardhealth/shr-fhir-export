@@ -4,7 +4,7 @@
     "id": "shr-test-Group-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Group Logical Model</b></p>\n  <p>It is a group of elements</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Group Logical Model</b></p>\n  <p>It is a group of elements</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Group-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.Group"
       }
     ],
-    "name": "GroupModel",
-    "title": "FOOBAR Group Logical Model",
+    "name": "Group",
+    "title": "shr-test-Group",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -256,7 +256,7 @@
     "id": "shr-test-Simple-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
     "identifier": [
@@ -265,8 +265,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "SimpleModel",
-    "title": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "shr-test-Simple",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -379,7 +379,7 @@
     "id": "shr-test-Coded-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
     "identifier": [
@@ -388,8 +388,8 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "CodedModel",
-    "title": "FOOBAR Coded Logical Model",
+    "name": "Coded",
+    "title": "shr-test-Coded",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -507,7 +507,7 @@
     "id": "shr-test-ForeignElementValue-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ForeignElementValue Logical Model</b></p>\n  <p>It is an element with a foreign element value</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ForeignElementValue Logical Model</b></p>\n  <p>It is an element with a foreign element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ForeignElementValue-model",
     "identifier": [
@@ -516,8 +516,8 @@
         "value": "shr.test.ForeignElementValue"
       }
     ],
-    "name": "ForeignElementValueModel",
-    "title": "FOOBAR ForeignElementValue Logical Model",
+    "name": "ForeignElementValue",
+    "title": "shr-test-ForeignElementValue",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -637,7 +637,7 @@
     "id": "shr-test-ElementValue-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model",
     "identifier": [
@@ -646,8 +646,8 @@
         "value": "shr.test.ElementValue"
       }
     ],
-    "name": "ElementValueModel",
-    "title": "FOOBAR ElementValue Logical Model",
+    "name": "ElementValue",
+    "title": "shr-test-ElementValue",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -767,7 +767,7 @@
     "id": "shr-other-test-Simple-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model",
     "identifier": [
@@ -776,8 +776,8 @@
         "value": "shr.other.test.Simple"
       }
     ],
-    "name": "SimpleModel",
-    "title": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "shr-other-test-Simple",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

@@ -4,7 +4,7 @@
     "id": "shr-test-NotDone-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR NotDone Logical Model</b></p>\n  <p>It is an unfinished element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>NotDone Logical Model</b></p>\n  <p>It is an unfinished element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-NotDone-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.NotDone"
       }
     ],
-    "name": "NotDoneModel",
-    "title": "FOOBAR NotDone Logical Model",
+    "name": "NotDone",
+    "title": "shr-test-NotDone",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

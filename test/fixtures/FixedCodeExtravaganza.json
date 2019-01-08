@@ -4,7 +4,7 @@
     "id": "shr-test-Coded-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.Coded"
       }
     ],
-    "name": "CodedModel",
-    "title": "FOOBAR Coded Logical Model",
+    "name": "Coded",
+    "title": "shr-test-Coded",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -132,7 +132,7 @@
     "id": "shr-test-FixedCodeExtravaganza-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR FixedCodeExtravaganza Logical Model</b></p>\n  <p>An element with all sorts of fixed codes.</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FixedCodeExtravaganza Logical Model</b></p>\n  <p>An element with all sorts of fixed codes.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-FixedCodeExtravaganza-model",
     "identifier": [
@@ -141,8 +141,8 @@
         "value": "shr.test.FixedCodeExtravaganza"
       }
     ],
-    "name": "FixedCodeExtravaganzaModel",
-    "title": "FOOBAR FixedCodeExtravaganza Logical Model",
+    "name": "FixedCodeExtravaganza",
+    "title": "shr-test-FixedCodeExtravaganza",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -1418,7 +1418,7 @@
     "id": "shr-core-CodeSystem-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR CodeSystem Logical Model</b></p>\n  <p></p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>CodeSystem Logical Model</b></p>\n  <p></p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-core-CodeSystem-model",
     "identifier": [
@@ -1427,8 +1427,8 @@
         "value": "shr.core.CodeSystem"
       }
     ],
-    "name": "CodeSystemModel",
-    "title": "FOOBAR CodeSystem Logical Model",
+    "name": "CodeSystem",
+    "title": "shr-core-CodeSystem",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -1535,7 +1535,7 @@
     "id": "shr-core-CodeSystemVersion-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR CodeSystemVersion Logical Model</b></p>\n  <p></p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>CodeSystemVersion Logical Model</b></p>\n  <p></p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-core-CodeSystemVersion-model",
     "identifier": [
@@ -1544,8 +1544,8 @@
         "value": "shr.core.CodeSystemVersion"
       }
     ],
-    "name": "CodeSystemVersionModel",
-    "title": "FOOBAR CodeSystemVersion Logical Model",
+    "name": "CodeSystemVersion",
+    "title": "shr-core-CodeSystemVersion",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -1652,7 +1652,7 @@
     "id": "shr-core-DisplayText-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR DisplayText Logical Model</b></p>\n  <p></p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>DisplayText Logical Model</b></p>\n  <p></p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-core-DisplayText-model",
     "identifier": [
@@ -1661,8 +1661,8 @@
         "value": "shr.core.DisplayText"
       }
     ],
-    "name": "DisplayTextModel",
-    "title": "FOOBAR DisplayText Logical Model",
+    "name": "DisplayText",
+    "title": "shr-core-DisplayText",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

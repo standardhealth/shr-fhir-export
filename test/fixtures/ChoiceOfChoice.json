@@ -4,7 +4,7 @@
     "id": "shr-test-ChoiceOfChoice-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ChoiceOfChoice Logical Model</b></p>\n  <p>It is an element with a choice containing a choice</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ChoiceOfChoice Logical Model</b></p>\n  <p>It is an element with a choice containing a choice</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceOfChoice-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.ChoiceOfChoice"
       }
     ],
-    "name": "ChoiceOfChoiceModel",
-    "title": "FOOBAR ChoiceOfChoice Logical Model",
+    "name": "ChoiceOfChoice",
+    "title": "shr-test-ChoiceOfChoice",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

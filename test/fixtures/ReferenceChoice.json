@@ -4,7 +4,7 @@
     "id": "shr-test-ReferenceChoice-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR ReferenceChoice Logical Model</b></p>\n  <p>It is a reference to one of a few types</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ReferenceChoice Logical Model</b></p>\n  <p>It is a reference to one of a few types</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ReferenceChoice-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.ReferenceChoice"
       }
     ],
-    "name": "ReferenceChoiceModel",
-    "title": "FOOBAR ReferenceChoice Logical Model",
+    "name": "ReferenceChoice",
+    "title": "shr-test-ReferenceChoice",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",

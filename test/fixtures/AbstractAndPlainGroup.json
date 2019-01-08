@@ -4,7 +4,7 @@
     "id": "shr-test-AbstractAndPlainGroup-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR AbstractAndPlainGroup Logical Model</b></p>\n  <p>It is an abstract group of elements</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>AbstractAndPlainGroup Logical Model</b></p>\n  <p>It is an abstract group of elements</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-AbstractAndPlainGroup-model",
     "identifier": [
@@ -13,8 +13,8 @@
         "value": "shr.test.AbstractAndPlainGroup"
       }
     ],
-    "name": "AbstractAndPlainGroupModel",
-    "title": "FOOBAR AbstractAndPlainGroup Logical Model",
+    "name": "AbstractAndPlainGroup",
+    "title": "shr-test-AbstractAndPlainGroup",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -197,7 +197,7 @@
     "id": "shr-test-Simple-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
     "identifier": [
@@ -206,8 +206,8 @@
         "value": "shr.test.Simple"
       }
     ],
-    "name": "SimpleModel",
-    "title": "FOOBAR Simple Logical Model",
+    "name": "Simple",
+    "title": "shr-test-Simple",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
@@ -320,7 +320,7 @@
     "id": "shr-test-Plain-model",
     "text": {
       "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FOOBAR Plain Logical Model</b></p>\n  <p>It is not an entry element</p>\n</div>"
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Plain Logical Model</b></p>\n  <p>It is not an entry element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Plain-model",
     "identifier": [
@@ -329,8 +329,8 @@
         "value": "shr.test.Plain"
       }
     ],
-    "name": "PlainModel",
-    "title": "FOOBAR Plain Logical Model",
+    "name": "Plain",
+    "title": "shr-test-Plain",
     "status": "draft",
     "date": "2018-02-26",
     "publisher": "The Foo Bar Corporation",
