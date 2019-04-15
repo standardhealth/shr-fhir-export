@@ -78,7 +78,7 @@
               "code": "string"
             },
             {
-              "code": "code"
+              "code": "Coding"
             },
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
@@ -89,11 +89,11 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-Choice-model.valueCode:code",
-          "path": "shr-test-Choice-model.valueCode",
-          "sliceName": "code",
-          "short": "code",
-          "definition": "code",
+          "id": "shr-test-Choice-model.valueCoding:concept",
+          "path": "shr-test-Choice-model.valueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
           "min": 1,
           "max": "1",
           "base": {
@@ -103,7 +103,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -162,7 +162,7 @@
               "code": "string"
             },
             {
-              "code": "code"
+              "code": "Coding"
             },
             {
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
@@ -173,11 +173,11 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-Choice-model.valueCode:code",
-          "path": "shr-test-Choice-model.valueCode",
-          "sliceName": "code",
-          "short": "code",
-          "definition": "code",
+          "id": "shr-test-Choice-model.valueCoding:concept",
+          "path": "shr-test-Choice-model.valueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
           "min": 1,
           "max": "1",
           "base": {
@@ -187,7 +187,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -258,8 +258,8 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
-          "short": "Code representing it is a coded element",
-          "definition": "Code representing it is a coded element",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
           "min": 1,
           "max": "1",
           "base": {
@@ -269,7 +269,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -304,8 +304,8 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
-          "short": "Code representing it is a coded element",
-          "definition": "Code representing it is a coded element",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
           "min": 1,
           "max": "1",
           "base": {
@@ -315,7 +315,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
