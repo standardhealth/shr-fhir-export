@@ -1,0 +1,18 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "",
+  "text": { "status": "generated", "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>" },
+  "url": "",
+  "identifier": [{ "system": "", "value": "" }],
+  "name": "",
+  "title": "",
+  "status": "draft",
+  "publisher": "",
+  "contact": [{ "telecom": [{ "system": "url", "value": "" }] }],
+  "date": "",
+  "description": "",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 0,
+  "concept": []
+}
