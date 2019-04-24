@@ -1,0 +1,18 @@
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+    <id value="1" />
+    <url value="<ig-url-go-here>/ImplementationGuide/1" />
+    <name value="<project-name-go-here> FHIR Profiles" />
+    <title value="<project-name-go-here> FHIR Profiles" />
+    <status value="draft" />
+    <packageId value="<npm-name-go-here>"/>
+    <fhirVersion value="4.0.0"/>
+    <definition>
+        <name value="Profiles in this Implementation Guide" />
+        <resources-go-here/>
+        <page>
+            <nameUrl value="index.html" />
+            <title value="<project-name-go-here>" />
+            <kind value="html" />
+        </page>
+    </definition>
+</ImplementationGuide>
