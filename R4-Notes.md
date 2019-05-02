@@ -15,17 +15,17 @@
 
 # ElementDefinition
 
-* NEEDS CHANGE - invariants
-    * POTENTIAL - Types must be unique by `code`
+* POTENTIAL - invariants
+    * Types must be unique by `code`
 * POTENTIAL - sliceIsContraining
     * R4 adds `sliceIsConstraining` element
 * DONE - type
     * STU3 has `profile 0..1 uri` and `targetProfile 0..1 uri`
     * R4 has `profile 0..* canonical` and `targetProfile 0..* canonical`
-* POTENTIAL - constraint
+* NO CHANGE - constraint
     * STU3 has `expression 1..1 string` and `source 0..1 uri`
     * R4 has `expression 0..1 string` w/ invariant and `source 0..1 canonical`
-* NEEDS CHANGE - isModifierReason
+* DONE - isModifierReason
     * R4 adds `isModifierReason` which must be present if `isModifier = true`
 * NEEDS CHANGE - binding
     * STU3 has `valueSet[x]`, allowing for `uri` or `Reference`
