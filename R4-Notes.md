@@ -33,7 +33,7 @@
 
 # CodeSystem
 
-* NEEDS CHANGE - identifier
+* DONE - identifier
     * STU3 `identifier` is `0.1`
     * R4 `identifier` is `0.*`
 
