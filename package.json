@@ -1,6 +1,6 @@
 {
   "name": "shr-fhir-export",
-  "version": "5.13.3",
+  "version": "5.13.4",
   "description": "Exports SHR data elements from SHR models to FHIR profiles",
   "author": "",
   "license": "Apache-2.0",
