@@ -9,10 +9,13 @@
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-      {% comment %}strip "FHIR Profiles" off end{% endcomment %}
-      {{site.data.fhir.igName | append: "EOS" | remove: " FHIR ProfilesEOS"}}, Version: {{ site.data.fhir.ig.version }}
-      ; <a style="color: #81BEF7" href="{{ site.data.fhir.path }}">FHIR &copy; Version: {{ site.data.fhir.version }}</a>
-      ; Generated on {{site.data.fhir.genDate}}.
+      {% if {{site.hl7_ig}} == true %}
+      &copy; HL7.org {{site.data.info.copyrightyear}}{% if {{site.data.fhir.ig.publisher}} %} (<a href="{{site.data.fhir.ig.contact[0].telecom[0]}}">{{site.data.fhir.ig.publisher}}</a>){% endif %}.
+      {%- elsif {{site.data.fhir.ig.publisher}} %}
+      &copy; <a href="{{site.data.fhir.ig.contact[0].telecom[0]}}">{{site.data.fhir.ig.publisher}}</a> {{site.data.info.copyrightyear}}.
+      {%- endif %}
+      Package {{site.data.fhir.packageId}}#{{site.data.fhir.igVer }} based on <a style="color: #81BEF7" href="{{site.data.fhir.path}}">FHIR &copy; v{{site.data.fhir.version}}</a>.
+      Generated <span title="{{site.data.fhir.genDate}}">{{site.data.fhir.genDate | date: "%Y-%m-%d"}}</span>.
     </p>
    </div>  <!-- /inner-wrapper -->
   </div>  <!-- /container -->
