@@ -1,6 +1,6 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-    <id value="1" />
-    <url value="<ig-url-go-here>/ImplementationGuide/1" />
+    <id value="<ig-id-go-here>" />
+    <url value="<ig-url-go-here>/ImplementationGuide/<ig-id-go-here>" />
     <name value="<project-name-go-here> FHIR Profiles" />
     <status value="draft" />
     <fhirVersion value="1.0.2"/>
