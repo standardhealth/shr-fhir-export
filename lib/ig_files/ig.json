@@ -21,9 +21,10 @@
   "canonicalBase": "TBD",
   "dependencyList": [
     {
-       "name" : "uscore",
-       "location" : "http://hl7.org/fhir/us/core",
-       "version": "4.0.0"
+      "package": "hl7.fhir.us.core.r4",
+      "version": "current",
+      "name": "uscore",
+      "location": "http://hl7.org/fhir/us/core"
     }
   ],
   "defaults": {
