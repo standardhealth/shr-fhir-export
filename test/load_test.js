@@ -44,8 +44,8 @@ describe('#load()', () => {
     });
 
     it('should load US Core value sets', () => {
-      expect(defs.findValueSet('us-core-cvx').url).to.equal('http://hl7.org/fhir/us/core/ValueSet/us-core-cvx');
-      expect(defs.findValueSet('http://hl7.org/fhir/us/core/ValueSet/us-core-cvx').id).to.equal('us-core-cvx');
+      expect(defs.findValueSet('us-core-vaccines-cvx').url).to.equal('http://hl7.org/fhir/us/core/ValueSet/us-core-vaccines-cvx');
+      expect(defs.findValueSet('http://hl7.org/fhir/us/core/ValueSet/us-core-vaccines-cvx').id).to.equal('us-core-vaccines-cvx');
     });
 
     it('should globally find any definition', () => {
@@ -63,8 +63,8 @@ describe('#load()', () => {
       expect(defs.find('http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient').kind).to.equal('resource');
       expect(defs.find('us-core-race').type).to.equal('Extension');
       expect(defs.find('http://hl7.org/fhir/us/core/StructureDefinition/us-core-race').type).to.equal('Extension');
-      expect(defs.find('us-core-cvx').resourceType).to.equal('ValueSet');
-      expect(defs.find('http://hl7.org/fhir/us/core/ValueSet/us-core-cvx').resourceType).to.equal('ValueSet');
+      expect(defs.find('us-core-vaccines-cvx').resourceType).to.equal('ValueSet');
+      expect(defs.find('http://hl7.org/fhir/us/core/ValueSet/us-core-vaccines-cvx').resourceType).to.equal('ValueSet');
     });
   });
 
