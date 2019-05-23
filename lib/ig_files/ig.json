@@ -1,6 +1,6 @@
 {
   "source": "ig.xml",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "fixed-business-version": "TBD",
   "license" :  "CC0-1.0",
   "paths": {
@@ -12,7 +12,7 @@
     "output": "output",
     "txCache": "txCache",
     "qa": "qa",
-    "specification": "http://hl7.org/fhir/STU3"
+    "specification": "http://hl7.org/fhir/R4"
   },
   "npm-name": "TBD",
   "sct-edition": "http://snomed.info/sct/731000124108",
@@ -21,9 +21,10 @@
   "canonicalBase": "TBD",
   "dependencyList": [
     {
-       "name" : "uscore",
-       "location" : "http://hl7.org/fhir/us/core",
-       "version": "1.0.1"
+      "package": "hl7.fhir.us.core.r4",
+      "version": "current",
+      "name": "uscore",
+      "location": "http://hl7.org/fhir/us/core"
     }
   ],
   "defaults": {

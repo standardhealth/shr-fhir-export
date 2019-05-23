@@ -1,0 +1,21 @@
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+    <id value="<ig-id-go-here>" />
+    <url value="<ig-url-go-here>/ImplementationGuide/<ig-id-go-here>" />
+    <name value="<tokenized-project-name-go-here>" />
+    <title value="<project-name-go-here>" />
+    <status value="draft" />
+    <packageId value="<npm-name-go-here>"/>
+    <fhirVersion value="4.0.0"/>
+    <definition>
+        <grouping>
+            <name value="Profiles in this Implementation Guide"/>
+            <description value="Profiles in this Implementation Guide"/>
+        </grouping>
+        <resources-go-here/>
+        <page>
+            <nameUrl value="index.html" />
+            <title value="<project-name-go-here>" />
+            <generation value="html" />
+        </page>
+    </definition>
+</ImplementationGuide>

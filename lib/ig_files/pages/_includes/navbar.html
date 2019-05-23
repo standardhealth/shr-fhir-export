@@ -1,3 +1,6 @@
+{% assign title = site.data.fhir.ig.title %}
+{% unless title %}{% assign title = site.data.pages["index.html"].title %}{% endunless %}
+{% unless title %}{% assign title = site.data.fhir.ig.name %}{% endunless %}
 <div id="segment-header" class="segment">
   <!-- segment-header -->
   <div class="container">
@@ -6,8 +9,7 @@
       <img alt="HL7 FHIR Homepage" class="img-responsive logo" src="assets/images/fhir-logo-www.png" />
     </a>
     <div id="hl7-status" class="hl7-status">
-      {% comment %}strip "FHIR Profiles" off end{% endcomment %}
-      <b>{{site.data.fhir.igName | append: "EOS" | remove: " FHIR ProfilesEOS"}}</b>
+      <b>{{title}}</b>
     </div>
 
     <div id="hl7-nav">
