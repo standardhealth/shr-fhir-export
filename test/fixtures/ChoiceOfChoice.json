@@ -84,7 +84,7 @@
               "code": "decimal"
             },
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -92,11 +92,11 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-ChoiceOfChoice-model.valueCode:code",
-          "path": "shr-test-ChoiceOfChoice-model.valueCode",
-          "sliceName": "code",
-          "short": "code",
-          "definition": "code",
+          "id": "shr-test-ChoiceOfChoice-model.valueCoding:concept",
+          "path": "shr-test-ChoiceOfChoice-model.valueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
           "min": 1,
           "max": "1",
           "base": {
@@ -106,7 +106,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -171,7 +171,7 @@
               "code": "decimal"
             },
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -179,11 +179,11 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-ChoiceOfChoice-model.valueCode:code",
-          "path": "shr-test-ChoiceOfChoice-model.valueCode",
-          "sliceName": "code",
-          "short": "code",
-          "definition": "code",
+          "id": "shr-test-ChoiceOfChoice-model.valueCoding:concept",
+          "path": "shr-test-ChoiceOfChoice-model.valueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
           "min": 1,
           "max": "1",
           "base": {
@@ -193,7 +193,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,

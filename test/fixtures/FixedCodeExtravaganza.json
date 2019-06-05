@@ -54,8 +54,8 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
-          "short": "Code representing it is a coded element",
-          "definition": "Code representing it is a coded element",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
           "min": 1,
           "max": "1",
           "base": {
@@ -65,7 +65,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -100,8 +100,8 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
-          "short": "Code representing it is a coded element",
-          "definition": "Code representing it is a coded element",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
           "min": 1,
           "max": "1",
           "base": {
@@ -111,7 +111,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -192,8 +192,8 @@
             "ordered": false,
             "rules": "open"
           },
-          "short": "Code or code representing an element with all sorts of fixed codes.",
-          "definition": "Code or code representing an element with all sorts of fixed codes.",
+          "short": "Coded or concept representing an element with all sorts of fixed codes.",
+          "definition": "Coded or concept representing an element with all sorts of fixed codes.",
           "min": 0,
           "max": "1",
           "base": {
@@ -203,7 +203,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coded"
             },
             {
               "code": "Coding"
@@ -214,9 +214,9 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding",
-          "sliceName": "Coding",
+          "sliceName": "concept",
           "short": "Foobar2",
           "definition": "Foobar2",
           "min": 1,
@@ -236,7 +236,7 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.id",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.id",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.id",
           "representation": [
             "xmlAttr"
@@ -263,7 +263,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.extension",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.extension",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.extension",
           "slicing": {
             "discriminator": [
@@ -298,7 +298,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.system",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.system",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.system",
           "short": "Identity of the terminology system",
           "definition": "The identification of the code system that defines the meaning of the symbol in the code.",
@@ -334,7 +334,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.version",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.version",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.version",
           "short": "Version of the system - if relevant",
           "definition": "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
@@ -368,7 +368,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.code",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.code",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.code",
           "short": "Symbol in syntax defined by the system",
           "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
@@ -403,7 +403,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.display",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.display",
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
@@ -443,7 +443,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.userSelected",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.userSelected",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.userSelected",
           "short": "If this coding was chosen directly by the user",
           "definition": "Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).",
@@ -478,12 +478,12 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCode:code",
-          "path": "shr-test-FixedCodeExtravaganza-model.valueCode",
-          "sliceName": "code",
-          "short": "Foobar1",
-          "definition": "Foobar1",
-          "min": 1,
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoded:Coded",
+          "path": "shr-test-FixedCodeExtravaganza-model.valueCoded",
+          "sliceName": "Coded",
+          "short": "Coded",
+          "definition": "Coded",
+          "min": 0,
           "max": "1",
           "base": {
             "path": "shr-test-FixedCodeExtravaganza-model.value[x]",
@@ -492,23 +492,22 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coded"
             }
           ],
-          "fixedCode": "bar1",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept",
           "short": "Foobar3",
           "definition": "Foobar3",
           "min": 1,
           "max": "1",
           "base": {
-            "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
+            "path": "shr-test-FixedCodeExtravaganza-model.concept",
             "min": 1,
             "max": "1"
           },
@@ -522,8 +521,8 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.id",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.id",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.id",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.id",
           "representation": [
             "xmlAttr"
           ],
@@ -549,8 +548,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.extension",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.extension",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.extension",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.extension",
           "slicing": {
             "discriminator": [
               {
@@ -584,8 +583,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.system",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.system",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.system",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.system",
           "short": "Identity of the terminology system",
           "definition": "The identification of the code system that defines the meaning of the symbol in the code.",
           "comment": "The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.",
@@ -620,8 +619,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.version",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.version",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.version",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.version",
           "short": "Version of the system - if relevant",
           "definition": "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
           "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
@@ -654,8 +653,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.code",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.code",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.code",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.code",
           "short": "Symbol in syntax defined by the system",
           "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
           "requirements": "Need to refer to a particular code in the system.",
@@ -689,14 +688,14 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.display",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.display",
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
               "valueBoolean": true
             }
           ],
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.display",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.display",
           "short": "Representation defined by the system",
           "definition": "A representation of the meaning of the code in the system, following the rules of the system.",
           "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
@@ -729,8 +728,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.userSelected",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.userSelected",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.userSelected",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.userSelected",
           "short": "If this coding was chosen directly by the user",
           "definition": "Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).",
           "comment": "Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.",
@@ -777,13 +776,254 @@
           },
           "type": [
             {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.id",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.id",
+          "representation": [
+            "xmlAttr"
+          ],
+          "short": "xml:id (or equivalent in JSON)",
+          "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Element.id",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mapping": [
+            {
+              "identity": "rim",
+              "map": "n/a"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.extension",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.extension",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "value",
+                "path": "url"
+              }
+            ],
+            "description": "Extensions are always sliced by (at least) url",
+            "rules": "open"
+          },
+          "short": "Additional Content defined by implementations",
+          "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+          "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "Element.extension",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Extension"
+            }
+          ],
+          "mapping": [
+            {
+              "identity": "rim",
+              "map": "n/a"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.system",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.system",
+          "short": "Identity of the terminology system",
+          "definition": "The identification of the code system that defines the meaning of the symbol in the code.",
+          "comment": "The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.",
+          "requirements": "Need to be unambiguous about the source of the definition of the symbol.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "Coding.system",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "uri"
+            }
+          ],
+          "fixedUri": "http://foo4.org",
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.3"
+            },
+            {
+              "identity": "rim",
+              "map": "./codeSystem"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.version",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.version",
+          "short": "Version of the system - if relevant",
+          "definition": "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
+          "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.version",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.7"
+            },
+            {
+              "identity": "rim",
+              "map": "./codeSystemVersion"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.code",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.code",
+          "short": "Symbol in syntax defined by the system",
+          "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+          "requirements": "Need to refer to a particular code in the system.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "Coding.code",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
               "code": "code"
             }
           ],
           "fixedCode": "bar4",
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.1"
+            },
+            {
+              "identity": "rim",
+              "map": "./code"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.display",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+              "valueBoolean": true
+            }
+          ],
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.display",
+          "short": "Representation defined by the system",
+          "definition": "A representation of the meaning of the code in the system, following the rules of the system.",
+          "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.display",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.2 - but note this is not well followed"
+            },
+            {
+              "identity": "rim",
+              "map": "CV.displayName"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.userSelected",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.userSelected",
+          "short": "If this coding was chosen directly by the user",
+          "definition": "Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).",
+          "comment": "Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.",
+          "requirements": "This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.userSelected",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "Sometimes implied by being first"
+            },
+            {
+              "identity": "rim",
+              "map": "CD.codingRationale"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\\#true a [     fhir:source \"true\";     fhir:target dt:CDCoding.codingRationale\\#O   ]"
+            }
+          ]
         }
       ]
     },
@@ -817,8 +1057,8 @@
             "ordered": false,
             "rules": "open"
           },
-          "short": "Code or code representing an element with all sorts of fixed codes.",
-          "definition": "Code or code representing an element with all sorts of fixed codes.",
+          "short": "Coded or concept representing an element with all sorts of fixed codes.",
+          "definition": "Coded or concept representing an element with all sorts of fixed codes.",
           "min": 0,
           "max": "1",
           "base": {
@@ -828,7 +1068,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coded"
             },
             {
               "code": "Coding"
@@ -839,9 +1079,9 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding",
-          "sliceName": "Coding",
+          "sliceName": "concept",
           "short": "Foobar2",
           "definition": "Foobar2",
           "min": 1,
@@ -861,7 +1101,7 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.id",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.id",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.id",
           "representation": [
             "xmlAttr"
@@ -888,7 +1128,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.extension",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.extension",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.extension",
           "slicing": {
             "discriminator": [
@@ -923,7 +1163,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.system",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.system",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.system",
           "short": "Identity of the terminology system",
           "definition": "The identification of the code system that defines the meaning of the symbol in the code.",
@@ -959,7 +1199,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.version",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.version",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.version",
           "short": "Version of the system - if relevant",
           "definition": "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
@@ -993,7 +1233,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.code",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.code",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.code",
           "short": "Symbol in syntax defined by the system",
           "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
@@ -1028,7 +1268,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.display",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.display",
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
@@ -1068,7 +1308,7 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:Coding.userSelected",
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoding:concept.userSelected",
           "path": "shr-test-FixedCodeExtravaganza-model.valueCoding.userSelected",
           "short": "If this coding was chosen directly by the user",
           "definition": "Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).",
@@ -1103,12 +1343,12 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.valueCode:code",
-          "path": "shr-test-FixedCodeExtravaganza-model.valueCode",
-          "sliceName": "code",
-          "short": "Foobar1",
-          "definition": "Foobar1",
-          "min": 1,
+          "id": "shr-test-FixedCodeExtravaganza-model.valueCoded:Coded",
+          "path": "shr-test-FixedCodeExtravaganza-model.valueCoded",
+          "sliceName": "Coded",
+          "short": "Coded",
+          "definition": "Coded",
+          "min": 0,
           "max": "1",
           "base": {
             "path": "shr-test-FixedCodeExtravaganza-model.value[x]",
@@ -1117,23 +1357,22 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coded"
             }
           ],
-          "fixedCode": "bar1",
           "mustSupport": false,
           "isModifier": false,
           "isSummary": false
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept",
           "short": "Foobar3",
           "definition": "Foobar3",
           "min": 1,
           "max": "1",
           "base": {
-            "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept",
+            "path": "shr-test-FixedCodeExtravaganza-model.concept",
             "min": 1,
             "max": "1"
           },
@@ -1147,8 +1386,8 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.id",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.id",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.id",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.id",
           "representation": [
             "xmlAttr"
           ],
@@ -1174,8 +1413,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.extension",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.extension",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.extension",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.extension",
           "slicing": {
             "discriminator": [
               {
@@ -1209,8 +1448,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.system",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.system",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.system",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.system",
           "short": "Identity of the terminology system",
           "definition": "The identification of the code system that defines the meaning of the symbol in the code.",
           "comment": "The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.",
@@ -1245,8 +1484,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.version",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.version",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.version",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.version",
           "short": "Version of the system - if relevant",
           "definition": "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
           "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
@@ -1279,8 +1518,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.code",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.code",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.code",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.code",
           "short": "Symbol in syntax defined by the system",
           "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
           "requirements": "Need to refer to a particular code in the system.",
@@ -1314,14 +1553,14 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.display",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.display",
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
               "valueBoolean": true
             }
           ],
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.display",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.display",
           "short": "Representation defined by the system",
           "definition": "A representation of the meaning of the code in the system, following the rules of the system.",
           "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
@@ -1354,8 +1593,8 @@
           ]
         },
         {
-          "id": "shr-test-FixedCodeExtravaganza-model.codeableConcept.userSelected",
-          "path": "shr-test-FixedCodeExtravaganza-model.codeableConcept.userSelected",
+          "id": "shr-test-FixedCodeExtravaganza-model.concept.userSelected",
+          "path": "shr-test-FixedCodeExtravaganza-model.concept.userSelected",
           "short": "If this coding was chosen directly by the user",
           "definition": "Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).",
           "comment": "Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.",
@@ -1402,196 +1641,197 @@
           },
           "type": [
             {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.id",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.id",
+          "representation": [
+            "xmlAttr"
+          ],
+          "short": "xml:id (or equivalent in JSON)",
+          "definition": "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Element.id",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mapping": [
+            {
+              "identity": "rim",
+              "map": "n/a"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.extension",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.extension",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "value",
+                "path": "url"
+              }
+            ],
+            "description": "Extensions are always sliced by (at least) url",
+            "rules": "open"
+          },
+          "short": "Additional Content defined by implementations",
+          "definition": "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+          "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "Element.extension",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Extension"
+            }
+          ],
+          "mapping": [
+            {
+              "identity": "rim",
+              "map": "n/a"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.system",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.system",
+          "short": "Identity of the terminology system",
+          "definition": "The identification of the code system that defines the meaning of the symbol in the code.",
+          "comment": "The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.",
+          "requirements": "Need to be unambiguous about the source of the definition of the symbol.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "Coding.system",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "uri"
+            }
+          ],
+          "fixedUri": "http://foo4.org",
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.3"
+            },
+            {
+              "identity": "rim",
+              "map": "./codeSystem"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.version",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.version",
+          "short": "Version of the system - if relevant",
+          "definition": "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
+          "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.version",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.7"
+            },
+            {
+              "identity": "rim",
+              "map": "./codeSystemVersion"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.code",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.code",
+          "short": "Symbol in syntax defined by the system",
+          "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+          "requirements": "Need to refer to a particular code in the system.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "Coding.code",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
               "code": "code"
             }
           ],
           "fixedCode": "bar4",
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        }
-      ]
-    }
-  },
-  {
-    "resourceType": "StructureDefinition",
-    "id": "shr-core-CodeSystem-model",
-    "text": {
-      "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>CodeSystem Logical Model</b></p>\n  <p></p>\n</div>"
-    },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-core-CodeSystem-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.core.CodeSystem"
-      }
-    ],
-    "name": "CodeSystem",
-    "title": "shr-core-CodeSystem",
-    "status": "draft",
-    "date": "2018-02-26",
-    "publisher": "The Foo Bar Corporation",
-    "contact": [
-      {
-        "telecom": [
-          {
-            "system": "url",
-            "value": "http://foobar.com"
-          }
-        ]
-      }
-    ],
-    "kind": "logical",
-    "abstract": false,
-    "type": "shr-core-CodeSystem-model",
-    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
-    "derivation": "specialization",
-    "snapshot": {
-      "element": [
-        {
-          "id": "shr-core-CodeSystem-model",
-          "path": "shr-core-CodeSystem-model",
-          "short": "CodeSystem",
-          "definition": "CodeSystem",
-          "min": 0,
-          "max": "*",
-          "base": {
-            "path": "shr-core-CodeSystem-model",
-            "min": 0,
-            "max": "*"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.1"
+            },
+            {
+              "identity": "rim",
+              "map": "./code"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"
+            }
+          ]
         },
         {
-          "id": "shr-core-CodeSystem-model.value",
-          "path": "shr-core-CodeSystem-model.value",
-          "short": "Uri representing the logical model instance",
-          "definition": "Uri representing the logical model instance",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-core-CodeSystem-model.value",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.display",
+          "extension": [
             {
-              "code": "uri"
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+              "valueBoolean": true
             }
           ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        }
-      ]
-    },
-    "differential": {
-      "element": [
-        {
-          "id": "shr-core-CodeSystem-model",
-          "path": "shr-core-CodeSystem-model",
-          "short": "CodeSystem",
-          "definition": "CodeSystem",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.display",
+          "short": "Representation defined by the system",
+          "definition": "A representation of the meaning of the code in the system, following the rules of the system.",
+          "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
           "min": 0,
-          "max": "*",
-          "base": {
-            "path": "shr-core-CodeSystem-model",
-            "min": 0,
-            "max": "*"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-core-CodeSystem-model.value",
-          "path": "shr-core-CodeSystem-model.value",
-          "short": "Uri representing the logical model instance",
-          "definition": "Uri representing the logical model instance",
-          "min": 1,
           "max": "1",
           "base": {
-            "path": "shr-core-CodeSystem-model.value",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
-            {
-              "code": "uri"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        }
-      ]
-    }
-  },
-  {
-    "resourceType": "StructureDefinition",
-    "id": "shr-core-CodeSystemVersion-model",
-    "text": {
-      "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>CodeSystemVersion Logical Model</b></p>\n  <p></p>\n</div>"
-    },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-core-CodeSystemVersion-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.core.CodeSystemVersion"
-      }
-    ],
-    "name": "CodeSystemVersion",
-    "title": "shr-core-CodeSystemVersion",
-    "status": "draft",
-    "date": "2018-02-26",
-    "publisher": "The Foo Bar Corporation",
-    "contact": [
-      {
-        "telecom": [
-          {
-            "system": "url",
-            "value": "http://foobar.com"
-          }
-        ]
-      }
-    ],
-    "kind": "logical",
-    "abstract": false,
-    "type": "shr-core-CodeSystemVersion-model",
-    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
-    "derivation": "specialization",
-    "snapshot": {
-      "element": [
-        {
-          "id": "shr-core-CodeSystemVersion-model",
-          "path": "shr-core-CodeSystemVersion-model",
-          "short": "CodeSystemVersion",
-          "definition": "CodeSystemVersion",
-          "min": 0,
-          "max": "*",
-          "base": {
-            "path": "shr-core-CodeSystemVersion-model",
+            "path": "Coding.display",
             "min": 0,
-            "max": "*"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-core-CodeSystemVersion-model.value",
-          "path": "shr-core-CodeSystemVersion-model.value",
-          "short": "String representing the logical model instance",
-          "definition": "String representing the logical model instance",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-core-CodeSystemVersion-model.value",
-            "min": 1,
             "max": "1"
           },
           "type": [
@@ -1599,167 +1839,56 @@
               "code": "string"
             }
           ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        }
-      ]
-    },
-    "differential": {
-      "element": [
-        {
-          "id": "shr-core-CodeSystemVersion-model",
-          "path": "shr-core-CodeSystemVersion-model",
-          "short": "CodeSystemVersion",
-          "definition": "CodeSystemVersion",
-          "min": 0,
-          "max": "*",
-          "base": {
-            "path": "shr-core-CodeSystemVersion-model",
-            "min": 0,
-            "max": "*"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.2 - but note this is not well followed"
+            },
+            {
+              "identity": "rim",
+              "map": "CV.displayName"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"
+            }
+          ]
         },
         {
-          "id": "shr-core-CodeSystemVersion-model.value",
-          "path": "shr-core-CodeSystemVersion-model.value",
-          "short": "String representing the logical model instance",
-          "definition": "String representing the logical model instance",
-          "min": 1,
+          "id": "shr-test-FixedCodeExtravaganza-model.coded.userSelected",
+          "path": "shr-test-FixedCodeExtravaganza-model.coded.userSelected",
+          "short": "If this coding was chosen directly by the user",
+          "definition": "Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).",
+          "comment": "Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.",
+          "requirements": "This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.",
+          "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-core-CodeSystemVersion-model.value",
-            "min": 1,
+            "path": "Coding.userSelected",
+            "min": 0,
             "max": "1"
           },
           "type": [
             {
-              "code": "string"
+              "code": "boolean"
             }
           ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        }
-      ]
-    }
-  },
-  {
-    "resourceType": "StructureDefinition",
-    "id": "shr-core-DisplayText-model",
-    "text": {
-      "status": "generated",
-      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>DisplayText Logical Model</b></p>\n  <p></p>\n</div>"
-    },
-    "url": "http://foobar.com/fhir/StructureDefinition/shr-core-DisplayText-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.core.DisplayText"
-      }
-    ],
-    "name": "DisplayText",
-    "title": "shr-core-DisplayText",
-    "status": "draft",
-    "date": "2018-02-26",
-    "publisher": "The Foo Bar Corporation",
-    "contact": [
-      {
-        "telecom": [
-          {
-            "system": "url",
-            "value": "http://foobar.com"
-          }
-        ]
-      }
-    ],
-    "kind": "logical",
-    "abstract": false,
-    "type": "shr-core-DisplayText-model",
-    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
-    "derivation": "specialization",
-    "snapshot": {
-      "element": [
-        {
-          "id": "shr-core-DisplayText-model",
-          "path": "shr-core-DisplayText-model",
-          "short": "DisplayText",
-          "definition": "DisplayText",
-          "min": 0,
-          "max": "*",
-          "base": {
-            "path": "shr-core-DisplayText-model",
-            "min": 0,
-            "max": "*"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-core-DisplayText-model.value",
-          "path": "shr-core-DisplayText-model.value",
-          "short": "String representing the logical model instance",
-          "definition": "String representing the logical model instance",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-core-DisplayText-model.value",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
+          "isSummary": true,
+          "mapping": [
             {
-              "code": "string"
-            }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        }
-      ]
-    },
-    "differential": {
-      "element": [
-        {
-          "id": "shr-core-DisplayText-model",
-          "path": "shr-core-DisplayText-model",
-          "short": "DisplayText",
-          "definition": "DisplayText",
-          "min": 0,
-          "max": "*",
-          "base": {
-            "path": "shr-core-DisplayText-model",
-            "min": 0,
-            "max": "*"
-          },
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
-        },
-        {
-          "id": "shr-core-DisplayText-model.value",
-          "path": "shr-core-DisplayText-model.value",
-          "short": "String representing the logical model instance",
-          "definition": "String representing the logical model instance",
-          "min": 1,
-          "max": "1",
-          "base": {
-            "path": "shr-core-DisplayText-model.value",
-            "min": 1,
-            "max": "1"
-          },
-          "type": [
+              "identity": "v2",
+              "map": "Sometimes implied by being first"
+            },
             {
-              "code": "string"
+              "identity": "rim",
+              "map": "CD.codingRationale"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\\#true a [     fhir:source \"true\";     fhir:target dt:CDCoding.codingRationale\\#O   ]"
             }
-          ],
-          "mustSupport": false,
-          "isModifier": false,
-          "isSummary": false
+          ]
         }
       ]
     }

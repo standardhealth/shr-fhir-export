@@ -54,8 +54,8 @@
         {
           "id": "shr-test-CodedChoice-model.value[x]",
           "path": "shr-test-CodedChoice-model.value[x]",
-          "short": "Coded or code representing an element with a choice of code fields.",
-          "definition": "Coded or code representing an element with a choice of code fields.",
+          "short": "Coded or concept representing an element with a choice of code fields.",
+          "definition": "Coded or concept representing an element with a choice of code fields.",
           "min": 0,
           "max": "1",
           "base": {
@@ -68,7 +68,7 @@
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
             },
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -97,8 +97,8 @@
         {
           "id": "shr-test-CodedChoice-model.value[x]",
           "path": "shr-test-CodedChoice-model.value[x]",
-          "short": "Coded or code representing an element with a choice of code fields.",
-          "definition": "Coded or code representing an element with a choice of code fields.",
+          "short": "Coded or concept representing an element with a choice of code fields.",
+          "definition": "Coded or concept representing an element with a choice of code fields.",
           "min": 0,
           "max": "1",
           "base": {
@@ -111,7 +111,7 @@
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
             },
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -200,7 +200,7 @@
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
             },
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -208,21 +208,21 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode:code",
-          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode",
-          "sliceName": "code",
-          "short": "Coded or code representing an element with a choice of code fields.",
-          "definition": "Coded or code representing an element with a choice of code fields.",
+          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCoding:concept",
+          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCoding",
+          "sliceName": "concept",
+          "short": "Coded or concept representing an element with a choice of code fields.",
+          "definition": "Coded or concept representing an element with a choice of code fields.",
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCoding",
             "min": 0,
             "max": "1"
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -281,7 +281,7 @@
               "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
             },
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -289,21 +289,21 @@
           "isSummary": false
         },
         {
-          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode:code",
-          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode",
-          "sliceName": "code",
-          "short": "Coded or code representing an element with a choice of code fields.",
-          "definition": "Coded or code representing an element with a choice of code fields.",
+          "id": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCoding:concept",
+          "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCoding",
+          "sliceName": "concept",
+          "short": "Coded or concept representing an element with a choice of code fields.",
+          "definition": "Coded or concept representing an element with a choice of code fields.",
           "min": 0,
           "max": "1",
           "base": {
-            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCode",
+            "path": "shr-test-ChoiceValueSetConstraint-model.codedChoiceCoding",
             "min": 0,
             "max": "1"
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -374,8 +374,8 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
-          "short": "Code representing it is a coded element",
-          "definition": "Code representing it is a coded element",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
           "min": 1,
           "max": "1",
           "base": {
@@ -385,7 +385,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
@@ -420,8 +420,8 @@
         {
           "id": "shr-test-Coded-model.value",
           "path": "shr-test-Coded-model.value",
-          "short": "Code representing it is a coded element",
-          "definition": "Code representing it is a coded element",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
           "min": 1,
           "max": "1",
           "base": {
@@ -431,7 +431,7 @@
           },
           "type": [
             {
-              "code": "code"
+              "code": "Coding"
             }
           ],
           "mustSupport": false,
