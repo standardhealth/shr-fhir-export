@@ -912,15 +912,15 @@ shelljs@^0.7.5:
     interpret "^1.0.0"
     rechoir "^0.6.2"
 
-shr-models@^6.0.0-beta.2:
-  version "6.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-6.0.0-beta.2.tgz#8a730e43dc3e044e26758d7e7569155207901215"
-  integrity sha512-8VpMawL//uZ5dhXoNCEfVmxBAoPhPtLHdvLDwdedujaFdggqNOKwncn8KsYbJl3FXrnwWKlG8FOMRkEYw9xXBg==
+shr-models@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-6.0.0.tgz#6ffe6a48ae6bcf6c20e25dbfcc5b2954fca7d661"
+  integrity sha512-k8tU/YghNoFdpHxzC1ZpfpHMEMAJPZyGGAMd9QfOcCqDsETUyK9u76GuXoSlhXHjDM5CXOCeq6LmxWCQhK95iw==
 
-shr-test-helpers@^6.0.0-beta.2:
-  version "6.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-6.0.0-beta.2.tgz#6b8e9c5b7e46c8922c3261b691bb35c2352c0d90"
-  integrity sha512-onl2ZZOHFopgQmW0p30DPURg9NltmezRKiKfnp2Uww0OgHySH3kiXgVJP8/ie3P7mvv6N7aJ+yNP9luBAJ933g==
+shr-test-helpers@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/shr-test-helpers/-/shr-test-helpers-6.0.0.tgz#03cc56f2e6abe5b7f6e3c3459e6fbd3243c440f5"
+  integrity sha512-4CFQsZMM4PWBgcr+BO9yepCNKp6WMX4bBzavHqYfceAA7pA7WsMpKiAnXYUs/tFH4fZbbU7ZX/kAJcPPi4uLbQ==
   dependencies:
     fs-extra "^5.0.0"
 
