@@ -3,6 +3,8 @@
     <url value="<ig-url-go-here>/ImplementationGuide/<ig-id-go-here>" />
     <name value="<project-name-go-here> FHIR Profiles" />
     <status value="draft" />
+    <publisher-go-here/>
+    <contact-go-here/>
     <fhirVersion value="3.0.1"/>
     <package>
         <name value="Profiles in this Implementation Guide" />

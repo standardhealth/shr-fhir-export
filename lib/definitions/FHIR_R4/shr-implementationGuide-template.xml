@@ -4,6 +4,8 @@
     <name value="<tokenized-project-name-go-here>" />
     <title value="<project-name-go-here>" />
     <status value="draft" />
+    <publisher-go-here/>
+    <contact-go-here/>
     <packageId value="<npm-name-go-here>"/>
     <fhirVersion value="4.0.0"/>
     <definition>
