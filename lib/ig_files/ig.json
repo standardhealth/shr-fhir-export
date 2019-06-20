@@ -22,7 +22,7 @@
   "dependencyList": [
     {
       "package": "hl7.fhir.us.core",
-      "version": "current",
+      "version": "3.0.0",
       "name": "uscore",
       "location": "http://hl7.org/fhir/us/core"
     }
