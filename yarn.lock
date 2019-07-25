@@ -1171,9 +1171,10 @@ shebang-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
-shr-models@standardhealth/shr-models#cm_sprint_41:
-  version "6.1.0"
-  resolved "https://codeload.github.com/standardhealth/shr-models/tar.gz/020a549c5b52f2c06a23d63a120a179c6510a381"
+shr-models@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-6.2.0.tgz#1f66f3bc8a16c15328607e5b05a99cf7a3bc53fe"
+  integrity sha512-h7u7PpKuxd5epy+cMHzjnGAesPo/GmtQnUjeZHMuIfoNzJ82mrvMpZ8P3EdiKLD+y12nMzCX54wg8iAjDmzO5g==
 
 shr-test-helpers@^6.0.0:
   version "6.0.0"
