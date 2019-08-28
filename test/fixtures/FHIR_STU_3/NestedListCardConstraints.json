@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>OptionalList Logical Model</b></p>\n  <p>An element with an optional list.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-OptionalList-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.OptionalList"
-      }
-    ],
     "name": "OptionalList",
     "title": "shr-test-OptionalList",
     "status": "draft",
@@ -124,12 +118,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ListField Logical Model</b></p>\n  <p>An element with a list field.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ListField-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ListField"
-      }
-    ],
     "name": "ListField",
     "title": "shr-test-ListField",
     "status": "draft",
@@ -241,12 +229,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>NestedListCardConstraints Logical Model</b></p>\n  <p>It has a field with a nested card constraint on a list.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-NestedListCardConstraints-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.NestedListCardConstraints"
-      }
-    ],
     "name": "NestedListCardConstraints",
     "title": "shr-test-NestedListCardConstraints",
     "status": "draft",

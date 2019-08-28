@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Choice Logical Model</b></p>\n  <p>It is an element with a choice</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Choice-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Choice"
-      }
-    ],
     "name": "Choice",
     "title": "shr-test-Choice",
     "status": "draft",
@@ -208,12 +202,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TypeConstrainedChoice Logical Model</b></p>\n  <p>It is an element with a choice with a constraint.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TypeConstrainedChoice-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.TypeConstrainedChoice"
-      }
-    ],
     "name": "TypeConstrainedChoice",
     "title": "shr-test-TypeConstrainedChoice",
     "status": "draft",
@@ -325,12 +313,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ChoiceValue Logical Model</b></p>\n  <p>It is an element with a choice value.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceValue-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ChoiceValue"
-      }
-    ],
     "name": "ChoiceValue",
     "title": "shr-test-ChoiceValue",
     "status": "draft",
@@ -526,12 +508,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TwoDeepChoiceField Logical Model</b></p>\n  <p>It is an element with a a field with a choice.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepChoiceField-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.TwoDeepChoiceField"
-      }
-    ],
     "name": "TwoDeepChoiceField",
     "title": "shr-test-TwoDeepChoiceField",
     "status": "draft",
@@ -727,12 +703,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TypeConstrainedChoiceWithPath Logical Model</b></p>\n  <p>It is an element with a choice on a field with a constraint.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TypeConstrainedChoiceWithPath-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.TypeConstrainedChoiceWithPath"
-      }
-    ],
     "name": "TypeConstrainedChoiceWithPath",
     "title": "shr-test-TypeConstrainedChoiceWithPath",
     "status": "draft",
@@ -894,12 +864,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Coded"
-      }
-    ],
     "name": "Coded",
     "title": "shr-test-Coded",
     "status": "draft",

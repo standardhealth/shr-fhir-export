@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ReferenceChoice Logical Model</b></p>\n  <p>It is a reference to one of a few types</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ReferenceChoice-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ReferenceChoice"
-      }
-    ],
     "name": "ReferenceChoice",
     "title": "shr-test-ReferenceChoice",
     "status": "draft",
@@ -132,12 +126,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Coded"
-      }
-    ],
     "name": "Coded",
     "title": "shr-test-Coded",
     "status": "draft",
@@ -257,12 +245,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.other.test.Simple"
-      }
-    ],
     "name": "Simple",
     "title": "shr-other-test-Simple",
     "status": "draft",

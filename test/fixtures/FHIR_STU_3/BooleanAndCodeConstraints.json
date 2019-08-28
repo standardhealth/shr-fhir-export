@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Bool Logical Model</b></p>\n  <p>A boolean element.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Bool-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Bool"
-      }
-    ],
     "name": "Bool",
     "title": "shr-test-Bool",
     "status": "draft",
@@ -124,12 +118,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Coded"
-      }
-    ],
     "name": "Coded",
     "title": "shr-test-Coded",
     "status": "draft",
@@ -253,12 +241,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BooleanAndCodeConstraints Logical Model</b></p>\n  <p>It has boolean and code constraints.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-BooleanAndCodeConstraints-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.BooleanAndCodeConstraints"
-      }
-    ],
     "name": "BooleanAndCodeConstraints",
     "title": "shr-test-BooleanAndCodeConstraints",
     "status": "draft",
@@ -940,12 +922,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Group Logical Model</b></p>\n  <p>It is a group of elements</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Group-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Group"
-      }
-    ],
     "name": "Group",
     "title": "shr-test-Group",
     "status": "draft",
@@ -1193,12 +1169,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Simple"
-      }
-    ],
     "name": "Simple",
     "title": "shr-test-Simple",
     "status": "draft",
@@ -1317,12 +1287,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ForeignElementValue Logical Model</b></p>\n  <p>It is an element with a foreign element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ForeignElementValue-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ForeignElementValue"
-      }
-    ],
     "name": "ForeignElementValue",
     "title": "shr-test-ForeignElementValue",
     "status": "draft",
@@ -1448,12 +1412,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ElementValue"
-      }
-    ],
     "name": "ElementValue",
     "title": "shr-test-ElementValue",
     "status": "draft",
@@ -1579,12 +1537,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.other.test.Simple"
-      }
-    ],
     "name": "Simple",
     "title": "shr-other-test-Simple",
     "status": "draft",

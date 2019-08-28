@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>IncludesCodesList Logical Model</b></p>\n  <p>An entry with a includes codes constraint.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-IncludesCodesList-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.IncludesCodesList"
-      }
-    ],
     "name": "IncludesCodesList",
     "title": "shr-test-IncludesCodesList",
     "status": "draft",

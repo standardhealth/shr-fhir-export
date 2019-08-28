@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleChild2 Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild2-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.SimpleChild2"
-      }
-    ],
     "name": "SimpleChild2",
     "title": "shr-test-SimpleChild2",
     "status": "draft",
@@ -124,12 +118,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>IncludesTypesListWithZeroedOutType Logical Model</b></p>\n  <p>An entry with a includes types constraints.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-IncludesTypesListWithZeroedOutType-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.IncludesTypesListWithZeroedOutType"
-      }
-    ],
     "name": "IncludesTypesListWithZeroedOutType",
     "title": "shr-test-IncludesTypesListWithZeroedOutType",
     "status": "draft",
@@ -287,12 +275,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Simple"
-      }
-    ],
     "name": "Simple",
     "title": "shr-test-Simple",
     "status": "draft",
@@ -411,12 +393,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleChild Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.SimpleChild"
-      }
-    ],
     "name": "SimpleChild",
     "title": "shr-test-SimpleChild",
     "status": "draft",

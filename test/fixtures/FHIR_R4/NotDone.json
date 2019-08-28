@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>NotDone Logical Model</b></p>\n  <p>It is an unfinished element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-NotDone-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.NotDone"
-      }
-    ],
     "name": "NotDone",
     "title": "shr-test-NotDone",
     "status": "draft",

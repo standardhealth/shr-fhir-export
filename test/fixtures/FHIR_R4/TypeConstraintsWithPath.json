@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ElementField Logical Model</b></p>\n  <p>It is an element with a field.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementField-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ElementField"
-      }
-    ],
     "name": "ElementField",
     "title": "shr-test-ElementField",
     "status": "draft",
@@ -138,12 +132,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TwoDeepElementField Logical Model</b></p>\n  <p>It is an element with a two-deep element field</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepElementField-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.TwoDeepElementField"
-      }
-    ],
     "name": "TwoDeepElementField",
     "title": "shr-test-TwoDeepElementField",
     "status": "draft",
@@ -255,12 +243,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>NestedField Logical Model</b></p>\n  <p>It is an element with a nested field.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-NestedField-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.NestedField"
-      }
-    ],
     "name": "NestedField",
     "title": "shr-test-NestedField",
     "status": "draft",
@@ -372,12 +354,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ConstrainedPath Logical Model</b></p>\n  <p>It derives an element with a nested field.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ConstrainedPath-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ConstrainedPath"
-      }
-    ],
     "name": "ConstrainedPath",
     "title": "shr-test-ConstrainedPath",
     "status": "draft",
@@ -573,12 +549,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ConstrainedPathNoInheritance Logical Model</b></p>\n  <p>It has a new field with a nested constraint.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ConstrainedPathNoInheritance-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ConstrainedPathNoInheritance"
-      }
-    ],
     "name": "ConstrainedPathNoInheritance",
     "title": "shr-test-ConstrainedPathNoInheritance",
     "status": "draft",
@@ -774,12 +744,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Simple"
-      }
-    ],
     "name": "Simple",
     "title": "shr-test-Simple",
     "status": "draft",
@@ -898,12 +862,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleChild Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.SimpleChild"
-      }
-    ],
     "name": "SimpleChild",
     "title": "shr-test-SimpleChild",
     "status": "draft",

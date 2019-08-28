@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Coded"
-      }
-    ],
     "name": "Coded",
     "title": "shr-test-Coded",
     "status": "draft",
@@ -136,12 +130,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>FixedCodeExtravaganza Logical Model</b></p>\n  <p>An element with all sorts of fixed codes.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-FixedCodeExtravaganza-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.FixedCodeExtravaganza"
-      }
-    ],
     "name": "FixedCodeExtravaganza",
     "title": "shr-test-FixedCodeExtravaganza",
     "status": "draft",

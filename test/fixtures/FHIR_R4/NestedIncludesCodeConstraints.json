@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Coded"
-      }
-    ],
     "name": "Coded",
     "title": "shr-test-Coded",
     "status": "draft",
@@ -132,12 +126,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>NestedIncludesCodes Logical Model</b></p>\n  <p>An entry with a nested includes codes constraint.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-NestedIncludesCodes-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.NestedIncludesCodes"
-      }
-    ],
     "name": "NestedIncludesCodes",
     "title": "shr-test-NestedIncludesCodes",
     "status": "draft",

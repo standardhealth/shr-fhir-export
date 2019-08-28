@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>AbstractAndPlainGroup Logical Model</b></p>\n  <p>It is an abstract group of elements</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-AbstractAndPlainGroup-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.AbstractAndPlainGroup"
-      }
-    ],
     "name": "AbstractAndPlainGroup",
     "title": "shr-test-AbstractAndPlainGroup",
     "status": "draft",
@@ -201,12 +195,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Simple"
-      }
-    ],
     "name": "Simple",
     "title": "shr-test-Simple",
     "status": "draft",
@@ -325,12 +313,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Plain Logical Model</b></p>\n  <p>It is not an entry element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Plain-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Plain"
-      }
-    ],
     "name": "Plain",
     "title": "shr-test-Plain",
     "status": "draft",

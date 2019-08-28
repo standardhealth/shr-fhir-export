@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>CodedChoice Logical Model</b></p>\n  <p>An element with a choice of code fields.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-CodedChoice-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.CodedChoice"
-      }
-    ],
     "name": "CodedChoice",
     "title": "shr-test-CodedChoice",
     "status": "draft",
@@ -130,12 +124,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ChoiceValueSetConstraint Logical Model</b></p>\n  <p>It has valueset constraints on a choice field.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceValueSetConstraint-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ChoiceValueSetConstraint"
-      }
-    ],
     "name": "ChoiceValueSetConstraint",
     "title": "shr-test-ChoiceValueSetConstraint",
     "status": "draft",
@@ -329,12 +317,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Coded"
-      }
-    ],
     "name": "Coded",
     "title": "shr-test-Coded",
     "status": "draft",

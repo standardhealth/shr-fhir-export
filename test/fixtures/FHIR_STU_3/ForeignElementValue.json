@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ForeignElementValue Logical Model</b></p>\n  <p>It is an element with a foreign element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ForeignElementValue-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ForeignElementValue"
-      }
-    ],
     "name": "ForeignElementValue",
     "title": "shr-test-ForeignElementValue",
     "status": "draft",
@@ -138,12 +132,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.other.test.Simple"
-      }
-    ],
     "name": "Simple",
     "title": "shr-other-test-Simple",
     "status": "draft",

@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TwoDeepElementValue Logical Model</b></p>\n  <p>It is an element with a two-deep element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepElementValue-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.TwoDeepElementValue"
-      }
-    ],
     "name": "TwoDeepElementValue",
     "title": "shr-test-TwoDeepElementValue",
     "status": "draft",
@@ -138,12 +132,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.ElementValue"
-      }
-    ],
     "name": "ElementValue",
     "title": "shr-test-ElementValue",
     "status": "draft",
@@ -269,12 +257,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Simple"
-      }
-    ],
     "name": "Simple",
     "title": "shr-test-Simple",
     "status": "draft",

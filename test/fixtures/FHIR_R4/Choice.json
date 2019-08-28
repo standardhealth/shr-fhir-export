@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Choice Logical Model</b></p>\n  <p>It is an element with a choice</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Choice-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Choice"
-      }
-    ],
     "name": "Choice",
     "title": "shr-test-Choice",
     "status": "draft",
@@ -208,12 +202,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Coded"
-      }
-    ],
     "name": "Coded",
     "title": "shr-test-Coded",
     "status": "draft",

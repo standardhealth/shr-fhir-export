@@ -7,12 +7,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TypeConstrainedReference Logical Model</b></p>\n  <p>It is an element a constraint on a reference.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TypeConstrainedReference-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.TypeConstrainedReference"
-      }
-    ],
     "name": "TypeConstrainedReference",
     "title": "shr-test-TypeConstrainedReference",
     "status": "draft",
@@ -126,12 +120,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.Simple"
-      }
-    ],
     "name": "Simple",
     "title": "shr-test-Simple",
     "status": "draft",
@@ -250,12 +238,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleChild Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.SimpleChild"
-      }
-    ],
     "name": "SimpleChild",
     "title": "shr-test-SimpleChild",
     "status": "draft",
@@ -367,12 +349,6 @@
       "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleReference Logical Model</b></p>\n  <p>It is a reference to a simple element</p>\n</div>"
     },
     "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleReference-model",
-    "identifier": [
-      {
-        "system": "http://foobar.com",
-        "value": "shr.test.SimpleReference"
-      }
-    ],
     "name": "SimpleReference",
     "title": "shr-test-SimpleReference",
     "status": "draft",

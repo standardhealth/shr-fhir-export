@@ -17,10 +17,6 @@ describe('#StructureDefinition.fromJSON()', () => {
         div: '<div xmlns="http://www.w3.org/1999/xhtml">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>'
       });
       expect(sd.url).to.equal('http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model');
-      expect(sd.identifier).to.eql([{
-        system: 'http://foobar.com',
-        value: 'shr.test.Simple'
-      }]);
       expect(sd.name).to.equal('Simple');
       expect(sd.title).to.equal('shr-test-Simple');
       expect(sd.status).to.equal('draft');
@@ -147,10 +143,6 @@ describe('#StructureDefinition.fromJSON()', () => {
         div: '<div xmlns="http://www.w3.org/1999/xhtml">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>'
       });
       expect(sd.url).to.equal('http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model');
-      expect(sd.identifier).to.eql([{
-        system: 'http://foobar.com',
-        value: 'shr.test.Simple'
-      }]);
       expect(sd.name).to.equal('Simple');
       expect(sd.title).to.equal('shr-test-Simple');
       expect(sd.status).to.equal('draft');
