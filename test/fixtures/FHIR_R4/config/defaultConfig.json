@@ -1,0 +1,15 @@
+{
+    "projectName":"The Foo Bar Standard Records",
+    "projectShorthand":"FOOBAR",
+    "projectURL":"http://foobar.com",
+    "fhirURL":"http://foobar.com/fhir",
+    "fhirTarget": "FHIR_R4",
+    "publisher":"The Foo Bar Corporation",
+    "publishDate": "2018-02-26",
+    "contact":[{
+        "telecom": [{
+          "system": "url",
+          "value": "http://foobar.com"
+        }]
+      }]
+}

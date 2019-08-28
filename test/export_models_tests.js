@@ -46,7 +46,7 @@ function setupTests(target) {
       // default to no expected _errors
       return [];
     }
-  }
+  };
 
   // Set the logger -- this is needed for detecting and checking errors
   setLogger(err.logger());
@@ -55,3 +55,5 @@ function setupTests(target) {
 }
 
 setupTests('FHIR_STU_3');
+setupTests('FHIR_R4');
+
