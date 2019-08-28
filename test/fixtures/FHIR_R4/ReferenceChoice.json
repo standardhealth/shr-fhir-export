@@ -68,12 +68,7 @@
             {
               "code": "Reference",
               "targetProfile": [
-                "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
-              ]
-            },
-            {
-              "code": "Reference",
-              "targetProfile": [
+                "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model",
                 "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
               ]
             }
@@ -117,12 +112,7 @@
             {
               "code": "Reference",
               "targetProfile": [
-                "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model"
-              ]
-            },
-            {
-              "code": "Reference",
-              "targetProfile": [
+                "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model",
                 "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
               ]
             }
