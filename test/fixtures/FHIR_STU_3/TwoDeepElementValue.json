@@ -1,0 +1,370 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-TwoDeepElementValue-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TwoDeepElementValue Logical Model</b></p>\n  <p>It is an element with a two-deep element value</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepElementValue-model",
+    "name": "TwoDeepElementValue",
+    "title": "shr-test-TwoDeepElementValue",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with a two-deep element value",
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-TwoDeepElementValue-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-TwoDeepElementValue-model",
+          "path": "shr-test-TwoDeepElementValue-model",
+          "definition": "It is an element with a two-deep element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TwoDeepElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TwoDeepElementValue-model.value",
+          "path": "shr-test-TwoDeepElementValue-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "ElementValue representing it is an element with a two-deep element value",
+          "definition": "ElementValue representing it is an element with a two-deep element value",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-TwoDeepElementValue-model",
+          "path": "shr-test-TwoDeepElementValue-model",
+          "definition": "It is an element with a two-deep element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TwoDeepElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TwoDeepElementValue-model.value",
+          "path": "shr-test-TwoDeepElementValue-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "ElementValue representing it is an element with a two-deep element value",
+          "definition": "ElementValue representing it is an element with a two-deep element value",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-ElementValue-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model",
+    "name": "ElementValue",
+    "title": "shr-test-ElementValue",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with an element value",
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-ElementValue-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-ElementValue-model",
+          "path": "shr-test-ElementValue-model",
+          "definition": "It is an element with an element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ElementValue-model.value",
+          "path": "shr-test-ElementValue-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is an element with an element value",
+          "definition": "Simple representing it is an element with an element value",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-ElementValue-model",
+          "path": "shr-test-ElementValue-model",
+          "definition": "It is an element with an element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ElementValue-model.value",
+          "path": "shr-test-ElementValue-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is an element with an element value",
+          "definition": "Simple representing it is an element with an element value",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Simple-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
+    "name": "Simple",
+    "title": "shr-test-Simple",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a simple element",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      }
+    ],
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Simple-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  }
+]

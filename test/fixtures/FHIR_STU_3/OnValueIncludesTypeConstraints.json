@@ -1,0 +1,666 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-ElementValueList-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ElementValueList Logical Model</b></p>\n  <p>It is an element with a value that is a list of elements</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValueList-model",
+    "name": "ElementValueList",
+    "title": "shr-test-ElementValueList",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with a value that is a list of elements",
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-ElementValueList-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-ElementValueList-model",
+          "path": "shr-test-ElementValueList-model",
+          "definition": "It is an element with a value that is a list of elements",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ElementValueList-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ElementValueList-model.value",
+          "path": "shr-test-ElementValueList-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is an element with a value that is a list of elements",
+          "definition": "Simple representing it is an element with a value that is a list of elements",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ElementValueList-model.value",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-ElementValueList-model",
+          "path": "shr-test-ElementValueList-model",
+          "definition": "It is an element with a value that is a list of elements",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ElementValueList-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ElementValueList-model.value",
+          "path": "shr-test-ElementValueList-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is an element with a value that is a list of elements",
+          "definition": "Simple representing it is an element with a value that is a list of elements",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ElementValueList-model.value",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-SimpleChild2-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleChild2 Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild2-model",
+    "name": "SimpleChild2",
+    "title": "shr-test-SimpleChild2",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "A derivative of the simple type.",
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-SimpleChild2-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-SimpleChild2-model",
+          "path": "shr-test-SimpleChild2-model",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild2-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-SimpleChild2-model.value",
+          "path": "shr-test-SimpleChild2-model.value",
+          "short": "String representing a derivative of the simple type.",
+          "definition": "String representing a derivative of the simple type.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild2-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-SimpleChild2-model",
+          "path": "shr-test-SimpleChild2-model",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild2-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-SimpleChild2-model.value",
+          "path": "shr-test-SimpleChild2-model.value",
+          "short": "String representing a derivative of the simple type.",
+          "definition": "String representing a derivative of the simple type.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild2-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-OnValueIncludesTypeConstraints-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>OnValueIncludesTypeConstraints Logical Model</b></p>\n  <p>An entry with includes types constraints that are on the value of the field.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-OnValueIncludesTypeConstraints-model",
+    "name": "OnValueIncludesTypeConstraints",
+    "title": "shr-test-OnValueIncludesTypeConstraints",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "An entry with includes types constraints that are on the value of the field.",
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-OnValueIncludesTypeConstraints-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-OnValueIncludesTypeConstraints-model",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model",
+          "definition": "An entry with includes types constraints that are on the value of the field.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-OnValueIncludesTypeConstraints-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is an element with a value that is a list of elements",
+          "definition": "It is an element with a value that is a list of elements",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+            "min": 0,
+            "max": "1"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
+          "short": "A derivative of the simple type.",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
+          "short": "A derivative of the simple type.",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "2",
+          "base": {
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
+            "min": 0,
+            "max": "2"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-OnValueIncludesTypeConstraints-model",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model",
+          "definition": "An entry with includes types constraints that are on the value of the field.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-OnValueIncludesTypeConstraints-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is an element with a value that is a list of elements",
+          "definition": "It is an element with a value that is a list of elements",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList",
+            "min": 0,
+            "max": "1"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
+          "short": "A derivative of the simple type.",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
+          "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
+          "short": "A derivative of the simple type.",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "2",
+          "base": {
+            "path": "shr-test-OnValueIncludesTypeConstraints-model.elementValueList.simpleChild2",
+            "min": 0,
+            "max": "2"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Simple-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
+    "name": "Simple",
+    "title": "shr-test-Simple",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a simple element",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      }
+    ],
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Simple-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-SimpleChild-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>SimpleChild Logical Model</b></p>\n  <p>A derivative of the simple type.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-SimpleChild-model",
+    "name": "SimpleChild",
+    "title": "shr-test-SimpleChild",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "A derivative of the simple type.",
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-SimpleChild-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-SimpleChild-model",
+          "path": "shr-test-SimpleChild-model",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-SimpleChild-model.value",
+          "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
+          "definition": "String representing a derivative of the simple type.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-SimpleChild-model",
+          "path": "shr-test-SimpleChild-model",
+          "definition": "A derivative of the simple type.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-SimpleChild-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-SimpleChild-model.value",
+          "path": "shr-test-SimpleChild-model.value",
+          "short": "String representing a derivative of the simple type.",
+          "definition": "String representing a derivative of the simple type.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-SimpleChild-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  }
+]

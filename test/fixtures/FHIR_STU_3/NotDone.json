@@ -1,0 +1,78 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-NotDone-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>NotDone Logical Model</b></p>\n  <p>It is an unfinished element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-NotDone-model",
+    "name": "NotDone",
+    "title": "shr-test-NotDone",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an unfinished element",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      }
+    ],
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-NotDone-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-NotDone-model",
+          "path": "shr-test-NotDone-model",
+          "definition": "It is an unfinished element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-NotDone-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-NotDone-model",
+          "path": "shr-test-NotDone-model",
+          "definition": "It is an unfinished element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-NotDone-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  }
+]

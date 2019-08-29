@@ -1,0 +1,1660 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Bool-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Bool Logical Model</b></p>\n  <p>A boolean element.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Bool-model",
+    "name": "Bool",
+    "title": "shr-test-Bool",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "A boolean element.",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Bool-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Bool-model",
+          "path": "shr-test-Bool-model",
+          "definition": "A boolean element.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Bool-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Bool-model.value",
+          "path": "shr-test-Bool-model.value",
+          "short": "Boolean representing a boolean element.",
+          "definition": "Boolean representing a boolean element.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Bool-model.value",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Bool-model",
+          "path": "shr-test-Bool-model",
+          "definition": "A boolean element.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Bool-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Bool-model.value",
+          "path": "shr-test-Bool-model.value",
+          "short": "Boolean representing a boolean element.",
+          "definition": "Boolean representing a boolean element.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Bool-model.value",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Coded-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
+    "name": "Coded",
+    "title": "shr-test-Coded",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a coded element",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Coded-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Coded-model",
+          "path": "shr-test-Coded-model",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Coded-model.value",
+          "path": "shr-test-Coded-model.value",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/Coded"
+          }
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Coded-model",
+          "path": "shr-test-Coded-model",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Coded-model.value",
+          "path": "shr-test-Coded-model.value",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/Coded"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-BooleanAndCodeConstraints-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>BooleanAndCodeConstraints Logical Model</b></p>\n  <p>It has boolean and code constraints.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-BooleanAndCodeConstraints-model",
+    "name": "BooleanAndCodeConstraints",
+    "title": "shr-test-BooleanAndCodeConstraints",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It has boolean and code constraints.",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-BooleanAndCodeConstraints-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model",
+          "path": "shr-test-BooleanAndCodeConstraints-model",
+          "definition": "It has boolean and code constraints.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-BooleanAndCodeConstraints-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.value",
+          "path": "shr-test-BooleanAndCodeConstraints-model.value",
+          "short": "Boolean representing it has boolean and code constraints.",
+          "definition": "Boolean representing it has boolean and code constraints.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-BooleanAndCodeConstraints-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "fixedBoolean": true,
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded",
+          "short": "It is a coded element",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-BooleanAndCodeConstraints-model.coded",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.id",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.id",
+          "representation": [
+            "xmlAttr"
+          ],
+          "short": "Unique id for inter-element referencing",
+          "definition": "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Element.id",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": false,
+          "mapping": [
+            {
+              "identity": "rim",
+              "map": "n/a"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.extension",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.extension",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "value",
+                "path": "url"
+              }
+            ],
+            "description": "Extensions are always sliced by (at least) url",
+            "rules": "open"
+          },
+          "short": "Additional content defined by implementations",
+          "definition": "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+          "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "Element.extension",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Extension"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": false,
+          "mapping": [
+            {
+              "identity": "rim",
+              "map": "n/a"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.system",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.system",
+          "short": "Identity of the terminology system",
+          "definition": "The identification of the code system that defines the meaning of the symbol in the code.",
+          "comment": "The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.",
+          "requirements": "Need to be unambiguous about the source of the definition of the symbol.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "Coding.system",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "uri"
+            }
+          ],
+          "fixedUri": "http://foo.org",
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.3"
+            },
+            {
+              "identity": "rim",
+              "map": "./codeSystem"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.version",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.version",
+          "short": "Version of the system - if relevant",
+          "definition": "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
+          "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.version",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.7"
+            },
+            {
+              "identity": "rim",
+              "map": "./codeSystemVersion"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.code",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.code",
+          "short": "Symbol in syntax defined by the system",
+          "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+          "requirements": "Need to refer to a particular code in the system.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "Coding.code",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "code"
+            }
+          ],
+          "fixedCode": "bar",
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.1"
+            },
+            {
+              "identity": "rim",
+              "map": "./code"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.display",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+              "valueBoolean": true
+            }
+          ],
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.display",
+          "short": "Representation defined by the system",
+          "definition": "A representation of the meaning of the code in the system, following the rules of the system.",
+          "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.display",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.2 - but note this is not well followed"
+            },
+            {
+              "identity": "rim",
+              "map": "CV.displayName"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.userSelected",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.userSelected",
+          "short": "If this coding was chosen directly by the user",
+          "definition": "Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).",
+          "comment": "Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.",
+          "requirements": "This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.userSelected",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "Sometimes implied by being first"
+            },
+            {
+              "identity": "rim",
+              "map": "CD.codingRationale"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\\#true a [     fhir:source \"true\";     fhir:target dt:CDCoding.codingRationale\\#O   ]"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.bool",
+          "path": "shr-test-BooleanAndCodeConstraints-model.bool",
+          "short": "A boolean element.",
+          "definition": "A boolean element.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-BooleanAndCodeConstraints-model.bool",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model",
+          "path": "shr-test-BooleanAndCodeConstraints-model",
+          "definition": "It has boolean and code constraints.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-BooleanAndCodeConstraints-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.value",
+          "path": "shr-test-BooleanAndCodeConstraints-model.value",
+          "short": "Boolean representing it has boolean and code constraints.",
+          "definition": "Boolean representing it has boolean and code constraints.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-BooleanAndCodeConstraints-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "fixedBoolean": true,
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded",
+          "short": "It is a coded element",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-BooleanAndCodeConstraints-model.coded",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.id",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.id",
+          "representation": [
+            "xmlAttr"
+          ],
+          "short": "Unique id for inter-element referencing",
+          "definition": "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Element.id",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": false,
+          "mapping": [
+            {
+              "identity": "rim",
+              "map": "n/a"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.extension",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.extension",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "value",
+                "path": "url"
+              }
+            ],
+            "description": "Extensions are always sliced by (at least) url",
+            "rules": "open"
+          },
+          "short": "Additional content defined by implementations",
+          "definition": "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+          "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "Element.extension",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Extension"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": false,
+          "mapping": [
+            {
+              "identity": "rim",
+              "map": "n/a"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.system",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.system",
+          "short": "Identity of the terminology system",
+          "definition": "The identification of the code system that defines the meaning of the symbol in the code.",
+          "comment": "The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.",
+          "requirements": "Need to be unambiguous about the source of the definition of the symbol.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "Coding.system",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "uri"
+            }
+          ],
+          "fixedUri": "http://foo.org",
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.3"
+            },
+            {
+              "identity": "rim",
+              "map": "./codeSystem"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.version",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.version",
+          "short": "Version of the system - if relevant",
+          "definition": "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
+          "comment": "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.version",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.7"
+            },
+            {
+              "identity": "rim",
+              "map": "./codeSystemVersion"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.code",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.code",
+          "short": "Symbol in syntax defined by the system",
+          "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+          "requirements": "Need to refer to a particular code in the system.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "Coding.code",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "code"
+            }
+          ],
+          "fixedCode": "bar",
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.1"
+            },
+            {
+              "identity": "rim",
+              "map": "./code"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.display",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+              "valueBoolean": true
+            }
+          ],
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.display",
+          "short": "Representation defined by the system",
+          "definition": "A representation of the meaning of the code in the system, following the rules of the system.",
+          "requirements": "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.display",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "C*E.2 - but note this is not well followed"
+            },
+            {
+              "identity": "rim",
+              "map": "CV.displayName"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.coded.userSelected",
+          "path": "shr-test-BooleanAndCodeConstraints-model.coded.userSelected",
+          "short": "If this coding was chosen directly by the user",
+          "definition": "Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).",
+          "comment": "Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.",
+          "requirements": "This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "Coding.userSelected",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "isModifier": false,
+          "isSummary": true,
+          "mapping": [
+            {
+              "identity": "v2",
+              "map": "Sometimes implied by being first"
+            },
+            {
+              "identity": "rim",
+              "map": "CD.codingRationale"
+            },
+            {
+              "identity": "orim",
+              "map": "fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\\#true a [     fhir:source \"true\";     fhir:target dt:CDCoding.codingRationale\\#O   ]"
+            }
+          ]
+        },
+        {
+          "id": "shr-test-BooleanAndCodeConstraints-model.bool",
+          "path": "shr-test-BooleanAndCodeConstraints-model.bool",
+          "short": "A boolean element.",
+          "definition": "A boolean element.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-BooleanAndCodeConstraints-model.bool",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "boolean"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Group-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Group Logical Model</b></p>\n  <p>It is a group of elements</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Group-model",
+    "name": "Group",
+    "title": "shr-test-Group",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a group of elements",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      },
+      {
+        "system": "http://boo.org",
+        "code": "far",
+        "display": "Boofar"
+      }
+    ],
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Group-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Group-model",
+          "path": "shr-test-Group-model",
+          "definition": "It is a group of elements",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Group-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Group-model.simple",
+          "path": "shr-test-Group-model.simple",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is a simple element",
+          "definition": "It is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Group-model.simple",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Group-model.coded",
+          "path": "shr-test-Group-model.coded",
+          "short": "It is a coded element",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Group-model.coded",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/Coded"
+          }
+        },
+        {
+          "id": "shr-test-Group-model.elementValue",
+          "path": "shr-test-Group-model.elementValue",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is an element with an element value",
+          "definition": "It is an element with an element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Group-model.elementValue",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Group-model",
+          "path": "shr-test-Group-model",
+          "definition": "It is a group of elements",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Group-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Group-model.simple",
+          "path": "shr-test-Group-model.simple",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is a simple element",
+          "definition": "It is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Group-model.simple",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Group-model.coded",
+          "path": "shr-test-Group-model.coded",
+          "short": "It is a coded element",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Group-model.coded",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/Coded"
+          }
+        },
+        {
+          "id": "shr-test-Group-model.elementValue",
+          "path": "shr-test-Group-model.elementValue",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "It is an element with an element value",
+          "definition": "It is an element with an element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Group-model.elementValue",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Simple-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Simple-model",
+    "name": "Simple",
+    "title": "shr-test-Simple",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a simple element",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      }
+    ],
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Simple-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Simple-model",
+          "path": "shr-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Simple-model.value",
+          "path": "shr-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-ForeignElementValue-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ForeignElementValue Logical Model</b></p>\n  <p>It is an element with a foreign element value</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ForeignElementValue-model",
+    "name": "ForeignElementValue",
+    "title": "shr-test-ForeignElementValue",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with a foreign element value",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-ForeignElementValue-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-ForeignElementValue-model",
+          "path": "shr-test-ForeignElementValue-model",
+          "definition": "It is an element with a foreign element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ForeignElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ForeignElementValue-model.value",
+          "path": "shr-test-ForeignElementValue-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is an element with a foreign element value",
+          "definition": "Simple representing it is an element with a foreign element value",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ForeignElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-ForeignElementValue-model",
+          "path": "shr-test-ForeignElementValue-model",
+          "definition": "It is an element with a foreign element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ForeignElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ForeignElementValue-model.value",
+          "path": "shr-test-ForeignElementValue-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is an element with a foreign element value",
+          "definition": "Simple representing it is an element with a foreign element value",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ForeignElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-ElementValue-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ElementValue Logical Model</b></p>\n  <p>It is an element with an element value</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ElementValue-model",
+    "name": "ElementValue",
+    "title": "shr-test-ElementValue",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with an element value",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-ElementValue-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-ElementValue-model",
+          "path": "shr-test-ElementValue-model",
+          "definition": "It is an element with an element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ElementValue-model.value",
+          "path": "shr-test-ElementValue-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is an element with an element value",
+          "definition": "Simple representing it is an element with an element value",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-ElementValue-model",
+          "path": "shr-test-ElementValue-model",
+          "definition": "It is an element with an element value",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ElementValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ElementValue-model.value",
+          "path": "shr-test-ElementValue-model.value",
+          "code": [
+            {
+              "system": "http://foo.org",
+              "code": "bar",
+              "display": "Foobar"
+            }
+          ],
+          "short": "Simple representing it is an element with an element value",
+          "definition": "Simple representing it is an element with an element value",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ElementValue-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-other-test-Simple-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Simple Logical Model</b></p>\n  <p>It is a simple element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-other-test-Simple-model",
+    "name": "Simple",
+    "title": "shr-other-test-Simple",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a simple element",
+    "keyword": [
+      {
+        "system": "http://foo.org",
+        "code": "bar",
+        "display": "Foobar"
+      }
+    ],
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-other-test-Simple-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-other-test-Simple-model",
+          "path": "shr-other-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-other-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-other-test-Simple-model.value",
+          "path": "shr-other-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-other-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-other-test-Simple-model",
+          "path": "shr-other-test-Simple-model",
+          "definition": "It is a simple element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-other-test-Simple-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-other-test-Simple-model.value",
+          "path": "shr-other-test-Simple-model.value",
+          "short": "String representing it is a simple element",
+          "definition": "String representing it is a simple element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-other-test-Simple-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  }
+]

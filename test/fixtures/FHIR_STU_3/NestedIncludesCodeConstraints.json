@@ -1,0 +1,248 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Coded-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
+    "name": "Coded",
+    "title": "shr-test-Coded",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a coded element",
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Coded-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Coded-model",
+          "path": "shr-test-Coded-model",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Coded-model.value",
+          "path": "shr-test-Coded-model.value",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
+            }
+          }
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Coded-model",
+          "path": "shr-test-Coded-model",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Coded-model.value",
+          "path": "shr-test-Coded-model.value",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-NestedIncludesCodes-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>NestedIncludesCodes Logical Model</b></p>\n  <p>An entry with a nested includes codes constraint.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-NestedIncludesCodes-model",
+    "name": "NestedIncludesCodes",
+    "title": "shr-test-NestedIncludesCodes",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "An entry with a nested includes codes constraint.",
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-NestedIncludesCodes-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-NestedIncludesCodes-model",
+          "path": "shr-test-NestedIncludesCodes-model",
+          "definition": "An entry with a nested includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-NestedIncludesCodes-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-NestedIncludesCodes-model.value",
+          "path": "shr-test-NestedIncludesCodes-model.value",
+          "short": "Coded representing an entry with a nested includes codes constraint.",
+          "definition": "Coded representing an entry with a nested includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-NestedIncludesCodes-model.value",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
+            }
+          }
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-NestedIncludesCodes-model",
+          "path": "shr-test-NestedIncludesCodes-model",
+          "definition": "An entry with a nested includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-NestedIncludesCodes-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-NestedIncludesCodes-model.value",
+          "path": "shr-test-NestedIncludesCodes-model.value",
+          "short": "Coded representing an entry with a nested includes codes constraint.",
+          "definition": "Coded representing an entry with a nested includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-NestedIncludesCodes-model.value",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSetReference": {
+              "reference": "http://standardhealthrecord.org/test/vs/Coded"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

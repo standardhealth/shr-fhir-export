@@ -1,0 +1,978 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Choice-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Choice Logical Model</b></p>\n  <p>It is an element with a choice</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Choice-model",
+    "name": "Choice",
+    "title": "shr-test-Choice",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with a choice",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Choice-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Choice-model",
+          "path": "shr-test-Choice-model",
+          "definition": "It is an element with a choice",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Choice-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Choice-model.value[x]",
+          "path": "shr-test-Choice-model.value[x]",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "type",
+                "path": "$this"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          },
+          "short": "Choice of types representing it is an element with a choice",
+          "definition": "Choice of types representing it is an element with a choice",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Choice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            },
+            {
+              "code": "Coding"
+            },
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Choice-model.valueCoding:concept",
+          "path": "shr-test-Choice-model.valueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Choice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/CodeChoice"
+          }
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Choice-model",
+          "path": "shr-test-Choice-model",
+          "definition": "It is an element with a choice",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Choice-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Choice-model.value[x]",
+          "path": "shr-test-Choice-model.value[x]",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "type",
+                "path": "$this"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          },
+          "short": "Choice of types representing it is an element with a choice",
+          "definition": "Choice of types representing it is an element with a choice",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Choice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            },
+            {
+              "code": "Coding"
+            },
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Choice-model.valueCoding:concept",
+          "path": "shr-test-Choice-model.valueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Choice-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/CodeChoice"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-TypeConstrainedChoice-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TypeConstrainedChoice Logical Model</b></p>\n  <p>It is an element with a choice with a constraint.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TypeConstrainedChoice-model",
+    "name": "TypeConstrainedChoice",
+    "title": "shr-test-TypeConstrainedChoice",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with a choice with a constraint.",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-TypeConstrainedChoice-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-TypeConstrainedChoice-model",
+          "path": "shr-test-TypeConstrainedChoice-model",
+          "definition": "It is an element with a choice with a constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TypeConstrainedChoice-model.choice",
+          "path": "shr-test-TypeConstrainedChoice-model.choice",
+          "short": "It is an element with a choice",
+          "definition": "It is an element with a choice",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model.choice",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-TypeConstrainedChoice-model",
+          "path": "shr-test-TypeConstrainedChoice-model",
+          "definition": "It is an element with a choice with a constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TypeConstrainedChoice-model.choice",
+          "path": "shr-test-TypeConstrainedChoice-model.choice",
+          "short": "It is an element with a choice",
+          "definition": "It is an element with a choice",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoice-model.choice",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-ChoiceValue-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>ChoiceValue Logical Model</b></p>\n  <p>It is an element with a choice value.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-ChoiceValue-model",
+    "name": "ChoiceValue",
+    "title": "shr-test-ChoiceValue",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with a choice value.",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-ChoiceValue-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-ChoiceValue-model",
+          "path": "shr-test-ChoiceValue-model",
+          "definition": "It is an element with a choice value.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ChoiceValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ChoiceValue-model.value[x]",
+          "path": "shr-test-ChoiceValue-model.value[x]",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "type",
+                "path": "$this"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          },
+          "short": "Choice representing it is an element with a choice value.",
+          "definition": "Choice representing it is an element with a choice value.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ChoiceValue-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            },
+            {
+              "code": "Coding"
+            },
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ChoiceValue-model.valueCoding:concept",
+          "path": "shr-test-ChoiceValue-model.valueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ChoiceValue-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/CodeChoice"
+          }
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-ChoiceValue-model",
+          "path": "shr-test-ChoiceValue-model",
+          "definition": "It is an element with a choice value.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-ChoiceValue-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ChoiceValue-model.value[x]",
+          "path": "shr-test-ChoiceValue-model.value[x]",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "type",
+                "path": "$this"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          },
+          "short": "Choice representing it is an element with a choice value.",
+          "definition": "Choice representing it is an element with a choice value.",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ChoiceValue-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            },
+            {
+              "code": "Coding"
+            },
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-ChoiceValue-model.valueCoding:concept",
+          "path": "shr-test-ChoiceValue-model.valueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-ChoiceValue-model.value[x]",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/CodeChoice"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-TwoDeepChoiceField-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TwoDeepChoiceField Logical Model</b></p>\n  <p>It is an element with a a field with a choice.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TwoDeepChoiceField-model",
+    "name": "TwoDeepChoiceField",
+    "title": "shr-test-TwoDeepChoiceField",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with a a field with a choice.",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-TwoDeepChoiceField-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-TwoDeepChoiceField-model",
+          "path": "shr-test-TwoDeepChoiceField-model",
+          "definition": "It is an element with a a field with a choice.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TwoDeepChoiceField-model.choiceValue[x]",
+          "path": "shr-test-TwoDeepChoiceField-model.choiceValue[x]",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "type",
+                "path": "$this"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          },
+          "short": "It is an element with a choice value.",
+          "definition": "It is an element with a choice value.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model.choiceValue[x]",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            },
+            {
+              "code": "Coding"
+            },
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TwoDeepChoiceField-model.choiceValueCoding:concept",
+          "path": "shr-test-TwoDeepChoiceField-model.choiceValueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model.choiceValue[x]",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/CodeChoice"
+          }
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-TwoDeepChoiceField-model",
+          "path": "shr-test-TwoDeepChoiceField-model",
+          "definition": "It is an element with a a field with a choice.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TwoDeepChoiceField-model.choiceValue[x]",
+          "path": "shr-test-TwoDeepChoiceField-model.choiceValue[x]",
+          "slicing": {
+            "discriminator": [
+              {
+                "type": "type",
+                "path": "$this"
+              }
+            ],
+            "ordered": false,
+            "rules": "open"
+          },
+          "short": "It is an element with a choice value.",
+          "definition": "It is an element with a choice value.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model.choiceValue[x]",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "string"
+            },
+            {
+              "code": "Coding"
+            },
+            {
+              "code": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TwoDeepChoiceField-model.choiceValueCoding:concept",
+          "path": "shr-test-TwoDeepChoiceField-model.choiceValueCoding",
+          "sliceName": "concept",
+          "short": "concept",
+          "definition": "concept",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TwoDeepChoiceField-model.choiceValue[x]",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/CodeChoice"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-TypeConstrainedChoiceWithPath-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>TypeConstrainedChoiceWithPath Logical Model</b></p>\n  <p>It is an element with a choice on a field with a constraint.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-TypeConstrainedChoiceWithPath-model",
+    "name": "TypeConstrainedChoiceWithPath",
+    "title": "shr-test-TypeConstrainedChoiceWithPath",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is an element with a choice on a field with a constraint.",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-TypeConstrainedChoiceWithPath-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-TypeConstrainedChoiceWithPath-model",
+          "path": "shr-test-TypeConstrainedChoiceWithPath-model",
+          "definition": "It is an element with a choice on a field with a constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField",
+          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField",
+          "short": "It is an element with a a field with a choice.",
+          "definition": "It is an element with a a field with a choice.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "BackboneElement"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue",
+          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue",
+          "short": "It is an element with a choice value.",
+          "definition": "It is an element with a choice value.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/Coded"
+          }
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-TypeConstrainedChoiceWithPath-model",
+          "path": "shr-test-TypeConstrainedChoiceWithPath-model",
+          "definition": "It is an element with a choice on a field with a constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField",
+          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField",
+          "short": "It is an element with a a field with a choice.",
+          "definition": "It is an element with a a field with a choice.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "BackboneElement"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue",
+          "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue",
+          "short": "It is an element with a choice value.",
+          "definition": "It is an element with a choice value.",
+          "min": 0,
+          "max": "1",
+          "base": {
+            "path": "shr-test-TypeConstrainedChoiceWithPath-model.twoDeepChoiceField.choiceValue",
+            "min": 0,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/Coded"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-Coded-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>Coded Logical Model</b></p>\n  <p>It is a coded element</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-Coded-model",
+    "name": "Coded",
+    "title": "shr-test-Coded",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "It is a coded element",
+    "fhirVersion": "4.0.0",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-Coded-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-Coded-model",
+          "path": "shr-test-Coded-model",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Coded-model.value",
+          "path": "shr-test-Coded-model.value",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/Coded"
+          }
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-Coded-model",
+          "path": "shr-test-Coded-model",
+          "definition": "It is a coded element",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-Coded-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-Coded-model.value",
+          "path": "shr-test-Coded-model.value",
+          "short": "Concept representing it is a coded element",
+          "definition": "Concept representing it is a coded element",
+          "min": 1,
+          "max": "1",
+          "base": {
+            "path": "shr-test-Coded-model.value",
+            "min": 1,
+            "max": "1"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false,
+          "binding": {
+            "strength": "required",
+            "valueSet": "http://standardhealthrecord.org/test/vs/Coded"
+          }
+        }
+      ]
+    }
+  }
+]

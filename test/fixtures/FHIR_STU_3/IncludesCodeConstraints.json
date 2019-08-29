@@ -1,0 +1,141 @@
+[
+  {
+    "resourceType": "StructureDefinition",
+    "id": "shr-test-IncludesCodesList-model",
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  <p><b>IncludesCodesList Logical Model</b></p>\n  <p>An entry with a includes codes constraint.</p>\n</div>"
+    },
+    "url": "http://foobar.com/fhir/StructureDefinition/shr-test-IncludesCodesList-model",
+    "name": "IncludesCodesList",
+    "title": "shr-test-IncludesCodesList",
+    "status": "draft",
+    "date": "2018-02-26",
+    "publisher": "The Foo Bar Corporation",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "url",
+            "value": "http://foobar.com"
+          }
+        ]
+      }
+    ],
+    "description": "An entry with a includes codes constraint.",
+    "fhirVersion": "3.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "shr-test-IncludesCodesList-model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "snapshot": {
+      "element": [
+        {
+          "id": "shr-test-IncludesCodesList-model",
+          "path": "shr-test-IncludesCodesList-model",
+          "definition": "An entry with a includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-IncludesCodesList-model.value",
+          "path": "shr-test-IncludesCodesList-model.value",
+          "short": "Concept representing an entry with a includes codes constraint.",
+          "definition": "Concept representing an entry with a includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model.value",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "constraint": [
+            {
+              "key": "value-1",
+              "severity": "error",
+              "human": "There must exist a pairing of system 'http://foo.org' and code 'bar' (Foobar).",
+              "expression": "where(system = 'http://foo.org' and code = 'bar').exists()"
+            },
+            {
+              "key": "value-2",
+              "severity": "error",
+              "human": "There must exist a pairing of system 'http://boo.org' and code 'far' (Boofar).",
+              "expression": "where(system = 'http://boo.org' and code = 'far').exists()"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    },
+    "differential": {
+      "element": [
+        {
+          "id": "shr-test-IncludesCodesList-model",
+          "path": "shr-test-IncludesCodesList-model",
+          "definition": "An entry with a includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model",
+            "min": 0,
+            "max": "*"
+          },
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        },
+        {
+          "id": "shr-test-IncludesCodesList-model.value",
+          "path": "shr-test-IncludesCodesList-model.value",
+          "short": "Concept representing an entry with a includes codes constraint.",
+          "definition": "Concept representing an entry with a includes codes constraint.",
+          "min": 0,
+          "max": "*",
+          "base": {
+            "path": "shr-test-IncludesCodesList-model.value",
+            "min": 0,
+            "max": "*"
+          },
+          "type": [
+            {
+              "code": "Coding"
+            }
+          ],
+          "constraint": [
+            {
+              "key": "value-1",
+              "severity": "error",
+              "human": "There must exist a pairing of system 'http://foo.org' and code 'bar' (Foobar).",
+              "expression": "where(system = 'http://foo.org' and code = 'bar').exists()"
+            },
+            {
+              "key": "value-2",
+              "severity": "error",
+              "human": "There must exist a pairing of system 'http://boo.org' and code 'far' (Boofar).",
+              "expression": "where(system = 'http://boo.org' and code = 'far').exists()"
+            }
+          ],
+          "mustSupport": false,
+          "isModifier": false,
+          "isSummary": false
+        }
+      ]
+    }
+  }
+]
