@@ -1034,9 +1034,10 @@ shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
 
-shr-models@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-6.4.0.tgz#98dda3ecc0808c89dade784db95fb522d576274d"
+shr-models@^6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-6.5.0.tgz#3fce98c39faf36864b983a56273315385cdd35af"
+  integrity sha512-Z0FvawkdTfjXWb2QpYy6XwVLPZjM9el3/yTXS7zao3IKkiYQ9DPWOGDnoSLr6iyGIjpxag5xt5VFYKy5aKjqVg==
 
 shr-test-helpers@^6.0.0:
   version "6.0.0"
