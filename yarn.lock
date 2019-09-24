@@ -1034,10 +1034,9 @@ shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
 
-shr-models@^6.6.0:
+shr-models@standardhealth/shr-models#add-subset-constraint:
   version "6.6.0"
-  resolved "https://registry.yarnpkg.com/shr-models/-/shr-models-6.6.0.tgz#5d58d01d58f1adf500c8129b1510f69cccce1dbc"
-  integrity sha512-OMnpOdJN61Gr9abzveIZrfxQQoi2CLHbeFOfzgcahiX1ERZ+tQOqxLFvc0vrB3js9yQewmCZVH9w11pHSp6PTQ==
+  resolved "https://codeload.github.com/standardhealth/shr-models/tar.gz/d04a6807ca61eae332e29d92477ca4d17c67c4a2"
 
 shr-test-helpers@^6.0.0:
   version "6.0.0"
