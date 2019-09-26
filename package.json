@@ -26,7 +26,7 @@
     "chai": "^3.5.0",
     "eslint": "^6.0.1",
     "mocha": "^6.1.4",
-    "shr-models": "^6.6.0",
+    "shr-models": "standardhealth/shr-models#add-subset-constraint",
     "shr-test-helpers": "^6.0.0"
   },
   "peerDependencies": {
