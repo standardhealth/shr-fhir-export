@@ -1,3 +1,11 @@
+> # Content Has Moved!
+>
+> **The shr-fhir-export repo has been integrated into the**
+> **[shr-tools](https://github.com/standardhealth/shr-tools) monorepo.  All further development**
+> **will be in [shr-tools/packages/shr-fhir-export](https://github.com/standardhealth/shr-tools/tree/master/packages/shr-fhir-export).**
+>
+> **Current releases can be found at [shr-tools/releases](https://github.com/standardhealth/shr-tools/releases).**
+
 # SHR HL7 FHIR Profile Export
 
 _NOTE: This is a Work-in-Progress.  It is NOT complete._
